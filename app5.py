@@ -153,13 +153,8 @@ def show_card(entry, images_dir="images"):
         if img_path is None:
             img_path = find_image_by_word(word, images_dir)
         if img_path:
-            if img_path.lower().endswith('.gif'):
-                with open(img_path, 'rb') as f:
-                    st.image(f.read(), width=150)
-            else:
-                st.image(img_path, width=150)
+            st.image(img_path, width=150)
 
-        # Дополнительная информация по рубрикам
         if sections:
             with st.expander("ℹ️ Дополнительная информация"):
                 # Порядок: сначала Beschreibung, потом Herkunft, потом Beispiel
