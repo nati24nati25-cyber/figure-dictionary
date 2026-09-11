@@ -1,8 +1,9 @@
 import streamlit as st
 import os
 import re
+import base64
 
-# ---------- ПАРСЕР (ВЫВОДИМ ГРАММАТИКУ КАК ЕСТЬ, РУБРИКИ) ----------
+# ---------- ПАРСЕР (ГИБКИЙ, С РУБРИКАМИ) ----------
 def parse_entry(line):
     fields = [f.strip() for f in line.split("|")]
     if len(fields) < 3:
@@ -10,29 +11,29 @@ def parse_entry(line):
 
     word = fields[0]
     pos_raw = fields[1]
-    
-    # Определяем, есть ли грамматика (4 поля и более)
-    if len(fields) >= 3 and re.search(r'[\u0400-\u04FF]', fields[2]):
-        # Третье поле — это перевод (грамматики нет)
-        translation = fields[2]
+
+    # Определяем, где перевод: если в field[2] есть кириллица — это перевод
+    if re.search(r'[\u0400-\u04FF]', fields[2]):
+        # Нет грамматики: слово | часть речи | перевод
         grammar_raw = ""
+        translation = fields[2]
         rest = fields[3:]
     else:
-        # Третье поле — грамматика, перевод в четвёртом поле
+        # Есть грамматика: слово | часть речи | грамматика | перевод | ...
         if len(fields) < 4:
             return None
         grammar_raw = fields[2]
         translation = fields[3]
         rest = fields[4:]
 
-    # Формируем строку грамматики для отображения
+    # Формируем отображение грамматики
     if grammar_raw:
         grammar_display = f"{pos_raw}, {grammar_raw}"
     else:
         grammar_display = pos_raw
     is_noun = (pos_raw.lower() == "substantiv")
 
-    # Поиск падежных форм (начинаются с der/die/das/des/dem/den)
+    # Поиск падежных форм
     cases = None
     extra = []
     start_idx = -1
@@ -41,16 +42,19 @@ def parse_entry(line):
             start_idx = i
             break
 
-    if start_idx != -1 and start_idx + 8 <= len(rest):
-        cases = rest[start_idx:start_idx+8]
-        extra = rest[start_idx+8:]
-    elif start_idx != -1 and start_idx + 4 <= len(rest):
-        cases = rest[start_idx:start_idx+4]  # только мн.ч.
-        extra = rest[start_idx+4:]
+    if start_idx != -1:
+        if start_idx + 8 <= len(rest):
+            cases = rest[start_idx:start_idx+8]
+            extra = rest[start_idx+8:]
+        elif start_idx + 4 <= len(rest):
+            cases = rest[start_idx:start_idx+4]  # только мн.ч.
+            extra = rest[start_idx+4:]
+        else:
+            extra = rest
     else:
         extra = rest
 
-    # Отделяем картинку (удаляем из extra все элементы, похожие на файл)
+    # Отделяем картинку (удаляем из extra элементы, похожие на файл)
     image_name = ""
     cleaned_extra = []
     for item in reversed(extra):
@@ -61,7 +65,7 @@ def parse_entry(line):
             cleaned_extra.insert(0, item)
     extra = cleaned_extra
 
-    # Парсим рубрики Beschreibung, Herkunft, Beispiel
+    # Парсим рубрики Beschreibung / Herkunft / Beispiel
     sections = {}
     current_key = None
     current_text = []
@@ -107,17 +111,32 @@ def load_dictionary(file_path="dictionary_new.txt"):
                 entries.append(entry)
     return entries
 
-# ---------- ПОИСК КАРТИНКИ ПО ИМЕНИ СЛОВА ----------
+# ---------- ПОИСК КАРТИНКИ / GIF ПО ИМЕНИ СЛОВА ----------
 def find_image_by_word(word, images_dir="images"):
+    """Ищет файл в папке images по имени слова (регистронезависимо). GIF в приоритете."""
     if not os.path.exists(images_dir):
         return None
     word_lower = word.lower()
-    extensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp']
+    extensions = ['.gif', '.jpg', '.jpeg', '.png', '.webp']
     for ext in extensions:
         candidate = os.path.join(images_dir, word_lower + ext)
         if os.path.exists(candidate):
             return candidate
     return None
+
+# ---------- ПОКАЗ GIF БЕЗ ПОТЕРИ АНИМАЦИИ ----------
+def show_gif(gif_path, width=150):
+    """Отображает анимированный GIF через Base64, чтобы сохранить
+
+
+анимацию."""
+    with open(gif_path, "rb") as f:
+        contents = f.read()
+    data_url = base64.b64encode(contents).decode("utf-8")
+    st.markdown(
+        f'<img src="data:image/gif;base64,{data_url}" width="{width}">',
+        unsafe_allow_html=True,
+    )
 
 # ---------- КАРТОЧКА ----------
 def show_card(entry, images_dir="images"):
@@ -144,7 +163,7 @@ def show_card(entry, images_dir="images"):
                     rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
                     st.markdown("| падеж | ед.ч. | мн.ч. |\n|-------|-------|-------|\n" + "\n".join(rows))
 
-        # Картинка
+        # Картинка или GIF
         img_path = None
         if image_name:
             candidate = os.path.join(images_dir, image_name)
@@ -152,12 +171,16 @@ def show_card(entry, images_dir="images"):
                 img_path = candidate
         if img_path is None:
             img_path = find_image_by_word(word, images_dir)
-        if img_path:
-            st.image(img_path, width=150)
 
+        if img_path:
+            if img_path.lower().endswith('.gif'):
+                show_gif(img_path, width=150)   # анимированный GIF
+            else:
+                st.image(img_path, width=150)   # обычная картинка
+
+        # Дополнительная информация по рубрикам
         if sections:
             with st.expander("ℹ️ Дополнительная информация"):
-                # Порядок: сначала Beschreibung, потом Herkunft, потом Beispiel
                 for key in ["Beschreibung", "Herkunft", "Beispiel"]:
                     if key in sections and sections[key]:
                         st.markdown(f"**{key}:** {sections[key]}")
