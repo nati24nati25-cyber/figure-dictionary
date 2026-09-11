@@ -72,16 +72,16 @@ Dreifachflip |Substantiv| maskulin, -s, -s  | тройной флип |der Dreif
 
 Dreifachlutz |Substantiv| maskulin, =, =  | тройной лутц | der Dreifachlutz| des Dreifachlutz| dem Dreifachlutz| den Dreifachlutz | die Dreifachlutz| der Dreifachlutz | den Dreifachlutz| die Dreifachlutz| dreifacher Lutz|
 
-Dreifachrittberger |Substantiv| maskulin, -s, =  | тройной риттбергер | der Dreifachrittberger| des Dreifachrittbergers| dem Dreifachrittberger| den Dreifachrittberger | die Dreifachrittberger| der Dreifachrittberger | den Dreifachrittbergern| die Dreifachrittberger| dreifacher Rittberger|
+Dreifachrittberger |Substantiv| maskulin, -s, =  | тройной риттбергер | der Dreifachrittberger| des Dreifachrittbergers| dem Dreifachrittberger| den Dreifachrittberger | die Dreifachrittberger| der Dreifachrittberger | den Dreifachrittbergern| die Dreifachrittberger| dreifachrittberger.gif|
 
 
-Dreifachsalchow |Substantiv| maskulin, -s/=, s  | тройной сальхов | der Dreifachsalchow| des Dreifachsalchow[s]| dem Dreifachsalchow| den Dreifachsalchow | die Dreifachsalchows| der Dreifachsalchows | den Dreifachsalchows| die Dreifachsalchows| dreifacher Salchow |
+Dreifachsalchow |Substantiv| maskulin, -s/=, s  | тройной сальхов | der Dreifachsalchow| des Dreifachsalchow[s]| dem Dreifachsalchow| den Dreifachsalchow | die Dreifachsalchows| der Dreifachsalchows | den Dreifachsalchows| die Dreifachsalchows| dreifachsalchow.gif|
 
 
 Dreifachsprung |Substantiv| maskulin, -s, Dreifachsprünge  | тройной прыжок | der Dreifachsprung | des Dreifachsprungs | dem Dreifachsprung | den Dreifachsprung | die Dreifachsprünge | der Dreifachsprünge | den Dreifachsprüngen | die Dreifachsprünge | dreifacher Sprung|
 
 
-Dreifachtoeloop |Substantiv| maskulin, -s/=, s  | тройной тулуп | der Dreifachtoeloop| des Dreifachtoeloop, Dreifachtoeloops| dem Dreifachtoeloop| den Dreifachtoeloop| die Dreifachtoeloops | der Dreifachtoeloops | den Dreifachtoeloops | die Dreifachtoeloops | dreifacher Toeloop|
+Dreifachtoeloop |Substantiv| maskulin, -s/=, s  | тройной тулуп | der Dreifachtoeloop| des Dreifachtoeloop, Dreifachtoeloops| dem Dreifachtoeloop| den Dreifachtoeloop| die Dreifachtoeloops | der Dreifachtoeloops | den Dreifachtoeloops | die Dreifachtoeloops | dreifacher Toeloop|  dreifachtoeloop.gif|
 
 
 durchführen |schwaches Verb| vt | исполнять, выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
@@ -102,7 +102,7 @@ eingesprungene Sitzpirouette |Substantiv| feminin, =, -n | прыжок в во�
 
 eingesprungene Standpirouette |Substantiv| feminin, =, -n | прыжок в позицию стоя |die eingesprungene Pirouette | der eingesprungene Pirouette | der eingesprungene Pirouette | die eingesprungene Pirouette | die eingesprungenen Pirouetten |  der eingesprungenen Pirouetten | den eingesprungenen Pirouetten |  die eingesprungenen Pirouetten |Beispiel: Außerdem gibt es noch die selten zu sehenden eingesprungenen Stand- und Himmelspirouetten.|
 
-eingesprungene Waagepirouette |Substantiv| feminin, =, -n | прыжок в либелу |die eingesprungene Pirouette | der eingesprungene Pirouette | der eingesprungene Pirouette | die eingesprungene Pirouette | die eingesprungenen Pirouetten |  der eingesprungenen Pirouetten | den eingesprungenen Pirouetten |  die eingesprungenen Pirouetten | Beispiel: Die eingesprungene Waagepirouette beginnt gleich wie eine normale Waagepirouette.|
+eingesprungene Waagepirouette |Substantiv| feminin, =, -n | прыжок в либелу |die eingesprungene Pirouette | der eingesprungene Pirouette | der eingesprungene Pirouette | die eingesprungene Pirouette | die eingesprungenen Pirouetten |  der eingesprungenen Pirouetten | den eingesprungenen Pirouetten |  die eingesprungenen Pirouetten | Beispiel: Die eingesprungene Waagepirouette beginnt gleich wie eine normale Waagepirouette.|  eingesprungene Waagepirouette.gif|
 
 
 Einlauf |Substantiv| maskulin, -(e)s, Einläufe | заезд, вход, въезд (на прыжок) | der Einlauf | des Einlaufs, Einlaufes| dem Einlauf | den Einlauf | die Einläufe| der Einläufe | den Einläufen | die Einläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.|
@@ -117,7 +117,7 @@ Einzellauf |Substantiv| maskulin, -(e)s, Einzelläufe | одиночное ка�
 
 Einzelsprung |Substantiv| maskulin, -s, Einzelsprünge | одиночный прыжок | der Einzelsprung | des Einzelsprungs | dem Einzelsprung | den Einzelsprung | die Einzelsprünge | der Einzelsprünge | den Einzelsprüngen | die Einzelsprünge| Beispiel: Fast alle Elemente waren perfekt ausgeführt, einzig beim Einzelsprung, dem dreifachen Toeloop, musste Alisa Efimova zu Boden gehen |
 
-Eistanz |Substantiv| maskulin, -es, Eistänze | спортивные танцы, танцы на льду |der Eistanz |des Eistanzes | dem Eistanz | den Eistanz| die Eistänze| der Eistänze| den Eistänzen| die Eistänze| Beschreibug: Disziplin des Eislaufs, bei der Paare Schritte tänzerischen Charakters im Rhythmus der Musik ausführen | eistanz.jpg|
+Eistanz |Substantiv| maskulin, -es, Eistänze | спортивные танцы, танцы на льду |der Eistanz |des Eistanzes | dem Eistanz | den Eistanz| die Eistänze| der Eistänze| den Eistänzen| die Eistänze| Beschreibug: Disziplin des Eislaufs, bei der Paare Schritte tänzerischen Charakters im Rhythmus der Musik ausführen | eistanz.gif|
 
 Euler |Substantiv| maskulin, -/-s, | ойлер |der Euler |des Euler[s] | dem Euler | den Euler| Beschreibung: ein spezifischer, nach Kurt Euler bzw. nach Per Thorén benannter Verbindungssprung, der mit dem rechten Fuß rückwärts auswärts abgesprungen wird und die Landung nach einer Drehung, rückwärts einwärts auf dem linken Bein erfolgt| Beispiel: Seit der Saison 2019/20 ist zusätzlich der Euler (anderer Name: Thorén) in die Liste der offiziellen Sprünge aufgenommen worden, allerdings nur als Mittelsprung in einer dreiteiligen Sprungkombination und nur mit einer einzigen Umdrehung.| euler.jpg|
 
