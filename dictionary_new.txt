@@ -42,17 +42,17 @@ Crossroll |Substantiv| maskulin, -s, -s | кросс ролл |der Crossroll |de
 
 Doppelaxel |Substantiv| maskulin, -s, = | двойной аксель (дупель) |der Doppelaxel |des Doppelaxels | dem Doppelaxel | den Doppelaxel| die Doppelaxel| der Doppelaxel| den Doppelaxel| die Doppelaxel| doppelter Axel| doppelaxel.gif|
 
-Doppelsalchow |Substantiv| maskulin, -s/=, s | двойной сальхов | der Doppelsalchow| des Doppelsalchow[s]| dem Doppelsalchow| den Doppelsalchow | die Doppelsalchows| der Doppelsalchows | den Doppelsalchows| die Doppelsalchows| doppelter Salchow|
+Doppelsalchow |Substantiv| maskulin, -s/=, s | двойной сальхов | der Doppelsalchow| des Doppelsalchow[s]| dem Doppelsalchow| den Doppelsalchow | die Doppelsalchows| der Doppelsalchows | den Doppelsalchows| die Doppelsalchows| doppelsalchow.gif|
 
-Doppelflip |Substantiv| maskulin, -s, -s | двойной флип |der Doppelflip |des Doppelflips | dem Doppelflip | den Doppelflip| die Doppelflips| der Doppelflips| den Doppelflips| die Doppelflips| doppelter Flip|
+Doppelflip |Substantiv| maskulin, -s, -s | двойной флип |der Doppelflip |des Doppelflips | dem Doppelflip | den Doppelflip| die Doppelflips| der Doppelflips| den Doppelflips| die Doppelflips| doppelflip.gif|
 
-Doppellutz |Substantiv| maskulin, =, = | двойной лутц | der Doppellutz| des Doppellutz| dem Doppellutz| den Doppellutz | die Doppellutz| der Doppellutz | den Doppellutz| die Doppellutz| doppelter Lutz|
+Doppellutz |Substantiv| maskulin, =, = | двойной лутц | der Doppellutz| des Doppellutz| dem Doppellutz| den Doppellutz | die Doppellutz| der Doppellutz | den Doppellutz| die Doppellutz| doppelterlutz.gif |
 
-Doppelrittberger |Substantiv| maskulin, -s, = | двойной риттбергер | der Doppelrittberger| des Doppelrittbergers| dem Doppelrittberger| den Doppelrittberger | die Doppelrittberger| der Doppelrittberger | den Doppelrittbergern| die Doppelrittberger| doppelter Rittberger|
+Doppelrittberger |Substantiv| maskulin, -s, = | двойной риттбергер | der Doppelrittberger| des Doppelrittbergers| dem Doppelrittberger| den Doppelrittberger | die Doppelrittberger| der Doppelrittberger | den Doppelrittbergern| die Doppelrittberger| doppeltrittberger.gif|
 
-Doppelsprung |Substantiv| maskulin, -s, Doppelsprünge | двойной прыжок | der Doppelsprung | des Doppelsprungs | dem Doppelsprung | den Doppelsprung | die Doppelsprünge | der Doppelsprünge | den Doppelsprüngen | die Doppelsprünge | doppelter Sprung|
+Doppelsprung |Substantiv| maskulin, -s, Doppelsprünge | двойной прыжок | der Doppelsprung | des Doppelsprungs | dem Doppelsprung | den Doppelsprung | die Doppelsprünge | der Doppelsprünge | den Doppelsprüngen | die Doppelsprünge | 
 
-Doppeltoeloop |Substantiv| maskulin, -s/=, s | двойной тулуп | der Doppeltoeloop| des Doppeltoeloop, Doppeltoeloops| dem Doppeltoeloop| den Doppeltoeloop| die Doppeltoeloops | der Doppeltoeloops | den Doppeltoeloops | die Doppeltoeloops | doppelter Toeloop|
+Doppeltoeloop |Substantiv| maskulin, -s/=, s | двойной тулуп | der Doppeltoeloop| des Doppeltoeloop, Doppeltoeloops| dem Doppeltoeloop| den Doppeltoeloop| die Doppeltoeloops | der Doppeltoeloops | den Doppeltoeloops | die Doppeltoeloops | doppeltoeloop.gif |
 
 doppelt |Adjektiv | двойной (в два оборота)| Beispiel: Richard (Dick) Button springt bei seinem ersten Olympiasieg in St. Moritz als erster Läufer in einem Wettbewerb einen doppelten Axel. Es kann auch eine Folge von bis zu fünf oder sechs Sprüngen sein, die einfach oder doppelt ausgeführt werden.|
 
@@ -62,15 +62,15 @@ Drehung |Substantiv| feminin, =, -en | оборот |die Drehung | der Drehung |
 
 Dreier |Substantiv| maskulin, -s, = | тройка | der Dreier | des Dreiers | dem Dreier | den Dreier | die Dreier | der Dreier | den Dreiern | die Dreier | Beschreibung: Wechsel der Laufrichtung auf einem Bein von vorwärts nach rückwärts (über die Schlittschuhspitze) oder von rückwärts nach vorwärts (über die Ferse) mit Kantenwechsel und Drehung mit Rotation im Sinne des Einlaufbogens| dreier.jpg|
 
-Dreiersprung |Substantiv| maskulin, -s, Dreiersprünge | перекидной прыжок | der Dreiersprung | des Dreiersprungs | dem Dreiersprung | den Dreiersprung | die Dreiersprünge | der Dreiersprünge | den Dreiersprüngen | die Dreiersprünge |Beschreibung: ein Sprung mit halber Drehung| Beispiel: Vorher übt man natürlich auch bereits Sprünge, angefangen vom beidbeinigen Hüpfer ohne Drehung, der bereits im 1. Vereinstest enthalten ist, bis zum sogenannten Dreiersprung, der wie der Axel abgesprungen und gelandet wird, jedoch nur eine halbe Umdrehung beinhaltet.|
+Dreiersprung |Substantiv| maskulin, -s, Dreiersprünge | перекидной прыжок | der Dreiersprung | des Dreiersprungs | dem Dreiersprung | den Dreiersprung | die Dreiersprünge | der Dreiersprünge | den Dreiersprüngen | die Dreiersprünge |Beschreibung: ein Sprung mit halber Drehung| Beispiel: Vorher übt man natürlich auch bereits Sprünge, angefangen vom beidbeinigen Hüpfer ohne Drehung, der bereits im 1. Vereinstest enthalten ist, bis zum sogenannten Dreiersprung, der wie der Axel abgesprungen und gelandet wird, jedoch nur eine halbe Umdrehung beinhaltet.| dreiersprung.gif|
 
 dreifach |Adjektiv | тройной (в три оборота)| Beispiel: Die Weltmeisterin aus Russland stand zu Beginn des Programms zwei exzellente Vierfach-Flip, einmal in Kombination mit dem dreifachen Toeloop. Nach dem zweiten dreifachen Axel war es sehr schwierig für mich, mich zusammenzureißen, aber ich habe es geschafft.|
 
-Dreifachaxel |Substantiv| maskulin, -s, =  | тройной аксель (триксель) |der Dreifachaxel |des Dreifachaxels | dem Dreifachaxel | den Dreifachaxel| die Dreifachaxel| der Dreifachaxel| den Dreifachaxel| die Dreifachaxel| dreifacher Axel|
+Dreifachaxel |Substantiv| maskulin, -s, =  | тройной аксель (триксель) |der Dreifachaxel |des Dreifachaxels | dem Dreifachaxel | den Dreifachaxel| die Dreifachaxel| der Dreifachaxel| den Dreifachaxel| die Dreifachaxel| dreifachaxel.gif|
 
-Dreifachflip |Substantiv| maskulin, -s, -s  | тройной флип |der Dreifachflip |des Dreifachflips | dem Dreifachflip | den Dreifachflip| die Dreifachflips| der Dreifachflips| den Dreifachflips| die Dreifachflips| dreifacher Flip|
+Dreifachflip |Substantiv| maskulin, -s, -s  | тройной флип |der Dreifachflip |des Dreifachflips | dem Dreifachflip | den Dreifachflip| die Dreifachflips| der Dreifachflips| den Dreifachflips| die Dreifachflips| dreifachflip.gif|
 
-Dreifachlutz |Substantiv| maskulin, =, =  | тройной лутц | der Dreifachlutz| des Dreifachlutz| dem Dreifachlutz| den Dreifachlutz | die Dreifachlutz| der Dreifachlutz | den Dreifachlutz| die Dreifachlutz| dreifacher Lutz|
+Dreifachlutz |Substantiv| maskulin, =, =  | тройной лутц | der Dreifachlutz| des Dreifachlutz| dem Dreifachlutz| den Dreifachlutz | die Dreifachlutz| der Dreifachlutz | den Dreifachlutz| die Dreifachlutz| dreifachlutz.gif|
 
 Dreifachrittberger |Substantiv| maskulin, -s, =  | тройной риттбергер | der Dreifachrittberger| des Dreifachrittbergers| dem Dreifachrittberger| den Dreifachrittberger | die Dreifachrittberger| der Dreifachrittberger | den Dreifachrittbergern| die Dreifachrittberger| dreifachrittberger.gif|
 
@@ -223,11 +223,11 @@ Schritt |Substantiv| maskulin, -e(s), -e | шаг |der Schritt |des Schritts, Sc
 
 Schrittfolge |Substantiv| feminin, =, -n | дорожка шагов |die Schrittfolge | der Schrittfolge | der Schrittfolge | die Schrittfolge | die Schrittfolgen |  der Schrittfolgen | den Schrittfolgen |  die Schrittfolgen |
 
-Sitzpirouette |Substantiv| feminin, =, -n | волчок |die Sitzpirouette | der Sitzpirouette | der Sitzpirouette | die Sitzpirouette | die Sitzpirouetten |  der Sitzpirouetten | den Sitzpirouetten |  die Sitzpirouetten | Beispiel: Bei der Sitzpirouette darf die Hüfte nicht höher als das Knie des Standbeins sein.| sitzpirouette.jpg|
+Sitzpirouette |Substantiv| feminin, =, -n | волчок |die Sitzpirouette | der Sitzpirouette | der Sitzpirouette | die Sitzpirouette | die Sitzpirouetten |  der Sitzpirouetten | den Sitzpirouetten |  die Sitzpirouetten | Beispiel: Bei der Sitzpirouette darf die Hüfte nicht höher als das Knie des Standbeins sein.| sitzpirouette.gif|
 
 Solopirouette |Substantiv| feminin, =, -n | совместное вращение |die Solopirouette | der Solopirouette | der Solopirouette | die Solopirouette | die Solopirouetten |  der Solopirouetten | den Solopirouetten |  die Solopirouetten | Beispiel: Im Zuge der Kürzung der Programme entfällt bei den Herren zukünftig ein Sprungelement und bei den Paaren die Solopirouette (ISU, 2018).| solopirouette.gif|
 
-Spagatpirouette |Substantiv| feminin =, -n | затяжка |die Spagatpirouette | der Spagatpirouette | der Spagatpirouette | die Spagatpirouette | die Spagatpirouetten |  der Spagatpirouetten | den Spagatpirouetten |  die Spagatpirouetten | spagatpirouette.gif|
+Spagatpirouette |Substantiv| feminin, =, -n | затяжка |die Spagatpirouette | der Spagatpirouette | der Spagatpirouette | die Spagatpirouette | die Spagatpirouetten |  der Spagatpirouetten | den Spagatpirouetten |  die Spagatpirouetten | spagatpirouette.gif|
 
 Spielbein |Substantiv| neutrum, –e(s), е | маховая нога |das Spielbein |des Spielbeins, Spielbeines| dem Spielbein | das Spielbein |die Spielbeine |der Spielbeine | den Spielbeine | die Spielbeine| Beispiel: Er ist ein schwungvoll gelaufener Auswärtsbogen, bei dem das Spielbein dicht am Standbein vorbei gleichmäßig durchgezogen wird, von hinten nach vorne und wieder zurück.|
 
@@ -235,7 +235,7 @@ Spirale |Substantiv| feminin, =, -en | спираль |die Spirale | der Spirale
 
 Spreizsprung |Substantiv| maskulin, -s, Spreizsprünge | прыжок в шпагат | der Spreizsprung | des Spreizsprungs | dem Spreizsprung | den Spreizsprung | die Spreizsprünge | der Spreizsprünge | den Spreizsprüngen | die Spreizsprünge| Beispiel: Bei einigen Sprüngen, z. B. beim Spreizsprung oder dem Toeloop, drückt man sich von der großen oberen Zacke ab, bei allen Sprüngen aber bremst man den Schwung durch kurzes Landen auf dieser Zacke und rollt dann sofort rückwärts auf der Außenkante ab.| spreizsprung.gif|
 
-Sprung |Substantiv| maskulin, -s, Sprünge | прыжок | der Sprung | des Sprungs | dem Sprung | den Sprung | die Sprünge | der Sprünge | den Sprüngen | die Sprünge|
+Sprung |Substantiv| maskulin, -s, Sprünge | прыжок | der Sprung | des Sprungs | dem Sprung | den Sprung | die Sprünge | der Sprünge | den Sprüngen | die Sprünge| 
 
 getippter Sprung| зубцовый прыжок
 
@@ -261,9 +261,9 @@ Tanzpirouette |Substantiv| feminin, =, -n | танцевальное враще�
 
 Toeloop |Substantiv| maskulin, -s/=, s | тулуп | der Toeloop| des Toeloop, Toeloops| dem Toeloop| den Toeloop| die Toeloops | der Toeloops | den Toeloops | die Toeloops | Beschreibung: vorwärts eingeleiteter Sprung, bei dem nach dem Anlauf mit der Zacke des Schlittschuhs ins Eis eingestochen und nach einer Drehung in der Luft auf dem Fuß, mit dem abgesprungen wurde, gelandet wird| Herkunft: englisch toe loop (jump), aus: toe = Schuhspitze, Zeh und loop, Looping| Beispiel: Beim Toeloop wird im Vergleich zu den beiden Sprüngen zuvor der linke Schlittschuh in das Eis getippt.|
 
-Todesspirale |Substantiv| feminin, =, -n | тодес |die Todesspirale | der Todesspirale | der Todesspirale | die Todesspirale | die Todesspiralen |  der Todesspiralen | den Todesspiralen |  die Todesspiralen| Beschreibung: Figur im Paarlauf, bei der die Partnerin fast horizontal zum Boden auf einem Bein fahrend um die Achse des Partners gezogen wird| Beispiel: Nach einem guten Start mit dem dreifachen Toeloop und einer schönen, tiefen Todesspirale misslang der Wurf-Salchow, den die 22-jährige Hase nicht stehen konnte. Besonders hervorzuheben waren der Dreifach-Wurf-Rittberger sowie die Todesspirale. |todesspirale.jpg|
+Todesspirale |Substantiv| feminin, =, -n | тодес |die Todesspirale | der Todesspirale | der Todesspirale | die Todesspirale | die Todesspiralen |  der Todesspiralen | den Todesspiralen |  die Todesspiralen| Beschreibung: Figur im Paarlauf, bei der die Partnerin fast horizontal zum Boden auf einem Bein fahrend um die Achse des Partners gezogen wird| Beispiel: Nach einem guten Start mit dem dreifachen Toeloop und einer schönen, tiefen Todesspirale misslang der Wurf-Salchow, den die 22-jährige Hase nicht stehen konnte. Besonders hervorzuheben waren der Dreifach-Wurf-Rittberger sowie die Todesspirale. |todesspirale.gif|
 
-Twist |Substantiv| maskulin, -s, -s | подкрутка | der Twist | des Twists | dem Twist | den Twist | die Twists | der Twists | den Twists | die Twists| Beispiel: Stark war ihr Paradesprung der Dreifach-Wurf-Rittberger und der dreifache Twist. Das Paar zeigte einen gelungenen Twist, einen starken Dreifach-Wurfflip und schöne Hebungen.| twist.jpg|
+Twist |Substantiv| maskulin, -s, -s | подкрутка | der Twist | des Twists | dem Twist | den Twist | die Twists | der Twists | den Twists | die Twists| Beispiel: Stark war ihr Paradesprung der Dreifach-Wurf-Rittberger und der dreifache Twist. Das Paar zeigte einen gelungenen Twist, einen starken Dreifach-Wurfflip und schöne Hebungen.| twist.gif|
 
 Twizzle |Substantiv| maskulin, -s, -s |  твизл | der Twizzle| des Twizzles| dem Twizzle| den Twizzle| die Twizzles| der Twizzles| der Twizzles| die Twizzles | Beschreibung: eine Abfolge von sehr schnell hintereinander ausgeführten Dreiern| Beispiel: Durch die ununterbrochene Drehung unterscheidet sich der Twizzle von einer bloßen Aneinanderreihung von Dreiern.|
 
@@ -277,28 +277,28 @@ Verbindungssprung |Substantiv| maskulin, -s, Verbindungssprünge | соедин�
 
 vierfach | Adjektiv | четверной (в четыре оборота)| Beispiel: Wer den dreifachen Axel beherrscht, sollte auch Flughöhe und Drehfähigkeit zur Ausführung des vierfachen Toeloops haben. Eiskunstlauf-Superstar Yuzuru Hanyu ist bei den Olympischen Spielen der vierfache Axel misslungen.|
 
-Vierfachaxel |Substantiv| maskulin, -s, =  | четверной аксель |der Vierfachaxel |des Vierfachaxels | dem Vierfachaxel | den Vierfachaxel| die Vierfachaxel| der Vierfachaxel| den Vierfachaxel| die Vierfachaxel|
+Vierfachaxel |Substantiv| maskulin, -s, =  | четверной аксель |der Vierfachaxel |des Vierfachaxels | dem Vierfachaxel | den Vierfachaxel| die Vierfachaxel| der Vierfachaxel| den Vierfachaxel| die Vierfachaxel| vierfachaxel.gif|
 
-Vierfachflip |Substantiv| maskulin, -s, -s  | четверной флип |der Vierfachflip |des Vierfachflips | dem Vierfachflip | den Vierfachflip| die Vierfachflips| der Vierfachflips| den Vierfachflips| die Vierfachflips|
-
-
-Vierfachlutz |Substantiv| maskulin, =, =  | четверной лутц | der Vierfachlutz| des Vierfachlutz| dem Vierfachlutz| den Vierfachlutz | die Vierfachlutz| der Vierfachlutz | den Vierfachlutz| die Vierfachlutz|
+Vierfachflip |Substantiv| maskulin, -s, -s  | четверной флип |der Vierfachflip |des Vierfachflips | dem Vierfachflip | den Vierfachflip| die Vierfachflips| der Vierfachflips| den Vierfachflips| die Vierfachflips| vierfachflip.gif|
 
 
-Vierfachrittberger |Substantiv| maskulin, -s, =  | четверной риттбергер | der Vierfachrittberger| des Vierfachrittbergers| dem Vierfachrittberger| den Vierfachrittberger | die Vierfachrittberger| der Vierfachrittberger | den Vierfachrittbergern| die Vierfachrittberger|
+Vierfachlutz |Substantiv| maskulin, =, =  | четверной лутц | der Vierfachlutz| des Vierfachlutz| dem Vierfachlutz| den Vierfachlutz | die Vierfachlutz| der Vierfachlutz | den Vierfachlutz| die Vierfachlutz| vierfachlutz.gif|
 
-Vierfachsalchow |Substantiv| maskulin, -s/=, s  | четверной сальхов | der Vierfachsalchow| des Vierfachsalchow[s]| dem Vierfachsalchow| den Vierfachsalchow | die Vierfachsalchows| der Vierfachsalchows | den Vierfachsalchows| die Vierfachsalchows|
+
+Vierfachrittberger |Substantiv| maskulin, -s, =  | четверной риттбергер | der Vierfachrittberger| des Vierfachrittbergers| dem Vierfachrittberger| den Vierfachrittberger | die Vierfachrittberger| der Vierfachrittberger | den Vierfachrittbergern| die Vierfachrittberger| vierfachrittberger.gif|
+
+Vierfachsalchow |Substantiv| maskulin, -s/=, s  | четверной сальхов | der Vierfachsalchow| des Vierfachsalchow[s]| dem Vierfachsalchow| den Vierfachsalchow | die Vierfachsalchows| der Vierfachsalchows | den Vierfachsalchows| die Vierfachsalchows| vierfachsalchow.gif|
 
 Vierfachsprung |Substantiv| maskulin, -s, Vierfachsprünge | четверной прыжок | der Vierfachsprung | des Vierfachsprungs | dem Vierfachsprung | den Vierfachsprung | die Vierfachsprünge | der Vierfachsprünge | den Vierfachsprüngen | die Vierfachsprünge|
 
-Vierfachtoeloop |Substantiv| maskulin, -s/=, s  | четверной тулуп | der Vierfachtoeloop| des Vierfachtoeloop, Vierfachtoeloops| dem Vierfachtoeloop| den Vierfachtoeloop| die Vierfachtoeloops | der Vierfachtoeloops | den Vierfachtoeloops | die Vierfachtoeloops |
+Vierfachtoeloop |Substantiv| maskulin, -s/=, s  | четверной тулуп | der Vierfachtoeloop| des Vierfachtoeloop, Vierfachtoeloops| dem Vierfachtoeloop| den Vierfachtoeloop| die Vierfachtoeloops | der Vierfachtoeloops | den Vierfachtoeloops | die Vierfachtoeloops | vierfachtoeloop.gif|
 
 vorwärts | Adverb | вперед| Beispiel: Das Übersetzen vorwärts wird auf einem Kreisbogen gelaufen. Dann das Standbein aktiv vorwärts schieben.|
 
 Vorwärtsbogen |Substantiv| maskulin, -s, = | передняя дуга |der Vorwärtsbogen |des Vorwärtsbogens | dem Vorwärtsbogen | den Vorwärtsbogen| die Vorwärtsbogen| der Vorwärtsbogen| den Vorwärtsbogen| die Vorwärtsbogen|
 
 
-Waagepirouette |Substantiv| feminin, =, -n | либела |die Waagepirouette | der Waagepirouette | der Waagepirouette | die Waagepirouette | die Waagepirouetten |  der Waagepirouetten | den Waagepirouetten |  die Waagepirouetten | Beispiel: Beim Einlauf zur Waagepirouette wird das Standbein stärker gebeugt als bei der Standpirouette, der freie Fuß bleibt dadurch länger auf dem Eis | waagepirouette.jpg|
+Waagepirouette |Substantiv| feminin, =, -n | либела |die Waagepirouette | der Waagepirouette | der Waagepirouette | die Waagepirouette | die Waagepirouetten |  der Waagepirouetten | den Waagepirouetten |  die Waagepirouetten | Beispiel: Beim Einlauf zur Waagepirouette wird das Standbein stärker gebeugt als bei der Standpirouette, der freie Fuß bleibt dadurch länger auf dem Eis | waagepirouette.gif|
 
 Walley |Substantiv| maskulin, *, -s | валлей (цак)| Beschreibung: Der Walley ist ein Sprung im Eiskunstlauf, der oft auch als Einwärts Rittberger bezeichnet wird.|
 
@@ -316,7 +316,7 @@ Wurfsprung |Substantiv| maskulin, -s, Wurfsprünge | выброс | der Wurfspru
 
 Zahn |Substantiv| maskulin, -e(s), Zähne | зубец |der Zahn |des Zahns, Zahnes | dem Zahn | den Zahn| die Zähne| der Zähne| den Zähnen| die Zähne|
 
-Zirkel |Substantiv |maskulin, -s, = | циркуль |der Zirkel |des Zirkels | dem Zirkel | den Zirkel| die Zirkel| der Zirkel| den Zirkel| die Zirkel| Beschreibung: Figur, bei der ein Bein mit der hinteren oder vorderen Spitze ins Eis gesetzt wird und zirkelartig mit dem anderen Bein vorwärts oder rückwärts Kreise gelaufen werden| Beispiel: Der Zirkel ra dagegen ist etwas schwerer zu erlernen, denn mit dem Gewicht gut auf der Außenkante muss man lang auf dieser rückwärts gleiten, ehe die Zacke zum Zirkel eingesetzt werden darf. Der Radius des Kreisbogens verkürzt sich, das linke Bein sticht mit der Zacke weit hinter dem Körper ins Eis und man gleitet Rra im Zirkel um diesen Punkt. | zirkel.jpg|
+Zirkel |Substantiv |maskulin, -s, = | циркуль |der Zirkel |des Zirkels | dem Zirkel | den Zirkel| die Zirkel| der Zirkel| den Zirkel| die Zirkel| Beschreibung: Figur, bei der ein Bein mit der hinteren oder vorderen Spitze ins Eis gesetzt wird und zirkelartig mit dem anderen Bein vorwärts oder rückwärts Kreise gelaufen werden| Beispiel: Der Zirkel ra dagegen ist etwas schwerer zu erlernen, denn mit dem Gewicht gut auf der Außenkante muss man lang auf dieser rückwärts gleiten, ehe die Zacke zum Zirkel eingesetzt werden darf. Der Radius des Kreisbogens verkürzt sich, das linke Bein sticht mit der Zacke weit hinter dem Körper ins Eis und man gleitet Rra im Zirkel um diesen Punkt. | zirkel.gif|
 
 Zitrone |Substantiv|feminin,  =, = | фонарик |die Zitrone | der Zitrone| der Zitrone | die Zitrone | die Zitrone |  der Zitrone | den Zitrone |  die Zitrone | zitrone.jpg|
 
