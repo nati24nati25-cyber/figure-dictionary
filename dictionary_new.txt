@@ -10,7 +10,7 @@ Auftritt |Substantiv| maskulin, –(e)s, -e | выступление, прока
 
 ausführen |schwaches Verb | vt. | выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung ausgeführt.|
 
-Auslauf |Substantiv| maskulin, -s, Ausläufe | выезд | der Auslauf| des Auslaufs| dem Auslauf| den Auslauf| die Ausläufe | der Ausläufe | den Ausläufen | die Ausläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.|
+Auslauf |Substantiv| maskulin, -s, Ausläufe | выезд | der Auslauf| des Auslaufs| dem Auslauf| den Auslauf| die Ausläufe | der Ausläufe | den Ausläufen | die Ausläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.| auslauf.gif|
 
 аuslaufen | starkes Verb (lief aus, ist ausgelaufen)| vi. | выезжать, делать выезд| Beispiel: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
 
@@ -98,7 +98,7 @@ Eingang |Substantiv| maskulin, -s, Eingänge | въезд (во вращение
 
 eingesprungene Pirouette |Substantiv| feminin, =, -n | прыжок во вращение |die Pirouette | der Pirouette | der Pirouette | die Pirouette | die Pirouetten |  der Pirouetten | den Pirouetten |  die Pirouetten |
 
-eingesprungene Sitzpirouette |Substantiv| feminin, =, -n | прыжок в волчок, чинян |die eingesprungene Pirouette | der eingesprungene Pirouette | der eingesprungene Pirouette | die eingesprungene Pirouette | die eingesprungenen Pirouetten |  der eingesprungenen Pirouetten | den eingesprungenen Pirouetten |  die eingesprungenen Pirouetten | Beispiel: Um eine eingesprungene Sitzpirouette durchführen zu können, muss man vorwärts auf der Außenkante des linken Fußes beginnen mit dem freien Bein weg vom Eis und es hinter sich herziehen.| eingesprungene Sitzpirouette.jpg|
+eingesprungene Sitzpirouette |Substantiv| feminin, =, -n | прыжок в волчок, чинян |die eingesprungene Pirouette | der eingesprungene Pirouette | der eingesprungene Pirouette | die eingesprungene Pirouette | die eingesprungenen Pirouetten |  der eingesprungenen Pirouetten | den eingesprungenen Pirouetten |  die eingesprungenen Pirouetten | Beispiel: Um eine eingesprungene Sitzpirouette durchführen zu können, muss man vorwärts auf der Außenkante des linken Fußes beginnen mit dem freien Bein weg vom Eis und es hinter sich herziehen.| eingesprungene Sitzpirouette.gif|
 
 eingesprungene Standpirouette |Substantiv| feminin, =, -n | прыжок в позицию стоя |die eingesprungene Pirouette | der eingesprungene Pirouette | der eingesprungene Pirouette | die eingesprungene Pirouette | die eingesprungenen Pirouetten |  der eingesprungenen Pirouetten | den eingesprungenen Pirouetten |  die eingesprungenen Pirouetten |Beispiel: Außerdem gibt es noch die selten zu sehenden eingesprungenen Stand- und Himmelspirouetten.|
 
@@ -123,7 +123,7 @@ Euler |Substantiv| maskulin, -/-s, | ойлер |der Euler |des Euler[s] | dem E
 
 Fechter |Substantiv| maskulin, -s, = | выпад |der Fechter |des Fechters | dem Fechter | den Fechter| die Fechter| der Fechter| den Fechtern| die Fechter| fechter.gif|
 
-Flieger |Substantiv| maskulin, -s, = | ласточка |der Flieger |des Fliegers | dem Flieger | den Flieger| die Flieger| der Flieger| den Fliegern| die Flieger|
+Flieger |Substantiv| maskulin, -s, = | ласточка |der Flieger |des Fliegers | dem Flieger | den Flieger| die Flieger| der Flieger| den Fliegern| die Flieger| flieger.gif|
 
 Flip |Substantiv| maskulin, -s, -s | флип |der Flip |des Flips | dem Flip | den Flip| die Flips| der Flips| den Flips| die Flips| Beschreibung: nach dem Entstehen mit der Zacke des Schlittschuhs ausgeführter Sprung mit einer vollen Drehung und Landung auf demselben Bein, mit dem abgesprungen wurde| Beispiel: Beim Flip tippt der rechte Fuß in das Eis während sich der andere auf der Innenkante befindet. Das bedeutet, die Anlaufrichtung hat einen Bogen entgegen der Drehrichtung des Sprungs, was diesen Sprung schwerer als den ansonsten gleich ausgeführten Flip macht.|
 
@@ -137,13 +137,13 @@ gestanden |Adjektiv | pp. | выстоянный (прыжок)|
 
 gleiten | starkes Verb (glitt, geglitten)| vi. | скользить| Beispiel: Rechten Fuß innerhalb der Spur aufsetzen und, die Lauflinie des linken Beins kreuzend, nach außen unter den Körperschwerpunkt gleiten lassen.|
 
-Hebung |Substantiv| feminin, =, -en | поддержка |die Hebung | der Hebung | der Hebung | die Hebung | die Hebungen |  der Hebungen | den Hebungen |  die Hebungen | Beispiel: Die Bezeichnung der Hebungen erfolgt nach der Haltung des Herren in dem Moment, wenn die Dame beim Aufstieg über die Schulter kommt. Hohe Ausführungspunkte erhielt ihre Choreo-Sequenz, akrobatisch war die Hebung zum Ende des Programms.|
+Hebung |Substantiv| feminin, =, -en | поддержка |die Hebung | der Hebung | der Hebung | die Hebung | die Hebungen |  der Hebungen | den Hebungen |  die Hebungen | Beispiel: Die Bezeichnung der Hebungen erfolgt nach der Haltung des Herren in dem Moment, wenn die Dame beim Aufstieg über die Schulter kommt. Hohe Ausführungspunkte erhielt ihre Choreo-Sequenz, akrobatisch war die Hebung zum Ende des Programms.| hebung.gif|
 
-Himmelspirouette |Substantiv| feminin, =, -n | заклон |die Himmelspirouette | der Himmelspirouette | der Himmelspirouette | die Himmelspirouette | die Himmelspirouetten |  der Himmelspirouetten | den Himmelspirouetten |  die Himmelspirouetten | Beispiel: Diese Abwandlung der Himmelspirouetten sind die Königs- und die Biellmannpirouette.| himmelspirouette.jpg|
+Himmelspirouette |Substantiv| feminin, =, -n | заклон |die Himmelspirouette | der Himmelspirouette | der Himmelspirouette | die Himmelspirouette | die Himmelspirouetten |  der Himmelspirouetten | den Himmelspirouetten |  die Himmelspirouetten | Beispiel: Diese Abwandlung der Himmelspirouetten sind die Königs- und die Biellmannpirouette.| himmelspirouette.gif|
  
 Hocke |Substantiv| feminin, =, -n |  саночки |die Hocke | der Hocke | der Hocke | die Hocke | die Hocken |  der Hocken | den Hocken |  die Hocken | hocke.jpg|
 
-Ina Bauer |Substantiv| feminin/ maskulin, –s | Бауэр| Herkunft: nach der deutschen Eiskunstläuferin Ina Bauer | Beispiel: Der Ina Bauer kann an der Innenkante oder der Außenkante ausgeführt werden. Shizuka Arakawa ist berühmt für ihre flexible Einstellung zur Ina Bauer, bei der sie ihren Rücken nach hinten beugt. | Ina Bauer.jpg|
+Ina Bauer |Substantiv| feminin/ maskulin, –s | Бауэр| Herkunft: nach der deutschen Eiskunstläuferin Ina Bauer | Beispiel: Der Ina Bauer kann an der Innenkante oder der Außenkante ausgeführt werden. Shizuka Arakawa ist berühmt für ihre flexible Einstellung zur Ina Bauer, bei der sie ihren Rücken nach hinten beugt. | ina bauer.gif|
 
 Innenkante |Substantiv| feminin, =, -n | внутреннее ребро |die Innenkante | der Innenkante | der Innenkante | die Innenkante | die Innenkanten |  der Innenkanten | den Innenkanten |  die Innenkanten | Beispiel: Aus dem Übersetzen rückwärts gegen den Uhrzeigersinn kommend, auf der Innenkante des kreisäußeren linken Beins gleiten.|
 
@@ -197,7 +197,7 @@ Pferdchen |Substantiv| neutrum, -s, = | козлик |das Pferdchen |des Pferdch
 
 Pirouette |Substantiv| feminin, =, -n | вращение |die Pirouette | der Pirouette | der Pirouette | die Pirouette | die Pirouetten |  der Pirouetten | den Pirouetten |  die Pirouetten |
 
-Pirouettenkombination |Substantiv| feminin, =, -en | комбинированное вращение |die Pirouettenkombination | der Pirouettenkombination | der Pirouettenkombination | die Pirouettenkombination | die Pirouettenkombinationen |  der Pirouettenkombinationen | den Pirouettenkombinationen |  die Pirouettenkombinationen | Beispiel: Lena Enß lief ein starkes Programm mit zwei schönen Sprungkombination und einer Pirouettenkombination und konnte sich in der D-Schüler-Klasse eindeutig gegen die drei Konkurrentinnen aus Dresden durchsetzen. Mit einem Doppelflip, einer guten Doppellutz Kombination sowie schönen Pirouettenkombinationen gewann die Bundeskadersportlerin souverän die Goldmedaille.|
+Pirouettenkombination |Substantiv| feminin, =, -en | комбинированное вращение |die Pirouettenkombination | der Pirouettenkombination | der Pirouettenkombination | die Pirouettenkombination | die Pirouettenkombinationen |  der Pirouettenkombinationen | den Pirouettenkombinationen |  die Pirouettenkombinationen | Beispiel: Lena Enß lief ein starkes Programm mit zwei schönen Sprungkombination und einer Pirouettenkombination und konnte sich in der D-Schüler-Klasse eindeutig gegen die drei Konkurrentinnen aus Dresden durchsetzen. Mit einem Doppelflip, einer guten Doppellutz Kombination sowie schönen Pirouettenkombinationen gewann die Bundeskadersportlerin souverän die Goldmedaille.| 
 
 Pistole |Substantiv| feminin, =, -n | пистолетик |die Pistole | der Pistole | der Pistole | die Pistole| die Pistolen|  der Pistolen | den Pistolen |  die Pistolen | Beschreibung: die Lernvoraussetzung für die Sitzpirouette |
 
@@ -217,7 +217,7 @@ Schlangenbogen |Substantiv| maskulin, -s, Schlangenbögen | перетяжка |
 
 Schlinge |Substantiv| feminin, =, -n | петля |die Schlinge | der Schlinge | der Schlinge| die Schlinge | die Schlingen |  der Schlingen | den Schlingen |  die Schlingen | Beschreibung: in einem verkleinerten Achter gelaufene Figur mit einer ovalen Eindrehung| schlinge.jpg|
 
-Schraubenpirouette |Substantiv| feminin, =, -n | винт |die Schraubenpirouette | der Schraubenpirouette | der Schraubenpirouette | die Schraubenpirouette | die Schraubenpirouetten |  der Schraubenpirouetten | den Schraubenpirouetten |  die Schraubenpirouetten |
+Schraubenpirouette |Substantiv| feminin, =, -n | винт |die Schraubenpirouette | der Schraubenpirouette | der Schraubenpirouette | die Schraubenpirouette | die Schraubenpirouetten |  der Schraubenpirouetten | den Schraubenpirouetten |  die Schraubenpirouetten | schraubenpirouette.gif|
 
 Schritt |Substantiv| maskulin, -e(s), -e | шаг |der Schritt |des Schritts, Schrittes| dem Schritt | den Schritt| die Schritte| der Schritte| den Schritten| die Schritte|
 
