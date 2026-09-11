@@ -36,7 +36,7 @@ Chasséeschritt |Substantiv| maskulin, -e(s), -e | шоссе |der Chasséeschri
 
 Choctaw |Substantiv| maskulin, -s, -s | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws| choctaw.jpg|
 
-Choreosequenz |Substantiv| feminin, =, -en | хореографическая последовательность |die Choreosequenz | der Choreosequenz | der Choreosequenz | die Choreosequenz | die Choreosequenzen |  der Choreosequenzen | den Choreosequenzen |  die Choreosequenzen | Choreosequenz.gif|
+Choreosequenz |Substantiv| feminin, =, -en | хореографическая последовательность |die Choreosequenz | der Choreosequenz | der Choreosequenz | die Choreosequenz | die Choreosequenzen |  der Choreosequenzen | den Choreosequenzen |  die Choreosequenzen | choreosequenz.gif|
 
 Crossroll |Substantiv| maskulin, -s, -s | кросс ролл |der Crossroll |des Crossrolls| dem Crossroll | den Crossroll| die Crossrolls| der Crossrolls| den Crossrolls| die Crossrolls| Beschreibung: ein Schritt, bei dem vorwärts bzw. rückwärts kleine Bögen auf der Außenkante gelaufen werden| crossroll.jpg|
 
@@ -267,7 +267,7 @@ Twist |Substantiv| maskulin, -s, -s | подкрутка | der Twist | des Twist
 
 Twizzle |Substantiv| maskulin, -s, -s |  твизл | der Twizzle| des Twizzles| dem Twizzle| den Twizzle| die Twizzles| der Twizzles| der Twizzles| die Twizzles | Beschreibung: eine Abfolge von sehr schnell hintereinander ausgeführten Dreiern| Beispiel: Durch die ununterbrochene Drehung unterscheidet sich der Twizzle von einer bloßen Aneinanderreihung von Dreiern.|
 
-Twizzlesequenz |Substantiv| feminin, =, -en  | серия твизлов |die Twizzlesequenz | der Twizzlesequenz | der Twizzlesequenz | die Twizzlesequenz | die Twizzlesequenzen |  der Twizzlesequenzen | den Twizzlesequenzen |  die Twizzlesequenzen | Twizzlesequenz.gif|
+Twizzlesequenz |Substantiv| feminin, =, -en  | серия твизлов |die Twizzlesequenz | der Twizzlesequenz | der Twizzlesequenz | die Twizzlesequenz | die Twizzlesequenzen |  der Twizzlesequenzen | den Twizzlesequenzen |  die Twizzlesequenzen | twizzlesequenz.gif|
 
 unterrotiert | Adjektiv | недокрученный (прыжок)|
 
