@@ -121,7 +121,7 @@ Eistanz |Substantiv| maskulin, -es, Eistänze | спортивные танцы,
 
 Euler |Substantiv| maskulin, -/-s, | ойлер |der Euler |des Euler[s] | dem Euler | den Euler| Beschreibung: ein spezifischer, nach Kurt Euler bzw. nach Per Thorén benannter Verbindungssprung, der mit dem rechten Fuß rückwärts auswärts abgesprungen wird und die Landung nach einer Drehung, rückwärts einwärts auf dem linken Bein erfolgt| Beispiel: Seit der Saison 2019/20 ist zusätzlich der Euler (anderer Name: Thorén) in die Liste der offiziellen Sprünge aufgenommen worden, allerdings nur als Mittelsprung in einer dreiteiligen Sprungkombination und nur mit einer einzigen Umdrehung.| euler.jpg|
 
-Fechter |Substantiv| maskulin, -s, = | выпад |der Fechter |des Fechters | dem Fechter | den Fechter| die Fechter| der Fechter| den Fechtern| die Fechter| fechter.jpg|
+Fechter |Substantiv| maskulin, -s, = | выпад |der Fechter |des Fechters | dem Fechter | den Fechter| die Fechter| der Fechter| den Fechtern| die Fechter| fechter.gif|
 
 Flieger |Substantiv| maskulin, -s, = | ласточка |der Flieger |des Fliegers | dem Flieger | den Flieger| die Flieger| der Flieger| den Fliegern| die Flieger|
 
@@ -189,7 +189,7 @@ Mond |Substantiv| maskulin, -s, -e | кораблик |der Mond |des Monds| dem 
 
 Mühle |Substantiv| feminin, =, -n | колесо |die Mühle | der Mühle | der Mühle| die Mühle | die Mühlen |  der Mühlen | den Mühlen |  die Mühlen | Beispiel: Bei der Mühle läuft eine oder laufen mehrere Reihen um einen Punkt auf der Eisfläche.| mühle.jpg|
 
-Paarlauf |Substantiv| maskulin, -(e)s, Paarläufe | парное катание| der Paarlauf| des Paarlaufs, Paarlaufes| dem Paarlauf| den Paarlauf| die Paarläufe | der Paarläufe | den Paarläufen | die Paarläufe|
+Paarlauf |Substantiv| maskulin, -(e)s, Paarläufe | парное катание| der Paarlauf| des Paarlaufs, Paarlaufes| dem Paarlauf| den Paarlauf| die Paarläufe | der Paarläufe | den Paarläufen | die Paarläufe| paarlauf.gif|
 
 Paarlaufpirouettenkombination |Substantiv| feminin, =, -en | парное раздельное комбинированное вращение |die Paarlaufpirouettenkombination | der Paarlaufpirouettenkombination | der Paarlaufpirouettenkombination | die Paarlaufpirouettenkombination | die Paarlaufpirouettenkombinationen |  der Paarlaufpirouettenkombinationen | den Paarlaufpirouettenkombinationen |  die Paarlaufpirouettenkombinationen | Beispiel: Eine Paarlaufpirouettenkombination ist mit mindestens einem Positionswechsel und mit mindestens einem Fußwechsel (Stand-, Sitz-, Waagepirouetten und ihre Variationen) durchgeführt.|
 
@@ -249,7 +249,7 @@ Standpirouette |Substantiv| feminin, =, -n | вращение стоя |die Stan
 
 Storch |Substantiv| maskulin, -s; Störche | цапелька| der Storch | des Storchs | dem Storch | den Storch | die Störche | der Störche | den Störchen | die Störche|
 
-Sturz |Substantiv| maskulin, -es, Stürze | падение | der Sturz | des Sturzes | dem Sturz | den Sturz | die Stürze | der Stürze | den Stürzen | die Stürze| Beispiel: Beim Üben des Sturzes nach vorn ist es empfehlenswert, anfangs Knie- und Ellbogenschoner (vom Inlineskaten) zu verwenden.|
+Sturz |Substantiv| maskulin, -es, Stürze | падение | der Sturz | des Sturzes | dem Sturz | den Sturz | die Stürze | der Stürze | den Stürzen | die Stürze| Beispiel: Beim Üben des Sturzes nach vorn ist es empfehlenswert, anfangs Knie- und Ellbogenschoner (vom Inlineskaten) zu verwenden.| sturz.gif|
 
 stürzen | schwaches Verb | vi. | падать| Beispiel: Sie stürzte mehrfach auf dem Eis und brach anschließend in Tränen aus.|
 
@@ -312,7 +312,7 @@ Wechselwaagepirouette |Substantiv| feminin, =, -n | либела со смено
 
 Wende |Substantiv| feminin, =, -en | крюк |die Wende | der Wende | der Wende | die Wende | die Wenden |  der Wenden | den Wenden |  die Wenden | Beispiel: ein Richtungswechsel ohne Fußwechsel und ohne Kantenwechsel| Beschreibung: Figur, bei der ein Bogen auf der gleichen Kante vorwärts und rückwärts ausgeführt wird | wende.jpg|
 
-Wurfsprung |Substantiv| maskulin, -s, Wurfsprünge | выброс | der Wurfsprung | des Wurfsprungs | dem Wurfsprung | den Wurfsprung | die Wurfsprünge | der Wurfsprünge | den Wurfsprüngeen | die Wurfsprünge| Beschreibung: Sprung, bei denen beim Paarlauf ein Partner beim Absprung durch den anderen Partner mit beiden Händen unterstützt und damit weit hochgedrückt wird | wurfsprung.jpg|
+Wurfsprung |Substantiv| maskulin, -s, Wurfsprünge | выброс | der Wurfsprung | des Wurfsprungs | dem Wurfsprung | den Wurfsprung | die Wurfsprünge | der Wurfsprünge | den Wurfsprüngeen | die Wurfsprünge| Beschreibung: Sprung, bei denen beim Paarlauf ein Partner beim Absprung durch den anderen Partner mit beiden Händen unterstützt und damit weit hochgedrückt wird | wurfsprung.gif|
 
 Zahn |Substantiv| maskulin, -e(s), Zähne | зубец |der Zahn |des Zahns, Zahnes | dem Zahn | den Zahn| die Zähne| der Zähne| den Zähnen| die Zähne|
 
