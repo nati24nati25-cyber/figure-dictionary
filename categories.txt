@@ -1,10 +1,8 @@
-# Общие термины (подходят ко всем дисциплинам)
-Kante | Общее
-Bogen | Общее
-Drehung | Общее
-Schritt | Общее
-Pirouette | Общее
-Sprung | Общее
+# Общее (подходят ко всем дисциплинам)
+Auftritt | Общее
+Auslauf | Общее
+Auswärtsbogen | Общее
+
 
 # Sprünge
 Axel | Sprünge
@@ -12,11 +10,36 @@ Doppelaxel | Sprünge
 Dreifachaxel | Sprünge
 Vierfachaxel |Sprünge
 Salchow | Sprünge
+Doppelsalchow | Sprünge
+Doppelflip | Sprünge
+Doppellutz | Sprünge
+Doppelrittberger| Sprünge
+Doppeltoeloop | Sprünge
 Toeloop | Sprünge
+Dreifachaxel | Sprünge
+Dreifachflip | Sprünge
+Dreifachlutz | Sprünge
+Dreifachrittberger | Sprünge
+Dreifachsalchow | Sprünge
+Dreifachsprung | Sprünge
+Dreifachtoeloop | Sprünge
 Flip |Sprünge
 Lutz | Sprünge
 Rittberger | Sprünge
 Euler | Sprünge
+Einfachsprung | Sprünge
+Kantensprung | Sprünge
+Sprungfolge | Sprünge
+Sprungkombination | Sprünge
+Vierfachaxel | Sprünge
+Vierfachflip | Sprünge
+Vierfachlutz | Sprünge
+Vierfachrittberger | Sprünge
+Vierfachsalchow | Sprünge
+Vierfachsprung | Sprünge
+Vierfachtoeloop | Sprünge
+Rehsprung | Sprünge
+
 
 # Pirouetten
 Standpirouette | Pirouetten
