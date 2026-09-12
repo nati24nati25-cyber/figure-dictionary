@@ -4,42 +4,54 @@ Auslauf | Общее
 Auswärtsbogen | Общее
 
 
-# Sprünge
+###### Sprünge ######
+Sprung | Sprünge
+Einfachsprung | Sprünge
+Doppelsprung | Sprünge
+Dreifachsprung | Sprünge
+Vierfachsprung | Sprünge
+
+Kantensprung | Sprünge
+
 Axel | Sprünge
 Doppelaxel | Sprünge
 Dreifachaxel | Sprünge
 Vierfachaxel |Sprünge
+
 Salchow | Sprünge
 Doppelsalchow | Sprünge
-Doppelflip | Sprünge
-Doppellutz | Sprünge
-Doppelrittberger| Sprünge
-Doppeltoeloop | Sprünge
-Toeloop | Sprünge
-Dreifachaxel | Sprünge
-Dreifachflip | Sprünge
-Dreifachlutz | Sprünge
-Dreifachrittberger | Sprünge
 Dreifachsalchow | Sprünge
-Dreifachsprung | Sprünge
+Vierfachsalchow | Sprünge
+
+Toeloop | Sprünge
+Doppeltoeloop | Sprünge
 Dreifachtoeloop | Sprünge
-Flip |Sprünge
-Lutz | Sprünge
+Vierfachtoeloop | Sprünge
+
 Rittberger | Sprünge
+Doppelrittberger| Sprünge
+Dreifachrittberger | Sprünge
+Vierfachrittberger | Sprünge
+
+Flip |Sprünge
+Doppelflip | Sprünge
+Dreifachflip | Sprünge
+Vierfachflip | Sprünge
+
+Lutz | Sprünge
+Doppellutz | Sprünge
+Dreifachlutz | Sprünge
+Vierfachlutz | Sprünge
+
 Euler | Sprünge
-Einfachsprung | Sprünge
-Kantensprung | Sprünge
+
 Sprungfolge | Sprünge
 Sprungkombination | Sprünge
-Vierfachaxel | Sprünge
-Vierfachflip | Sprünge
-Vierfachlutz | Sprünge
-Vierfachrittberger | Sprünge
-Vierfachsalchow | Sprünge
-Vierfachsprung | Sprünge
-Vierfachtoeloop | Sprünge
-Rehsprung | Sprünge
 
+Rehsprung | Sprünge
+Jetésprung | Sprünge
+
+######## Sprünge ########
 
 # Pirouetten
 Standpirouette | Pirouetten
