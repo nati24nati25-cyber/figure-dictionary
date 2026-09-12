@@ -281,9 +281,7 @@ Vierfachaxel |Substantiv| maskulin, -s, =  | четверной аксель |de
 
 Vierfachflip |Substantiv| maskulin, -s, -s  | четверной флип |der Vierfachflip |des Vierfachflips | dem Vierfachflip | den Vierfachflip| die Vierfachflips| der Vierfachflips| den Vierfachflips| die Vierfachflips| vierfachflip.gif|
 
-
 Vierfachlutz |Substantiv| maskulin, =, =  | четверной лутц | der Vierfachlutz| des Vierfachlutz| dem Vierfachlutz| den Vierfachlutz | die Vierfachlutz| der Vierfachlutz | den Vierfachlutz| die Vierfachlutz| vierfachlutz.gif|
-
 
 Vierfachrittberger |Substantiv| maskulin, -s, =  | четверной риттбергер | der Vierfachrittberger| des Vierfachrittbergers| dem Vierfachrittberger| den Vierfachrittberger | die Vierfachrittberger| der Vierfachrittberger | den Vierfachrittbergern| die Vierfachrittberger| vierfachrittberger.gif|
 
@@ -296,7 +294,6 @@ Vierfachtoeloop |Substantiv| maskulin, -s/=, s  | четверной тулуп 
 vorwärts | Adverb | вперед| Beispiel: Das Übersetzen vorwärts wird auf einem Kreisbogen gelaufen. Dann das Standbein aktiv vorwärts schieben.|
 
 Vorwärtsbogen |Substantiv| maskulin, -s, = | передняя дуга |der Vorwärtsbogen |des Vorwärtsbogens | dem Vorwärtsbogen | den Vorwärtsbogen| die Vorwärtsbogen| der Vorwärtsbogen| den Vorwärtsbogen| die Vorwärtsbogen|
-
 
 Waagepirouette |Substantiv| feminin, =, -n | либела |die Waagepirouette | der Waagepirouette | der Waagepirouette | die Waagepirouette | die Waagepirouetten |  der Waagepirouetten | den Waagepirouetten |  die Waagepirouetten | Beispiel: Beim Einlauf zur Waagepirouette wird das Standbein stärker gebeugt als bei der Standpirouette, der freie Fuß bleibt dadurch länger auf dem Eis | waagepirouette.gif|
 
