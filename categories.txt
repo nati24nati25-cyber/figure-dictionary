@@ -148,6 +148,7 @@ Tanzpirouette | Pirouetten
 Chasséeschritt | Schritte
 Choctaw | Schritte
 Crossroll| Schritte
+Doppeldreier| Schritte
 Dreier| Schritte
 Fechter | Schritte
 Gegendreier| Schritte
