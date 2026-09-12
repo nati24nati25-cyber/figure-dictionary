@@ -4,15 +4,15 @@ abrollen |schwaches Verb (rollte ab, ist abgerollt) | vi. trennbar| перехо
 
 Absprung |Substantiv| maskulin, -s, Absprünge | толчок | der Absprung| des Absprungs, Absprunges| dem Absprung| den Absprung| die Absprünge | der Absprünge | den Absprüngen | die Absprünge| Beispiel: Wegen seines Absprungs Rra eignet er sich gut als zweiter Sprung in Sprungkombinationen, z. B. Flip – Euler – Salchow.|
 
-abspringen |starkes Verb (sprang ab, ist abgesprungen)| vi. | отталкиваться| Beispiel: Axel – ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
+abspringen |starkes Verb (sprang ab, ist abgesprungen)| vi. trennbar | отталкиваться| Beispiel: Axel – ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
 
 Auftritt |Substantiv| maskulin, –(e)s, -e | выступление, прокат | der Auftritt| des Auftritts, Auftrittes| dem Auftritt| den Auftritt| die Auftritte | der Auftritte | den Auftritten | die Auftritte|
 
-ausführen |schwaches Verb | vt. | выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung ausgeführt.|
+ausführen |schwaches Verb (führte aus, hat ausgeführt)| vt. trennbar | выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung ausgeführt.|
 
 Auslauf |Substantiv| maskulin, -s, Ausläufe | выезд | der Auslauf| des Auslaufs| dem Auslauf| den Auslauf| die Ausläufe | der Ausläufe | den Ausläufen | die Ausläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.| auslauf.gif|
 
-аuslaufen | starkes Verb (lief aus, ist ausgelaufen)| vi. | выезжать, делать выезд| Beispiel: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
+аuslaufen | starkes Verb (lief aus, ist ausgelaufen)| vi. trennbar | выезжать, делать выезд| Beispiel: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
 
 auswärts | Adverb | наружу (на наружное ребро)| Beispiel: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
  
@@ -84,7 +84,7 @@ Dreifachsprung |Substantiv| maskulin, -s, Dreifachsprünge  | тройной п�
 Dreifachtoeloop |Substantiv| maskulin, -s/=, s  | тройной тулуп | der Dreifachtoeloop| des Dreifachtoeloop, Dreifachtoeloops| dem Dreifachtoeloop| den Dreifachtoeloop| die Dreifachtoeloops | der Dreifachtoeloops | den Dreifachtoeloops | die Dreifachtoeloops | dreifacher Toeloop|  dreifachtoeloop.gif|
 
 
-durchführen |schwaches Verb| vt | исполнять, выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
+durchführen |schwaches Verb (durchführte, hat durchgeführt)| vt trennbar | исполнять, выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
 
 einbeinig | Adverb | на одной ноге| Beispiel: Schwieriger ist das Bremsen auf einem Bein bei einbeinigem Stand. Wird die Drehung langsamer, richtet man den Oberkörper auf und geht in eine einbeinige. Standpirouette über, dreht noch einige Male weiter und läuft wie üblich aus.|
 
@@ -107,7 +107,7 @@ eingesprungene Waagepirouette |Substantiv| feminin, =, -n | прыжок в ли
 
 Einlauf |Substantiv| maskulin, -(e)s, Einläufe | заезд, вход, въезд (на прыжок) | der Einlauf | des Einlaufs, Einlaufes| dem Einlauf | den Einlauf | die Einläufe| der Einläufe | den Einläufen | die Einläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.|
 
-einlaufen | starkes Verb (lief ein, ist eingelaufen)| vi. | заезжать, въезжать|
+einlaufen | starkes Verb (lief ein, ist eingelaufen)| vi. trennbar | заезжать, въезжать|
 
 einwärts | Adverb | внутрь (на внутреннее ребро)| Beispiel: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
@@ -131,9 +131,10 @@ Gegendreier |Substantiv| maskulin, -s, = | скобка | der Gegendreier | des 
 
 Gegenwende |Substantiv| feminin, =, -en | выкрюк |die Gegenwende | der Gegenwende | der Gegenwende | die Gegenwende | die Gegenwenden |  der Gegenwenden | den Gegenwenden |  die Gegenwenden| Beschreibung: Pflichtfigur beim Eiskunstlauf, bei der drei Kreise in gleichmäßigem Tempo ohne Kantenwechsel gelaufen werden müssen| gegenwende.jpg|
 
-gespreizt | Adjektiv | pp. | разведенные в сторону (ноги)|
+gespreizt | Adjektiv | pp. | разведенные в сторону (ноги)| Beispiel: Das Paar zeigte eine atemberaubende Hochliftfigur, bei der die Partnerin ihre gespreizten Beine im rechten Winkel zur Achse des Partners hielt.
 
-gestanden |Adjektiv | pp. | выстоянный (прыжок)|
+gestanden |Adjektiv | pp. | выстоянный (прыжок)| Beispiel: Der vierfache Lutz war knapp, aber er war gestanden.
+Er zeigte fünf Vierfache, drei davon waren sauber gestanden, bei den anderen beiden fiel er.
 
 gleiten | starkes Verb (glitt, geglitten)| vi. | скользить| Beispiel: Rechten Fuß innerhalb der Spur aufsetzen und, die Lauflinie des linken Beins kreuzend, nach außen unter den Körperschwerpunkt gleiten lassen.|
 
@@ -173,7 +174,7 @@ Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа 
 
 Kür |Substantiv| feminin, =, -en | произвольная программа |die Kür | der Kür | der Kür| die Kür | die Küren |  der Küren | den Küren |  die Küren | Beschreibung: der zweite, längere und individuellere Teil eines Eiskunstlaufwettbewerbes im Einzellauf|
 
-landen | schwaches Verb | vi. | приземляться| Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
+landen | schwaches Verb (landete, gelandet)| vi. | приземляться| Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
 
 Landung |Substantiv| feminin, =, -en | приземление |die Landung | der Landung | der Landung| die Landung | die Landungen |  der Landungen | den Landungen |  die Landungen | Beispiel: Mit der Landung auf der Zacke den Fuß zum Auslauf Rra senken.|
 
@@ -251,7 +252,7 @@ Storch |Substantiv| maskulin, -s; Störche | цапелька| der Storch | des 
 
 Sturz |Substantiv| maskulin, -es, Stürze | падение | der Sturz | des Sturzes | dem Sturz | den Sturz | die Stürze | der Stürze | den Stürzen | die Stürze| Beispiel: Beim Üben des Sturzes nach vorn ist es empfehlenswert, anfangs Knie- und Ellbogenschoner (vom Inlineskaten) zu verwenden.| sturz.gif|
 
-stürzen | schwaches Verb | vi. | падать| Beispiel: Sie stürzte mehrfach auf dem Eis und brach anschließend in Tränen aus.|
+stürzen | schwaches Verb (stürzte, gestürzt)| vi. | падать| Beispiel: Sie stürzte mehrfach auf dem Eis und brach anschließend in Tränen aus.|
 
 Synchroneiskunstlauf |Substantiv| maskulin, -(e)s, Synchroneiskunstläufe | синхронное катание | der Synchroneiskunstlauf| des Synchroneiskunstlaufs, Synchroneiskunstlaufes| dem Synchroneiskunstlauf| den Synchroneiskunstlauf| die Synchroneiskunstläufe | der Synchroneiskunstläufe | den Synchroneiskunstläufen | die Synchroneiskunstläufe | synchroneiskunstlauf.jpg|
 
@@ -269,7 +270,7 @@ Twizzle |Substantiv| maskulin, -s, -s |  твизл | der Twizzle| des Twizzles|
 
 Twizzlesequenz |Substantiv| feminin, =, -en  | серия твизлов |die Twizzlesequenz | der Twizzlesequenz | der Twizzlesequenz | die Twizzlesequenz | die Twizzlesequenzen |  der Twizzlesequenzen | den Twizzlesequenzen |  die Twizzlesequenzen | twizzlesequenz.gif|
 
-unterrotiert | Adjektiv | недокрученный (прыжок)|
+unterrotiert | Adjektiv | недокрученный (прыжок)| Der Technische Spezialist bewertete den Sprung als unterrotiert. 
 
 Unterdrehung |Substantiv| feminin, =, -en | недокрут |die Unterdrehung | der Unterdrehung | der Unterdrehung | die Unterdrehung | die Unterdrehungen |  der Unterdrehungen | den Unterdrehungen |  die Unterdrehungen|
 
@@ -317,9 +318,9 @@ Zirkel |Substantiv |maskulin, -s, = | циркуль |der Zirkel |des Zirkels | 
 
 Zitrone |Substantiv|feminin,  =, = | фонарик |die Zitrone | der Zitrone| der Zitrone | die Zitrone | die Zitrone |  der Zitrone | den Zitrone |  die Zitrone | zitrone.jpg|
 
-überdrehen | schwaches Verb | vt. | перекруть| Beispiel: Beide überdrehten ihren Sprung. Starostin hatte in der Kurzkür den Axel verpatzt, den er in der Kür zweimal zeigte, wobei der zweite Dreifache überdreht war.|
+überdrehen | schwaches Verb (überdrochte, überdricht)| vt. untrennbar| перекруть| Beispiel: Beide überdrehten ihren Sprung. Starostin hatte in der Kurzkür den Axel verpatzt, den er in der Kür zweimal zeigte, wobei der zweite Dreifache überdreht war.|
 
-übersetzen | schwaches Verb | vi. | делать перебежку|
+übersetzen | schwaches Verb (übersetzte, übersetzt)| vi. | делать перебежку|
 
 Übersetzschritt |Substantiv|  maskulin, -e(s), -e  | перебежка |der Vorwärtsbogen |des Vorwärtsbogens | dem Vorwärtsbogen | den Vorwärtsbogen| die Vorwärtsbogen| der Vorwärtsbogen| den Vorwärtsbogen| die Vorwärtsbogen| Beispiel: Vorwärts- oder Rückwärts-Schrittfolge, bei der in der Kurve ein Bein über das andere aufs Eis gesetzt wird| Beschreibung: Beim Übersetzschritt vorwärts setzt das kreisäußere Bein vor dem inneren Rve auf, das Innenbein neben dem äußeren Lva|
 
