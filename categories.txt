@@ -1,0 +1,42 @@
+# Общие термины (подходят ко всем дисциплинам)
+Kante | Общее
+Bogen | Общее
+Drehung | Общее
+Schritt | Общее
+Pirouette | Общее
+Sprung | Общее
+
+# Прыжки
+Axel | Прыжки
+Doppelaxel | Прыжки
+Dreifachaxel | Прыжки
+Vierfachaxel | Прыжки
+Salchow | Прыжки
+Toeloop | Прыжки
+Flip | Прыжки
+Lutz | Прыжки
+Rittberger | Прыжки
+Euler | Прыжки
+
+# Одиночное катание
+Einzellauf | Одиночное катание
+Einzelsprung | Одиночное катание
+
+# Парное катание
+Paarlauf | Парное катание
+Wurfsprung | Парное катание
+Twist | Парное катание
+Todesspirale | Парное катание
+Hebung | Парное катание
+
+# Спортивные танцы
+Eistanz | Спортивные танцы
+Choctaw | Спортивные танцы
+Mohawk | Спортивные танцы
+Twizzle | Спортивные танцы
+
+# Синхронное катание
+Synchroneiskunstlauf | Синхронное катание
+Block | Синхронное катание
+Kreis | Синхронное катание
+Mühle | Синхронное катание
