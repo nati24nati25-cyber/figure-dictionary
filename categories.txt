@@ -1,0 +1,47 @@
+# Общие термины (подходят ко всем дисциплинам)
+Kante | Общее
+Bogen | Общее
+Drehung | Общее
+Schritt | Общее
+Pirouette | Общее
+Sprung | Общее
+
+# Sprünge
+Axel | Sprünge
+Doppelaxel | Sprünge
+Dreifachaxel | Sprünge
+Vierfachaxel |Sprünge
+Salchow | Sprünge
+Toeloop | Sprünge
+Flip |Sprünge
+Lutz | Sprünge
+Rittberger | Sprünge
+Euler | Sprünge
+
+# Pirouetten
+Standpirouette | Pirouetten
+Himmelspirouette | Pirouetten
+
+
+# Einzellauf
+Einzellauf | Einzellauf
+Einzelsprung | Einzellauf
+
+# Paarlauf
+Paarlauf | Paarlauf
+Wurfsprung | Paarlauf
+Twist | Paarlauf
+Todesspirale | Paarlauf
+Hebung | Paarlauf
+
+# Eistanz
+Eistanz | Eistanz
+Choctaw | Eistanz
+Mohawk | Eistanz
+Twizzle | Eistanz
+
+# Synchroneiskunstlauf
+Synchroneiskunstlauf | Synchroneiskunstlauf
+Block | Synchroneiskunstlauf
+Kreis | Synchroneiskunstlauf
+Mühle | Synchroneiskunstlauf
