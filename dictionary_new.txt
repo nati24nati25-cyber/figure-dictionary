@@ -270,7 +270,7 @@ Twizzle |Substantiv| maskulin, -s, -s |  твизл | der Twizzle| des Twizzles|
 
 Twizzlesequenz |Substantiv| feminin, =, -en  | серия твизлов |die Twizzlesequenz | der Twizzlesequenz | der Twizzlesequenz | die Twizzlesequenz | die Twizzlesequenzen |  der Twizzlesequenzen | den Twizzlesequenzen |  die Twizzlesequenzen | twizzlesequenz.gif|
 
-unterrotiert | Adjektiv | недокрученный (прыжок)| Der Technische Spezialist bewertete den Sprung als unterrotiert. 
+unterrotiert | Adjektiv | недокрученный (прыжок)| Beispiel: Der Technische Spezialist bewertete den Sprung als unterrotiert.| 
 
 Unterdrehung |Substantiv| feminin, =, -en | недокрут |die Unterdrehung | der Unterdrehung | der Unterdrehung | die Unterdrehung | die Unterdrehungen |  der Unterdrehungen | den Unterdrehungen |  die Unterdrehungen|
 
