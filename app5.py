@@ -9,6 +9,7 @@ CATEGORIES = [
     "Общее",
     "Sprünge",
     "Pirouetten",
+    "Schritte",
     "Einzellauf",
     "Paarlauf",
     "Eistanz",
