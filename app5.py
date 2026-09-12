@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import os
 import re
@@ -269,4 +269,4 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
-```
+
