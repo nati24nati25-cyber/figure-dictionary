@@ -3,7 +3,18 @@ import os
 import re
 import base64
 
-# ---------- ПАРСЕР (ГИБКИЙ, С РУБРИКАМИ) ----------
+# ---------- СПИСОК КАТЕГОРИЙ (порядок вкладок) ----------
+CATEGORIES = [
+    "Общее",
+    "Прыжки",
+    "Вращения",
+    "Одиночное катание",
+    "Парное катание",
+    "Спортивные танцы",
+    "Синхронное катание",
+]
+
+# ---------- ПАРСЕР СЛОВАРЯ ----------
 def parse_entry(line):
     fields = [f.strip() for f in line.split("|")]
     if len(fields) < 3:
@@ -12,28 +23,20 @@ def parse_entry(line):
     word = fields[0]
     pos_raw = fields[1]
 
-    # Определяем, где перевод: если в field[2] есть кириллица — это перевод
     if re.search(r'[\u0400-\u04FF]', fields[2]):
-        # Нет грамматики: слово | часть речи | перевод
         grammar_raw = ""
         translation = fields[2]
         rest = fields[3:]
     else:
-        # Есть грамматика: слово | часть речи | грамматика | перевод | ...
         if len(fields) < 4:
             return None
         grammar_raw = fields[2]
         translation = fields[3]
         rest = fields[4:]
 
-    # Формируем отображение грамматики
-    if grammar_raw:
-        grammar_display = f"{pos_raw}, {grammar_raw}"
-    else:
-        grammar_display = pos_raw
+    grammar_display = f"{pos_raw}, {grammar_raw}" if grammar_raw else pos_raw
     is_noun = (pos_raw.lower() == "substantiv")
 
-    # Поиск падежных форм
     cases = None
     extra = []
     start_idx = -1
@@ -47,14 +50,13 @@ def parse_entry(line):
             cases = rest[start_idx:start_idx+8]
             extra = rest[start_idx+8:]
         elif start_idx + 4 <= len(rest):
-            cases = rest[start_idx:start_idx+4]  # только мн.ч.
+            cases = rest[start_idx:start_idx+4]
             extra = rest[start_idx+4:]
         else:
             extra = rest
     else:
         extra = rest
 
-    # Отделяем картинку (удаляем из extra элементы, похожие на файл)
     image_name = ""
     cleaned_extra = []
     for item in reversed(extra):
@@ -65,7 +67,6 @@ def parse_entry(line):
             cleaned_extra.insert(0, item)
     extra = cleaned_extra
 
-    # Парсим рубрики Beschreibung / Herkunft / Beispiel
     sections = {}
     current_key = None
     current_text = []
@@ -86,7 +87,10 @@ def parse_entry(line):
             if current_key is not None:
                 current_text.append(item)
     if current_key is not None:
-        sections[current_key] = " ".join(current_text).strip()
+        sections[current_key] = "
+
+
+".join(current_text).strip()
 
     return {
         "word": word,
@@ -111,9 +115,27 @@ def load_dictionary(file_path="dictionary_new.txt"):
                 entries.append(entry)
     return entries
 
-# ---------- ПОИСК КАРТИНКИ / GIF ПО ИМЕНИ СЛОВА ----------
+# ---------- ЗАГРУЗКА КАТЕГОРИЙ ----------
+@st.cache_data
+def load_categories(file_path="categories.txt"):
+    """Возвращает словарь: слово (в нижнем регистре) -> список категорий."""
+    cats = {}
+    if not os.path.exists(file_path):
+        return cats
+    with open(file_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            parts = [p.strip() for p in line.split("|")]
+            if len(parts) < 2:
+                continue
+            word, cat = parts[0].lower(), parts[1]
+            cats.setdefault(word, []).append(cat)
+    return cats
+
+# ---------- ПОИСК КАРТИНКИ / GIF / АУДИО ----------
 def find_image_by_word(word, images_dir="images"):
-    """Ищет файл в папке images по имени слова (регистронезависимо). GIF в приоритете."""
     if not os.path.exists(images_dir):
         return None
     word_lower = word.lower()
@@ -124,12 +146,17 @@ def find_image_by_word(word, images_dir="images"):
             return candidate
     return None
 
-# ---------- ПОКАЗ GIF БЕЗ ПОТЕРИ АНИМАЦИИ ----------
+def find_audio_by_word(word, audio_dir="audio"):
+    if not os.path.exists(audio_dir):
+        return None
+    word_lower = word.lower()
+    for ext in ['.mp3', '.wav', '.ogg', '.m4a', '.flac']:
+        candidate = os.path.join(audio_dir, word_lower + ext)
+        if os.path.exists(candidate):
+            return candidate
+    return None
+
 def show_gif(gif_path, width=150):
-    """Отображает анимированный GIF через Base64, чтобы сохранить
-
-
-анимацию."""
     with open(gif_path, "rb") as f:
         contents = f.read()
     data_url = base64.b64encode(contents).decode("utf-8")
@@ -139,7 +166,7 @@ def show_gif(gif_path, width=150):
     )
 
 # ---------- КАРТОЧКА ----------
-def show_card(entry, images_dir="images"):
+def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
     word = entry["word"]
     grammar = entry["grammar"]
     translation = entry["translation"]
@@ -152,7 +179,6 @@ def show_card(entry, images_dir="images"):
         st.markdown(f"### **{word}** — {grammar}")
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
-        # Таблица склонения (только для существительных)
         if is_noun and cases:
             with st.expander("📊 Таблица словоизменения"):
                 pad_ru = ["и.п.", "р.п.", "д.п.", "в.п."]
@@ -163,7 +189,7 @@ def show_card(entry, images_dir="images"):
                     rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
                     st.markdown("| падеж | ед.ч. | мн.ч. |\n|-------|-------|-------|\n" + "\n".join(rows))
 
-        # Картинка или GIF
+        # Картинка / GIF
         img_path = None
         if image_name:
             candidate = os.path.join(images_dir, image_name)
@@ -174,11 +200,27 @@ def show_card(entry, images_dir="images"):
 
         if img_path:
             if img_path.lower().endswith('.gif'):
-                show_gif(img_path, width=150)   # анимированный GIF
+                show_gif(img_path, width=150)
             else:
-                st.image(img_path, width=150)   # обычная картинка
+                st.image(img_path, width=150)
 
-        # Дополнительная информация по рубрикам
+        # Озвучка
+        audio_path = find_audio_by_word(word, audio_dir)
+        if
+
+
+audio_path:
+            st.audio(audio_path)
+
+        # Ссылки
+        if links_data:
+            word_links = links_data.get(word.lower(), [])
+            if word_links:
+                st.markdown("**🔗 Ссылки:**")
+                for label, url in word_links:
+                    st.markdown(f"- [{label}]({url})")
+
+        # Дополнительная информация
         if sections:
             with st.expander("ℹ️ Дополнительная информация"):
                 for key in ["Beschreibung", "Herkunft", "Beispiel"]:
@@ -199,6 +241,9 @@ except Exception as e:
     st.error(f"Ошибка: {e}")
     entries = []
 
+categories_map = load_categories("categories.txt")
+
+# Поиск
 search = st.text_input("🔍 Поиск по немецкому или русскому слову", "")
 if search:
     filtered = [e for e in entries if search.lower() in e["word"].lower() or search.lower() in e["translation"].lower()]
@@ -207,12 +252,22 @@ else:
 
 st.write(f"Показано записей: {len(filtered)}")
 
-if filtered:
-    cols = st.columns(3)
-    for idx, entry in enumerate(filtered):
-        with cols[idx % 3]:
-            show_card(entry)
-elif entries and not filtered:
-    st.info("Ничего не найдено. Попробуйте другой запрос.")
-elif not entries:
-    st.info("Словарь пуст. Проверьте файл dictionary_new.txt.")
+# ---------- ВКЛАДКИ ПО КАТЕГОРИЯМ ----------
+tab_names = ["Все"] + CATEGORIES
+tabs = st.tabs(tab_names)
+
+for tab, cat_name in zip(tabs, tab_names):
+    with tab:
+        if cat_name == "Все":
+            cat_entries = filtered
+        else:
+            cat_entries = [e for e in filtered if cat_name in categories_map.get(e["word"].lower(), [])]
+
+        if not cat_entries:
+            st.info(f"В категории «{cat_name}» пока нет записей.")
+        else:
+            st.write(f"Найдено в категории «{cat_name}»: {len(cat_entries)}")
+            cols = st.columns(3)
+            for idx, entry in enumerate(cat_entries):
+                with cols[idx % 3]:
+                    show_card(entry)
