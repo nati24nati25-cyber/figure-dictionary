@@ -1,7 +1,47 @@
 # Общее (подходят ко всем дисциплинам)
+
+abheben | Общее
+abrollen  | Общее
+Absprung  | Общее
+abspringen  | Общее
 Auftritt | Общее
+ausführen | Общее
 Auslauf | Общее
+аuslaufen | Общее
+auswärts | Общее
 Auswärtsbogen | Общее
+Außenkante | Общее
+beidbeinig | Общее
+bremsen | Общее
+Drehachse | Общее
+Drehung | Общее
+durchführen | Общее
+einbeinig | Общее
+Eingang | Общее
+Einlauf | Общее
+einlaufen | Общее
+einwärts | Общее
+Einwärtsbogen | Общее
+gespreizt | Общее
+gleiten | Общее
+Innenkante | Общее
+Kante | Общее
+Kantenwechsel | Общее
+Kufe | Общее
+Kurzprogramm | Общее
+landen | Общее
+laufen | Общее
+Rotation | Общее
+rückwärts | Общее
+Rückwärtsbogen | Общее
+Spielbein | Общее
+Standbein | Общее
+Storch | Общее
+Sturz | Общее
+stürzen | Общее
+vorwärts | Общее
+Vorwärtsbogen | Общее
+Zahn | Общее
 
 
 ###### Sprünge ######
@@ -47,9 +87,20 @@ Euler | Sprünge
 
 Sprungfolge | Sprünge
 Sprungkombination | Sprünge
+Verbindungssprung  | Sprünge
 
 Rehsprung | Sprünge
 Jetésprung | Sprünge
+
+einfach | Sprünge
+doppelt | Sprünge
+dreifach| Sprünge
+vierfach | Sprünge
+
+gestanden | Sprünge
+unterrotiert | Sprünge
+
+Unterdrehung | Sprünge
 
 ######## Sprünge ########
 
@@ -59,17 +110,21 @@ Jetésprung | Sprünge
 ####### Pirouetten  #######
 
 Pirouette | Pirouetten
+Wechselpirouette | Pirouetten
 
 Standpirouette | Pirouetten
 eingesprungene Standpirouette| Pirouetten
+Wechselstandpirouette | Pirouetten
 Schraubenpirouette | Pirouetten
 
 Waagepirouette| Pirouetten
 eingesprungene Waagepirouette | Pirouetten
 Wechselwaagepirouette | Pirouetten
+Wechselwaagepirouette | Pirouetten
 
 Sitzpirouette | Pirouetten
 eingesprungene Sitzpirouette | Pirouetten
+Wechselsitzpirouette | Pirouetten
 Wechselsitzpirouette | Pirouetten
 
 Bielmannpirouette| Pirouetten
@@ -78,7 +133,6 @@ Spagatpirouette | Pirouetten
 
 Wechselpirouette | Pirouetten
 Pirouettenkombination | Pirouetten
-
 
 Paarlaufpirouettenkombination | Pirouetten
 Solopirouette | Pirouetten
@@ -91,13 +145,18 @@ Tanzpirouette | Pirouetten
 
 ####### Schritte  #######
 
+Chasséeschritt | Schritte
 Choctaw | Schritte
 Crossroll| Schritte
 Dreier| Schritte
+Fechter | Schritte
 Gegendreier| Schritte
 Gegenwende| Schritte
+Hocke | Schritte
 Laufschritt| Schritte
 Mohawk | Schritte
+Pferdchen | Schritte
+Pistole | Schritte
 Schlagenbogen| Schritte
 Schlinge| Schritte
 Wende | Schritte
@@ -112,6 +171,8 @@ Zitrone| Schritte
 #######  Einzellauf   #######
 
 Einzellauf | Einzellauf
+Kurzprogramm | Einzellauf
+Kür | Einzellauf
 
 #######  Einzellauf   #######
 
@@ -143,6 +204,7 @@ Eistanz | Eistanz
 Synchroneiskunstlauf | Synchroneiskunstlauf
 Block | Synchroneiskunstlauf
 Kreis | Synchroneiskunstlauf
+Kreuzen | Synchroneiskunstlauf
 Mühle | Synchroneiskunstlauf
 Linie | Synchroneiskunstlauf
 
