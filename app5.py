@@ -87,10 +87,10 @@ def parse_entry(line):
             if current_key is not None:
                 current_text.append(item)
     if current_key is not None:
-        sections[current_key] = "
+        sections[current_key] = """
 
 
-".join(current_text).strip()
+""".join(current_text).strip()
 
     return {
         "word": word,
