@@ -204,10 +204,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
 
         # Озвучка
         audio_path = find_audio_by_word(word, audio_dir)
-        if
-
-
-audio_path:
+        if audio_path:
             st.audio(audio_path)
 
         # Ссылки
