@@ -1,18 +1,18 @@
-abheben |starkes Verb (hob ab, hat abgehoben)| vi. trennbar | отталкиваться|
+abheben |starkes Verb (hob ab, hat abgehoben)| vi. trennbar| отталкиваться|
 
-abrollen |schwaches Verb (rollte ab, ist abgerollt) | vi. trennbar| переходить, смещаться (на ребро)| Beispiel: Nach der Landung des dreifachen Salchows rollte sie sauber auf der Außenkante rückwärts ab.|
+abrollen |schwaches Verb (rollte ab, ist abgerollt)| vi. trennbar| переходить, смещаться (на ребро)| Beispiel: Nach der Landung des dreifachen Salchows rollte sie sauber auf der Außenkante rückwärts ab.|
 
 Absprung |Substantiv| maskulin, -s, Absprünge | толчок | der Absprung| des Absprungs, Absprunges| dem Absprung| den Absprung| die Absprünge | der Absprünge | den Absprüngen | die Absprünge| Beispiel: Wegen seines Absprungs Rra eignet er sich gut als zweiter Sprung in Sprungkombinationen, z. B. Flip – Euler – Salchow.|
 
-abspringen |starkes Verb (sprang ab, ist abgesprungen)| vi. trennbar | отталкиваться| Beispiel: Axel – ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
+abspringen |starkes Verb (sprang ab, ist abgesprungen)| vi. trennbar| отталкиваться| Beispiel: Axel – ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
 
 Auftritt |Substantiv| maskulin, –(e)s, -e | выступление, прокат | der Auftritt| des Auftritts, Auftrittes| dem Auftritt| den Auftritt| die Auftritte | der Auftritte | den Auftritten | die Auftritte|
 
-ausführen |schwaches Verb (führte aus, hat ausgeführt)| vt. trennbar | выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung ausgeführt.|
+ausführen |schwaches Verb (führte aus, hat ausgeführt)| vt. trennbar| выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung ausgeführt.|
 
 Auslauf |Substantiv| maskulin, -s, Ausläufe | выезд | der Auslauf| des Auslaufs| dem Auslauf| den Auslauf| die Ausläufe | der Ausläufe | den Ausläufen | die Ausläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.| auslauf.gif|
 
-аuslaufen | starkes Verb (lief aus, ist ausgelaufen)| vi. trennbar | выезжать, делать выезд| Beispiel: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
+аuslaufen | starkes Verb (lief aus, ist ausgelaufen)| vi. trennbar| выезжать, делать выезд| Beispiel: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
 
 auswärts | Adverb | наружу (на наружное ребро)| Beispiel: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
  
@@ -84,7 +84,7 @@ Dreifachsprung |Substantiv| maskulin, -s, Dreifachsprünge  | тройной п�
 Dreifachtoeloop |Substantiv| maskulin, -s/=, s  | тройной тулуп | der Dreifachtoeloop| des Dreifachtoeloop, Dreifachtoeloops| dem Dreifachtoeloop| den Dreifachtoeloop| die Dreifachtoeloops | der Dreifachtoeloops | den Dreifachtoeloops | die Dreifachtoeloops | dreifacher Toeloop|  dreifachtoeloop.gif|
 
 
-durchführen |schwaches Verb (durchführte, hat durchgeführt)| vt trennbar | исполнять, выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
+durchführen |schwaches Verb (durchführte, hat durchgeführt)| vt. trennbar| исполнять, выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
 
 einbeinig | Adverb | на одной ноге| Beispiel: Schwieriger ist das Bremsen auf einem Bein bei einbeinigem Stand. Wird die Drehung langsamer, richtet man den Oberkörper auf und geht in eine einbeinige. Standpirouette über, dreht noch einige Male weiter und läuft wie üblich aus.|
 
@@ -107,7 +107,7 @@ eingesprungene Waagepirouette |Substantiv| feminin, =, -n | прыжок в ли
 
 Einlauf |Substantiv| maskulin, -(e)s, Einläufe | заезд, вход, въезд (на прыжок) | der Einlauf | des Einlaufs, Einlaufes| dem Einlauf | den Einlauf | die Einläufe| der Einläufe | den Einläufen | die Einläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.|
 
-einlaufen | starkes Verb (lief ein, ist eingelaufen)| vi. trennbar | заезжать, въезжать|
+einlaufen | starkes Verb (lief ein, ist eingelaufen)| vi. trennbar| заезжать, въезжать|
 
 einwärts | Adverb | внутрь (на внутреннее ребро)| Beispiel: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
