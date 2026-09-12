@@ -53,30 +53,97 @@ Jetésprung | Sprünge
 
 ######## Sprünge ########
 
-# Pirouetten
+
+
+
+####### Pirouetten  #######
+
+Pirouette | Pirouetten
+
 Standpirouette | Pirouetten
+eingesprungene Standpirouette| Pirouetten
+Schraubenpirouette | Pirouetten
+
+Waagepirouette| Pirouetten
+eingesprungene Waagepirouette | Pirouetten
+Wechselwaagepirouette | Pirouetten
+
+Sitzpirouette | Pirouetten
+eingesprungene Sitzpirouette | Pirouetten
+Wechselsitzpirouette | Pirouetten
+
+Bielmannpirouette| Pirouetten
 Himmelspirouette | Pirouetten
+Spagatpirouette | Pirouetten
+
+Wechselpirouette | Pirouetten
+Pirouettenkombination | Pirouetten
 
 
-# Einzellauf
+Paarlaufpirouettenkombination | Pirouetten
+Solopirouette | Pirouetten
+
+Tanzpirouette | Pirouetten
+
+####### Pirouetten  #######
+
+
+
+####### Schritte  #######
+
+Choctaw | Schritte
+Crossroll| Schritte
+Dreier| Schritte
+Gegendreier| Schritte
+Gegenwende| Schritte
+Laufschritt| Schritte
+Mohawk | Schritte
+Schlagenbogen| Schritte
+Schlinge| Schritte
+Wende | Schritte
+Twizzle | Schritte
+Zitrone| Schritte
+
+####### Schritte  #######
+
+
+
+
+#######  Einzellauf   #######
+
 Einzellauf | Einzellauf
-Einzelsprung | Einzellauf
 
-# Paarlauf
+#######  Einzellauf   #######
+
+
+
+
+####### Paarlauf  #######
+
 Paarlauf | Paarlauf
 Wurfsprung | Paarlauf
 Twist | Paarlauf
 Todesspirale | Paarlauf
 Hebung | Paarlauf
 
-# Eistanz
-Eistanz | Eistanz
-Choctaw | Eistanz
-Mohawk | Eistanz
-Twizzle | Eistanz
+####### Paarlauf  #######
 
-# Synchroneiskunstlauf
+
+
+####### Eistanz  #######
+
+Eistanz | Eistanz
+
+####### Eistanz  #######
+
+
+ 
+#######  Synchroneiskunstlauf ####### 
+
 Synchroneiskunstlauf | Synchroneiskunstlauf
 Block | Synchroneiskunstlauf
 Kreis | Synchroneiskunstlauf
 Mühle | Synchroneiskunstlauf
+Linie | Synchroneiskunstlauf
+
+#######  Synchroneiskunstlauf ####### 
