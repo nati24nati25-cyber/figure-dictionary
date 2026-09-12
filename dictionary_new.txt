@@ -6,7 +6,7 @@ Absprung |Substantiv| maskulin, -s, Absprünge | толчок | der Absprung| de
 
 abspringen |starkes Verb (sprang ab, ist abgesprungen)| vi. trennbar| отталкиваться| Beispiel: Axel – ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
 
-Auftritt |Substantiv| maskulin, –(e)s, -e | выступление, прокат | der Auftritt| des Auftritts, Auftrittes| dem Auftritt| den Auftritt| die Auftritte | der Auftritte | den Auftritten | die Auftritte|
+Auftritt |Substantiv| maskulin, –(e)s, -e | выступление, прокат | der Auftritt| des Auftritts, Auftrittes| dem Auftritt| den Auftritt| die Auftritte | der Auftritte | den Auftritten | die Auftritte| Beispiel: Ein spanischer Eiskunstläufer begeistert mit seinem Auftritt.|
 
 ausführen |schwaches Verb (führte aus, hat ausgeführt)| vt. trennbar| выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung ausgeführt.|
 
@@ -42,21 +42,24 @@ Crossroll |Substantiv| maskulin, -s, -s | кросс ролл |der Crossroll |de
 
 Doppelaxel |Substantiv| maskulin, -s, = | двойной аксель (дупель) |der Doppelaxel |des Doppelaxels | dem Doppelaxel | den Doppelaxel| die Doppelaxel| der Doppelaxel| den Doppelaxel| die Doppelaxel| doppelter Axel| doppelaxel.gif|
 
+Doppeldreier |Substantiv| maskulin, -s, = | двухкратная тройка | der Doppeldreier | des Doppeldreiers | dem Doppeldreier | den Doppeldreier | die Doppeldreier | der Doppeldreier | den Doppeldreiern | die Doppeldreier |Beispiel: ückwärts auswärts Doppeldreier | 
+
+
 Doppelsalchow |Substantiv| maskulin, -s/=, s | двойной сальхов | der Doppelsalchow| des Doppelsalchow[s]| dem Doppelsalchow| den Doppelsalchow | die Doppelsalchows| der Doppelsalchows | den Doppelsalchows| die Doppelsalchows| doppelsalchow.gif|
 
-Doppelflip |Substantiv| maskulin, -s, -s | двойной флип |der Doppelflip |des Doppelflips | dem Doppelflip | den Doppelflip| die Doppelflips| der Doppelflips| den Doppelflips| die Doppelflips| doppelflip.gif|
+Doppelflip |Substantiv| maskulin, -s, -s | двойной флип |der Doppelflip |des Doppelflips | dem Doppelflip | den Doppelflip| die Doppelflips| der Doppelflips| den Doppelflips| die Doppelflips| Beispiel: Beispiel: Sie zeigte als einzige Läuferin dieser Gruppe den Doppelflip.| doppelflip.gif|
 
-Doppellutz |Substantiv| maskulin, =, = | двойной лутц | der Doppellutz| des Doppellutz| dem Doppellutz| den Doppellutz | die Doppellutz| der Doppellutz | den Doppellutz| die Doppellutz| doppelterlutz.gif |
+Doppellutz |Substantiv| maskulin, =, = | двойной лутц | der Doppellutz| des Doppellutz| dem Doppellutz| den Doppellutz | die Doppellutz| der Doppellutz | den Doppellutz| die Doppellutz|doppelterlutz.gif |
 
 Doppelrittberger |Substantiv| maskulin, -s, = | двойной риттбергер | der Doppelrittberger| des Doppelrittbergers| dem Doppelrittberger| den Doppelrittberger | die Doppelrittberger| der Doppelrittberger | den Doppelrittbergern| die Doppelrittberger| doppeltrittberger.gif|
 
-Doppelsprung |Substantiv| maskulin, -s, Doppelsprünge | двойной прыжок | der Doppelsprung | des Doppelsprungs | dem Doppelsprung | den Doppelsprung | die Doppelsprünge | der Doppelsprünge | den Doppelsprüngen | die Doppelsprünge | 
+Doppelsprung |Substantiv| maskulin, -s, Doppelsprünge | двойной прыжок | der Doppelsprung | des Doppelsprungs | dem Doppelsprung | den Doppelsprung | die Doppelsprünge | der Doppelsprünge | den Doppelsprüngen | die Doppelsprünge | Beispiel: Der zweite Sprung kann dem vorgeschriebenen Doppelsprung vorausgehen oder folgen.|
 
 Doppeltoeloop |Substantiv| maskulin, -s/=, s | двойной тулуп | der Doppeltoeloop| des Doppeltoeloop, Doppeltoeloops| dem Doppeltoeloop| den Doppeltoeloop| die Doppeltoeloops | der Doppeltoeloops | den Doppeltoeloops | die Doppeltoeloops | doppeltoeloop.gif |
 
 doppelt |Adjektiv | двойной (в два оборота)| Beispiel: Richard (Dick) Button springt bei seinem ersten Olympiasieg in St. Moritz als erster Läufer in einem Wettbewerb einen doppelten Axel. Es kann auch eine Folge von bis zu fünf oder sechs Sprüngen sein, die einfach oder doppelt ausgeführt werden.|
 
-Drehachse |Substantiv| feminin, =, -n | вращательная ось |die Drehachse | der Drehachse | der Drehachse | die Drehachse | die Drehachsen |  der Drehachsen | den Drehachsen |  die Drehachsen | Beschreibng: Achse, um die eine Drehung erfolgt|
+Drehachse |Substantiv| feminin, =, -n | вращательная ось |die Drehachse | der Drehachse | der Drehachse | die Drehachse | die Drehachsen |  der Drehachsen | den Drehachsen |  die Drehachsen | Beschreibng: Achse, um die eine Drehung erfolgt| Beispiel: Beim Positionswechsel auf einem Bein von der Waage- in die Sitzposition werden die Extremitäten weit und schnell von der Drehachse entfernt geführt. |
 
 Drehung |Substantiv| feminin, =, -en | оборот |die Drehung | der Drehung | der Drehung | die Drehung | die Drehungen |  der Drehungen | den Drehungen |  die Drehungen | Beispiel: Zur Einleitung der Drehung wird der linke Arm zurückgezogen, das Standbein streckt sich und Oberkörper, Spielbein und Arme gehen in die waagerechte Haltung über. Es variiert nur die Körperhaltung im Flug, damit mehrfache Drehungen möglich sind.|
 
@@ -90,7 +93,7 @@ einbeinig | Adverb | на одной ноге| Beispiel: Schwieriger ist das Bre
 
 einfach | Adjektiv | одинарный| Beispiel: Anfangs sprang man nur kleine Sprünge mit einfacher Drehung. Einlauf und Absprung, Landung und Auslauf beim einfachen Salchow z. B. sehen genauso aus wie beim vierfachen.|
 
-Einfachsprung |Substantiv| maskulin, -s, Einfachsprünge | одинарный прыжок | der Einfachsprung | des Einfachsprungs | dem Einfachsprung | den Einfachsprung | die Einfachsprünge | der Einfachsprünge | den Einfachsprüngen | die Einfachsprünge|
+Einfachsprung |Substantiv| maskulin, -s, Einfachsprünge | одинарный прыжок | der Einfachsprung | des Einfachsprungs | dem Einfachsprung | den Einfachsprung | die Einfachsprünge | der Einfachsprünge | den Einfachsprüngen | die Einfachsprünge| Beispiel: Durch die Vielseitigkeit in den Einfachsprüngen wird eine Grundlage gesetzt, auf die später zurückgegriffen werden kann und die entscheidend für den LLA sind. |
 
 
 Eingang |Substantiv| maskulin, -s, Eingänge | въезд (во вращение) | der Eingang | des Eingangs | dem Eingang | den Eingang | die Eingänge | der Eingänge | den Eingängen | die Eingänge| Beispiel: Der häufigste Eingang ist das Übersetzen rückwärts, es kann aber auch direkt aus einem Rückwärts-auswärts-Bogen eingelaufen werden oder aus einem Vorwärts-einwärts-Dreier.|
@@ -104,6 +107,7 @@ eingesprungene Standpirouette |Substantiv| feminin, =, -n | прыжок в по
 
 eingesprungene Waagepirouette |Substantiv| feminin, =, -n | прыжок в либелу |die eingesprungene Pirouette | der eingesprungene Pirouette | der eingesprungene Pirouette | die eingesprungene Pirouette | die eingesprungenen Pirouetten |  der eingesprungenen Pirouetten | den eingesprungenen Pirouetten |  die eingesprungenen Pirouetten | Beispiel: Die eingesprungene Waagepirouette beginnt gleich wie eine normale Waagepirouette.|  eingesprungene Waagepirouette.gif|
 
+Einstichsprung |Substantiv| maskulin, -s, Einstichsprünge | зубцовый прыжок | der Einstichsprung | des Einstichsprungs | dem Einstichsprung | den Einstichsprung | die Einstichsprünge | der Einstichsprünge | den Einstichsprüngen | die Einstichsprünge| Beispiel: Die Besonderheit im Eiskunstlaufen ist, dass der Athlet sowohl schnell Kraft entwickeln muss (bspw. Bei Sprüngen, insbesondere bei Einstichsprüngen), als auch seine Leistung bei einer vier-minütigen Kür aufrechterhalten sollte.|
 
 Einlauf |Substantiv| maskulin, -(e)s, Einläufe | заезд, вход, въезд (на прыжок) | der Einlauf | des Einlaufs, Einlaufes| dem Einlauf | den Einlauf | die Einläufe| der Einläufe | den Einläufen | die Einläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.|
 
@@ -142,7 +146,8 @@ Hebung |Substantiv| feminin, =, -en | поддержка |die Hebung | der Hebun
 
 Himmelspirouette |Substantiv| feminin, =, -n | заклон |die Himmelspirouette | der Himmelspirouette | der Himmelspirouette | die Himmelspirouette | die Himmelspirouetten |  der Himmelspirouetten | den Himmelspirouetten |  die Himmelspirouetten | Beispiel: Diese Abwandlung der Himmelspirouetten sind die Königs- und die Biellmannpirouette.| himmelspirouette.gif|
  
-Hocke |Substantiv| feminin, =, -n |  саночки |die Hocke | der Hocke | der Hocke | die Hocke | die Hocken |  der Hocken | den Hocken |  die Hocken | hocke.jpg|
+Hocke |Substantiv| feminin, =, -n |  саночки |die Hocke | der Hocke | der Hocke | die Hocke | die Hocken |  der Hocken | den Hocken |  die Hocken |Beispiel: Ist entscheiden wie tief der Sportler trotz Widerstand des Schlittschuhs in die 
+Hocke gehen kann.| hocke.jpg|
 
 Ina Bauer |Substantiv| feminin/ maskulin, –s | Бауэр| Herkunft: nach der deutschen Eiskunstläuferin Ina Bauer | Beispiel: Der Ina Bauer kann an der Innenkante oder der Außenkante ausgeführt werden. Shizuka Arakawa ist berühmt für ihre flexible Einstellung zur Ina Bauer, bei der sie ihren Rücken nach hinten beugt. | ina bauer.gif|
 
@@ -152,7 +157,7 @@ Jetésprung |Substantiv| maskulin, -s, Jetésprünge | прыжок жете | d
 
 Kante |Substantiv| feminin, =, -n | ребро |die Kante | der Kante | der Kante | die Kante | die Kanten |  der Kanten | den Kanten |  die Kanten | Beschreibung: die Auswärts- oder Einwärtskante der Schlittschuhkufe als linke oder rechte Begrenzung des Hohlschliffs| Beispiel: Es bedarf eifrigen Übens und eines guten Gefühls für die Kante, bis diese Art des Bremsens auch einbeinig gelingt. Aus dem Vorwärtslauf kann es ebenfalls auf beiden Kanten zu beiden Seiten erfolgen.|
 
-Kantensprung |Substantiv| maskulin, -s, Kantensprünge | реберный прыжок | der Kantensprung | des Kantensprungs | dem Kantensprung | den Kantensprung | die Kantensprünge | der Kantensprünge | den Kantensprüngen | die Kantensprünge|
+Kantensprung |Substantiv| maskulin, -s, Kantensprünge | реберный прыжок | der Kantensprung | des Kantensprungs | dem Kantensprung | den Kantensprung | die Kantensprünge | der Kantensprünge | den Kantensprüngen | die Kantensprünge| Beispiel: Dies ist einerseits durch die Eiskunstlaufspezifik unterschiedlichen Sprungtypen der Kategorien Kantensprünge (einem einbeinigen Absprung) und Einstichsprünge (einer asymmetrischen Extension beider Beine) zu erklären.|
 
 Kantenwechsel |Substantiv| maskulin, -s, = | смена ребра | der Kantenwechsel| des Kantenwechsels| dem Kantenwechsel| den Kantenwechsel | die Kantenwechsel| der Kantenwechsel | den Kantenwechsel| die Kantenwechsel| Beispiel: Bei der Technik mit Oberkörperlage in den Kreis mogelten die Läufer kurz vor dem Absprung, machten einen unerlaubten Kantenwechsel auf die Innenkante und sprangen von dieser einen sog. „Flutz“.|
 
@@ -168,7 +173,7 @@ kreisäußer | Adjektiv | вне круга|
 
 Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | Beschreibung: Schritte, Spiralvarianten oder Sprünge beim Kreuzen erhöhen den Schwierigkeitsgrad|
 
-Kufe |Substantiv| feminin, =, -n | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen |
+Kufe |Substantiv| feminin, =, -n | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen | Beispiel: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |
 
 Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа |das Kurzprogramm |des Kurzprogramms| dem Kurzprogramm | das Kurzprogramm | die Kurzprogramme |  der Kurzprogramme | den Kurzprogrammen |  die Kurzprogramme | Beschreibung: der erste Teil eines Eiskunstlaufwettbewerbes im Einzellauf|
 
@@ -180,7 +185,8 @@ Landung |Substantiv| feminin, =, -en | приземление |die Landung | der
 
 laufen | starkes Verb (lief, ist gelaufen)| vi. | ехать, прокатывать| Beispiel: Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
 
-Laufschritt |Substantiv| maskulin, -e(s), -e | елочка |der Laufschritt |des Laufschritts, Laufschrittes| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte| laufschritt.jpg|
+Laufschritt |Substantiv| maskulin, -e(s), -e | елочка |der Laufschritt |des Laufschritts, Laufschrittes| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte|Beispiel: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die 
+Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
 
 Lutz |Substantiv| maskulin, =, = | лутц | der Lutz| des Lutz| dem Lutz| den Lutz | die Lutz| der Lutz | den Lutz| die Lutz| Beschreibung: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem der Läufer bzw. die Läuferin mit der Fußspitze auf den Boden tippt, abspringt, eine bzw. mehrere Drehungen in der Luft entgegen der im Anlauf eingeschlagenen Richtung macht und mit dem anderen Fuß wieder aufkommt | Herkunft: nach dem österreichischen Kunstläufer A. Lutz| Beispiel: Beim Lutz ist der letzte Anlaufschritt auf der rückwärts auswärts Kante des linken Fußes, der Absprung erfolgt von der Zacke des rechten Schuhs. |lutz.jpg|
 
@@ -220,9 +226,9 @@ Schlinge |Substantiv| feminin, =, -n | петля |die Schlinge | der Schlinge |
 
 Schraubenpirouette |Substantiv| feminin, =, -n | винт |die Schraubenpirouette | der Schraubenpirouette | der Schraubenpirouette | die Schraubenpirouette | die Schraubenpirouetten |  der Schraubenpirouetten | den Schraubenpirouetten |  die Schraubenpirouetten | schraubenpirouette.gif|
 
-Schritt |Substantiv| maskulin, -e(s), -e | шаг |der Schritt |des Schritts, Schrittes| dem Schritt | den Schritt| die Schritte| der Schritte| den Schritten| die Schritte|
+Schritt |Substantiv| maskulin, -e(s), -e | шаг |der Schritt |des Schritts, Schrittes| dem Schritt | den Schritt| die Schritte| der Schritte| den Schritten| die Schritte|Beispiel: Nur so ist es dem Läufer möglich Geschwindigkeit während seiner Schritte ohne Abstöße zu generieren und die geforderten Kanten präzise, klar und tief zu laufen. |
 
-Schrittfolge |Substantiv| feminin, =, -n | дорожка шагов |die Schrittfolge | der Schrittfolge | der Schrittfolge | die Schrittfolge | die Schrittfolgen |  der Schrittfolgen | den Schrittfolgen |  die Schrittfolgen |
+Schrittfolge |Substantiv| feminin, =, -n | дорожка шагов |die Schrittfolge | der Schrittfolge | der Schrittfolge | die Schrittfolge | die Schrittfolgen |  der Schrittfolgen | den Schrittfolgen |  die Schrittfolgen | Beispiel: Die bewegungsrelevanten Systeme (Auge, Innenohr und Propriozeption) spielen eine übergeordnete Rolle für das erfolgreiche Landen eines Sprungs, den erfolgreichen Ausgang aus einer Pirouette oder das saubere Laufen einer Schrittfolge. |
 
 Sitzpirouette |Substantiv| feminin, =, -n | волчок |die Sitzpirouette | der Sitzpirouette | der Sitzpirouette | die Sitzpirouette | die Sitzpirouetten |  der Sitzpirouetten | den Sitzpirouetten |  die Sitzpirouetten | Beispiel: Bei der Sitzpirouette darf die Hüfte nicht höher als das Knie des Standbeins sein.| sitzpirouette.gif|
 
@@ -237,8 +243,6 @@ Spirale |Substantiv| feminin, =, -en | спираль |die Spirale | der Spirale
 Spreizsprung |Substantiv| maskulin, -s, Spreizsprünge | прыжок в шпагат | der Spreizsprung | des Spreizsprungs | dem Spreizsprung | den Spreizsprung | die Spreizsprünge | der Spreizsprünge | den Spreizsprüngen | die Spreizsprünge| Beispiel: Bei einigen Sprüngen, z. B. beim Spreizsprung oder dem Toeloop, drückt man sich von der großen oberen Zacke ab, bei allen Sprüngen aber bremst man den Schwung durch kurzes Landen auf dieser Zacke und rollt dann sofort rückwärts auf der Außenkante ab.| spreizsprung.gif|
 
 Sprung |Substantiv| maskulin, -s, Sprünge | прыжок | der Sprung | des Sprungs | dem Sprung | den Sprung | die Sprünge | der Sprünge | den Sprüngen | die Sprünge| 
-
-getippter Sprung| зубцовый прыжок
 
 Sprungfolge |Substantiv| feminin, =, -n | последовательность прыжков со сменой ноги или ребра |die Sprungfolge | der Sprungfolge | der Sprungfolge | die Sprungfolge | die Sprungfolgen |  der Sprungfolgen | den Sprungfolgen |  die Sprungfolgen | Beispiel: Folge von Sprüngen mit Zwischenschritten zwischen den Sprüngen|
 
