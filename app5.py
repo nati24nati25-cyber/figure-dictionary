@@ -1,3 +1,4 @@
+```python
 import streamlit as st
 import os
 import re
@@ -87,10 +88,10 @@ def parse_entry(line):
             if current_key is not None:
                 current_text.append(item)
     if current_key is not None:
-        sections[current_key] = """
+        sections[current_key] = "
 
 
-""".join(current_text).strip()
+".join(current_text).strip()
 
     return {
         "word": word,
@@ -271,3 +272,4 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
+```
