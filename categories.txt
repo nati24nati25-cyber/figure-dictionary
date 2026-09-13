@@ -206,9 +206,9 @@ Paarlauf | Paarlauf
 Twist | Paarlauf
 Wurfsprung | Paarlauf
 
-Solopirouette | Pirouetten
-Paarlaufpirouette | Pirouetten
-Paarlaufpirouettenkombination | Pirouetten
+Solopirouette | Paarlauf
+Paarlaufpirouette | Paarlauf
+Paarlaufpirouettenkombination | Paarlauf
 
 Hebung | Paarlauf
 Todesspirale | Paarlauf
