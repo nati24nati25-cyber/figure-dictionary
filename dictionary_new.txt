@@ -114,7 +114,7 @@ Einzellauf |Substantiv| maskulin, -(e)s, Einzelläufe | одиночное ка�
 
 Einzelsprung |Substantiv| maskulin, -s, Einzelsprünge | одиночный прыжок | der Einzelsprung | des Einzelsprungs | dem Einzelsprung | den Einzelsprung | die Einzelsprünge | der Einzelsprünge | den Einzelsprüngen | die Einzelsprünge| Beispiel: Fast alle Elemente waren perfekt ausgeführt, einzig beim Einzelsprung, dem dreifachen Toeloop, musste Alisa Efimova zu Boden gehen |
 
-Eistanz |Substantiv| maskulin, -es, Eistänze | спортивные танцы, танцы на льду |der Eistanz |des Eistanzes | dem Eistanz | den Eistanz| die Eistänze| der Eistänze| den Eistänzen| die Eistänze| Beschreibug: Disziplin des Eislaufs, bei der Paare Schritte tänzerischen Charakters im Rhythmus der Musik ausführen | eistanz.gif|
+Eistanz |Substantiv| maskulin, -es, Eistänze | спортивные танцы, танцы на льду |der Eistanz |des Eistanzes | dem Eistanz | den Eistanz| die Eistänze| der Eistänze| den Eistänzen| die Eistänze| Beschreibung: Disziplin des Eislaufs, bei der Paare Schritte tänzerischen Charakters im Rhythmus der Musik ausführen | eistanz.gif|
 
 Euler |Substantiv| maskulin, -/-s, | ойлер |der Euler |des Euler[s] | dem Euler | den Euler| Beschreibung: ein spezifischer, nach Kurt Euler bzw. nach Per Thorén benannter Verbindungssprung, der mit dem rechten Fuß rückwärts auswärts abgesprungen wird und die Landung nach einer Drehung, rückwärts einwärts auf dem linken Bein erfolgt| Beispiel: Seit der Saison 2019/20 ist zusätzlich der Euler (anderer Name: Thorén) in die Liste der offiziellen Sprünge aufgenommen worden, allerdings nur als Mittelsprung in einer dreiteiligen Sprungkombination und nur mit einer einzigen Umdrehung.| euler.jpg|
 
@@ -172,7 +172,7 @@ Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа 
 
 Kür |Substantiv| feminin, =, -en | произвольная программа |die Kür | der Kür | der Kür| die Kür | die Küren |  der Küren | den Küren |  die Küren | Beschreibung: der zweite, längere und individuellere Teil eines Eiskunstlaufwettbewerbes im Einzellauf|
 
-Kürtanz |Substantiv| maskulin, -es, Kürtänze | произвольный танец |der Kürtanz |des Kürtanzes | dem Kürtanz | den Kürtanz| die Kürtänze| der Kürtänze| den Kürtänzen| die Kürtänze| Beschreibug: Ein frei gestaltetes Programm, bei dem Musik und Thema selbst gewählt werden können (auch mit Gesang).| kürtanz.gif|
+Kürtanz |Substantiv| maskulin, -es, Kürtänze | произвольный танец |der Kürtanz |des Kürtanzes | dem Kürtanz | den Kürtanz| die Kürtänze| der Kürtänze| den Kürtänzen| die Kürtänze| Beschreibung: Ein frei gestaltetes Programm, bei dem Musik und Thema selbst gewählt werden können (auch mit Gesang).| kürtanz.gif|
 
 landen | schwaches Verb (landete, gelandet)| vi. | приземляться| Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
 
@@ -205,7 +205,7 @@ Pistole |Substantiv| feminin, =, -n | пистолетик |die Pistole | der Pi
 
 Rehsprung |Substantiv| maskulin, -s, Rehsprünge | прыжок олень | der Rehsprung | des Rehsprungs | dem Rehsprung | den Rehsprung | die Rehsprünge | der Rehsprünge | den Rehsprüngen | die Rehsprünge| Beispiel: Bei dem Rehsprung wird das vordere Bein angewinkelt.|
 
-Rhythmustanz |Substantiv| maskulin, -es, Rhythmustänze | ритм-танец |der Rhythmustanz |des Rhythmustanzes | dem Rhythmustanz | den Rhythmustanz| die Rhythmustänze| der Rhythmustänze| den Rhythmustänzen| die Rhythmustänze| Beschreibug: Früher als „Originaltanz“ bekannt. Hier wird ein vom ISU vorgegebener Rhythmus oder ein Thema getanzt, wie Tango, Walzer oder Swing.| rhythmustanz.gif|
+Rhythmustanz |Substantiv| maskulin, -es, Rhythmustänze | ритм-танец |der Rhythmustanz |des Rhythmustanzes | dem Rhythmustanz | den Rhythmustanz| die Rhythmustänze| der Rhythmustänze| den Rhythmustänzen| die Rhythmustänze| Beschreibung: Früher als „Originaltanz“ bekannt. Hier wird ein vom ISU vorgegebener Rhythmus oder ein Thema getanzt, wie Tango, Walzer oder Swing.| rhythmustanz.gif|
 
 Rittberger |Substantiv| maskulin, -s, = | риттбергер | der Rittberger| des Rittbergers| dem Rittberger| den Rittberger | die Rittberger| der Rittberger | den Rittbergern| die Rittberger| Beschreibung: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem man mit einem Fuß abspringt, in der Luft eine Drehung ausführt und mit dem gleichen Fuß wieder aufkommt| Herkunft: nach dem deutschen Eiskunstläufer W. Rittberger| Beispiel: Der Rittberger ist der einzige Sprung, bei dem die Einlaufphase auf beiden Füßen erfolgt.|Rittberger.jpg|
 
