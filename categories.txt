@@ -43,6 +43,14 @@ vorwärts | Общее
 Vorwärtsbogen | Общее
 Zahn | Общее
 
+###### Grundelementen  ######
+Hocke | Grundelementen
+Storch | Grundelementen
+Pferdchen | Grundelementen
+Pistole | Grundelementen
+Zitrone | Grundelementen
+
+###### Grundelementen  ######
 
 ###### Sprünge ######
 Sprung | Sprünge
