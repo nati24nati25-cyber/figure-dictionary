@@ -109,6 +109,7 @@ Verbindungssprung  | Sprünge
 
 Rehsprung | Sprünge
 Jetésprung | Sprünge
+Walley | Sprünge
 
 einfach | Sprünge
 doppelt | Sprünge
