@@ -193,6 +193,8 @@ Mühle |Substantiv| feminin, =, -n | колесо |die Mühle | der Mühle | der
 
 Paarlauf |Substantiv| maskulin, -(e)s, Paarläufe | парное катание| der Paarlauf| des Paarlaufs, Paarlaufes| dem Paarlauf| den Paarlauf| die Paarläufe | der Paarläufe | den Paarläufen | die Paarläufe| paarlauf.gif|
 
+Paarlaufpirouette |Substantiv| feminin, =, -n | парное вращение |die Paarlaufpirouette | der Paarlaufpirouette | der Paarlaufpirouette | die Paarlaufpirouette | die Paarlaufpirouetten |  der Paarlaufpirouetten | den Paarlaufpirouetten |  die Paarlaufpirouetten |Beschreibung: eine gemeinsame Pirouette, bei der die Partner sich haltend um eine gemeinsame Achse drehen.|Beispiel: Die Paarlaufpirouette hatte nur den geringsten Schwierigkeitsgrad.| paarlaufpirouette.gif|
+
 Paarlaufpirouettenkombination |Substantiv| feminin, =, -en | парное раздельное комбинированное вращение |die Paarlaufpirouettenkombination | der Paarlaufpirouettenkombination | der Paarlaufpirouettenkombination | die Paarlaufpirouettenkombination | die Paarlaufpirouettenkombinationen |  der Paarlaufpirouettenkombinationen | den Paarlaufpirouettenkombinationen |  die Paarlaufpirouettenkombinationen | Beispiel: Eine Paarlaufpirouettenkombination ist mit mindestens einem Positionswechsel und mit mindestens einem Fußwechsel (Stand-, Sitz-, Waagepirouetten und ihre Variationen) durchgeführt.|
 
 Pferdchen |Substantiv| neutrum, -s, = | козлик |das Pferdchen |des Pferdchens| dem Pferdchen | das Pferdchen |die Pferdchen |der Pferdchen| den Pferdchen | die Pferdchen|
@@ -229,7 +231,7 @@ Schrittfolge |Substantiv| feminin, =, -n | дорожка шагов |die Schrit
 
 Sitzpirouette |Substantiv| feminin, =, -n | волчок |die Sitzpirouette | der Sitzpirouette | der Sitzpirouette | die Sitzpirouette | die Sitzpirouetten |  der Sitzpirouetten | den Sitzpirouetten |  die Sitzpirouetten | Beispiel: Bei der Sitzpirouette darf die Hüfte nicht höher als das Knie des Standbeins sein.| sitzpirouette.gif|
 
-Solopirouette |Substantiv| feminin, =, -n | совместное вращение |die Solopirouette | der Solopirouette | der Solopirouette | die Solopirouette | die Solopirouetten |  der Solopirouetten | den Solopirouetten |  die Solopirouetten | Beispiel: Im Zuge der Kürzung der Programme entfällt bei den Herren zukünftig ein Sprungelement und bei den Paaren die Solopirouette (ISU, 2018).| solopirouette.gif|
+Solopirouette |Substantiv| feminin, =, -n | параллельное вращение |die Solopirouette | der Solopirouette | der Solopirouette | die Solopirouette | die Solopirouetten |  der Solopirouetten | den Solopirouetten |  die Solopirouetten |Beschreibung: eine Pirouette, die beide Partner gleichzeitig, aber unabhängig voneinander um ihre eigene Achse drehen.|Beispiel: Im Zuge der Kürzung der Programme entfällt bei den Herren zukünftig ein Sprungelement und bei den Paaren die Solopirouette (ISU, 2018).| solopirouette.gif|
 
 Spagatpirouette |Substantiv| feminin, =, -n | затяжка |die Spagatpirouette | der Spagatpirouette | der Spagatpirouette | die Spagatpirouette | die Spagatpirouetten |  der Spagatpirouetten | den Spagatpirouetten |  die Spagatpirouetten | Beispiel: Also für die Spagatpirouette musst du es halt zuerst auf dem Boden üben und natürlich den Spagat sehr gut können.| spagatpirouette.gif|
 
