@@ -61,6 +61,7 @@ Zitrone | Grundelementen
 
 
 ###### Sprünge ######
+
 Sprung | Sprünge
 Einfachsprung | Sprünge
 Doppelsprung | Sprünge
@@ -157,6 +158,7 @@ Solopirouette | Pirouetten
 Tanzpirouette | Pirouetten
 
 ####### Pirouetten  #######
+
 
 
 
