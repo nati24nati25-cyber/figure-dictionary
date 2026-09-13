@@ -10,6 +10,7 @@ CATEGORIES = [
     "Sprünge",
     "Pirouetten",
     "Schritte",
+    "Grundelementen",
     "Einzellauf",
     "Paarlauf",
     "Eistanz",
