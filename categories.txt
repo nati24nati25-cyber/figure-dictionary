@@ -68,6 +68,7 @@ Dreifachsprung | Sprünge
 Vierfachsprung | Sprünge
 
 Kantensprung | Sprünge
+Einstichsprung | Sprünge
 
 Axel | Sprünge
 Doppelaxel | Sprünge
