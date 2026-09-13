@@ -210,6 +210,8 @@ Paarlaufpirouettenkombination | Paarlauf
 Hebung | Paarlauf
 Todesspirale | Paarlauf
 
+Walzerschritt | Paarlauf
+
 ####### Paarlauf  #######
 
 
