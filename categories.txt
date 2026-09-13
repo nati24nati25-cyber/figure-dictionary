@@ -172,16 +172,13 @@ Dreier| Schritte
 Fechter | Schritte
 Gegendreier| Schritte
 Gegenwende| Schritte
-Hocke | Schritte
 Laufschritt| Schritte
 Mohawk | Schritte
-Pferdchen | Schritte
-Pistole | Schritte
 Schlagenbogen| Schritte
 Schlinge| Schritte
 Wende | Schritte
 Twizzle | Schritte
-Zitrone| Schritte
+
 
 ####### Schritte  #######
 
