@@ -202,10 +202,16 @@ Kür | Einzellauf
 ####### Paarlauf  #######
 
 Paarlauf | Paarlauf
-Wurfsprung | Paarlauf
+
 Twist | Paarlauf
-Todesspirale | Paarlauf
+Wurfsprung | Paarlauf
+
+Solopirouette | Pirouetten
+Paarlaufpirouette | Pirouetten
+Paarlaufpirouettenkombination | Pirouetten
+
 Hebung | Paarlauf
+Todesspirale | Paarlauf
 
 ####### Paarlauf  #######
 
