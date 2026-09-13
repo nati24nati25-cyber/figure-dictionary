@@ -1,49 +1,54 @@
-# Общее (подходят ко всем дисциплинам)
+###### Allgemein ######
 
-abheben | Общее
-abrollen  | Общее
-Absprung  | Общее
-abspringen  | Общее
-Auftritt | Общее
-ausführen | Общее
-Auslauf | Общее
-аuslaufen | Общее
-auswärts | Общее
-Auswärtsbogen | Общее
-Außenkante | Общее
-beidbeinig | Общее
-bremsen | Общее
-Drehachse | Общее
-Drehung | Общее
-durchführen | Общее
-einbeinig | Общее
-Eingang | Общее
-Einlauf | Общее
-einlaufen | Общее
-einwärts | Общее
-Einwärtsbogen | Общее
-gespreizt | Общее
-gleiten | Общее
-Innenkante | Общее
-Kante | Общее
-Kantenwechsel | Общее
-Kufe | Общее
-Kurzprogramm | Общее
-landen | Общее
-laufen | Общее
-Rotation | Общее
-rückwärts | Общее
-Rückwärtsbogen | Общее
-Spielbein | Общее
-Standbein | Общее
-Storch | Общее
-Sturz | Общее
-stürzen | Общее
-vorwärts | Общее
-Vorwärtsbogen | Общее
-Zahn | Общее
+abheben | Allgemein
+abrollen  | Allgemein
+Absprung  | Allgemein
+abspringen  | Allgemein
+Auftritt | Allgemein
+ausführen | Allgemein
+Auslauf | Allgemein
+аuslaufen |Allgemein
+auswärts | Allgemein
+Auswärtsbogen | Allgemein
+Außenkante | Allgemein
+beidbeinig | Allgemein
+bremsen | Allgemein
+Drehachse | Allgemein
+Drehung | Allgemein
+durchführen | Allgemein
+einbeinig | Allgemein
+Eingang | Allgemein
+Einlauf | Allgemein
+einlaufen | Allgemein
+einwärts | Allgemein
+Einwärtsbogen | Allgemein
+gespreizt | Allgemein
+gleiten | Allgemein
+Innenkante | Allgemein
+Kante | Allgemein
+Kantenwechsel | Allgemein
+Kufe | Allgemein
+Kurzprogramm | Allgemein
+landen | Allgemein
+laufen | Allgemein
+Rotation | Allgemein
+rückwärts | Allgemein
+Rückwärtsbogen | Allgemein
+Spielbein | Allgemein
+Standbein | Allgemein
+Sturz | Allgemein
+stürzen | Allgemein
+vorwärts | Allgemein
+Vorwärtsbogen | Allgemein
+Zahn | Allgemein
+
+###### Allgemein ######
+
+
+
 
 ###### Grundelementen  ######
+
 Hocke | Grundelementen
 Storch | Grundelementen
 Pferdchen | Grundelementen
@@ -51,6 +56,9 @@ Pistole | Grundelementen
 Zitrone | Grundelementen
 
 ###### Grundelementen  ######
+
+
+
 
 ###### Sprünge ######
 Sprung | Sprünge
