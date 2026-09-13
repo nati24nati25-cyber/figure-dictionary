@@ -90,9 +90,7 @@ einfach | Adjektiv | одинарный| Beispiel: Anfangs sprang man nur kleine
 
 Einfachsprung |Substantiv| maskulin, -s, Einfachsprünge | одинарный прыжок | der Einfachsprung | des Einfachsprungs | dem Einfachsprung | den Einfachsprung | die Einfachsprünge | der Einfachsprünge | den Einfachsprüngen | die Einfachsprünge| Beispiel: Durch die Vielseitigkeit in den Einfachsprüngen wird eine Grundlage gesetzt, auf die später zurückgegriffen werden kann und die entscheidend für den LLA sind. |
 
-
 Eingang |Substantiv| maskulin, -s, Eingänge | въезд (во вращение) | der Eingang | des Eingangs | dem Eingang | den Eingang | die Eingänge | der Eingänge | den Eingängen | die Eingänge| Beispiel: Der häufigste Eingang ist das Übersetzen rückwärts, es kann aber auch direkt aus einem Rückwärts-auswärts-Bogen eingelaufen werden oder aus einem Vorwärts-einwärts-Dreier.|
-
 
 eingesprungene Pirouette |Substantiv| feminin, =, -n | прыжок во вращение |die Pirouette | der Pirouette | der Pirouette | die Pirouette | die Pirouetten |  der Pirouetten | den Pirouetten |  die Pirouetten |
 
@@ -174,6 +172,8 @@ Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа 
 
 Kür |Substantiv| feminin, =, -en | произвольная программа |die Kür | der Kür | der Kür| die Kür | die Küren |  der Küren | den Küren |  die Küren | Beschreibung: der zweite, längere und individuellere Teil eines Eiskunstlaufwettbewerbes im Einzellauf|
 
+Kürtanz |Substantiv| maskulin, -es, Kürtänze | произвольный танец |der Kürtanz |des Kürtanzes | dem Kürtanz | den Kürtanz| die Kürtänze| der Kürtänze| den Kürtänzen| die Kürtänze| Beschreibug: Ein frei gestaltetes Programm, bei dem Musik und Thema selbst gewählt werden können (auch mit Gesang).| kürtanz.gif|
+
 landen | schwaches Verb (landete, gelandet)| vi. | приземляться| Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
 
 Landung |Substantiv| feminin, =, -en | приземление |die Landung | der Landung | der Landung| die Landung | die Landungen |  der Landungen | den Landungen |  die Landungen | Beispiel: Mit der Landung auf der Zacke den Fuß zum Auslauf Rra senken.|
@@ -204,6 +204,8 @@ Pirouettenkombination |Substantiv| feminin, =, -en | комбинированн�
 Pistole |Substantiv| feminin, =, -n | пистолетик |die Pistole | der Pistole | der Pistole | die Pistole| die Pistolen|  der Pistolen | den Pistolen |  die Pistolen | Beschreibung: die Lernvoraussetzung für die Sitzpirouette |
 
 Rehsprung |Substantiv| maskulin, -s, Rehsprünge | прыжок олень | der Rehsprung | des Rehsprungs | dem Rehsprung | den Rehsprung | die Rehsprünge | der Rehsprünge | den Rehsprüngen | die Rehsprünge| Beispiel: Bei dem Rehsprung wird das vordere Bein angewinkelt.|
+
+Rhythmustanz |Substantiv| maskulin, -es, Rhythmustänze | ритм-танец |der Rhythmustanz |des Rhythmustanzes | dem Rhythmustanz | den Rhythmustanz| die Rhythmustänze| der Rhythmustänze| den Rhythmustänzen| die Rhythmustänze| Beschreibug: Früher als „Originaltanz“ bekannt. Hier wird ein vom ISU vorgegebener Rhythmus oder ein Thema getanzt, wie Tango, Walzer oder Swing.| rhythmustanz.gif|
 
 Rittberger |Substantiv| maskulin, -s, = | риттбергер | der Rittberger| des Rittbergers| dem Rittberger| den Rittberger | die Rittberger| der Rittberger | den Rittbergern| die Rittberger| Beschreibung: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem man mit einem Fuß abspringt, in der Luft eine Drehung ausführt und mit dem gleichen Fuß wieder aufkommt| Herkunft: nach dem deutschen Eiskunstläufer W. Rittberger| Beispiel: Der Rittberger ist der einzige Sprung, bei dem die Einlaufphase auf beiden Füßen erfolgt.|Rittberger.jpg|
 
