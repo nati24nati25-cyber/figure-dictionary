@@ -211,11 +211,14 @@ Hebung | Paarlauf
 ####### Eistanz  #######
 
 Eistanz | Eistanz
+Rhythmustanz | Eistanz
+Kürtanz | Eistanz
 
 ####### Eistanz  #######
 
 
- 
+
+
 #######  Synchroneiskunstlauf ####### 
 
 Synchroneiskunstlauf | Synchroneiskunstlauf
