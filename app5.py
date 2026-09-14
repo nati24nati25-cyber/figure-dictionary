@@ -1,4 +1,3 @@
-
 import streamlit as st
 import os
 import re
@@ -139,7 +138,10 @@ def find_image_by_word(word, images_dir="images"):
     if not os.path.exists(images_dir):
         return None
     word_lower = word.lower()
-    extensions = ['.gif', '.jpg', '.jpeg', '.png', '.webp']
+    extensions = ['.gif', '.jpg',
+
+
+'.jpeg', '.png', '.webp']
     for ext in extensions:
         candidate = os.path.join(images_dir, word_lower + ext)
         if os.path.exists(candidate):
@@ -226,34 +228,6 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
 
 # ---------- ИНТЕРФЕЙС ----------
 st.set_page_config(page_title="Словарь фигурного катания", layout="wide")
-
-# ↓↓↓ ДОБАВЛЕНО: CSS для выравнивания карточек по высоте ↓↓↓
-st.markdown("""
-<style>
-/* Растягиваем колонки по высоте самой высокой */
-div[data-testid="stHorizontalBlock"] {
-    align-items: stretch;
-}
-/* Заставляем контейнеры внутри колонок занимать всю высоту */
-div[data-testid="stColumn"] > div {
-    height: 100%;
-}
-/* Карточки (container с border) растягиваются */
-div[data-testid="stColumn"] div[data-testid="stVerticalBlockBorderWrapper"] {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-/* Контент карточки распределяется по вертикали */
-div[data-testid="stColumn"] div[data-testid="stVerticalBlockBorderWrapper"] > div {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-</style>
-""", unsafe_allow_html=True)
-# ↑↑↑ КОНЕЦ ДОБАВЛЕННОГО CSS ↑↑↑
-
 st.title("📖 Немецко-русский словарь терминов фигурного катания")
 
 try:
@@ -281,7 +255,10 @@ st.write(f"Показано записей: {len(filtered)}")
 tab_names = ["Все"] + CATEGORIES
 tabs = st.tabs(tab_names)
 
-for tab, cat_name in zip(tabs, tab_names):
+for tab, cat_name in zip(tabs,
+
+
+tab_names):
     with tab:
         if cat_name == "Все":
             cat_entries = filtered
