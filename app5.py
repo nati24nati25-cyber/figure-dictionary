@@ -226,6 +226,34 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
 
 # ---------- ИНТЕРФЕЙС ----------
 st.set_page_config(page_title="Словарь фигурного катания", layout="wide")
+
+# ↓↓↓ ДОБАВЛЕНО: CSS для выравнивания карточек по высоте ↓↓↓
+st.markdown("""
+<style>
+/* Растягиваем колонки по высоте самой высокой */
+div[data-testid="stHorizontalBlock"] {
+    align-items: stretch;
+}
+/* Заставляем контейнеры внутри колонок занимать всю высоту */
+div[data-testid="stColumn"] > div {
+    height: 100%;
+}
+/* Карточки (container с border) растягиваются */
+div[data-testid="stColumn"] div[data-testid="stVerticalBlockBorderWrapper"] {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* Контент карточки распределяется по вертикали */
+div[data-testid="stColumn"] div[data-testid="stVerticalBlockBorderWrapper"] > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+</style>
+""", unsafe_allow_html=True)
+# ↑↑↑ КОНЕЦ ДОБАВЛЕННОГО CSS ↑↑↑
+
 st.title("📖 Немецко-русский словарь терминов фигурного катания")
 
 try:
@@ -268,4 +296,3 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
-
