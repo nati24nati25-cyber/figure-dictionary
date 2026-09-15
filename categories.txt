@@ -33,6 +33,7 @@ laufen | Allgemein
 Rotation | Allgemein
 rückwärts | Allgemein
 Rückwärtsbogen | Allgemein
+schleifen | Allgemein
 Spielbein | Allgemein
 Standbein | Allgemein
 Sturz | Allgemein
