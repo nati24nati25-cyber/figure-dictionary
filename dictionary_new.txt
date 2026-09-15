@@ -168,9 +168,9 @@ Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuze
 
 Kufe |Substantiv| feminin, =, -n | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen | Beispiel: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |
 
-Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа |das Kurzprogramm |des Kurzprogramms| dem Kurzprogramm | das Kurzprogramm | die Kurzprogramme |  der Kurzprogramme | den Kurzprogrammen |  die Kurzprogramme | Beschreibung: der erste Teil eines Eiskunstlaufwettbewerbes im Einzellauf|
+Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа |das Kurzprogramm |des Kurzprogramms| dem Kurzprogramm | das Kurzprogramm | die Kurzprogramme |  der Kurzprogramme | den Kurzprogrammen |  die Kurzprogramme | Beschreibung: der erste Teil eines Eiskunstlaufwettbewerbes im Eiskunstlauf|
 
-Kür |Substantiv| feminin, =, -en | произвольная программа |die Kür | der Kür | der Kür| die Kür | die Küren |  der Küren | den Küren |  die Küren | Beschreibung: der zweite, längere und individuellere Teil eines Eiskunstlaufwettbewerbes im Einzellauf|
+Kür |Substantiv| feminin, =, -en | произвольная программа |die Kür | der Kür | der Kür| die Kür | die Küren |  der Küren | den Küren |  die Küren | Beschreibung: der zweite, längere und individuellere Teil eines Eiskunstlaufwettbewerbes im Eiskunstlauf|
 
 Kürtanz |Substantiv| maskulin, -es, Kürtänze | произвольный танец |der Kürtanz |des Kürtanzes | dem Kürtanz | den Kürtanz| die Kürtänze| der Kürtänze| den Kürtänzen| die Kürtänze| Beschreibung: Ein frei gestaltetes Programm, bei dem Musik und Thema selbst gewählt werden können (auch mit Gesang).| kürtanz.gif|
 
