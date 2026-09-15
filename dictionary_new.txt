@@ -34,7 +34,7 @@ bremsen | schwaches Verb (bremste, hat bremst)| vi. | тормозить| Beispi
 
 Chasséeschritt |Substantiv| maskulin, -e(s), -e | шоссе |der Chasséeschritt |des Chasséeschritts, Chasséeschrittes| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|
 
-Choctaw |Substantiv| maskulin, -s, -s | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws|Beispiel: Der Choctaw wird oft in den Schrittfolgen durchgeführt.|choctaw.jpg|
+Choctaw |Substantiv| maskulin, -s, -s | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws|Beispiel: geschlossener/offener Choctaw  Der Choctaw wird oft in den Schrittfolgen durchgeführt.|choctaw.jpg|
 
 Choreosequenz |Substantiv| feminin, =, -en | хореографическая последовательность |die Choreosequenz | der Choreosequenz | der Choreosequenz | die Choreosequenz | die Choreosequenzen |  der Choreosequenzen | den Choreosequenzen |  die Choreosequenzen | choreosequenz.gif|
 
@@ -180,14 +180,14 @@ landen | schwaches Verb (landete, gelandet)| vi. | приземляться| Bei
 
 Landung |Substantiv| feminin, =, -en | приземление |die Landung | der Landung | der Landung| die Landung | die Landungen |  der Landungen | den Landungen |  die Landungen | Beispiel: Mit der Landung auf der Zacke den Fuß zum Auslauf Rra senken.|
 
-laufen | starkes Verb (lief, ist gelaufen)| vi. | ехать, прокатывать| Beispiel: Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
+laufen | starkes Verb (lief, ist gelaufen)| vi. | ехать, скользить| Beispiel: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
 
 Laufschritt |Substantiv| maskulin, -e(s), -e | елочка |der Laufschritt |des Laufschritts, Laufschrittes| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte|Beispiel: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die 
 Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
 
 Lutz |Substantiv| maskulin, =, = | лутц | der Lutz| des Lutz| dem Lutz| den Lutz | die Lutz| der Lutz | den Lutz| die Lutz| Beschreibung: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem der Läufer bzw. die Läuferin mit der Fußspitze auf den Boden tippt, abspringt, eine bzw. mehrere Drehungen in der Luft entgegen der im Anlauf eingeschlagenen Richtung macht und mit dem anderen Fuß wieder aufkommt | Herkunft: nach dem österreichischen Kunstläufer A. Lutz| Beispiel: Beim Lutz ist der letzte Anlaufschritt auf der rückwärts auswärts Kante des linken Fußes, der Absprung erfolgt von der Zacke des rechten Schuhs. |lutz.jpg|
 
-Mohawk |Substantiv| maskulin, -s, -s | моухок |der Mohawk |des Mohawks| dem Mohawk | den Mohawk| die Mohawks| der Mohawks| den Mohawks| die Mohawks| Beschreibung: Schritt mit halber Drehung, ohne Kantenwechsel, also von Innenkante auf Innenkante oder von Außenkante auf Außenkante| mohawk.jpg|
+Mohawk |Substantiv| maskulin, -s, -s | моухок |der Mohawk |des Mohawks| dem Mohawk | den Mohawk| die Mohawks| der Mohawks| den Mohawks| die Mohawks| Beschreibung: Schritt mit halber Drehung, ohne Kantenwechsel, also von Innenkante auf Innenkante oder von Außenkante auf Außenkante|Beispiel: geschlossener/offener Mohawk|mohawk.jpg|
 
 Mond |Substantiv| maskulin, -s, -e | кораблик |der Mond |des Monds| dem Mond | den Mond| die Monde| der Monde| den Monde| die Monde| Beschreibung: mit auswärts gespreizten Beinen auf den Innen- oder Außenkanten gelaufene halbmondförmige Figur| Beispiel: „Moves in the Field“, deutsch „Bewegungen auf dem Eis”, bestehen aus Kürelementen, die vor allem gutes Eislaufen ausdrücken sollen, und enthalten neben Schritten und Drehungen auch Spiralen, Arabesken, Monde sowie kleine Sprünge. Der Einlauf zum Mond erfolgt z. B. Lve, Arme in Gegenhaltung. |mond.gif|
 
