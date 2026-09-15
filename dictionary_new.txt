@@ -158,6 +158,8 @@ Kombinationsdrehung mit Fußwechsel |Substantiv| feminin, =, -en | комбин�
 
 Kombinationsdrehung ohne Fußwechsel |Substantiv| feminin, =, -en | комбинированное вращение со сменой позиции без смены ноги|
 
+Kombinationsprung |Substantiv| maskulin, -s, Kombinationsprünge | каскад | der Kombinationsprung | des Kombinationsprungs | dem Kombinationsprung | den Kombinationsprung | die Kombinationsprünge | der Kombinationsprünge | den Kombinationsprüngen | die Kombinationsprünge|Beschreibung: eine Abfolge von Sprüngen ohne Zwischenschritte. Beide Partner müssen sie identisch ausführen.|
+
 Kreis |Substantiv| maskulin, -es, -e | круг | der Kreis| des Kreises| dem Kreis| den Kreis | die Kreise| der Kreise | den Kreise| die Kreise| Beispiel: Schrittfolgen, Wandern und Richtungswechsel erhöhen beim Kreis den Schwierigkeitsgrad| kreis.jpg|
 
 kreisinner | Adjektiv | внутри круга|
@@ -196,6 +198,8 @@ Paarlauf |Substantiv| maskulin, -(e)s, Paarläufe | парное катание|
 Paarlaufpirouette |Substantiv| feminin, =, -n | парное вращение |die Paarlaufpirouette | der Paarlaufpirouette | der Paarlaufpirouette | die Paarlaufpirouette | die Paarlaufpirouetten |  der Paarlaufpirouetten | den Paarlaufpirouetten |  die Paarlaufpirouetten |Beschreibung: eine gemeinsame Pirouette, bei der die Partner sich haltend um eine gemeinsame Achse drehen.|Beispiel: Die Paarlaufpirouette hatte nur den geringsten Schwierigkeitsgrad.| paarlaufpirouette.gif|
 
 Paarlaufpirouettenkombination |Substantiv| feminin, =, -en | парное раздельное комбинированное вращение |die Paarlaufpirouettenkombination | der Paarlaufpirouettenkombination | der Paarlaufpirouettenkombination | die Paarlaufpirouettenkombination | die Paarlaufpirouettenkombinationen |  der Paarlaufpirouettenkombinationen | den Paarlaufpirouettenkombinationen |  die Paarlaufpirouettenkombinationen | Beispiel: Eine Paarlaufpirouettenkombination ist mit mindestens einem Positionswechsel und mit mindestens einem Fußwechsel (Stand-, Sitz-, Waagepirouetten und ihre Variationen) durchgeführt.|
+
+Parallelsprung |Substantiv| maskulin, -s, Parallelsprünge | параллельный прыжок | der Parallelsprung | des Parallelsprungs | dem Parallelsprung | den Parallelsprung | die Parallelsprünge | der Parallelsprünge | den Parallelsprüngen | die Parallelsprünge|Beschreibung: beide Partner führen gleichzeitig denselben Sprung aus, versuchen dabei synchron zu landen und den gleichen Abstand zueinander zu halten.|
 
 Pferdchen |Substantiv| neutrum, -s, = | козлик |das Pferdchen |des Pferdchens| dem Pferdchen | das Pferdchen |die Pferdchen |der Pferdchen| den Pferdchen | die Pferdchen|
 
