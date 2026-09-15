@@ -28,7 +28,6 @@ Innenkante | Allgemein
 Kante | Allgemein
 Kantenwechsel | Allgemein
 Kufe | Allgemein
-Kurzprogramm | Allgemein
 landen | Allgemein
 laufen | Allgemein
 Rotation | Allgemein
@@ -155,6 +154,7 @@ Pirouettenkombination | Pirouetten
 
 Paarlaufpirouettenkombination | Pirouetten
 Solopirouette | Pirouetten
+Paarlaufpirouette | Pirouetten
 
 Tanzpirouette | Pirouetten
 
@@ -186,6 +186,7 @@ Twizzle | Schritte
 
 
 
+
 #######  Einzellauf   #######
 
 Einzellauf | Einzellauf
@@ -193,6 +194,7 @@ Kurzprogramm | Einzellauf
 Kür | Einzellauf
 
 #######  Einzellauf   #######
+
 
 
 
@@ -213,7 +215,11 @@ Todesspirale | Paarlauf
 
 Walzerschritt | Paarlauf
 
+Kurzprogramm | Paarlauf
+Kür | Paarlauf
+
 ####### Paarlauf  #######
+
 
 
 
@@ -222,6 +228,8 @@ Walzerschritt | Paarlauf
 Eistanz | Eistanz
 Rhythmustanz | Eistanz
 Kürtanz | Eistanz
+
+Tanzpirouette | Eistanz
 
 ####### Eistanz  #######
 
@@ -236,5 +244,8 @@ Kreis | Synchroneiskunstlauf
 Kreuzen | Synchroneiskunstlauf
 Mühle | Synchroneiskunstlauf
 Linie | Synchroneiskunstlauf
+
+Kurzprogramm | Synchroneiskunstlauf
+Kür | Synchroneiskunstlauf
 
 #######  Synchroneiskunstlauf ####### 
