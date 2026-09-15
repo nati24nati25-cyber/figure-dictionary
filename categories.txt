@@ -106,6 +106,9 @@ Sprungfolge | Sprünge
 Sprungkombination | Sprünge
 Verbindungssprung  | Sprünge
 
+Parallelsprung | Sprünge
+Kombinationsprung | Sprünge
+
 Rehsprung | Sprünge
 Jetésprung | Sprünge
 Walley | Sprünge
@@ -202,6 +205,9 @@ Kür | Einzellauf
 ####### Paarlauf  #######
 
 Paarlauf | Paarlauf
+
+Parallelsprung | Paarlauf
+Kombinationsprung | Paarlauf
 
 Twist | Paarlauf
 Wurfsprung | Paarlauf
