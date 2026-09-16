@@ -2,11 +2,9 @@
 
 abheben | Allgemein
 abrollen  | Allgemein
-Absprung  | Allgemein
 abspringen  | Allgemein
 Auftritt | Allgemein
 ausführen | Allgemein
-Auslauf | Allgemein
 аuslaufen |Allgemein
 auswärts | Allgemein
 Auswärtsbogen | Allgemein
@@ -113,6 +111,12 @@ Kombinationsprung | Sprünge
 Rehsprung | Sprünge
 Jetésprung | Sprünge
 Walley | Sprünge
+
+Einlauf | Sprünge
+Absprung  | Sprünge
+Flugphase | Sprünge
+Landung | Sprünge
+Auslauf | Sprünge
 
 einfach | Sprünge
 doppelt | Sprünge
