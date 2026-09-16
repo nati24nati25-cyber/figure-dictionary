@@ -124,6 +124,8 @@ Flieger |Substantiv| maskulin, -s, = | ласточка |der Flieger |des Fliege
 
 Flip |Substantiv| maskulin, -s, -s | флип |der Flip |des Flips | dem Flip | den Flip| die Flips| der Flips| den Flips| die Flips| Beschreibung: nach dem Entstehen mit der Zacke des Schlittschuhs ausgeführter Sprung mit einer vollen Drehung und Landung auf demselben Bein, mit dem abgesprungen wurde| Beispiel: Beim Flip tippt der rechte Fuß in das Eis während sich der andere auf der Innenkante befindet. Das bedeutet, die Anlaufrichtung hat einen Bogen entgegen der Drehrichtung des Sprungs, was diesen Sprung schwerer als den ansonsten gleich ausgeführten Flip macht.|
 
+Flugphase |Substantiv| feminin, =, -en | фаза полета | die Flugphase | der Flugphase | der Flugphase | die Flugphase | die Flugphasen |  der Flugphasen | den Flugphasen |  die Flugphasen| Beispiel: die Flugphase beginnt mit einer halben Extra-Drehung.|
+
 Gegendreier |Substantiv| maskulin, -s, = | скобка | der Gegendreier | des Gegendreiers | dem Gegendreier | den Gegendreier | die Gegendreier | der Gegendreier | den Gegendreiern | die Gegendreier |Beispiel: Der Gegendreier ist eine klassische Pflichtfigur, die auch heute noch als schwieriges Schrittelement in Schrittfolgen anerkannt ist.| gegendreier.jpg|
 
 Gegenwende |Substantiv| feminin, =, -en | выкрюк |die Gegenwende | der Gegenwende | der Gegenwende | die Gegenwende | die Gegenwenden |  der Gegenwenden | den Gegenwenden |  die Gegenwenden| Beschreibung: Pflichtfigur beim Eiskunstlauf, bei der drei Kreise in gleichmäßigem Tempo ohne Kantenwechsel gelaufen werden müssen| gegenwende.jpg|
