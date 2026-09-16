@@ -166,7 +166,7 @@ kreisinner | Adjektiv | внутри круга|
 
 kreisäußer | Adjektiv | вне круга|
 
-Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | Beschreibung: Schritte, Spiralvarianten oder Sprünge beim Kreuzen erhöhen den Schwierigkeitsgrad|
+Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | Beispiel: Schritte, Spiralvarianten oder Sprünge beim Kreuzen erhöhen den Schwierigkeitsgrad|
 
 Kufe |Substantiv| feminin, =, -n | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen | Beispiel: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |
 
@@ -263,7 +263,7 @@ Sturz |Substantiv| maskulin, -es, Stürze | падение | der Sturz | des Stu
 
 stürzen | schwaches Verb (stürzte, gestürzt)| vi. | падать| Beispiel: Sie stürzte mehrfach auf dem Eis und brach anschließend in Tränen aus.|
 
-Synchroneiskunstlauf |Substantiv| maskulin, -(e)s, Synchroneiskunstläufe | синхронное катание | der Synchroneiskunstlauf| des Synchroneiskunstlaufs, Synchroneiskunstlaufes| dem Synchroneiskunstlauf| den Synchroneiskunstlauf| die Synchroneiskunstläufe | der Synchroneiskunstläufe | den Synchroneiskunstläufen | die Synchroneiskunstläufe | synchroneiskunstlauf.jpg|
+Synchroneiskunstlauf |Substantiv| maskulin, -(e)s, Synchroneiskunstläufe | синхронное катание | der Synchroneiskunstlauf| des Synchroneiskunstlaufs, Synchroneiskunstlaufes| dem Synchroneiskunstlauf| den Synchroneiskunstlauf| die Synchroneiskunstläufe | der Synchroneiskunstläufe | den Synchroneiskunstläufen | die Synchroneiskunstläufe |Beschreibung: eine Teamdisziplin des Eiskunstlaufs, bei der eine Gruppe von Sportlern (traditionell 16 Personen, bei den Olympischen Spielen 2030 jedoch 9) Elemente maximal synchron ausführt und sich dabei wie eine Einheit bewegt.| synchroneiskunstlauf.jpg|
 
 Tanzhebung |Substantiv| feminin, =, -en |  танцевальная поддержка |die Tanzhebung | der Tanzhebung | der Tanzhebung | die Tanzhebung | die Tanzhebungen |  der Tanzhebungen | den Tanzhebungen |  die Tanzhebungen | Beispiel: Die Tanzfigur ersetzt die Tanzhebung im Solo-Eistanz.| tanzhebung.gif|
 
