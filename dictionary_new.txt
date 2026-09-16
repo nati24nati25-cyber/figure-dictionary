@@ -88,7 +88,7 @@ einbeinig | Adverb | на одной ноге| Beispiel: Schwieriger ist das Bre
 
 einfach | Adjektiv | одинарный| Beispiel: Anfangs sprang man nur kleine Sprünge mit einfacher Drehung. Einlauf und Absprung, Landung und Auslauf beim einfachen Salchow z. B. sehen genauso aus wie beim vierfachen.|
 
-Einfachsprung |Substantiv| maskulin, -s, Einfachsprünge | одинарный прыжок | der Einfachsprung | des Einfachsprungs | dem Einfachsprung | den Einfachsprung | die Einfachsprünge | der Einfachsprünge | den Einfachsprüngen | die Einfachsprünge| Beispiel: Durch die Vielseitigkeit in den Einfachsprüngen wird eine Grundlage gesetzt, auf die später zurückgegriffen werden kann und die entscheidend für den LLA sind. |
+Einfachsprung |Substantiv| maskulin, -s, Einfachsprünge | одинарный прыжок | der Einfachsprung | des Einfachsprungs | dem Einfachsprung | den Einfachsprung | die Einfachsprünge | der Einfachsprünge | den Einfachsprüngen | die Einfachsprünge|Beschreibung: ein Sprung mit einer einzigen Umdrehung (360°).| Beispiel: Durch die Vielseitigkeit in den Einfachsprüngen wird eine Grundlage gesetzt, auf die später zurückgegriffen werden kann und die entscheidend für den LLA sind. |
 
 Eingang |Substantiv| maskulin, -s, Eingänge | въезд (во вращение) | der Eingang | des Eingangs | dem Eingang | den Eingang | die Eingänge | der Eingänge | den Eingängen | die Eingänge| Beispiel: Der häufigste Eingang ist das Übersetzen rückwärts, es kann aber auch direkt aus einem Rückwärts-auswärts-Bogen eingelaufen werden oder aus einem Vorwärts-einwärts-Dreier.|
 
@@ -110,7 +110,7 @@ einwärts | Adverb | внутрь (на внутреннее ребро)| Beispi
 
 Einwärtsbogen |Substantiv| maskulin, -s, = | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbogen| der Einwärtsbogen| den Einwärtsbogen| die Einwärtsbogen|
  
-Einzellauf |Substantiv| maskulin, -(e)s, Einzelläufe | одиночное катание |der Einzellauf |des Einzellaufs, Einzellaufes| dem Einzellauf | den Einzellauf| die Einzelläufe| der Einzelläufe| den Einzelläufen| die Einzelläufe| Beschreibung: Lauf eines einzelnen, einzeln gewerteten Sportlers| einzellauf.gif|
+Einzellauf |Substantiv| maskulin, -(e)s, Einzelläufe | одиночное катание |der Einzellauf |des Einzellaufs, Einzellaufes| dem Einzellauf | den Einzellauf| die Einzelläufe| der Einzelläufe| den Einzelläufen| die Einzelläufe| Beschreibung: die älteste und grundlegendste Disziplin des Eiskunstlaufs. Ein einzelner Sportler – Frau oder Mann – tritt allein auf dem Eis auf und kombiniert technische Elemente mit künstlerischem Ausdruck.| einzellauf.gif|
 
 Einzelsprung |Substantiv| maskulin, -s, Einzelsprünge | одиночный прыжок | der Einzelsprung | des Einzelsprungs | dem Einzelsprung | den Einzelsprung | die Einzelsprünge | der Einzelsprünge | den Einzelsprüngen | die Einzelsprünge| Beispiel: Fast alle Elemente waren perfekt ausgeführt, einzig beim Einzelsprung, dem dreifachen Toeloop, musste Alisa Efimova zu Boden gehen |
 
@@ -193,7 +193,7 @@ Mond |Substantiv| maskulin, -s, -e | кораблик |der Mond |des Monds| dem 
 
 Mühle |Substantiv| feminin, =, -n | колесо |die Mühle | der Mühle | der Mühle| die Mühle | die Mühlen |  der Mühlen | den Mühlen |  die Mühlen | Beispiel: Bei der Mühle läuft eine oder laufen mehrere Reihen um einen Punkt auf der Eisfläche.| mühle.jpg|
 
-Paarlauf |Substantiv| maskulin, -(e)s, Paarläufe | парное катание| der Paarlauf| des Paarlaufs, Paarlaufes| dem Paarlauf| den Paarlauf| die Paarläufe | der Paarläufe | den Paarläufen | die Paarläufe| paarlauf.gif|
+Paarlauf |Substantiv| maskulin, -(e)s, Paarläufe | парное катание| der Paarlauf| des Paarlaufs, Paarlaufes| dem Paarlauf| den Paarlauf| die Paarläufe | der Paarläufe | den Paarläufen | die Paarläufe|Beschreibung: eine Disziplin des Eiskunstlaufs, bei der ein Mann und eine Frau gemeinsam als Team auf dem Eis auftreten.| paarlauf.gif|
 
 Paarlaufpirouette |Substantiv| feminin, =, -n | парное вращение |die Paarlaufpirouette | der Paarlaufpirouette | der Paarlaufpirouette | die Paarlaufpirouette | die Paarlaufpirouetten |  der Paarlaufpirouetten | den Paarlaufpirouetten |  die Paarlaufpirouetten |Beschreibung: eine gemeinsame Pirouette, bei der die Partner sich haltend um eine gemeinsame Achse drehen.|Beispiel: Die Paarlaufpirouette hatte nur den geringsten Schwierigkeitsgrad.| paarlaufpirouette.gif|
 
@@ -247,9 +247,9 @@ Spirale |Substantiv| feminin, =, -en | спираль |die Spirale | der Spirale
 
 Spreizsprung |Substantiv| maskulin, -s, Spreizsprünge | прыжок в шпагат | der Spreizsprung | des Spreizsprungs | dem Spreizsprung | den Spreizsprung | die Spreizsprünge | der Spreizsprünge | den Spreizsprüngen | die Spreizsprünge| Beispiel: Bei einigen Sprüngen, z. B. beim Spreizsprung oder dem Toeloop, drückt man sich von der großen oberen Zacke ab, bei allen Sprüngen aber bremst man den Schwung durch kurzes Landen auf dieser Zacke und rollt dann sofort rückwärts auf der Außenkante ab.| spreizsprung.gif|
 
-Sprung |Substantiv| maskulin, -s, Sprünge | прыжок | der Sprung | des Sprungs | dem Sprung | den Sprung | die Sprünge | der Sprünge | den Sprüngen | die Sprünge| 
+Sprung |Substantiv| maskulin, -s, Sprünge | прыжок | der Sprung | des Sprungs | dem Sprung | den Sprung | die Sprünge | der Sprünge | den Sprüngen | die Sprünge| Beispiel:  relativ leichter Sprung|
 
-Sprungfolge |Substantiv| feminin, =, -n | последовательность прыжков со сменой ноги или ребра |die Sprungfolge | der Sprungfolge | der Sprungfolge | die Sprungfolge | die Sprungfolgen |  der Sprungfolgen | den Sprungfolgen |  die Sprungfolgen | Beispiel: Folge von Sprüngen mit Zwischenschritten zwischen den Sprüngen|
+Sprungfolge |Substantiv| feminin, =, -n | последовательность прыжков со сменой ноги или ребра |die Sprungfolge | der Sprungfolge | der Sprungfolge | die Sprungfolge | die Sprungfolgen |  der Sprungfolgen | den Sprungfolgen |  die Sprungfolgen | Beschreibung: Folge von Sprüngen mit Zwischenschritten zwischen den Sprüngen|
 
 Sprungkombination |Substantiv| feminin, =, -n | каскад |die Sprungkombination | der Sprungkombination | der Sprungkombination | die Sprungkombination | die Sprungkombinationen |  der Sprungkombinationen | den Sprungkombinationen |  die Sprungkombinationen | Beschreibung: Folge von Sprüngen, wobei das Landebein des ersten Sprungs das unmittelbare Absprungbein des nächsten Sprunges ist| Beispiel: Eine Sprungkombination ist eine Aneinanderreihung von Sprüngen ohne Zwischenschritt. Bei Sprungkombinationen kann daher der zweite Sprung von den o.g. 6 Grundsprüngen nur ein Toeloop oder Rittberger sein, da die Landung des ersten Sprungs rückwärts auswärts auf dem rechten Fuß ist.| sprungkombination.gif|
 
