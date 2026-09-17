@@ -171,7 +171,7 @@ Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuze
 
 Kufe |Substantiv| feminin, =, -n | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen | Beispiel: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |
 
-Kunststoffschoner |Substantiv| maskulin, -s, = | чехол для лезвия |der Kunststoffschoner | des Kunststoffschoners | dem Kunststoffschoner | den Kunststoffschoner | die Kunststoffschoner |  der Kunststoffschoner | den Kunststoffschoner |  die Kunststoffschoner |Beschreibung: harte Schutzhüllen für alle Schutzüberzieher, die man auf die Kufen steckt. |Beispiel: die Kufenschoner werden benötigt, um die Kufen beim Laufen abseits der Eisfläche zu schützen.|kunststoffschoner.jpg|
+Kunststoffschoner |Substantiv| maskulin, -s, = | чехол для лезвия |der Kunststoffschoner | des Kunststoffschoners | dem Kunststoffschoner | den Kunststoffschoner | die Kunststoffschoner |  der Kunststoffschoner | den Kunststoffschoner |  die Kunststoffschoner |Beschreibung: harte Schutzhüllen für alle Schutzüberzieher, die man auf die Kufen steckt. |Beispiel: die Kufenschoner werden benötigt, um die Kufen beim Laufen abseits der Eisfläche zu schützen.|kunststoffschoner.webp|
 
 Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа |das Kurzprogramm |des Kurzprogramms| dem Kurzprogramm | das Kurzprogramm | die Kurzprogramme |  der Kurzprogramme | den Kurzprogrammen |  die Kurzprogramme | Beschreibung: der erste Teil eines Eiskunstlaufwettbewerbes im Eiskunstlauf|
 
@@ -246,7 +246,7 @@ Spagatpirouette |Substantiv| feminin, =, -n | затяжка |die Spagatpirouett
 
 Spielbein |Substantiv| neutrum, –e(s), е | маховая нога |das Spielbein |des Spielbeins, Spielbeines| dem Spielbein | das Spielbein |die Spielbeine |der Spielbeine | den Spielbeine | die Spielbeine| Beispiel: Er ist ein schwungvoll gelaufener Auswärtsbogen, bei dem das Spielbein dicht am Standbein vorbei gleichmäßig durchgezogen wird, von hinten nach vorne und wieder zurück.|
 
-Spinner |Substantiv| maskulin, -s, = | спиннер |der Spinner | des Spinners | dem Spinner | den Spinner | die Spinner |  der Spinner | den Spinner |  die Spinner |Beschreibung: ein Off-Ice-Trainingsgerät zur Rotation, das speziell zum Üben von Drehungen und Pirouetten abseits des Eises verwendet wird. |Beispiel: Die Spinner sind ideal zum Üben oder zur Erwärmung beim Wettkampf.|kunststoffschoner.jpg|
+Spinner |Substantiv| maskulin, -s, = | спиннер |der Spinner | des Spinners | dem Spinner | den Spinner | die Spinner |  der Spinner | den Spinner |  die Spinner |Beschreibung: ein Off-Ice-Trainingsgerät zur Rotation, das speziell zum Üben von Drehungen und Pirouetten abseits des Eises verwendet wird. |Beispiel: Die Spinner sind ideal zum Üben oder zur Erwärmung beim Wettkampf.|kunststoffschoner.webp|
 
 Spirale |Substantiv| feminin, =, -en | спираль |die Spirale | der Spirale | der Spirale | die Spirale | die Spiralen |  der Spiralen | den Spiralen |  die Spiralen | Beispiel: Wird der Flieger auf der Innen- oder Außenkante, also im Bogen, ausgeführt, wird er zur „Spirale“. Spiralenschrittfolgen sind eine Aneinanderreihung von Spiralen verschiedenster Ausführung.|
 
@@ -262,7 +262,7 @@ Standbein |Substantiv| neutrum, -e(s), -e | опорная нога |das Standbe
 
 Standpirouette |Substantiv| feminin, =, -n | вращение стоя |die Standpirouette | der Standpirouette | der Standpirouette | die Standpirouette | die Standpirouetten |  der Standpirouetten | den Standpirouetten |  die Standpirouetten | Beispiel: Wird die Drehung langsamer, richtet man den Oberkörper auf und geht in eine einbeinige Standpirouette über, dreht noch einige Male weiter und läuft wie üblich aus.| standpirouette.gif|
 
-Stoffschoner |Substantiv| maskulin, -s, = | мягкий чехол для лезвия |der Stoffschoner | des Stoffschoners | dem Stoffschoner | den Stoffschoner | die Stoffschoner |  der Stoffschoner | den Stoffschoner |  die Stoffschoner |Beschreibung: weiche Schutzhüllen aus Stoff, die man nach dem Eislaufen über die Kufen zieht.|Beispiel: Kufe nach dem Laufen trocken wischen, dann Stoffschoner drauf.|stoffschoner.jpg|
+Stoffschoner |Substantiv| maskulin, -s, = | мягкий чехол для лезвия |der Stoffschoner | des Stoffschoners | dem Stoffschoner | den Stoffschoner | die Stoffschoner |  der Stoffschoner | den Stoffschoner |  die Stoffschoner |Beschreibung: weiche Schutzhüllen aus Stoff, die man nach dem Eislaufen über die Kufen zieht.|Beispiel: Kufe nach dem Laufen trocken wischen, dann Stoffschoner drauf.|stoffschoner.webp|
 
 Storch |Substantiv| maskulin, -s; Störche | цапелька| der Storch | des Storchs | dem Storch | den Storch | die Störche | der Störche | den Störchen | die Störche| Beispiel: Vorher müssen sie durch fleißiges Training ein Eisgefühl bekommen, müssen dazu Übungen wie die Hocke oder den Storch nutzen.|
 
