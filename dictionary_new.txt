@@ -171,6 +171,8 @@ Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuze
 
 Kufe |Substantiv| feminin, =, -n | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen | Beispiel: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |
 
+Kunststoffschoner |Substantiv| maskulin, -s, = | чехол для лезвия |der Kunststoffschoner | des Kunststoffschoners | dem Kunststoffschoner | den Kunststoffschoner | die Kunststoffschoner |  der Kunststoffschoner | den Kunststoffschoner |  die Kunststoffschoner |Beschreibung: harte Schutzhüllen für alle Schutzüberzieher, die man auf die Kufen steckt. |Beispiel: die Kufenschoner werden benötigt, um die Kufen beim Laufen abseits der Eisfläche zu schützen.|kunststoffschoner.jpg|
+
 Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа |das Kurzprogramm |des Kurzprogramms| dem Kurzprogramm | das Kurzprogramm | die Kurzprogramme |  der Kurzprogramme | den Kurzprogrammen |  die Kurzprogramme | Beschreibung: der erste Teil eines Eiskunstlaufwettbewerbes im Eiskunstlauf|
 
 Kür |Substantiv| feminin, =, -en | произвольная программа |die Kür | der Kür | der Kür| die Kür | die Küren |  der Küren | den Küren |  die Küren | Beschreibung: der zweite, längere und individuellere Teil eines Eiskunstlaufwettbewerbes im Eiskunstlauf|
@@ -234,7 +236,7 @@ Schraubenpirouette |Substantiv| feminin, =, -n | винт |die Schraubenpirouett
 
 Schritt |Substantiv| maskulin, -e(s), -e | шаг |der Schritt |des Schritts, Schrittes| dem Schritt | den Schritt| die Schritte| der Schritte| den Schritten| die Schritte|Beispiel: Nur so ist es dem Läufer möglich Geschwindigkeit während seiner Schritte ohne Abstöße zu generieren und die geforderten Kanten präzise, klar und tief zu laufen. |
 
-Schrittfolge |Substantiv| feminin, =, -n | дорожка шагов |die Schrittfolge | der Schrittfolge | der Schrittfolge | die Schrittfolge | die Schrittfolgen |  der Schrittfolgen | den Schrittfolgen |  die Schrittfolgen | Beispiel: Die bewegungsrelevanten Systeme (Auge, Innenohr und Propriozeption) spielen eine übergeordnete Rolle für das erfolgreiche Landen eines Sprungs, den erfolgreichen Ausgang aus einer Pirouette oder das saubere Laufen einer Schrittfolge. |
+Schrittfolge |Substantiv| feminin, =, -n | дорожка шагов |die Schrittfolge | der Schrittfolge | der Schrittfolge | die Schrittfolge | die Schrittfolgen |  der Schrittfolgen | den Schrittfolgen |  die Schrittfolgen | Beispiel: Die bewegungsrelevanten Systeme (Auge, Innenohr und Propriozeption) spielen eine übergeordnete Rolle für das erfolgreiche Landen eines Sprungs, den erfolgreichen Ausgang aus einer Pirouette oder das saubere Laufen einer Schrittfolge.|
 
 Sitzpirouette |Substantiv| feminin, =, -n | волчок |die Sitzpirouette | der Sitzpirouette | der Sitzpirouette | die Sitzpirouette | die Sitzpirouetten |  der Sitzpirouetten | den Sitzpirouetten |  die Sitzpirouetten | Beispiel: Bei der Sitzpirouette darf die Hüfte nicht höher als das Knie des Standbeins sein.| sitzpirouette.gif|
 
@@ -244,19 +246,23 @@ Spagatpirouette |Substantiv| feminin, =, -n | затяжка |die Spagatpirouett
 
 Spielbein |Substantiv| neutrum, –e(s), е | маховая нога |das Spielbein |des Spielbeins, Spielbeines| dem Spielbein | das Spielbein |die Spielbeine |der Spielbeine | den Spielbeine | die Spielbeine| Beispiel: Er ist ein schwungvoll gelaufener Auswärtsbogen, bei dem das Spielbein dicht am Standbein vorbei gleichmäßig durchgezogen wird, von hinten nach vorne und wieder zurück.|
 
+Spinner |Substantiv| maskulin, -s, = | спиннер |der Spinner | des Spinners | dem Spinner | den Spinner | die Spinner |  der Spinner | den Spinner |  die Spinner |Beschreibung: ein Off-Ice-Trainingsgerät zur Rotation, das speziell zum Üben von Drehungen und Pirouetten abseits des Eises verwendet wird. |Beispiel: Die Spinner sind ideal zum Üben oder zur Erwärmung beim Wettkampf.|kunststoffschoner.jpg|
+
 Spirale |Substantiv| feminin, =, -en | спираль |die Spirale | der Spirale | der Spirale | die Spirale | die Spiralen |  der Spiralen | den Spiralen |  die Spiralen | Beispiel: Wird der Flieger auf der Innen- oder Außenkante, also im Bogen, ausgeführt, wird er zur „Spirale“. Spiralenschrittfolgen sind eine Aneinanderreihung von Spiralen verschiedenster Ausführung.|
 
 Spreizsprung |Substantiv| maskulin, -s, Spreizsprünge | прыжок в шпагат | der Spreizsprung | des Spreizsprungs | dem Spreizsprung | den Spreizsprung | die Spreizsprünge | der Spreizsprünge | den Spreizsprüngen | die Spreizsprünge| Beispiel: Bei einigen Sprüngen, z. B. beim Spreizsprung oder dem Toeloop, drückt man sich von der großen oberen Zacke ab, bei allen Sprüngen aber bremst man den Schwung durch kurzes Landen auf dieser Zacke und rollt dann sofort rückwärts auf der Außenkante ab.| spreizsprung.gif|
 
 Sprung |Substantiv| maskulin, -s, Sprünge | прыжок | der Sprung | des Sprungs | dem Sprung | den Sprung | die Sprünge | der Sprünge | den Sprüngen | die Sprünge| Beispiel:  relativ leichter Sprung|
 
-Sprungfolge |Substantiv| feminin, =, -n | последовательность прыжков со сменой ноги или ребра |die Sprungfolge | der Sprungfolge | der Sprungfolge | die Sprungfolge | die Sprungfolgen |  der Sprungfolgen | den Sprungfolgen |  die Sprungfolgen | Beschreibung: Folge von Sprüngen mit Zwischenschritten zwischen den Sprüngen|
+Sprungfolge |Substantiv| feminin, =, -n | последовательность прыжков со сменой ноги или ребра |die Sprungfolge | der Sprungfolge | der Sprungfolge | die Sprungfolge | die Sprungfolgen |  der Sprungfolgen | den Sprungfolgen |  die Sprungfolgen | Beschreibung: Folge von Sprüngen mit Zwischenschritten zwischen den Sprüngen.|
 
 Sprungkombination |Substantiv| feminin, =, -n | каскад |die Sprungkombination | der Sprungkombination | der Sprungkombination | die Sprungkombination | die Sprungkombinationen |  der Sprungkombinationen | den Sprungkombinationen |  die Sprungkombinationen | Beschreibung: Folge von Sprüngen, wobei das Landebein des ersten Sprungs das unmittelbare Absprungbein des nächsten Sprunges ist| Beispiel: Eine Sprungkombination ist eine Aneinanderreihung von Sprüngen ohne Zwischenschritt. Bei Sprungkombinationen kann daher der zweite Sprung von den o.g. 6 Grundsprüngen nur ein Toeloop oder Rittberger sein, da die Landung des ersten Sprungs rückwärts auswärts auf dem rechten Fuß ist.| sprungkombination.gif|
 
 Standbein |Substantiv| neutrum, -e(s), -e | опорная нога |das Standbein |des Standbeins, Standbeines| dem Standbein | das Standbein |die Standbeine |der Standbeine | den Standbeine | die Standbeine| Beispiel: Das linke Bein drückt sich von der Außenkante ab und schiebt das Gewicht vorwärts auf das neue, gut gebeugte Standbein.|
 
 Standpirouette |Substantiv| feminin, =, -n | вращение стоя |die Standpirouette | der Standpirouette | der Standpirouette | die Standpirouette | die Standpirouetten |  der Standpirouetten | den Standpirouetten |  die Standpirouetten | Beispiel: Wird die Drehung langsamer, richtet man den Oberkörper auf und geht in eine einbeinige Standpirouette über, dreht noch einige Male weiter und läuft wie üblich aus.| standpirouette.gif|
+
+Stoffschoner |Substantiv| maskulin, -s, = | мягкий чехол для лезвия |der Stoffschoner | des Stoffschoners | dem Stoffschoner | den Stoffschoner | die Stoffschoner |  der Stoffschoner | den Stoffschoner |  die Stoffschoner |Beschreibung: weiche Schutzhüllen aus Stoff, die man nach dem Eislaufen über die Kufen zieht.|Beispiel: Kufe nach dem Laufen trocken wischen, dann Stoffschoner drauf.|stoffschoner.jpg|
 
 Storch |Substantiv| maskulin, -s; Störche | цапелька| der Storch | des Storchs | dem Storch | den Storch | die Störche | der Störche | den Störchen | die Störche| Beispiel: Vorher müssen sie durch fleißiges Training ein Eisgefühl bekommen, müssen dazu Übungen wie die Hocke oder den Storch nutzen.|
 
