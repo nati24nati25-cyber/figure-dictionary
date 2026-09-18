@@ -10,6 +10,9 @@ Auftritt |Substantiv| maskulin, –(e)s, -e | выступление, прока
 
 ausführen |schwaches Verb (führte aus, hat ausgeführt)| vt. trennbar| выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung ausgeführt.|
 
+Ausführungsqualität |Substantiv| feminin, =, -en | качество исполнения |die Ausführungsqualität | der Ausführungsqualität | der Ausführungsqualität | die Ausführungsqualität | die Ausführungsqualitäten |  der Ausführungsqualitäten | den Ausführungsqualitäten |  die Ausführungsqualitäten |Beschreibung: Bewertung der Qualität pro Element. Wertebereich: −5 bis +5. Beispiel: Die Ausführungsqualität senkt oder erhöht den Wert des Elements.|
+
+
 Auslauf |Substantiv| maskulin, -s, Ausläufe | выезд | der Auslauf| des Auslaufs| dem Auslauf| den Auslauf| die Ausläufe | der Ausläufe | den Ausläufen | die Ausläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.| auslauf.gif|
 
 аuslaufen | starkes Verb (lief aus, ist ausgelaufen)| vi. trennbar| выезжать, делать выезд| Beispiel: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
@@ -285,6 +288,8 @@ Twist |Substantiv| maskulin, -s, -s | подкрутка | der Twist | des Twist
 Twizzle |Substantiv| maskulin, -s, -s |  твизл | der Twizzle| des Twizzles| dem Twizzle| den Twizzle| die Twizzles| der Twizzles| der Twizzles| die Twizzles | Beschreibung: eine Abfolge von sehr schnell hintereinander ausgeführten Dreiern| Beispiel: Durch die ununterbrochene Drehung unterscheidet sich der Twizzle von einer bloßen Aneinanderreihung von Dreiern.|
 
 Twizzlesequenz |Substantiv| feminin, =, -en  | серия твизлов |die Twizzlesequenz | der Twizzlesequenz | der Twizzlesequenz | die Twizzlesequenz | die Twizzlesequenzen |  der Twizzlesequenzen | den Twizzlesequenzen |  die Twizzlesequenzen | twizzlesequenz.gif|
+
+Unterrotation |Substantiv| feminin, =, -en | недокрут |die Unterrotation | der Unterrotation | der Unterrotation | die Unterrotation | die Unterrotationen |  der Unterrotationen | den Unterrotationen |  die Unterrotationen |Beschreibung: nicht volle Rotation im Sprung; die fehlende Drehung wird erst beim Landen ausgeglichen. |Beispiel: Der Sprung wurde wegen Unterrotation heruntergewertet.|
 
 unterrotiert | Adjektiv | недокрученный (прыжок)| Beispiel: Der Technische Spezialist bewertete den Sprung als unterrotiert.| 
 
