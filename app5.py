@@ -231,20 +231,21 @@ def show_card(entry, images_dir="images", links_data=None):
                     rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
                     st.markdown("| падеж | ед.ч. | мн.ч. |\n|-------|-------|-------|\n" + "\n".join(rows))
 
-        # Картинка / GIF
-        img_path = None
-        if image_name:
-            candidate = os.path.join(images_dir, image_name)
-            if os.path.exists(candidate):
-                img_path = candidate
-        if img_path is None:
-            img_path = find_image_by_word(word, images_dir)
+        # Картинка / GIF (у аббревиатур не показываем)
+        if not abbr:
+            img_path = None
+            if image_name:
+                candidate = os.path.join(images_dir, image_name)
+                if os.path.exists(candidate):
+                    img_path = candidate
+            if img_path is None:
+                img_path = find_image_by_word(word, images_dir)
 
-        if img_path:
-            if img_path.lower().endswith('.gif'):
-                show_gif(img_path, width=150)
-            else:
-                st.image(img_path, width=150)
+            if img_path:
+                if img_path.lower().endswith('.gif'):
+                    show_gif(img_path, width=150)
+                else:
+                    st.image(img_path, width=150)
 
         # Ссылки
         if links_data:
