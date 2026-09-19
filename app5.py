@@ -14,6 +14,7 @@ CATEGORIES = [
     "Paarlauf",
     "Eistanz",
     "Synchroneiskunstlauf",
+    "Abkürzungen",
 ]
 
 # ---------- ПАРСЕР СЛОВАРЯ ----------
