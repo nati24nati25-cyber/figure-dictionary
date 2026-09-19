@@ -270,27 +270,29 @@ Kür | Synchroneiskunstlauf
 
 
 
-####### Abkürzungen ####### 
-a. | auswärts| Abkürzungen
-A. | Axel| Abkürzungen
-CCoSP. | Pirouettenkombination mit Positions- und Fußwechsel| Abkürzungen
-CoSp | Pirouettenkombination mit Positionswechsel| Abkürzungen
-CUSp | Pirouette mit einem Fußwechsel| Abkürzungen
-CSp. | Waagepirouette| Abkürzungen
-e. | einwärts| Abkürzungen
-Eu. | Euler| Abkürzungen
-F. | Flip| Abkürzungen
-FSp. | eingesprungene Pirouette| Abkürzungen
-ISU | Die Internationale Eislaufunion| Abkürzungen
-L. | links| Abkürzungen
-Lo. | Rittberger| Abkürzungen
-LSp | Himmelspirouette| Abkürzungen
-Lz. | Lutz| Abkürzungen
-R. | rechts| Abkürzungen
-r. | rückwärts| Abkürzungen
-S. | Salchow| Abkürzungen
-SF. | Schrittfolge| Abkürzungen
-SSp. | Sitzpirouette| Abkürzungen
+####### Abkürzungen #######
+
+
+a. - auswärts| Abkürzungen
+A. - Axel| Abkürzungen
+CCoSP. - Pirouettenkombination mit Positions- und Fußwechsel| Abkürzungen
+CoSp. - Pirouettenkombination mit Positionswechsel| Abkürzungen
+CUSp. - Pirouette mit einem Fußwechsel| Abkürzungen
+CSp. - Waagepirouette| Abkürzungen
+e. - einwärts| Abkürzungen
+Eu. - Euler| Abkürzungen
+F. - Flip| Abkürzungen
+FSp. - eingesprungene Pirouette| Abkürzungen
+ISU - Die Internationale Eislaufunion| Abkürzungen
+L. - links| Abkürzungen
+Lo. - Rittberger| Abkürzungen
+LSp. - Himmelspirouette| Abkürzungen
+Lz. - Lutz| Abkürzungen
+R. - rechts| Abkürzungen
+r. - rückwärts| Abkürzungen
+S. - Salchow| Abkürzungen
+SF. - Schrittfolge| Abkürzungen
+SSp. - Sitzpirouette| Abkürzungen
 
 ####### Abkürzungen ####### 
 
