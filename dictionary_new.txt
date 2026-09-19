@@ -349,9 +349,7 @@ Zitrone |Substantiv|feminin,  =, = | фонарик |die Zitrone | der Zitrone| 
 
 überdrehen | schwaches Verb (überdrochte, überdricht)| vt. untrennbar| перекруть| Beispiel: Beide überdrehten ihren Sprung. Starostin hatte in der Kurzkür den Axel verpatzt, den er in der Kür zweimal zeigte, wobei der zweite Dreifache überdreht war.|
 
-übersetzen | schwaches Verb (übersetzte, übersetzt)| vi. | делать перебежку|
-
-Übersetzschritt |Substantiv|  maskulin, -e(s), -e  | перебежка |der Vorwärtsbogen |des Vorwärtsbogens | dem Vorwärtsbogen | den Vorwärtsbogen| die Vorwärtsbogen| der Vorwärtsbogen| den Vorwärtsbogen| die Vorwärtsbogen| Beispiel: Vorwärts- oder Rückwärts-Schrittfolge, bei der in der Kurve ein Bein über das andere aufs Eis gesetzt wird| Beschreibung: Beim Übersetzschritt vorwärts setzt das kreisäußere Bein vor dem inneren Rve auf, das Innenbein neben dem äußeren Lva|
+Übersetzschritt |Substantiv|  maskulin, -e(s), -e  | перебежка |der Übersetzschritt |des Übersetzschritts, Übersetzschrittes| dem Übersetzschritt | den Übersetzschritt| die Übersetzschritte| der Übersetzschritte| den Übersetzschritten| die Übersetzschritte| Beispiel: Mit solchen Übersetzschritten zeigt sie starke Gleittechnik.| Beschreibung: ein typischer Schritt in der Schrittfolge: das äußere Bein wird vor das innere Bein gesetzt, um den Kantenwechsel fließend zu gestalten.|
 
 
 
