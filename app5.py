@@ -131,9 +131,50 @@ def load_categories(file_path="categories.txt"):
             parts = [p.strip() for p in line.split("|")]
             if len(parts) < 2:
                 continue
-            word, cat = parts[0].lower(), parts[1]
-            cats.setdefault(word, []).append(cat)
+            left, cat = parts[0], parts[1]
+            if " - " in left:
+                word = left.split(" - ", 1)[0].strip()
+            else:
+                word = left.strip()
+            cats.setdefault(word.lower(), []).append(cat)
     return cats
+
+# ---------- ЗАГРУЗКА АББРЕВИАТУР ----------
+@st.cache_data
+def load_abbreviations(file_path="categories.txt"):
+    """Загружает строки формата 'слово - перевод| Abkürzungen'."""
+    abbrevs = []
+    if not os.path.exists(file_path):
+        return abbrevs
+    with open(file_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            parts = [p.strip() for p in line.split("|")]
+            if len(parts) < 2:
+                continue
+            cat = parts[1]
+            if cat != "Abkürzungen":
+                continue
+
+            # parts[0] имеет вид "a. - auswärts"
+            left = parts[0]
+            if " - " in left:
+                word, translation = left.split(" - ", 1)
+            else:
+                word, translation = left, ""
+
+            abbrevs.append({
+                "word": word.strip(),
+                "grammar": "Abkürzung",
+                "translation": translation.strip(),
+                "cases": None,
+                "image": "",
+                "sections": {},
+                "is_noun": False,
+            })
+    return abbrevs
 
 # ---------- ПОИСК КАРТИНКИ / GIF ----------
 def find_image_by_word(word, images_dir="images"):
@@ -216,6 +257,7 @@ st.title("📖 Немецко-русский словарь терминов ф�
 
 try:
     entries = load_dictionary("dictionary_new.txt")
+    entries += load_abbreviations("categories.txt")
     st.success(f"✅ Загружено записей: {len(entries)}")
 except FileNotFoundError:
     st.error("❌ Файл dictionary_new.txt не найден!")
@@ -254,6 +296,11 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
+
+
+  
+
+
 
 
  
