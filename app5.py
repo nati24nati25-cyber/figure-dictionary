@@ -1,3 +1,4 @@
+
 import streamlit as st
 import os
 import re
@@ -134,27 +135,14 @@ def load_categories(file_path="categories.txt"):
             cats.setdefault(word, []).append(cat)
     return cats
 
-# ---------- ПОИСК КАРТИНКИ / GIF / АУДИО ----------
+# ---------- ПОИСК КАРТИНКИ / GIF ----------
 def find_image_by_word(word, images_dir="images"):
     if not os.path.exists(images_dir):
         return None
     word_lower = word.lower()
-    extensions = ['.gif', '.jpg',
-
-
-'.jpeg', '.png', '.webp']
+    extensions = ['.gif', '.jpg', '.jpeg', '.png', '.webp']
     for ext in extensions:
         candidate = os.path.join(images_dir, word_lower + ext)
-        if os.path.exists(candidate):
-            return candidate
-    return None
-
-def find_audio_by_word(word, audio_dir="audio"):
-    if not os.path.exists(audio_dir):
-        return None
-    word_lower = word.lower()
-    for ext in ['.mp3', '.wav', '.ogg', '.m4a', '.flac']:
-        candidate = os.path.join(audio_dir, word_lower + ext)
         if os.path.exists(candidate):
             return candidate
     return None
@@ -169,7 +157,7 @@ def show_gif(gif_path, width=150):
     )
 
 # ---------- КАРТОЧКА ----------
-def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
+def show_card(entry, images_dir="images", links_data=None):
     word = entry["word"]
     grammar = entry["grammar"]
     translation = entry["translation"]
@@ -206,11 +194,6 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                 show_gif(img_path, width=150)
             else:
                 st.image(img_path, width=150)
-
-        # Озвучка
-        audio_path = find_audio_by_word(word, audio_dir)
-        if audio_path:
-            st.audio(audio_path)
 
         # Ссылки
         if links_data:
@@ -256,10 +239,7 @@ st.write(f"Показано записей: {len(filtered)}")
 tab_names = ["Все"] + CATEGORIES
 tabs = st.tabs(tab_names)
 
-for tab, cat_name in zip(tabs,
-
-
-tab_names):
+for tab, cat_name in zip(tabs, tab_names):
     with tab:
         if cat_name == "Все":
             cat_entries = filtered
@@ -274,3 +254,8 @@ tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
+
+
+ 
+
+
