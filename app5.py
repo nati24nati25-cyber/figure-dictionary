@@ -132,17 +132,14 @@ def load_categories(file_path="categories.txt"):
             if len(parts) < 2:
                 continue
             left, cat = parts[0], parts[1]
-            if " - " in left:
-                word = left.split(" - ", 1)[0].strip()
-            else:
-                word = left.strip()
+            word = left.split(" - ", 1)[0].strip()
             cats.setdefault(word.lower(), []).append(cat)
     return cats
 
 # ---------- ЗАГРУЗКА АББРЕВИАТУР ----------
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
-    """Загружает строки формата 'слово - перевод| Abkürzungen'."""
+    """Формат: 'сокращение - немецкое слово - русский перевод| Abkürzungen'."""
     abbrevs = []
     if not os.path.exists(file_path):
         return abbrevs
@@ -158,17 +155,24 @@ def load_abbreviations(file_path="categories.txt"):
             if cat != "Abkürzungen":
                 continue
 
-            # parts[0] имеет вид "a. - auswärts"
             left = parts[0]
-            if " - " in left:
-                word, translation = left.split(" - ", 1)
+            chunks = [c.strip() for c in left.split(" - ")]
+
+            if len(chunks) >= 3:
+                abbr = chunks[0]
+                german = " - ".join(chunks[1:-1])
+                translation = chunks[-1]
+            elif len(chunks) == 2:
+                abbr, german = chunks
+                translation = ""
             else:
-                word, translation = left, ""
+                abbr, german, translation = left, "", ""
 
             abbrevs.append({
-                "word": word.strip(),
+                "word": german or abbr,
+                "abbr": abbr,
                 "grammar": "Abkürzung",
-                "translation": translation.strip(),
+                "translation": translation,
                 "cases": None,
                 "image": "",
                 "sections": {},
@@ -206,9 +210,15 @@ def show_card(entry, images_dir="images", links_data=None):
     image_name = entry["image"]
     sections = entry["sections"]
     is_noun = entry["is_noun"]
+    abbr = entry.get("abbr")
 
     with st.container(border=True):
-        st.markdown(f"### **{word}** — {grammar}")
+        # Для аббревиатур заголовок: "A. — Axel" (без слова Abkürzung)
+        if abbr:
+            st.markdown(f"### **{abbr}** — {word}")
+        else:
+            st.markdown(f"### **{word}** — {grammar}")
+
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
         if is_noun and cases:
@@ -286,7 +296,10 @@ for tab, cat_name in zip(tabs, tab_names):
         if cat_name == "Все":
             cat_entries = filtered
         else:
-            cat_entries = [e for e in filtered if cat_name in categories_map.get(e["word"].lower(), [])]
+            cat_entries = [
+                e for e in filtered
+                if cat_name in categories_map.get(e.get("abbr", e["word"]).lower(), [])
+            ]
 
         if not cat_entries:
             st.info(f"В категории «{cat_name}» пока нет записей.")
@@ -296,13 +309,3 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
-
-
-  
-
-
-
-
- 
-
-
