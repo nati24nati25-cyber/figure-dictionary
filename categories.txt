@@ -273,26 +273,26 @@ Kür | Synchroneiskunstlauf
 ####### Abkürzungen #######
 
 
-a. - auswärts| Abkürzungen
-A. - Axel| Abkürzungen
-CCoSP. - Pirouettenkombination mit Positions- und Fußwechsel| Abkürzungen
-CoSp. - Pirouettenkombination mit Positionswechsel| Abkürzungen
-CUSp. - Pirouette mit einem Fußwechsel| Abkürzungen
-CSp. - Waagepirouette| Abkürzungen
-e. - einwärts| Abkürzungen
-Eu. - Euler| Abkürzungen
-F. - Flip| Abkürzungen
-FSp. - eingesprungene Pirouette| Abkürzungen
-ISU - Die Internationale Eislaufunion| Abkürzungen
-L. - links| Abkürzungen
-Lo. - Rittberger| Abkürzungen
-LSp. - Himmelspirouette| Abkürzungen
-Lz. - Lutz| Abkürzungen
-R. - rechts| Abkürzungen
-r. - rückwärts| Abkürzungen
-S. - Salchow| Abkürzungen
-SF. - Schrittfolge| Abkürzungen
-SSp. - Sitzpirouette| Abkürzungen
+a. - auswärts - наружу| Abkürzungen
+A. - Axel - аксель| Abkürzungen
+CCoSP. - Pirouettenkombination mit Positions- und Fußwechsel - комбинированное вращение со сменой позиции и ноги| Abkürzungen
+CoSp. - Pirouettenkombination mit Positionswechsel - комбинированное вращение со сменой позиции| Abkürzungen
+CUSp. - Pirouette mit einem Fußwechsel - вращение со сменой ноги| Abkürzungen
+CSp. - Waagepirouette - вращение «весы»| Abkürzungen
+e. - einwärts - внутрь| Abkürzungen
+Eu. - Euler - ойлер| Abkürzungen
+F. - Flip - флип| Abkürzungen
+FSp. - eingesprungene Pirouette - вращение в прыжке| Abkürzungen
+ISU - Die Internationale Eislaufunion - Международный союз конькобежцев| Abkürzungen
+L. - links - левый| Abkürzungen
+Lo. - Rittberger - риттбергер| Abkürzungen
+LSp. - Himmelspirouette - вращение «небеса»| Abkürzungen
+Lz. - Lutz - лутц| Abkürzungen
+R. - rechts - правый| Abkürzungen
+r. - rückwärts - назад| Abkürzungen
+S. - Salchow - сальхов| Abkürzungen
+SF. - Schrittfolge - дорожка шагов| Abkürzungen
+SSp. - Sitzpirouette - вращение «сидя»| Abkürzungen
 
 ####### Abkürzungen ####### 
 
