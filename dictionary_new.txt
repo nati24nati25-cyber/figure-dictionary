@@ -149,6 +149,8 @@ Himmelspirouette |Substantiv| feminin, =, -n | заклон |die Himmelspirouett
  
 Hocke |Substantiv| feminin, =, -n |  саночки |die Hocke | der Hocke | der Hocke | die Hocke | die Hocken |  der Hocken | den Hocken |  die Hocken |Beschreibung: ein Grundelement, bei dem man sich in einer tiefen Haltung (fast in der Hocke) befindet und vorwärts über das Eis gleitet. |Beispiel: Ist entscheiden wie tief der Sportler trotz Widerstand des Schlittschuhs in die Hocke gehen kann.| hocke.jpg|
 
+Hydroblade | neutrum, -(s), = | пересечение| das Hydroblade |des Hydroblade(s)| dem Hydroblade | das Hydroblade | die Hydroblade |der Hydroblade| den Hydroblade | die Hydroblade |Beschreibung: ein spektakuläres Element, bei dem man in einer extrem niedrigen Position über das Eis gleitet, oft mit gestrecktem Bein.|Beispiel: Beim Hydroblade ist es wichtig, die Körperspannung zu halten und das freie Bein gestreckt nach hinten zu führen.|
+
 Ina Bauer |Substantiv| feminin/ maskulin, –s | Бауэр| Herkunft: nach der deutschen Eiskunstläuferin Ina Bauer | Beispiel: Der Ina Bauer kann an der Innenkante oder der Außenkante ausgeführt werden. Shizuka Arakawa ist berühmt für ihre flexible Einstellung zur Ina Bauer, bei der sie ihren Rücken nach hinten beugt. | ina bauer.gif|
 
 Innenkante |Substantiv| feminin, =, -n | внутреннее ребро |die Innenkante | der Innenkante | der Innenkante | die Innenkante | die Innenkanten |  der Innenkanten | den Innenkanten |  die Innenkanten | Beispiel: Aus dem Übersetzen rückwärts gegen den Uhrzeigersinn kommend, auf der Innenkante des kreisäußeren linken Beins gleiten.|
@@ -205,6 +207,8 @@ Mond |Substantiv| maskulin, -s, -e | кораблик |der Mond |des Monds| dem 
 
 Mühle |Substantiv| feminin, =, -n | колесо |die Mühle | der Mühle | der Mühle| die Mühle | die Mühlen |  der Mühlen | den Mühlen |  die Mühlen | Beispiel: Bei der Mühle läuft eine oder laufen mehrere Reihen um einen Punkt auf der Eisfläche.| mühle.jpg|
 
+Quad |Substantiv| neutrum, -s, -s | козлик |das Quad  |des Quads| dem Quad | das Quad |die Quads |der Quads| den Quads | die Quads| Beschreibung: ein allgemeiner Begriff für alle vierfachen Sprünge im Eiskunstlauf. |Beispiel: Heute habe ich mein Training mit dem Quad begonnen.|
+
 Paarlauf |Substantiv| maskulin, -(e)s, Paarläufe | парное катание| der Paarlauf| des Paarlaufs, Paarlaufes| dem Paarlauf| den Paarlauf| die Paarläufe | der Paarläufe | den Paarläufen | die Paarläufe|Beschreibung: eine Disziplin des Eiskunstlaufs, bei der ein Mann und eine Frau gemeinsam als Team auf dem Eis auftreten.| paarlauf.gif|
 
 Paarlaufpirouette |Substantiv| feminin, =, -n | парное вращение |die Paarlaufpirouette | der Paarlaufpirouette | der Paarlaufpirouette | die Paarlaufpirouette | die Paarlaufpirouetten |  der Paarlaufpirouetten | den Paarlaufpirouetten |  die Paarlaufpirouetten |Beschreibung: eine gemeinsame Pirouette, bei der die Partner sich haltend um eine gemeinsame Achse drehen.|Beispiel: Die Paarlaufpirouette hatte nur den geringsten Schwierigkeitsgrad.| paarlaufpirouette.gif|
@@ -226,6 +230,8 @@ Rehsprung |Substantiv| maskulin, -s, Rehsprünge | прыжок олень | der
 Rhythmustanz |Substantiv| maskulin, -es, Rhythmustänze | ритм-танец |der Rhythmustanz |des Rhythmustanzes | dem Rhythmustanz | den Rhythmustanz| die Rhythmustänze| der Rhythmustänze| den Rhythmustänzen| die Rhythmustänze| Beschreibung: Früher als „Originaltanz“ bekannt. Hier wird ein vom ISU vorgegebener Rhythmus oder ein Thema getanzt, wie Tango, Walzer oder Swing.| Beispiel: Im Rhythmustanz zeigten die Athleten eine präzise Anpassung an den Beat und überzeugten mit ihrer Synchronität.|rhythmustanz.gif|
 
 Rittberger |Substantiv| maskulin, -s, = | риттбергер | der Rittberger| des Rittbergers| dem Rittberger| den Rittberger | die Rittberger| der Rittberger | den Rittbergern| die Rittberger| Beschreibung: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem man mit einem Fuß abspringt, in der Luft eine Drehung ausführt und mit dem gleichen Fuß wieder aufkommt| Herkunft: nach dem deutschen Eiskunstläufer W. Rittberger| Beispiel: Der Rittberger ist der einzige Sprung, bei dem die Einlaufphase auf beiden Füßen erfolgt.|Rittberger.jpg|
+
+Rittbergerschritt |Substantiv| maskulin, -e(s), -e | риттбергеровый шаг |der Rittbergerschritt |des Rittbergerschritts, Schrittes| dem Rittbergerschritt | den Rittbergerschritt| die Rittbergerschritte| der Rittbergerschritte| den Rittbergerschritten| die Rittbergerschritte|Beschreibung: ein Vorbereitungsschritt für den Rittberger, bei dem man einen Doppeldreier mit gewickeltem Spielfuß ausführt.|Beispiel: einen Rittbergerschritt benutzt man als Übergangselement zum Sprung.|
 
 Rotation |Substantiv| feminin, =, -en | вращение |die Rotation | der Rotation | der Rotation | die Rotation | die Rotationen |  der Rotationen | den Rotationen |  die Rotationen | Beispiel: Die Rotation wird bereits auf dem Eis begonnen, d. h. eine viertel bis eine halbe Drehung erfolgt noch vor dem eigentlichen Verlassen des Eises.|
 
@@ -345,7 +351,7 @@ Zahn |Substantiv| maskulin, -e(s), Zähne | зубец |der Zahn |des Zahns, Zah
 
 Zirkel |Substantiv |maskulin, -s, = | циркуль |der Zirkel |des Zirkels | dem Zirkel | den Zirkel| die Zirkel| der Zirkel| den Zirkeln| die Zirkel| Beschreibung: Figur, bei der ein Bein mit der hinteren oder vorderen Spitze ins Eis gesetzt wird und zirkelartig mit dem anderen Bein vorwärts oder rückwärts Kreise gelaufen werden| Beispiel: Der Zirkel ra dagegen ist etwas schwerer zu erlernen, denn mit dem Gewicht gut auf der Außenkante muss man lang auf dieser rückwärts gleiten, ehe die Zacke zum Zirkel eingesetzt werden darf. Der Radius des Kreisbogens verkürzt sich, das linke Bein sticht mit der Zacke weit hinter dem Körper ins Eis und man gleitet Rra im Zirkel um diesen Punkt. | zirkel.gif|
 
-Zitrone |Substantiv|feminin,  =, = | фонарик |die Zitrone | der Zitrone| der Zitrone | die Zitrone | die Zitrone |  der Zitrone | den Zitronen |  die Zitrone | Beispiel: Die Jüngsten zeigen zum Beispiel eine Zitrone... Man malt quasi mit den Kufen eine Zitrone auf dem Eis.| zitrone.jpg|
+Zitrone |Substantiv|feminin,  =, = | фонарик |die Zitrone | der Zitrone| der Zitrone | die Zitrone | die Zitrone |  der Zitrone | den Zitronen |  die Zitrone |Beschreibung: eine typische Anfängerübung, bei der man gleitet und zeichnet mit beiden Beinen eine Figur auf das Eis, die an eine Zitrone erinnert – also so einen leicht ovalen Kreis. |Beispiel: Die Übung 'Zitrone' hilft dir, das Gleichgewicht zu trainieren.| zitrone.jpg|
 
 überdrehen | schwaches Verb (überdrochte, überdricht)| vt. untrennbar| перекруть| Beispiel: Beide überdrehten ihren Sprung. Starostin hatte in der Kurzkür den Axel verpatzt, den er in der Kür zweimal zeigte, wobei der zweite Dreifache überdreht war.|
 
