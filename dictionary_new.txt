@@ -114,7 +114,7 @@ einwärts | Adverb | внутрь (на внутреннее ребро)| Beispi
 
 Einwärtsbogen |Substantiv| maskulin, -s, = | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbogen| der Einwärtsbogen| den Einwärtsbogen| die Einwärtsbogen|
  
-Einzellauf |Substantiv| maskulin, -(e)s, Einzelläufe | одиночное катание |der Einzellauf |des Einzellaufs, Einzellaufes| dem Einzellauf | den Einzellauf| die Einzelläufe| der Einzelläufe| den Einzelläufen| die Einzelläufe| Beschreibung: die älteste und grundlegendste Disziplin des Eiskunstlaufs. Ein einzelner Sportler – Frau oder Mann – tritt allein auf dem Eis auf und kombiniert technische Elemente mit künstlerischem Ausdruck.| einzellauf.gif|
+Einzellauf |Substantiv| maskulin, -(e)s, Einzelläufe | одиночное катание |der Einzellauf |des Einzellaufs, Einzellaufes| dem Einzellauf | den Einzellauf| die Einzelläufe| der Einzelläufe| den Einzelläufen| die Einzelläufe| Beschreibung: die älteste und grundlegendste Disziplin des Eiskunstlaufs. Ein einzelner Sportler – Frau oder Mann – tritt allein auf dem Eis auf und kombiniert technische Elemente mit künstlerischem Ausdruck.|Beispiel: Beispiel: Im Einzellauf legt der Athlet besonderen Wert auf die Sprungkombination in der zweiten Hälfte.| einzellauf.gif|
 
 Einzelsprung |Substantiv| maskulin, -s, Einzelsprünge | одиночный прыжок | der Einzelsprung | des Einzelsprungs | dem Einzelsprung | den Einzelsprung | die Einzelsprünge | der Einzelsprünge | den Einzelsprüngen | die Einzelsprünge| Beispiel: Fast alle Elemente waren perfekt ausgeführt, einzig beim Einzelsprung, dem dreifachen Toeloop, musste Alisa Efimova zu Boden gehen |
 
@@ -147,7 +147,7 @@ Hebung |Substantiv| feminin, =, -en | поддержка |die Hebung | der Hebun
 
 Himmelspirouette |Substantiv| feminin, =, -n | заклон |die Himmelspirouette | der Himmelspirouette | der Himmelspirouette | die Himmelspirouette | die Himmelspirouetten |  der Himmelspirouetten | den Himmelspirouetten |  die Himmelspirouetten | Beispiel: Diese Abwandlung der Himmelspirouetten sind die Königs- und die Biellmannpirouette.| himmelspirouette.gif|
  
-Hocke |Substantiv| feminin, =, -n |  саночки |die Hocke | der Hocke | der Hocke | die Hocke | die Hocken |  der Hocken | den Hocken |  die Hocken |Beispiel: Ist entscheiden wie tief der Sportler trotz Widerstand des Schlittschuhs in die Hocke gehen kann.| hocke.jpg|
+Hocke |Substantiv| feminin, =, -n |  саночки |die Hocke | der Hocke | der Hocke | die Hocke | die Hocken |  der Hocken | den Hocken |  die Hocken |Beschreibung: ein Grundelement, bei dem man sich in einer tiefen Haltung (fast in der Hocke) befindet und vorwärts über das Eis gleitet. |Beispiel: Ist entscheiden wie tief der Sportler trotz Widerstand des Schlittschuhs in die Hocke gehen kann.| hocke.jpg|
 
 Ina Bauer |Substantiv| feminin/ maskulin, –s | Бауэр| Herkunft: nach der deutschen Eiskunstläuferin Ina Bauer | Beispiel: Der Ina Bauer kann an der Innenkante oder der Außenkante ausgeführt werden. Shizuka Arakawa ist berühmt für ihre flexible Einstellung zur Ina Bauer, bei der sie ihren Rücken nach hinten beugt. | ina bauer.gif|
 
@@ -182,9 +182,9 @@ Kufe |Substantiv| feminin, =, -n | лезвие (конька) |die Kufe | der K
 
 Kunststoffschoner |Substantiv| maskulin, -s, = | чехол для лезвия |der Kunststoffschoner | des Kunststoffschoners | dem Kunststoffschoner | den Kunststoffschoner | die Kunststoffschoner |  der Kunststoffschoner | den Kunststoffschonern |  die Kunststoffschoner |Beschreibung: harte Schutzhüllen für alle Schutzüberzieher, die man auf die Kufen steckt. |Beispiel: die Kufenschoner werden benötigt, um die Kufen beim Laufen abseits der Eisfläche zu schützen.|kunststoffschoner.webp|
 
-Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа |das Kurzprogramm |des Kurzprogramms| dem Kurzprogramm | das Kurzprogramm | die Kurzprogramme |  der Kurzprogramme | den Kurzprogrammen |  die Kurzprogramme | Beschreibung: der erste Teil eines Eiskunstlaufwettbewerbes im Eiskunstlauf|
+Kurzprogramm |Substantiv| neutrum, -s, -e | короткая программа |das Kurzprogramm |des Kurzprogramms| dem Kurzprogramm | das Kurzprogramm | die Kurzprogramme |  der Kurzprogramme | den Kurzprogrammen |  die Kurzprogramme | Beschreibung: der erste Teil eines Eiskunstlaufwettbewerbes im Eiskunstlauf|Beispiel: Beispiel: Das Kurzprogramm dient als Qualifikation für das Freiprogramm: nur die besten 24 Einzelathleten oder 16 Paare gehen weiter.|
 
-Kür |Substantiv| feminin, =, -en | произвольная программа |die Kür | der Kür | der Kür| die Kür | die Küren |  der Küren | den Küren |  die Küren | Beschreibung: der zweite, längere und individuellere Teil eines Eiskunstlaufwettbewerbes im Eiskunstlauf|
+Kür |Substantiv| feminin, =, -en | произвольная программа |die Kür | der Kür | der Kür| die Kür | die Küren |  der Küren | den Küren |  die Küren | Beschreibung: der zweite, längere und individuellere Teil eines Eiskunstlaufwettbewerbes im Eiskunstlauf|Beispiel: Beispiel: Im zweiten Teil der Kür setzen die Athleten ihre schwierigsten Sprünge an.|
 
 Kürtanz |Substantiv| maskulin, -es, Kürtänze | произвольный танец |der Kürtanz |des Kürtanzes | dem Kürtanz | den Kürtanz| die Kürtänze| der Kürtänze| den Kürtänzen| die Kürtänze| Beschreibung: Ein frei gestaltetes Programm, bei dem Musik und Thema selbst gewählt werden können (auch mit Gesang).| Beispiel: Wir haben uns für einen Jazz-Mix als Musik für unseren Kürtanz entschieden.| kürtanz.gif|
 
@@ -219,7 +219,7 @@ Pirouette |Substantiv| feminin, =, -n | вращение |die Pirouette | der Pi
 
 Pirouettenkombination |Substantiv| feminin, =, -en | комбинированное вращение |die Pirouettenkombination | der Pirouettenkombination | der Pirouettenkombination | die Pirouettenkombination | die Pirouettenkombinationen |  der Pirouettenkombinationen | den Pirouettenkombinationen |  die Pirouettenkombinationen | Beispiel: Lena Enß lief ein starkes Programm mit zwei schönen Sprungkombination und einer Pirouettenkombination und konnte sich in der D-Schüler-Klasse eindeutig gegen die drei Konkurrentinnen aus Dresden durchsetzen. Mit einem Doppelflip, einer guten Doppellutz Kombination sowie schönen Pirouettenkombinationen gewann die Bundeskadersportlerin souverän die Goldmedaille.| 
 
-Pistole |Substantiv| feminin, =, -n | пистолетик |die Pistole | der Pistole | der Pistole | die Pistole| die Pistolen|  der Pistolen | den Pistolen |  die Pistolen | Beschreibung: die Lernvoraussetzung für die Sitzpirouette |
+Pistole |Substantiv| feminin, =, -n | пистолетик |die Pistole | der Pistole | der Pistole | die Pistole| die Pistolen|  der Pistolen | den Pistolen |  die Pistolen | Beschreibung: eine typische Pose, bei der man auf einem Bein, das stark gebeugt, gleitet und das andere nach vorne streckt.|Beispiel: In ihrer Schrittfolge zeigt sie eine perfekte Pistole – die Linie ist sauber, und die Tiefe der Hocke beeindruckt.|
 
 Rehsprung |Substantiv| maskulin, -s, Rehsprünge | прыжок олень | der Rehsprung | des Rehsprungs | dem Rehsprung | den Rehsprung | die Rehsprünge | der Rehsprünge | den Rehsprüngen | die Rehsprünge|Beschreibung:  ein Sprung von einem Bein auf das andere, bei dem das vordere Bein im Moment des Absprungs zunächst gebeugt und dann gestreckt wird.| Beispiel: Bei dem Rehsprung wird das vordere Bein angewinkelt.|
 
@@ -273,7 +273,7 @@ Standpirouette |Substantiv| feminin, =, -n | вращение стоя |die Stan
 
 Stoffschoner |Substantiv| maskulin, -s, = | мягкий чехол для лезвия |der Stoffschoner | des Stoffschoners | dem Stoffschoner | den Stoffschoner | die Stoffschoner |  der Stoffschoner | den Stoffschonern |  die Stoffschoner |Beschreibung: weiche Schutzhüllen aus Stoff, die man nach dem Eislaufen über die Kufen zieht.|Beispiel: Kufe nach dem Laufen trocken wischen, dann Stoffschoner drauf.|stoffschoner.webp|
 
-Storch |Substantiv| maskulin, -s; Störche | цапелька| der Storch | des Storchs | dem Storch | den Storch | die Störche | der Störche | den Störchen | die Störche| Beispiel: Vorher müssen sie durch fleißiges Training ein Eisgefühl bekommen, müssen dazu Übungen wie die Hocke oder den Storch nutzen.|
+Storch |Substantiv| maskulin, -s; Störche | цапелька| der Storch | des Storchs | dem Storch | den Storch | die Störche | der Störche | den Störchen | die Störche|Beschreibung: ein Grundelement, bei dem man  auf einem gestreckten Bein gleitet, während das freie Bein im Knie gebeugt und der Schlittschuh an das Knie des Standbeins gedrückt wird.|Beispiel: Vorher müssen sie durch fleißiges Training ein Eisgefühl bekommen, müssen dazu Übungen wie die Hocke oder den Storch nutzen.|
 
 Sturz |Substantiv| maskulin, -es, Stürze | падение | der Sturz | des Sturzes | dem Sturz | den Sturz | die Stürze | der Stürze | den Stürzen | die Stürze| Beispiel: Beim Üben des Sturzes nach vorn ist es empfehlenswert, anfangs Knie- und Ellbogenschoner (vom Inlineskaten) zu verwenden.| sturz.gif|
 
