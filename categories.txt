@@ -103,6 +103,7 @@ Dreifachlutz | Sprünge
 Vierfachlutz | Sprünge
 
 Euler | Sprünge
+Quad  | Sprünge
 
 Sprungfolge | Sprünge
 Sprungkombination | Sprünge
@@ -186,6 +187,7 @@ Gegendreier| Schritte
 Gegenwende| Schritte
 Laufschritt| Schritte
 Mohawk | Schritte
+Rittbergerschritt | Schritte
 Schlagenbogen| Schritte
 Schlinge| Schritte
 Wende | Schritte
