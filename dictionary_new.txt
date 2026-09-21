@@ -207,7 +207,7 @@ Mond |Substantiv| maskulin, -s, -e | кораблик |der Mond |des Monds| dem 
 
 Mühle |Substantiv| feminin, =, -n | колесо |die Mühle | der Mühle | der Mühle| die Mühle | die Mühlen |  der Mühlen | den Mühlen |  die Mühlen | Beispiel: Bei der Mühle läuft eine oder laufen mehrere Reihen um einen Punkt auf der Eisfläche.| mühle.jpg|
 
-Quad |Substantiv| neutrum, -s, -s | козлик |das Quad  |des Quads| dem Quad | das Quad |die Quads |der Quads| den Quads | die Quads| Beschreibung: ein allgemeiner Begriff für alle vierfachen Sprünge im Eiskunstlauf. |Beispiel: Heute habe ich mein Training mit dem Quad begonnen.|
+Quad |Substantiv| neutrum, -s, -s | квад |das Quad  |des Quads| dem Quad | das Quad |die Quads |der Quads| den Quads | die Quads| Beschreibung: ein allgemeiner Begriff für alle vierfachen Sprünge im Eiskunstlauf. |Beispiel: Heute habe ich mein Training mit dem Quad begonnen.|
 
 Paarlauf |Substantiv| maskulin, -(e)s, Paarläufe | парное катание| der Paarlauf| des Paarlaufs, Paarlaufes| dem Paarlauf| den Paarlauf| die Paarläufe | der Paarläufe | den Paarläufen | die Paarläufe|Beschreibung: eine Disziplin des Eiskunstlaufs, bei der ein Mann und eine Frau gemeinsam als Team auf dem Eis auftreten.| paarlauf.gif|
 
