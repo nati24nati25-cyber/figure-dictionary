@@ -16,6 +16,7 @@ CATEGORIES = [
     "Eistanz",
     "Synchroneiskunstlauf",
     "Abkürzungen",
+    "Zubehör",
 ]
 
 # ---------- ПАРСЕР СЛОВАРЯ ----------
