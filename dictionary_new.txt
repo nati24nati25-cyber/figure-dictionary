@@ -30,7 +30,7 @@ beidbeinig | Adverb | на двух ногах| Beispiel: Beim beidbeinigen Slal
 
 Biellmannpirouette |Substantiv| feminin, =, -n | бильман |die Biellmannpirouette | der Biellmannpirouette | der Biellmannpirouette | die Biellmannpirouette | die Biellmannpirouetten |  der Biellmannpirouetten | den Biellmannpirouetten |  die Biellmannpirouetten | Herkunft: nach der Schweizer Eiskunstläuferin Denise Biellmann| Beispiel: Jewgeni Pljuschtschenko war der erste männliche Eiskunstläufer, der die Biellmannpirouette in sein Programm aufnahm.| biellmannpirouette.jpg|
 
-Block |Substantiv| maskulin, -(e)s, Blöcke | блок |der Block |des Blocks, Blockes| dem Block | den Block| die Blöcke| der Blöcke| den Blöcken| die Blöcke| Beispiel: Drei bis fünf parallele Reihen bilden einen Block |block.jpg|
+Block |Substantiv| maskulin, -(e)s, Blöcke | блок |der Block |des Blocks, Blockes| dem Block | den Block| die Blöcke| der Blöcke| den Blöcken| die Blöcke|Beschreibung: ein besonderes Element, bei dem die Läufer dieselbe Körperhaltung, denselben Kanteneinsatz und denselben Bewegungsablauf millimetergenau gleichzeitig umsetzen müssen.| Beispiel: Drei bis fünf parallele Reihen bilden einen Block |block.jpg|
 
 Bogen |Substantiv| maskulin, -s, = | дуга |der Bogen |des Bogens | dem Bogen | den Bogen| die Bogen| der Bogen| den Bogen| die Bogen| Kurvenlauf auf einem Bein| Beispiel: Die Rotation wird erreicht, indem man die Arme ruckartig an den Oberkörper reißt, wobei der rechte etwas langsamer ist, da er den längeren Weg hat und einen kleinen Bogen macht.|
 
@@ -172,13 +172,13 @@ Kombinationsprung |Substantiv| maskulin, -s, Kombinationsprünge | каскад 
 Komponentenwertung | feminin, =, -en | оценки за компоненты |die Komponentenwertung | der Komponentenwertung | der Komponentenwertung | die Komponentenwertung | die Komponentenwertungen |  der Komponentenwertungen | den Komponentenwertungen |  die Komponentenwertungen | Beschreibung: Gesamtbild der Programm. 5 Komponenten: Gleittechnik, Verbindungen, Komposition, Darstellung, Musikinterpretation.
 Bewertung: 0–10 Punkte pro Komponent.|Beispiel: Ihre Komponentenwertung ist hoch, weil sie die Musik sehr intensiv interpretiert.|
 
-Kreis |Substantiv| maskulin, -es, -e | круг | der Kreis| des Kreises| dem Kreis| den Kreis | die Kreise| der Kreise | den Kreisen| die Kreise| Beispiel: Schrittfolgen, Wandern und Richtungswechsel erhöhen beim Kreis den Schwierigkeitsgrad| kreis.jpg|
+Kreis |Substantiv| maskulin, -es, -e | круг | der Kreis| des Kreises| dem Kreis| den Kreis | die Kreise| der Kreise | den Kreisen| die Kreise|Beschreibung: eine grundlegende Formation, bei der die Mannschaft bildet einen oder mehrere Kreise und die Läufer bewegen sich relativ zu einem gemeinsamen Zentrum, während sie den Fronten und Richtungen durch verschiedene Schritte nachgeben. |Beispiel: Schrittfolgen, Wandern und Richtungswechsel erhöhen beim Kreis den Schwierigkeitsgrad.| kreis.jpg|
 
 kreisinner | Adjektiv | внутри круга|
 
 kreisäußer | Adjektiv | вне круга|
 
-Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | Beispiel: Schritte, Spiralvarianten oder Sprünge beim Kreuzen erhöhen den Schwierigkeitsgrad|
+Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen |Beschreibung: ein wichtiger Manövrierzug: zwei Linien oder Gruppen kreuzen sich nach exakter Planung, wobei die Läufer millimetergenaue Abstände und Schnittpunkte einhalten müssen, um Kollisionen zu vermeiden und die Formationen sauber zu wechseln.|Beispiel: Beim Kreuzen kommt es auf den perfekten Timing an.|kreuzen.webp|
 
 Kufe |Substantiv| feminin, =, -n | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen | Beispiel: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |kufe.jpg|
 
@@ -196,8 +196,9 @@ Landung |Substantiv| feminin, =, -en | приземление |die Landung | der
 
 laufen | starkes Verb (lief, ist gelaufen)| vi. | ехать, скользить| Beispiel: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
 
-Laufschritt |Substantiv| maskulin, -e(s), -e | елочка |der Laufschritt |des Laufschritts, Laufschrittes| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte|Beispiel: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die 
-Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
+Laufschritt |Substantiv| maskulin, -e(s), -e | елочка |der Laufschritt |des Laufschritts, Laufschrittes| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte|Beispiel: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
+
+Linie |Substantiv| feminin, =, -en | линия |die Linie | der Linie | der Linie| die Linie | die Linien |  der Linien | den Linien |  die Linien |Beschreibung: eine grundlegende Formation, die Mannschaft stellt sich in einer Reihe (Schlange) oder in einer Linie (Reihe nebeneinander) auf und bewegt sich als einheitliche Formation über die Eisfläche. |Beispiel: Achtet in der Linie darauf, dass niemand aus der Achse fällt.|linie.png|
 
 Lutz |Substantiv| maskulin, =, = | лутц | der Lutz| des Lutz| dem Lutz| den Lutz | die Lutz| der Lutz | den Lutz| die Lutz| Beschreibung: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem der Läufer bzw. die Läuferin mit der Fußspitze auf den Boden tippt, abspringt, eine bzw. mehrere Drehungen in der Luft entgegen der im Anlauf eingeschlagenen Richtung macht und mit dem anderen Fuß wieder aufkommt | Herkunft: nach dem österreichischen Kunstläufer A. Lutz| Beispiel: Beim Lutz ist der letzte Anlaufschritt auf der rückwärts auswärts Kante des linken Fußes, der Absprung erfolgt von der Zacke des rechten Schuhs. |lutz.jpg|
 
@@ -205,7 +206,7 @@ Mohawk |Substantiv| maskulin, -s, -s | моухок |der Mohawk |des Mohawks| de
 
 Mond |Substantiv| maskulin, -s, -e | кораблик |der Mond |des Monds| dem Mond | den Mond| die Monde| der Monde| den Monden| die Monde| Beschreibung: mit auswärts gespreizten Beinen auf den Innen- oder Außenkanten gelaufene halbmondförmige Figur| Beispiel: „Moves in the Field“, deutsch „Bewegungen auf dem Eis”, bestehen aus Kürelementen, die vor allem gutes Eislaufen ausdrücken sollen, und enthalten neben Schritten und Drehungen auch Spiralen, Arabesken, Monde sowie kleine Sprünge. Der Einlauf zum Mond erfolgt z. B. Lve, Arme in Gegenhaltung. |mond.gif|
 
-Mühle |Substantiv| feminin, =, -n | колесо |die Mühle | der Mühle | der Mühle| die Mühle | die Mühlen |  der Mühlen | den Mühlen |  die Mühlen | Beispiel: Bei der Mühle läuft eine oder laufen mehrere Reihen um einen Punkt auf der Eisfläche.| mühle.jpg|
+Mühle |Substantiv| feminin, =, -n | колесо |die Mühle | der Mühle | der Mühle| die Mühle | die Mühlen |  der Mühlen | den Mühlen |  die Mühlen |Beschreibung: eine rotierende Formation, bei der die Mannschaft um einen gemeinsamen Zentrumspunkt rotiert und symmetrische „Speichen“ bildet.| Beispiel: Hier seht ihr die perfekte Mühle: die Linien sind gerade, die Winkel gleich, jede Gruppe bildet eine klare Speiche.| mühle.jpg|
 
 Quad |Substantiv| neutrum, -s, -s | квад |das Quad  |des Quads| dem Quad | das Quad |die Quads |der Quads| den Quads | die Quads| Beschreibung: ein allgemeiner Begriff für alle vierfachen Sprünge im Eiskunstlauf. |Beispiel: Heute habe ich mein Training mit dem Quad begonnen.|
 
@@ -285,7 +286,7 @@ Sturz |Substantiv| maskulin, -es, Stürze | падение | der Sturz | des Stu
 
 stürzen | schwaches Verb (stürzte, gestürzt)| vi. | падать| Beispiel: Sie stürzte mehrfach auf dem Eis und brach anschließend in Tränen aus.|
 
-Synchroneiskunstlauf |Substantiv| maskulin, -(e)s, Synchroneiskunstläufe | синхронное катание | der Synchroneiskunstlauf| des Synchroneiskunstlaufs, Synchroneiskunstlaufes| dem Synchroneiskunstlauf| den Synchroneiskunstlauf| die Synchroneiskunstläufe | der Synchroneiskunstläufe | den Synchroneiskunstläufen | die Synchroneiskunstläufe |Beschreibung: eine Teamdisziplin des Eiskunstlaufs, bei der eine Gruppe von Sportlern (traditionell 16 Personen, bei den Olympischen Spielen 2030 jedoch 9) Elemente maximal synchron ausführt und sich dabei wie eine Einheit bewegt.| synchroneiskunstlauf.jpg|
+Synchroneiskunstlauf |Substantiv| maskulin, -(e)s, Synchroneiskunstläufe | синхронное катание | der Synchroneiskunstlauf| des Synchroneiskunstlaufs, Synchroneiskunstlaufes| dem Synchroneiskunstlauf| den Synchroneiskunstlauf| die Synchroneiskunstläufe | der Synchroneiskunstläufe | den Synchroneiskunstläufen | die Synchroneiskunstläufe |Beschreibung: eine Teamdisziplin des Eiskunstlaufs, bei der eine Gruppe von Sportlern (traditionell 16 Personen, bei den Olympischen Spielen 2030 jedoch 9) Elemente maximal synchron ausführt und sich dabei wie eine Einheit bewegt.| Beispiel: Beim diesjährigen Stadtfestival findet erstmals ein Wettbewerb im Synchroneiskunstlauf statt.|synchroneiskunstlauf.jpg|
 
 Tanzhebung |Substantiv| feminin, =, -en |  танцевальная поддержка |die Tanzhebung | der Tanzhebung | der Tanzhebung | die Tanzhebung | die Tanzhebungen |  der Tanzhebungen | den Tanzhebungen |  die Tanzhebungen | Beispiel: Die Tanzfigur ersetzt die Tanzhebung im Solo-Eistanz.| tanzhebung.gif|
 
