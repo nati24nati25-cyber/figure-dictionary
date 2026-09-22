@@ -261,6 +261,7 @@ Mühle | Synchroneiskunstlauf
 Linie | Synchroneiskunstlauf
 Pivot | Synchroneiskunstlauf
 
+
 Kurzprogramm | Synchroneiskunstlauf
 Kür | Synchroneiskunstlauf
 
@@ -302,6 +303,7 @@ SSp. - Sitzpirouette - вращение «сидя»| Abkürzungen
 
 Kufe | Zubehör
 Kunststoffschoner | Zubehör
+Schlittschuhüberzieher | Zubehör
 Spinner | Zubehör
 Stoffschoner | Zubehör
 
