@@ -178,7 +178,7 @@ kreisinner | Adjektiv | внутри круга|
 
 kreisäußer | Adjektiv | вне круга|
 
-Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen |Beschreibung: ein wichtiger Manövrierzug: zwei Linien oder Gruppen kreuzen sich nach exakter Planung, wobei die Läufer millimetergenaue Abstände und Schnittpunkte einhalten müssen, um Kollisionen zu vermeiden und die Formationen sauber zu wechseln.|Beispiel: Beim Kreuzen kommt es auf den perfekten Timing an.|kreuzen.webp|
+Kreuzen |Substantiv| neutrum, -s, ohne Pl.  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | | | | |Beschreibung: ein wichtiger Manövrierzug: zwei Linien oder Gruppen kreuzen sich nach exakter Planung, wobei die Läufer millimetergenaue Abstände und Schnittpunkte einhalten müssen, um Kollisionen zu vermeiden und die Formationen sauber zu wechseln.|Beispiel: Beim Kreuzen kommt es auf den perfekten Timing an.|kreuzen.webp|
 
 Kufe |Substantiv| feminin, =, -n | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen | Beispiel: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |kufe.jpg|
 
