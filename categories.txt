@@ -25,8 +25,6 @@ gleiten | Allgemein
 Innenkante | Allgemein
 Kante | Allgemein
 Kantenwechsel | Allgemein
-Kufe | Allgemein
-Kunststoffschoner | Allgemein
 landen | Allgemein
 laufen | Allgemein
 Rotation | Allgemein
@@ -34,9 +32,7 @@ rückwärts | Allgemein
 Rückwärtsbogen | Allgemein
 schleifen | Allgemein
 Spielbein | Allgemein
-Spinner | Allgemein
 Standbein | Allgemein
-Stoffschoner | Allgemein
 Sturz | Allgemein
 stürzen | Allgemein
 vorwärts | Allgemein
@@ -300,8 +296,11 @@ SSp. - Sitzpirouette - вращение «сидя»| Abkürzungen
 
 
 
+####### Zubehör ####### 
 
+Kufe | Zubehör
+Kunststoffschoner | Zubehör
+Spinner | Zubehör
+Stoffschoner | Zubehör
 
-
-
-
+####### Zubehör ####### 
