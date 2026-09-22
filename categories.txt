@@ -258,6 +258,7 @@ Kreis | Synchroneiskunstlauf
 Kreuzen | Synchroneiskunstlauf
 Mühle | Synchroneiskunstlauf
 Linie | Synchroneiskunstlauf
+Pivot | Synchroneiskunstlauf
 
 Kurzprogramm | Synchroneiskunstlauf
 Kür | Synchroneiskunstlauf
