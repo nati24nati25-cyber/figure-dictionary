@@ -254,6 +254,7 @@ Twizzlesequenz | Eistanz
 
 Synchroneiskunstlauf | Synchroneiskunstlauf
 Block | Synchroneiskunstlauf
+Gruppenlift | Synchroneiskunstlauf
 Kreis | Synchroneiskunstlauf
 Kreuzen | Synchroneiskunstlauf
 Mühle | Synchroneiskunstlauf
