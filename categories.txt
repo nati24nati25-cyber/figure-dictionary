@@ -194,6 +194,7 @@ Twizzle | Schritte
 
 ####### Choreosequenz #######
 
+Choreosequenz | Choreosequenz
 Hydroblade | Choreosequenz
 Ina Bauer| Choreosequenz
 Mond | Choreosequenz
