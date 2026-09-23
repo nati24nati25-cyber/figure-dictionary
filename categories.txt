@@ -198,6 +198,7 @@ Choreosequenz | Choreosequenz
 Arabeske | Choreosequenz
 Cantilever | Choreosequenz
 Fechter | Choreosequenz
+Flieger | Choreosequenz
 Hydroblade | Choreosequenz
 Ina Bauer| Choreosequenz
 Mond | Choreosequenz
