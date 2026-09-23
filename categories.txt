@@ -108,9 +108,7 @@ Verbindungssprung  | Sprünge
 Parallelsprung | Sprünge
 Kombinationsprung | Sprünge
 
-Rehsprung | Sprünge
 Jetésprung | Sprünge
-Walley | Sprünge
 
 Einlauf | Sprünge
 Absprung  | Sprünge
@@ -191,6 +189,21 @@ Twizzle | Schritte
 
 
 ####### Schritte  #######
+
+
+
+####### Choreosequenz #######
+
+Hydroblade | Choreosequenz
+Ina Bauer| Choreosequenz
+Mond | Choreosequenz
+Rehsprung | Choreosequenz
+Spagatsprung | Choreosequenz
+Spirale | Choreosequenz
+Walley | Choreosequenz
+
+
+####### Choreosequenz #######
 
 
 
