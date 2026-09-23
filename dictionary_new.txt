@@ -6,11 +6,13 @@ Absprung |Substantiv| maskulin, -s, Absprünge | толчок | der Absprung| de
 
 abspringen |starkes Verb (sprang ab, ist abgesprungen)| vi. trennbar| отталкиваться| Beispiel: Axel – ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
 
+Arabeske |Substantiv| feminin, =, -en | арабеск |die Arabeske | der Arabeske| der Arabeske | die Arabeske | die Arabesken |  der Arabesken | den Arabesken |  die Arabesken |Beschreibung: eine elegante Haltung im Eiskunstlauf, bei der der Läufer auf einem Bein gleitet, das andere nach hinten streckt, den geraden Rücken behält und den Oberkörper leicht nach vorne neigt.| Beispiel: Die Arabeske in der Choreosequenz war elegant und gut kontrolliert.|
+
 Auftritt |Substantiv| maskulin, –(e)s, -e | выступление, прокат | der Auftritt| des Auftritts, Auftrittes| dem Auftritt| den Auftritt| die Auftritte | der Auftritte | den Auftritten | die Auftritte| Beispiel: Ein spanischer Eiskunstläufer begeistert mit seinem Auftritt.|
 
 ausführen |schwaches Verb (führte aus, hat ausgeführt)| vt. trennbar| выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung ausgeführt.|
 
-Ausführungsqualität |Substantiv| feminin, =, -en | качество исполнения |die Ausführungsqualität | der Ausführungsqualität | der Ausführungsqualität | die Ausführungsqualität | die Ausführungsqualitäten |  der Ausführungsqualitäten | den Ausführungsqualitäten |  die Ausführungsqualitäten |Beschreibung: Bewertung der Qualität pro Element. Wertebereich: −5 bis +5. Beispiel: Die Ausführungsqualität senkt oder erhöht den Wert des Elements.|
+Ausführungsqualität |Substantiv| feminin, =, -en | качество исполнения |die Ausführungsqualität | der Ausführungsqualität | der Ausführungsqualität | die Ausführungsqualität | die Ausführungsqualitäten |  der Ausführungsqualitäten | den Ausführungsqualitäten |  die Ausführungsqualitäten |Beschreibung: Bewertung der Qualität pro Element. Wertebereich: −5 bis +5.| Beispiel: Die Ausführungsqualität senkt oder erhöht den Wert des Elements.|
 
 Ausgleichsschritt |Substantiv| maskulin, -e(s), -e | степ-аут |der Ausgleichsschritt |des Ausgleichsschritts, Ausgleichsschrittes| dem Ausgleichsschritt | den Ausgleichsschritt| die Ausgleichsschritte| der Ausgleichsschritte| den Ausgleichsschritten| die Ausgleichsschritte|Beschreibung: ein korrigierender Schritt nach der Landung auf einem Bein, um das Gleichgewicht wiederzufinden.|Beispiel: Er hat den Sprung zwar gelandet, aber mit einem deutlichen Ausgleichsschritt.|
 
@@ -266,7 +268,7 @@ Solopirouette |Substantiv| feminin, =, -n | параллельное враще�
 
 Spagatpirouette |Substantiv| feminin, =, -n | затяжка |die Spagatpirouette | der Spagatpirouette | der Spagatpirouette | die Spagatpirouette | die Spagatpirouetten |  der Spagatpirouetten | den Spagatpirouetten |  die Spagatpirouetten | Beispiel: Also für die Spagatpirouette musst du es halt zuerst auf dem Boden üben und natürlich den Spagat sehr gut können.| spagatpirouette.gif|
 
-Spagatsprung |Substantiv| maskulin, -s, Sprünge | прыжок в шпагат | der Spagatsprung | des Spagatsprungs | dem Spagatsprung | den Spagatsprung | die Spagatsprünge | der Spagatsprünge | den Spagatsprüngen | die Spagatsprünge|Beschreibung:   |Beispiel:  |spagatsprung.gif|
+Spagatsprung |Substantiv| maskulin, -s, Sprünge | прыжок в шпагат | der Spagatsprung | des Spagatsprungs | dem Spagatsprung | den Spagatsprung | die Spagatsprünge | der Spagatsprünge | den Spagatsprüngen | die Spagatsprünge|Beschreibung: ein choreografischer Sprung, bei dem man  in der Luft die Beine in eine Spagatposition streckt. |Beispiel: Nach der langen Spirale folgt ein flüssiger Spagatsprung, der direkt in die Step Sequence überleitet. |spagatsprung.gif|
 
 Spielbein |Substantiv| neutrum, –e(s), е | маховая нога |das Spielbein |des Spielbeins, Spielbeines| dem Spielbein | das Spielbein |die Spielbeine |der Spielbeine | den Spielbeinen | die Spielbeine| Beispiel: Er ist ein schwungvoll gelaufener Auswärtsbogen, bei dem das Spielbein dicht am Standbein vorbei gleichmäßig durchgezogen wird, von hinten nach vorne und wieder zurück.|
 
