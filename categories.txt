@@ -196,6 +196,7 @@ Twizzle | Schritte
 
 Choreosequenz | Choreosequenz
 Arabeske | Choreosequenz
+Cantilever | Choreosequenz
 Hydroblade | Choreosequenz
 Ina Bauer| Choreosequenz
 Mond | Choreosequenz
