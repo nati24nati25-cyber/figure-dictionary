@@ -10,6 +10,7 @@ CATEGORIES = [
     "Sprünge",
     "Pirouetten",
     "Schritte",
+    "Choreosequenz",
     "Grundelementen",
     "Einzellauf",
     "Paarlauf",
