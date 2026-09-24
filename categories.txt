@@ -260,6 +260,8 @@ Eistanz | Eistanz
 Rhythmustanz | Eistanz
 Kürtanz | Eistanz
 
+Tanzhebung | Eistanz
+
 Tanzpirouette | Eistanz
 
 Twizzlesequenz | Eistanz
