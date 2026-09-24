@@ -5,6 +5,8 @@ abrollen  | Allgemein
 abspringen  | Allgemein
 Auftritt | Allgemein
 ausführen | Allgemein
+Ausführungsqualität | Allgemein
+Ausgleichsschritt | Allgemein
 аuslaufen |Allgemein
 auswärts | Allgemein
 Auswärtsbogen | Allgemein
@@ -25,6 +27,7 @@ gleiten | Allgemein
 Innenkante | Allgemein
 Kante | Allgemein
 Kantenwechsel | Allgemein
+Komponentenwertung |
 landen | Allgemein
 laufen | Allgemein
 Rotation | Allgemein
@@ -35,8 +38,10 @@ Spielbein | Allgemein
 Standbein | Allgemein
 Sturz | Allgemein
 stürzen | Allgemein
+Unterrotation | Allgemein
 vorwärts | Allgemein
 Vorwärtsbogen | Allgemein
+Wertungsprotokoll | Allgemein
 Zahn | Allgemein
 
 ###### Allgemein ######
