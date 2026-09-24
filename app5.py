@@ -16,6 +16,7 @@ CATEGORIES = [
     "Paarlauf",
     "Eistanz",
     "Synchroneiskunstlauf",
+    "Richterlexikon",
     "Abkürzungen",
     "Zubehör",
 ]
