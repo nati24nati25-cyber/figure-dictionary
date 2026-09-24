@@ -177,7 +177,6 @@ Choctaw | Schritte
 Crossroll| Schritte
 Doppeldreier| Schritte
 Dreier| Schritte
-Fechter | Schritte
 Gegendreier| Schritte
 Gegenwende| Schritte
 Laufschritt| Schritte
