@@ -28,7 +28,7 @@ gleiten | Allgemein
 Innenkante | Allgemein
 Kante | Allgemein
 Kantenwechsel | Allgemein
-Komponentenwertung |
+Komponentenwertung | Allgemein
 landen | Allgemein
 laufen | Allgemein
 Rotation | Allgemein
