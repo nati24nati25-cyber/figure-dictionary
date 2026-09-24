@@ -6,7 +6,7 @@ Absprung |Substantiv| maskulin, -s, Absprünge | толчок | der Absprung| de
 
 abspringen |starkes Verb (sprang ab, ist abgesprungen)| vi. trennbar| отталкиваться| Beispiel: Axel – ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
 
-Arabeske |Substantiv| feminin, =, -en | арабеск |die Arabeske | der Arabeske| der Arabeske | die Arabeske | die Arabesken |  der Arabesken | den Arabesken |  die Arabesken |Beschreibung: eine elegante Haltung im Eiskunstlauf, bei der der Läufer auf einem Bein gleitet, das andere nach hinten streckt, den geraden Rücken behält und den Oberkörper leicht nach vorne neigt.| Beispiel: Die Arabeske in der Choreosequenz war elegant und gut kontrolliert.|
+Arabeske |Substantiv| feminin, =, -en | арабеск |die Arabeske | der Arabeske| der Arabeske | die Arabeske | die Arabesken |  der Arabesken | den Arabesken |  die Arabesken |Beschreibung: eine elegante Haltung im Eiskunstlauf, bei der der Läufer auf einem Bein gleitet, das andere nach hinten streckt, den geraden Rücken behält und den Oberkörper leicht nach vorne neigt.| Beispiel: Die Arabeske in der Choreosequenz war elegant und gut kontrolliert.|arabeske.jpg|
 
 Auftritt |Substantiv| maskulin, –(e)s, -e | выступление, прокат | der Auftritt| des Auftritts, Auftrittes| dem Auftritt| den Auftritt| die Auftritte | der Auftritte | den Auftritten | die Auftritte| Beispiel: Ein spanischer Eiskunstläufer begeistert mit seinem Auftritt.|
 
@@ -38,7 +38,7 @@ Bogen |Substantiv| maskulin, -s, = | дуга |der Bogen |des Bogens | dem Bogen
 
 bremsen | schwaches Verb (bremste, hat bremst)| vi. | тормозить| Beispiel: Das nützt man aus, um zu bremsen bzw. sich vom Eis abzudrücken.|
 
-Cantilever |Substantiv| maskulin, -s, = | кантилевер |der Cantilever |des Cantilevers| dem Cantilever | den Cantilever| die Cantilever| der Cantilever| den Cantilevern| die Cantilever|Beschreibung: eine spektakuläre Variante des Mondes, bei der man auf zwei Beinen mit stark nach hinten geneigtem Oberkörper gleitet, fast parallel zum Eis, und dabei Tiefe der Kanten sowie Körperkontrolle zeigt. |Beispiel: Halte die Kanten tiefer im Cantilever, sonst verliert die Linie an Stabilität.|
+Cantilever |Substantiv| maskulin, -s, = | кантилевер |der Cantilever |des Cantilevers| dem Cantilever | den Cantilever| die Cantilever| der Cantilever| den Cantilevern| die Cantilever|Beschreibung: eine spektakuläre Variante des Mondes, bei der man auf zwei Beinen mit stark nach hinten geneigtem Oberkörper gleitet, fast parallel zum Eis, und dabei Tiefe der Kanten sowie Körperkontrolle zeigt. |Beispiel: Halte die Kanten tiefer im Cantilever, sonst verliert die Linie an Stabilität.|cantilever.webp|
 
 Chasséeschritt |Substantiv| maskulin, -e(s), -e | шоссе |der Chasséeschritt |des Chasséeschritts, Chasséeschrittes| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|
 
@@ -126,11 +126,11 @@ Eistanz |Substantiv| maskulin, -es, Eistänze | спортивные танцы,
 
 Euler |Substantiv| maskulin, -/-s, | ойлер |der Euler |des Euler[s] | dem Euler | den Euler| | | | |Beschreibung: ein spezifischer, nach Kurt Euler bzw. nach Per Thorén benannter Verbindungssprung, der mit dem rechten Fuß rückwärts auswärts abgesprungen wird und die Landung nach einer Drehung, rückwärts einwärts auf dem linken Bein erfolgt.| Beispiel: Seit der Saison 2019/20 ist zusätzlich der Euler (anderer Name: Thorén) in die Liste der offiziellen Sprünge aufgenommen worden, allerdings nur als Mittelsprung in einer dreiteiligen Sprungkombination und nur mit einer einzigen Umdrehung.| euler.jpg|
 
-Fechter |Substantiv| maskulin, -s, = | выпад |der Fechter |des Fechters | dem Fechter | den Fechter| die Fechter| der Fechter| den Fechtern| die Fechter|Beispiel: Diese Dinge sind Voraussetzungen für die ersten Übungen wie die Hocke, den ‚Flieger‘ oder den ‚Fechter‘, die Lieblingsübung der sechsjährigen Natalie.| fechter.gif|
+Fechter |Substantiv| maskulin, -s, = | выпад |der Fechter |des Fechters | dem Fechter | den Fechter| die Fechter| der Fechter| den Fechtern| die Fechter|Beispiel: Diese Dinge sind Voraussetzungen für die ersten Übungen wie die Hocke, den ‚Flieger‘ oder den ‚Fechter‘, die Lieblingsübung der sechsjährigen Natalie.| fechter.jpg|
 
 Fehlversuch |Substantiv| maskulin, -(e)s, -e | срыв |der Fehlversuch |des Fehlversuchs, Fehlversuches | dem Fehlversuch | den Fehlversuch| die Fehlversuche| der Fehlversuche| den Fehlversuchen| die Fehlversuche|Beschreibung: kein erfolgreicher Versuch, oft mit Sturz oder Abbruch.| Beispiel: Bei diesem Element gab es einen Fehlversuch wegen des frühen Sturzes.|
 
-Flieger |Substantiv| maskulin, -s, = | ласточка |der Flieger |des Fliegers | dem Flieger | den Flieger| die Flieger| der Flieger| den Fliegern| die Flieger| flieger.gif|
+Flieger |Substantiv| maskulin, -s, = | ласточка |der Flieger |des Fliegers | dem Flieger | den Flieger| die Flieger| der Flieger| den Fliegern| die Flieger| flieger.jpg|
 
 Flip |Substantiv| maskulin, -s, -s | флип |der Flip |des Flips | dem Flip | den Flip| die Flips| der Flips| den Flips| die Flips| Beschreibung: nach dem Entstehen mit der Zacke des Schlittschuhs ausgeführter Sprung mit einer vollen Drehung und Landung auf demselben Bein, mit dem abgesprungen wurde| Beispiel: Beim Flip tippt der rechte Fuß in das Eis während sich der andere auf der Innenkante befindet. Das bedeutet, die Anlaufrichtung hat einen Bogen entgegen der Drehrichtung des Sprungs, was diesen Sprung schwerer als den ansonsten gleich ausgeführten Flip macht.|
 
@@ -155,7 +155,7 @@ Himmelspirouette |Substantiv| feminin, =, -n | заклон |die Himmelspirouett
  
 Hocke |Substantiv| feminin, =, -n |  саночки |die Hocke | der Hocke | der Hocke | die Hocke | die Hocken |  der Hocken | den Hocken |  die Hocken |Beschreibung: ein Grundelement, bei dem man sich in einer tiefen Haltung (fast in der Hocke) befindet und vorwärts über das Eis gleitet. |Beispiel: Ist entscheiden wie tief der Sportler trotz Widerstand des Schlittschuhs in die Hocke gehen kann.| hocke.jpg|
 
-Hydroblade |Substantiv| neutrum, -s, = | гидроблейдинг | das Hydroblade |des Hydroblades| dem Hydroblade | das Hydroblade | die Hydroblade |der Hydroblade| den Hydroblade | die Hydroblade |Beschreibung: ein spektakuläres Element, bei dem man in einer extrem niedrigen Position über das Eis gleitet, oft mit gestrecktem Bein.|Beispiel: Beim Hydroblade ist es wichtig, die Körperspannung zu halten und das freie Bein gestreckt nach hinten zu führen.|
+Hydroblade |Substantiv| neutrum, -s, = | гидроблейдинг | das Hydroblade |des Hydroblades| dem Hydroblade | das Hydroblade | die Hydroblade |der Hydroblade| den Hydroblade | die Hydroblade |Beschreibung: ein spektakuläres Element, bei dem man in einer extrem niedrigen Position über das Eis gleitet, oft mit gestrecktem Bein.|Beispiel: Beim Hydroblade ist es wichtig, die Körperspannung zu halten und das freie Bein gestreckt nach hinten zu führen.|hydroblade.jpg|
 
 Ina Bauer |Substantiv| feminin/ maskulin, –s | Бауэр| Herkunft: nach der deutschen Eiskunstläuferin Ina Bauer | Beispiel: Der Ina Bauer kann an der Innenkante oder der Außenkante ausgeführt werden. Shizuka Arakawa ist berühmt für ihre flexible Einstellung zur Ina Bauer, bei der sie ihren Rücken nach hinten beugt. | ina bauer.gif|
 
@@ -209,7 +209,7 @@ Lutz |Substantiv| maskulin, =, = | лутц | der Lutz| des Lutz| dem Lutz| den 
 
 Mohawk |Substantiv| maskulin, -s, -s | моухок |der Mohawk |des Mohawks| dem Mohawk | den Mohawk| die Mohawks| der Mohawks| den Mohawks| die Mohawks| Beschreibung: Schritt mit halber Drehung, ohne Kantenwechsel, also von Innenkante auf Innenkante oder von Außenkante auf Außenkante|Beispiel: geschlossener/offener Mohawk|mohawk.jpg|
 
-Mond |Substantiv| maskulin, -s, -e | кораблик |der Mond |des Monds| dem Mond | den Mond| die Monde| der Monde| den Monden| die Monde| Beschreibung: mit auswärts gespreizten Beinen auf den Innen- oder Außenkanten gelaufene halbmondförmige Figur| Beispiel: „Moves in the Field“, deutsch „Bewegungen auf dem Eis”, bestehen aus Kürelementen, die vor allem gutes Eislaufen ausdrücken sollen, und enthalten neben Schritten und Drehungen auch Spiralen, Arabesken, Monde sowie kleine Sprünge. Der Einlauf zum Mond erfolgt z. B. Lve, Arme in Gegenhaltung. |mond.gif|
+Mond |Substantiv| maskulin, -s, -e | кораблик |der Mond |des Monds| dem Mond | den Mond| die Monde| der Monde| den Monden| die Monde| Beschreibung: mit auswärts gespreizten Beinen auf den Innen- oder Außenkanten gelaufene halbmondförmige Figur| Beispiel: „Moves in the Field“, deutsch „Bewegungen auf dem Eis”, bestehen aus Kürelementen, die vor allem gutes Eislaufen ausdrücken sollen, und enthalten neben Schritten und Drehungen auch Spiralen, Arabesken, Monde sowie kleine Sprünge. Der Einlauf zum Mond erfolgt z. B. Lve, Arme in Gegenhaltung. |mond.jpg|
 
 Mühle |Substantiv| feminin, =, -n | колесо |die Mühle | der Mühle | der Mühle| die Mühle | die Mühlen |  der Mühlen | den Mühlen |  die Mühlen |Beschreibung: eine rotierende Formation, bei der die Mannschaft um einen gemeinsamen Zentrumspunkt rotiert und symmetrische „Speichen“ bildet.| Beispiel: Hier seht ihr die perfekte Mühle: die Linien sind gerade, die Winkel gleich, jede Gruppe bildet eine klare Speiche.| mühle.jpg|
 
@@ -233,7 +233,7 @@ Pistole |Substantiv| feminin, =, -n | пистолетик |die Pistole | der Pi
 
 Pivot |Substantiv| neutrum, –s, -s | пивотинг |das Pivot |des Pivots| dem Pivot | das Pivot |die Pivots |der Pivots | den Pivots | die Pivots|Beschreibung: ein kollektiver Manövrierzug, bei dem eine gesamte Formation (Linie oder Block) eine 180°‑Drehung um einen festen Drehpunkt (Pivot-Punkt) rotiert.|Beispiel: Beim Pivot ist der äußere Läufer der Anker: er bleibt quasi stehen, der Rest dreht sich um ihn herum.|pivot.jpg|
 
-Rehsprung |Substantiv| maskulin, -s, Rehsprünge | прыжок олень | der Rehsprung | des Rehsprungs | dem Rehsprung | den Rehsprung | die Rehsprünge | der Rehsprünge | den Rehsprüngen | die Rehsprünge|Beschreibung:  ein Sprung von einem Bein auf das andere, bei dem das vordere Bein im Moment des Absprungs zunächst gebeugt und dann gestreckt wird.| Beispiel: Bei dem Rehsprung wird das vordere Bein angewinkelt.|
+Rehsprung |Substantiv| maskulin, -s, Rehsprünge | прыжок олень | der Rehsprung | des Rehsprungs | dem Rehsprung | den Rehsprung | die Rehsprünge | der Rehsprünge | den Rehsprüngen | die Rehsprünge|Beschreibung:  ein Sprung von einem Bein auf das andere, bei dem das vordere Bein im Moment des Absprungs zunächst gebeugt und dann gestreckt wird.| Beispiel: Bei dem Rehsprung wird das vordere Bein angewinkelt.|rehsprung.jpg|
 
 Rhythmustanz |Substantiv| maskulin, -es, Rhythmustänze | ритм-танец |der Rhythmustanz |des Rhythmustanzes | dem Rhythmustanz | den Rhythmustanz| die Rhythmustänze| der Rhythmustänze| den Rhythmustänzen| die Rhythmustänze| Beschreibung: Früher als „Originaltanz“ bekannt. Hier wird ein vom ISU vorgegebener Rhythmus oder ein Thema getanzt, wie Tango, Walzer oder Swing.| Beispiel: Im Rhythmustanz zeigten die Athleten eine präzise Anpassung an den Beat und überzeugten mit ihrer Synchronität.|rhythmustanz.jpg|
 
@@ -269,7 +269,7 @@ Solopirouette |Substantiv| feminin, =, -n | параллельное враще�
 
 Spagatpirouette |Substantiv| feminin, =, -n | затяжка |die Spagatpirouette | der Spagatpirouette | der Spagatpirouette | die Spagatpirouette | die Spagatpirouetten |  der Spagatpirouetten | den Spagatpirouetten |  die Spagatpirouetten | Beispiel: Also für die Spagatpirouette musst du es halt zuerst auf dem Boden üben und natürlich den Spagat sehr gut können.| spagatpirouette.gif|
 
-Spagatsprung |Substantiv| maskulin, -s, Sprünge | прыжок в шпагат | der Spagatsprung | des Spagatsprungs | dem Spagatsprung | den Spagatsprung | die Spagatsprünge | der Spagatsprünge | den Spagatsprüngen | die Spagatsprünge|Beschreibung: ein choreografischer Sprung, bei dem man  in der Luft die Beine in eine Spagatposition streckt. |Beispiel: Nach der langen Spirale folgt ein flüssiger Spagatsprung, der direkt in die Step Sequence überleitet. |spagatsprung.gif|
+Spagatsprung |Substantiv| maskulin, -s, Sprünge | прыжок в шпагат | der Spagatsprung | des Spagatsprungs | dem Spagatsprung | den Spagatsprung | die Spagatsprünge | der Spagatsprünge | den Spagatsprüngen | die Spagatsprünge|Beschreibung: ein choreografischer Sprung, bei dem man  in der Luft die Beine in eine Spagatposition streckt. |Beispiel: Nach der langen Spirale folgt ein flüssiger Spagatsprung, der direkt in die Step Sequence überleitet. |spagatsprung.jpg|
 
 Spielbein |Substantiv| neutrum, –e(s), е | маховая нога |das Spielbein |des Spielbeins, Spielbeines| dem Spielbein | das Spielbein |die Spielbeine |der Spielbeine | den Spielbeinen | die Spielbeine| Beispiel: Er ist ein schwungvoll gelaufener Auswärtsbogen, bei dem das Spielbein dicht am Standbein vorbei gleichmäßig durchgezogen wird, von hinten nach vorne und wieder zurück.|
 
