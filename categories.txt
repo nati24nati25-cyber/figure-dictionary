@@ -3,6 +3,7 @@
 abheben | Allgemein
 abrollen  | Allgemein
 abspringen  | Allgemein
+Absprung | Allgemein
 Auftritt | Allgemein
 ausführen | Allgemein
 Ausführungsqualität | Allgemein
