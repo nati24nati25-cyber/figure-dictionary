@@ -22,6 +22,7 @@ Einlauf | Allgemein
 einlaufen | Allgemein
 einwärts | Allgemein
 Einwärtsbogen | Allgemein
+Fehlversuch | Allgemein
 gespreizt | Allgemein
 gleiten | Allgemein
 Innenkante | Allgemein
