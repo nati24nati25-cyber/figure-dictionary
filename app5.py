@@ -267,7 +267,7 @@ def show_card(entry, images_dir="images", links_data=None):
 
 # ---------- ИНТЕРФЕЙС ----------
 st.set_page_config(page_title="Словарь фигурного катания", layout="wide")
-st.title("📖 Немецко-русский словарь терминов фигурного катания")
+st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
 
 try:
     entries = load_dictionary("dictionary_new.txt")
@@ -283,13 +283,13 @@ except Exception as e:
 categories_map = load_categories("categories.txt")
 
 # Поиск
-search = st.text_input("🔍 Поиск по немецкому или русскому слову", "")
+search = st.text_input("🔍 Wortsuche (Deutsch oder Russisch) ", "")
 if search:
     filtered = [e for e in entries if search.lower() in e["word"].lower() or search.lower() in e["translation"].lower()]
 else:
     filtered = entries
 
-st.write(f"Показано записей: {len(filtered)}")
+st.write(f"Einträge: {len(filtered)}")
 
 # ---------- ВКЛАДКИ ПО КАТЕГОРИЯМ ----------
 tab_names = ["Все"] + CATEGORIES
@@ -308,7 +308,7 @@ for tab, cat_name in zip(tabs, tab_names):
         if not cat_entries:
             st.info(f"В категории «{cat_name}» пока нет записей.")
         else:
-            st.write(f"Найдено в категории «{cat_name}»: {len(cat_entries)}")
+            st.write(f"Gefunden in der Kategorie «{cat_name}»: {len(cat_entries)}")
             cols = st.columns(3)
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
