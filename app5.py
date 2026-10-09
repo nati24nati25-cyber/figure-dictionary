@@ -266,13 +266,13 @@ def show_card(entry, images_dir="images", links_data=None):
                         st.markdown(f"**{key}:** {sections[key]}")
 
 # ---------- ИНТЕРФЕЙС ----------
-st.set_page_config(page_title="Словарь фигурного катания", layout="wide")
+st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
 st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
 
 try:
     entries = load_dictionary("dictionary_new.txt")
     entries += load_abbreviations("categories.txt")
-    st.success(f"✅ Загружено записей: {len(entries)}")
+    st.success(f"✅ Hochgeladene Einträge: {len(entries)}")
 except FileNotFoundError:
     st.error("❌ Файл dictionary_new.txt не найден!")
     entries = []
@@ -292,7 +292,7 @@ else:
 st.write(f"Einträge: {len(filtered)}")
 
 # ---------- ВКЛАДКИ ПО КАТЕГОРИЯМ ----------
-tab_names = ["Все"] + CATEGORIES
+tab_names = ["Alle"] + CATEGORIES
 tabs = st.tabs(tab_names)
 
 for tab, cat_name in zip(tabs, tab_names):
