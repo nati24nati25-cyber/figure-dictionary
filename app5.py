@@ -297,7 +297,7 @@ tabs = st.tabs(tab_names)
 
 for tab, cat_name in zip(tabs, tab_names):
     with tab:
-        if cat_name == "Все":
+        if cat_name == "Alle":
             cat_entries = filtered
         else:
             cat_entries = [
