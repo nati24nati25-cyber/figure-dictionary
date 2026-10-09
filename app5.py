@@ -225,7 +225,7 @@ def show_card(entry, images_dir="images", links_data=None):
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
         if is_noun and cases:
-            with st.expander("📊 Таблица словоизменения"):
+            with st.expander("📊 Deklinations- und Konjugationstabelle"):
                 pad_ru = ["и.п.", "р.п.", "д.п.", "в.п."]
                 if len(cases) == 8:
                     rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
@@ -260,7 +260,7 @@ def show_card(entry, images_dir="images", links_data=None):
 
         # Дополнительная информация
         if sections:
-            with st.expander("ℹ️ Дополнительная информация"):
+            with st.expander("ℹ️ Zusätzliche Informationen"):
                 for key in ["Beschreibung", "Herkunft", "Beispiel"]:
                     if key in sections and sections[key]:
                         st.markdown(f"**{key}:** {sections[key]}")
