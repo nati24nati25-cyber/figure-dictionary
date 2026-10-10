@@ -229,10 +229,10 @@ def show_card(entry, images_dir="images", links_data=None):
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
                 if len(cases) == 8:
                     rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
-                    st.markdown("| падеж | ед.ч. | мн.ч. |\n|-------|-------|-------|\n" + "\n".join(rows))
+                    st.markdown("|  Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
                 elif len(cases) == 4:
                     rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
-                    st.markdown("| падеж | ед.ч. | мн.ч. |\n|-------|-------|-------|\n" + "\n".join(rows))
+                    st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
 
         # Картинка / GIF (у аббревиатур не показываем)
         if not abbr:
