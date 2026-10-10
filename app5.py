@@ -226,7 +226,7 @@ def show_card(entry, images_dir="images", links_data=None):
 
         if is_noun and cases:
             with st.expander("📊 Deklinations- und Konjugationstabelle"):
-                pad_ru = ["и.п.", "р.п.", "д.п.", "в.п."]
+                pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
                 if len(cases) == 8:
                     rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
                     st.markdown("| падеж | ед.ч. | мн.ч. |\n|-------|-------|-------|\n" + "\n".join(rows))
