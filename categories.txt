@@ -1,46 +1,46 @@
-###### Allgemein ######
+###### Technik ######
 
-abheben | Allgemein
-abrollen  | Allgemein
-abspringen  | Allgemein
-Absprung | Allgemein
-Auftritt | Allgemein
-ausführen | Allgemein
-аuslaufen |Allgemein
-auswärts | Allgemein
-Auswärtsbogen | Allgemein
-Außenkante | Allgemein
-beidbeinig | Allgemein
-bremsen | Allgemein
-Drehachse | Allgemein
-Drehung | Allgemein
-durchführen | Allgemein
-einbeinig | Allgemein
-Eingang | Allgemein
-Einlauf | Allgemein
-einlaufen | Allgemein
-einwärts | Allgemein
-Einwärtsbogen | Allgemein
-gespreizt | Allgemein
-gleiten | Allgemein
-Innenkante | Allgemein
-Kante | Allgemein
-Kantenwechsel | Allgemein
-landen | Allgemein
-laufen | Allgemein
-Rotation | Allgemein
-rückwärts | Allgemein
-Rückwärtsbogen | Allgemein
-schleifen | Allgemein
-Spielbein | Allgemein
-Standbein | Allgemein
-Sturz | Allgemein
-stürzen | Allgemein
-vorwärts | Allgemein
-Vorwärtsbogen | Allgemein
-Zahn | Allgemein
+abheben | Technik
+abrollen  | Technik
+abspringen  | Technik
+Absprung | Technik
+Auftritt | Technik
+ausführen | Technik
+аuslaufen |Technik
+auswärts | Technik
+Auswärtsbogen | Technik
+Außenkante | Technik
+beidbeinig | Technik
+bremsen | Technik
+Drehachse | Technik
+Drehung | Technik
+durchführen | Technik
+einbeinig | Technik
+Eingang | Technik
+Einlauf | Technik
+einlaufen | Technik
+einwärts | Technik
+Einwärtsbogen | Technik
+gespreizt | Technik
+gleiten | Technik
+Innenkante | Technik
+Kante | Technik
+Kantenwechsel | Technik
+landen | Technik
+laufen | Technik
+Rotation | Technik
+rückwärts | Technik
+Rückwärtsbogen | Technik
+schleifen | Technik
+Spielbein | Technik
+Standbein | Technik
+Sturz | Technik
+stürzen | Technik
+vorwärts | Technik
+Vorwärtsbogen | Technik
+Zahn | Technik
 
-###### Allgemein ######
+###### Technik ######
 
 
 
