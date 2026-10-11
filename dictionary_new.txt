@@ -10,7 +10,7 @@ Arabeske |Substantiv| feminin, =, -en | арабеск |die Arabeske | der Arabe
 
 Auftritt |Substantiv| maskulin, –(e)s, -e | выступление, прокат | der Auftritt| des Auftritts, Auftrittes| dem Auftritt| den Auftritt| die Auftritte | der Auftritte | den Auftritten | die Auftritte| Beispiel: Ein spanischer Eiskunstläufer begeistert mit seinem Auftritt.|
 
-ausführen |schwaches Verb (führte aus, hat ausgeführt)| vt. trennbar| выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung ausgeführt.|
+ausführen |schwaches Verb (führte aus, hat ausgeführt)| vt. trennbar| выполнять| Beispiel: Spagatsprünge werden daher mit weit gespreizter Beinhaltung ausgeführt.|
 
 Ausführungsqualität |Substantiv| feminin, =, -en | качество исполнения |die Ausführungsqualität | der Ausführungsqualität | der Ausführungsqualität | die Ausführungsqualität | die Ausführungsqualitäten |  der Ausführungsqualitäten | den Ausführungsqualitäten |  die Ausführungsqualitäten |Beschreibung: Bewertung der Qualität pro Element. Wertebereich: −5 bis +5.| Beispiel: Die Ausführungsqualität senkt oder erhöht den Wert des Elements.|
 
