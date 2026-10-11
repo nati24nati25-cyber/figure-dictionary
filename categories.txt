@@ -310,6 +310,7 @@ Wertungsprotokoll | Richterlexikon
 a. - auswärts - наружу| Abkürzungen
 A. - Axel - аксель| Abkürzungen
 CCoSP. - Pirouettenkombination mit Positions- und Fußwechsel - комбинированное вращение со сменой позиции и ноги| Abkürzungen
+ChSq. - Choreosequenz - хореографическая последовательность | Abkürzungen
 CoSp. - Pirouettenkombination mit Positionswechsel - комбинированное вращение со сменой позиции| Abkürzungen
 CUSp. - Pirouette mit einem Fußwechsel - вращение со сменой ноги| Abkürzungen
 CSp. - Waagepirouette - вращение «весы»| Abkürzungen
