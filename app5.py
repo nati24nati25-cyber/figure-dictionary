@@ -6,7 +6,7 @@ import base64
 
 # ---------- СПИСОК КАТЕГОРИЙ (порядок вкладок) ----------
 CATEGORIES = [
-    "Allgemein",
+    "Technik",
     "Sprünge",
     "Pirouetten",
     "Schritte",
