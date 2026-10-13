@@ -225,7 +225,7 @@ def show_card(entry, images_dir="images", links_data=None):
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
         if is_noun and cases:
-            with st.expander("📊 Deklinations- und Konjugationstabelle"):
+            with st.expander("📊 Grammatik / Form"):
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
                 if len(cases) == 8:
                     rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
