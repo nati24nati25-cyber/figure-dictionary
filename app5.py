@@ -218,20 +218,22 @@ def show_card(entry, images_dir="images", links_data=None):
     abbr = entry.get("abbr")
 
     with st.container(border=True):
-        # Заголовок: Absprung, der
+        # Заголовок
         if abbr:
             st.markdown(f"### **{abbr}** — {word}")
         else:
             article = cases[0] if (cases and len(cases) > 0) else ""
             if article:
+                # Вариант 1 (как у тебя сейчас): Absprung, der
                 st.markdown(f"### **{word}, {article}**")
+                # Вариант 2 (каноничный): der Absprung
+                # st.markdown(f"### **{article} {word}**")
             else:
                 st.markdown(f"### **{word}**")
 
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
         if is_noun and cases:
-            # Аккордеон: der Absprung, Substantiv (Maskulin)
             with st.expander("📊 Form & Grammatik"):
                 article_text = cases[0] if (cases and len(cases) > 0) else ""
                 
@@ -249,7 +251,7 @@ def show_card(entry, images_dir="images", links_data=None):
                 else:
                     st.write(f"{word}, Substantiv {gender_text}")
 
-                # Таблица: артикль + слово (в обоих столбцах)
+                # ТАБЛИЦА (ИСПРАВЛЕННАЯ)
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
                 rows = []
                 has_plural = len(cases) >= 8
@@ -265,7 +267,7 @@ def show_card(entry, images_dir="images", links_data=None):
 
                 st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
 
-        # Картинка / GIF (у аббревиатур не показываем)
+        # Картинка / GIF
         if not abbr:
             img_path = None
             if image_name:
@@ -288,6 +290,14 @@ def show_card(entry, images_dir="images", links_data=None):
                 st.markdown("**🔗 Ссылки:**")
                 for label, url in word_links:
                     st.markdown(f"- [{label}]({url})")
+
+        # Дополнительная информация
+        if sections:
+            with st.expander("ℹ️ Zusätzliche Informationen"):
+                for key in ["Beschreibung", "Herkunft", "Beispiel"]:
+                    if key in sections and sections[key]:
+                        st.markdown(f"**{key}:** {sections[key]}")
+
 
         # Дополнительная информация
         if sections:
