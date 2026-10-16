@@ -272,6 +272,7 @@ def show_card(entry, images_dir="images", links_data=None):
                     final_line = f"**{line_core}, {marker}**"
                 else:
                     final_line = f"**{line_core}**"
+                st.markdown(final_line)
 
                 
         if not abbr:
