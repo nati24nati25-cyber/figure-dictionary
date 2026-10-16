@@ -27,25 +27,27 @@ def parse_entry(line):
     if len(fields) < 3:
         return None
 
-    word = fields[0]
-    pos_raw = fields[1]
+    word = fields
+    pos_raw = fields
 
-    if re.search(r'[\u0400-\u04FF]', fields[2]):
+    # Определение перевода и грамматики
+    if re.search(r'[\u0400-\u04FF]', fields):
         grammar_raw = ""
-        translation = fields[2]
+        translation = fields
         rest = fields[3:]
     else:
         if len(fields) < 4:
             return None
-        grammar_raw = fields[2]
-        translation = fields[3]
+        grammar_raw = fields
+        translation = fields
         rest = fields[4:]
 
     grammar_display = f"{pos_raw}, {grammar_raw}" if grammar_raw else pos_raw
     is_noun = (pos_raw.lower() == "substantiv")
 
+    # Поиск начала падежей
     cases = None
-    extra = []
+    extra = 
     start_idx = -1
     for i, val in enumerate(rest):
         if val and re.match(r'^(der|die|das|des|dem|den)\b', val, re.IGNORECASE):
@@ -64,8 +66,9 @@ def parse_entry(line):
     else:
         extra = rest
 
+    # Поиск имени картинки
     image_name = ""
-    cleaned_extra = []
+    cleaned_extra = 
     for item in reversed(extra):
         item_stripped = item.strip()
         if item_stripped.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
@@ -74,10 +77,11 @@ def parse_entry(line):
             cleaned_extra.insert(0, item)
     extra = cleaned_extra
 
+    # Парсинг секций (Beschreibung, Beispiel и т.д.)
     sections = {}
     current_key = None
-    current_text = []
-    rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)$', re.IGNORECASE)
+    current_text = 
+    rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)\$', re.IGNORECASE)
 
     for item in extra:
         item = item.strip()
@@ -89,7 +93,7 @@ def parse_entry(line):
                 sections[current_key] = " ".join(current_text).strip()
             current_key = match.group(1)
             start_text = match.group(2).strip()
-            current_text = [start_text] if start_text else []
+            current_text = [start_text] if start_text else 
         else:
             if current_key is not None:
                 current_text.append(item)
@@ -108,7 +112,7 @@ def parse_entry(line):
 
 @st.cache_data
 def load_dictionary(file_path="dictionary_new.txt"):
-    entries = []
+    entries = 
     with open(file_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -134,16 +138,16 @@ def load_categories(file_path="categories.txt"):
             parts = [p.strip() for p in line.split("|")]
             if len(parts) < 2:
                 continue
-            left, cat = parts[0], parts[1]
-            word = left.split(" - ", 1)[0].strip()
-            cats.setdefault(word.lower(), []).append(cat)
+            left, cat = parts, parts
+            word = left.split(" - ", 1).strip()
+            cats.setdefault(word.lower(), ).append(cat)
     return cats
 
 # ---------- ЗАГРУЗКА АББРЕВИАТУР ----------
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
     """Формат: 'сокращение - немецкое слово - русский перевод| Abkürzungen'."""
-    abbrevs = []
+    abbrevs = 
     if not os.path.exists(file_path):
         return abbrevs
     with open(file_path, "r", encoding="utf-8") as f:
@@ -154,15 +158,15 @@ def load_abbreviations(file_path="categories.txt"):
             parts = [p.strip() for p in line.split("|")]
             if len(parts) < 2:
                 continue
-            cat = parts[1]
+            cat = parts
             if cat != "Abkürzungen":
                 continue
 
-            left = parts[0]
+            left = parts
             chunks = [c.strip() for c in left.split(" - ")]
 
             if len(chunks) >= 3:
-                abbr = chunks[0]
+                abbr = chunks
                 german = " - ".join(chunks[1:-1])
                 translation = chunks[-1]
             elif len(chunks) == 2:
@@ -204,7 +208,7 @@ def show_gif(gif_path, width=150):
         unsafe_allow_html=True,
     )
 
-# ---------- КАРТОЧКА ----------
+# ---------- КАРТОЧКА (ОБНОВЛЕННАЯ ЛОГИКА) ----------
 def show_card(entry, images_dir="images", links_data=None):
     word = entry["word"]
     grammar = entry["grammar"]
@@ -216,54 +220,107 @@ def show_card(entry, images_dir="images", links_data=None):
     abbr = entry.get("abbr")
 
     with st.container(border=True):
-        # Для аббревиатур заголовок: "A. — Axel" (без слова Abkürzung)
+        # --- 1. Заголовок карточки ---
         if abbr:
+            # Для аббревиатур: "A. — Axel"
             st.markdown(f"### **{abbr}** — {word}")
         else:
-            st.markdown(f"### **{word}** — {grammar}")
+            # Для обычных слов: "Eiskunstlauf, Substantiv (Maskulinum)"
+            # Разбираем грамматику для красивого вывода рода
+            pos_part = ""
+            gender_part = ""
+            
+            # Пытаемся выделить род из строки grammar (например "Substantiv (Maskulinum)" или "Substantiv, maskulin")
+            if "(" in grammar:
+                parts = grammar.split("(")
+                pos_part = parts.strip()
+                gender_part = parts.replace(")", "").strip()
+            elif "," in grammar:
+                parts = grammar.split(",")
+                pos_part = parts.strip()
+                gender_part = parts.strip()
+            else:
+                pos_part = grammar
 
-        st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
+            gender_de = {"maskulin": "Maskulinum", "feminin": "Femininum", "neutrum": "Neutrum"}.get(gender_part.lower(), gender_part)
+            
+            if gender_part:
+                st.markdown(f"### **{word}, {pos_part} ({gender_de})**")
+            else:
+                st.markdown(f"### **{word}, {pos_part}**")
 
+        # --- 2. Перевод ---
+        st.markdown(f"<p style='font-size:20px; color: #333; margin-top: 5px; margin-bottom: 15px;'>{translation}</p>", unsafe_allow_html=True)
+
+        # --- 3. Expander "Form | Grammatik" ---
         if is_noun and cases:
-            with st.expander("📊 Grammatik / Form"):
+            with st.expander("📋 Form | Grammatik", expanded=False):
+                st.markdown(f"**{word}, {grammar}**") # Дублируем заголовок внутри экспандера для контекста
+                st.markdown("**Tabelle der Deklination**")
+                
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
+                
+                # Логика построения таблицы строго по твоему требованию и картинке
                 if len(cases) == 8:
+                    # Есть и Singular и Plural
+                    # cases[0-3] = Sing, cases[4-7] = Pl
                     rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
-                    st.markdown("|  Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
+                    table_md = "| Kasus | SPRING | Pl. |\n|-------|--------|------|\n" + "\n".join(rows)
+                    st.markdown(table_md)
                 elif len(cases) == 4:
-                    rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
-                    st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
+                    # Есть только Singular (или данные неполные)
+                    # cases[0-3] = Sing
+                    rows = [f"| {pad_ru[i]} | {cases[i]} | — |" for i in range(4)]
+                    table_md = "| Kasus | SPRING | Pl. |\n|-------|--------|------|\n" + "\n".join(rows)
+                    st.markdown(table_md)
+                else:
+                    st.info("📜 Данные о склонении неполные.")
+        else:
+            if is_noun:
+                st.info("📜 Для этого слова нет таблицы склонения.")
 
-        # Картинка / GIF (у аббревиатур не показываем)
+        # --- 4. Картинка ---
         if not abbr:
             img_path = None
             if image_name:
                 candidate = os.path.join(images_dir, image_name)
                 if os.path.exists(candidate):
                     img_path = candidate
+            
             if img_path is None:
                 img_path = find_image_by_word(word, images_dir)
-
+            
             if img_path:
                 if img_path.lower().endswith('.gif'):
                     show_gif(img_path, width=150)
                 else:
-                    st.image(img_path, width=150)
+                    st.image(img_path, width=150, caption="Иллюстрация элемента")
 
-        # Ссылки
+        # --- 5. Ссылки ---
         if links_data:
-            word_links = links_data.get(word.lower(), [])
+            word_links = links_data.get(word.lower(), )
             if word_links:
                 st.markdown("**🔗 Ссылки:**")
                 for label, url in word_links:
                     st.markdown(f"- [{label}]({url})")
 
-        # Дополнительная информация
+        # --- 6. Zusätzliche Informationen ---
         if sections:
-            with st.expander("ℹ️ Zusätzliche Informationen"):
-                for key in ["Beschreibung", "Herkunft", "Beispiel"]:
-                    if key in sections and sections[key]:
-                        st.markdown(f"**{key}:** {sections[key]}")
+            with st.expander("ℹ️ Zusätzliche Informationen", expanded=False):
+                col1, col2 = st.columns(2)
+                with col1:
+                    if "Beschreibung" in sections and sections["Beschreibung"]:
+                        st.markdown(f"**Beschreibung:** {sections['Beschreibung']}")
+                    else:
+                        st.markdown("**Beschreibung:** ……………………")
+                with col2:
+                    if "Beispiel" in sections and sections["Beispiel"]:
+                        st.markdown(f"**Beispiel:** {sections['Beispiel']}")
+                    else:
+                        st.markdown("**Beispiel:** ……………………")
+                
+                if "Herkunft" in sections and sections["Herkunft"]:
+                    st.markdown(f"**Herkunft:** {sections['Herkunft']}")
 
 # ---------- ИНТЕРФЕЙС ----------
 st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
@@ -275,10 +332,10 @@ try:
     st.success(f"✅ Hochgeladene Einträge: {len(entries)}")
 except FileNotFoundError:
     st.error("❌ Файл dictionary_new.txt не найден!")
-    entries = []
+    entries = 
 except Exception as e:
     st.error(f"Ошибка: {e}")
-    entries = []
+    entries = 
 
 categories_map = load_categories("categories.txt")
 
@@ -302,7 +359,7 @@ for tab, cat_name in zip(tabs, tab_names):
         else:
             cat_entries = [
                 e for e in filtered
-                if cat_name in categories_map.get(e.get("abbr", e["word"]).lower(), [])
+                if cat_name in categories_map.get(e.get("abbr", e["word"]).lower(), )
             ]
 
         if not cat_entries:
@@ -313,3 +370,5 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
+
+          
