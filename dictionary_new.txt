@@ -36,7 +36,7 @@ Block |Substantiv| maskulin | блок |der Block |des Blocks| dem Block | den B
 
 Bogen |Substantiv| maskulin | дуга |der Bogen |des Bogens | dem Bogen | den Bogen| die Bogen| der Bogen| den Bogen| die Bogen| Kurvenlauf auf einem Bein| Beispiel: Die Rotation wird erreicht, indem man die Arme ruckartig an den Oberkörper reißt, wobei der rechte etwas langsamer ist, da er den längeren Weg hat und einen kleinen Bogen macht.|
 
-bremsen |  Verb (bremste, hat bremst)| vi. | тормозить| Beispiel: Das nützt man aus, um zu bremsen bzw. sich vom Eis abzudrücken.|
+bremsen |  Verb (bremst, bremste, hat bremst)| vi. | тормозить| Beispiel: Das nützt man aus, um zu bremsen bzw. sich vom Eis abzudrücken.|
 
 Cantilever |Substantiv| maskulin | кантилевер |der Cantilever |des Cantilevers| dem Cantilever | den Cantilever| die Cantilever| der Cantilever| den Cantilevern| die Cantilever|Beschreibung: eine spektakuläre Variante des Mondes, bei der man auf zwei Beinen mit stark nach hinten geneigtem Oberkörper gleitet, fast parallel zum Eis, und dabei Tiefe der Kanten sowie Körperkontrolle zeigt |Beispiel: Halte die Kanten tiefer im Cantilever, sonst verliert die Linie an Stabilität.|cantilever.webp|
 
@@ -90,7 +90,7 @@ Dreifachsprung |Substantiv| maskulin | тройной прыжок | der Dreifac
 
 Dreifachtoeloop |Substantiv| maskulin | тройной тулуп | der Dreifachtoeloop| des Dreifachtoeloop(s)| dem Dreifachtoeloop| den Dreifachtoeloop| die Dreifachtoeloops | der Dreifachtoeloops | den Dreifachtoeloops | die Dreifachtoeloops | Beschreibung: dreifacher Toeloop, ein Toeloop mit 3 Umdrehungen | Beispiel: Als letztes Element der Kombination sprang sie einen Dreifachtoeloop und erhielt volle Punktzahl.|dreifachtoeloop.gif|
 
-durchführen | Verb (durchführte, hat durchgeführt)| vt. trennbar| исполнять, выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
+durchführen | Verb (durchführt, durchführte, hat durchgeführt)| vt. trennbar| исполнять, выполнять| Beispiel: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
 
 einbeinig | Adverb | на одной ноге| Beispiel: Schwieriger ist das Bremsen auf einem Bein bei einbeinigem Stand. Wird die Drehung langsamer, richtet man den Oberkörper auf und geht in eine einbeinige. Standpirouette über, dreht noch einige Male weiter und läuft wie üblich aus.|
 
@@ -112,7 +112,7 @@ Einstichsprung |Substantiv| maskulin | зубцовый прыжок | der Einst
 
 Einlauf |Substantiv| maskulin | заезд, вход, въезд (на прыжок) | der Einlauf | des Einlaufs| dem Einlauf | den Einlauf | die Einläufe| der Einläufe | den Einläufen | die Einläufe| Beispiel: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.|
 
-einlaufen | starkes Verb (lief ein, ist eingelaufen)| vi.| заезжать, въезжать|
+einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заезжать, въезжать|
 
 einwärts | Adverb | внутрь (на внутреннее ребро)| Beispiel: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
@@ -145,7 +145,7 @@ gespreizt | Adjektiv | pp. | разведенные в сторону (ноги)
 gestanden |Adjektiv | pp. | выстоянный (прыжок)| Beispiel: Der vierfache Lutz war knapp, aber er war gestanden.
 Er zeigte fünf Vierfache, drei davon waren sauber gestanden, bei den anderen beiden fiel er.
 
-gleiten | starkes Verb (glitt, geglitten)| vi. | скользить| Beispiel: Rechten Fuß innerhalb der Spur aufsetzen und, die Lauflinie des linken Beins kreuzend, nach außen unter den Körperschwerpunkt gleiten lassen.|
+gleiten | starkes Verb (gleitet, glitt, ist geglitten)| vi. | скользить| Beispiel: Rechten Fuß innerhalb der Spur aufsetzen und, die Lauflinie des linken Beins kreuzend, nach außen unter den Körperschwerpunkt gleiten lassen.|
 
 Gruppenlift |Substantiv| maskulin| групповая поддержка | der Gruppenlift | des Gruppenlifts | dem Gruppenlift | den Gruppenlift | die Gruppenlifts | der Gruppenlifts | den Gruppenlifts | die Gruppenlifts |Beschreibung: ein Element, bei dem ein oder mehrere Skater von zwei oder mehreren anderen Sportler:innen angehoben und in jeder Höhe gehalten werden |Beispiel: Die Mannschaft übt die Gruppenhebung für die neue Kür.| gruppenlift.webp|
 
@@ -195,11 +195,11 @@ Kür |Substantiv| feminin | произвольная программа |die Kü
 
 Kürtanz |Substantiv| maskulin | произвольный танец |der Kürtanz |des Kürtanzes | dem Kürtanz | den Kürtanz| die Kürtänze| der Kürtänze| den Kürtänzen| die Kürtänze| Beschreibung: ein frei gestaltetes Programm, bei dem Musik und Thema selbst gewählt werden können (auch mit Gesang)| Beispiel: Wir haben uns für einen Jazz-Mix als Musik für unseren Kürtanz entschieden.| kürtanz.jpg|
 
-landen |  Verb (landete, gelandet)| vi. | приземляться| Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
+landen |  Verb (landet, landete, ist gelandet)| vi. | приземляться| Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
 
 Landung |Substantiv| feminin | приземление |die Landung | der Landung | der Landung| die Landung | die Landungen |  der Landungen | den Landungen |  die Landungen | Beispiel: Mit der Landung auf der Zacke den Fuß zum Auslauf Rra senken.|
 
-laufen |  Verb (lief, ist gelaufen)| vi. | ехать, скользить| Beispiel: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
+laufen |  Verb (läuft, lief, ist gelaufen)| vi. | ехать, скользить| Beispiel: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
 
 Laufschritt |Substantiv| maskulin | елочка |der Laufschritt |des Laufschritts| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte|Beispiel: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
 
@@ -251,7 +251,7 @@ Salchow |Substantiv| maskulin| сальхов | der Salchow| des Salchow[s]| dem
 
 Schlangenbogen |Substantiv| maskulin | перетяжка |der Schlangenbogen |des Schlangenbogens | dem Schlangenbogen | den Schlangenbogen| die Schlangenbögen| der Schlangenbögen| den Schlangenbögen| die Schlangenbögen| Beschreibung: ein Schritt auf einem Bein mit Kanten- und Kreiswechsel, bei gleitendem Übergang von einem Kreisbogen zum anderen| Beispiel: Schritte: Cross Roll, Schlangenbögen, Chassées, Mohawks, Choctaws, Spitzenschritte | schlangenbogen.jpg|
 
-schleifen | Verb (schliff, geschliffen)| vt. | точить, затачивать| Beispiel: Kufe schleifen|
+schleifen | Verb (schleift, schliff, hat geschliffen)| vt. | точить, затачивать| Beispiel: Kufe schleifen|
 
 Schlinge |Substantiv| feminin | петля |die Schlinge | der Schlinge | der Schlinge| die Schlinge | die Schlingen |  der Schlingen | den Schlingen |  die Schlingen | Beschreibung: in einem verkleinerten Achter gelaufene Figur mit einer ovalen Eindrehung| Beispiel: Die Schlinge verlangt vom Kunstläufer stärkste Konzentration, besondere Standfestigkeit und ein hervorragendes Gleichgewichtsgefühl». |schlinge.jpg|
 
@@ -295,7 +295,7 @@ Storch |Substantiv| maskulin | цапелька| der Storch | des Storchs | dem 
 
 Sturz |Substantiv| maskulin | падение | der Sturz | des Sturzes | dem Sturz | den Sturz | die Stürze | der Stürze | den Stürzen | die Stürze| Beispiel: Beim Üben des Sturzes nach vorn ist es empfehlenswert, anfangs Knie- und Ellbogenschoner (vom Inlineskaten) zu verwenden.| sturz.gif|
 
-stürzen | Verb (stürzte, gestürzt)| vi. | падать| Beispiel: Sie stürzte mehrfach auf dem Eis und brach anschließend in Tränen aus.|
+stürzen | Verb (stürzt, stürzte, ist gestürzt)| vi. | падать| Beispiel: Sie stürzte mehrfach auf dem Eis und brach anschließend in Tränen aus.|
 
 Synchroneiskunstlauf |Substantiv| maskulin | синхронное катание | der Synchroneiskunstlauf| des Synchroneiskunstlaufs| dem Synchroneiskunstlauf| den Synchroneiskunstlauf| die Synchroneiskunstläufe | der Synchroneiskunstläufe | den Synchroneiskunstläufen | die Synchroneiskunstläufe |Beschreibung: eine Teamdisziplin des Eiskunstlaufs, bei der eine Gruppe von Sportlern (traditionell 16 Personen, bei den Olympischen Spielen 2030 jedoch 9) Elemente maximal synchron ausführt und sich dabei wie eine Einheit bewegt| Beispiel: Beim diesjährigen Stadtfestival findet erstmals ein Wettbewerb im Synchroneiskunstlauf statt.|synchroneiskunstlauf.jpg|
 
@@ -365,7 +365,7 @@ Zirkel |Substantiv |maskulin | циркуль |der Zirkel |des Zirkels | dem Zir
 
 Zitrone |Substantiv|feminin | фонарик |die Zitrone | der Zitrone| der Zitrone | die Zitrone | die Zitrone |  der Zitrone | den Zitronen |  die Zitrone |Beschreibung: eine typische Anfängerübung, bei der man gleitet und zeichnet mit beiden Beinen eine Figur auf das Eis, die an eine Zitrone erinnert – also so einen leicht ovalen Kreis |Beispiel: Die Übung 'Zitrone' hilft dir, das Gleichgewicht zu trainieren.| zitrone.jpg|
 
-überdrehen | Verb (überdrochte, überdricht)| vt. | перекруть| Beispiel: Beide überdrehten ihren Sprung. Starostin hatte in der Kurzkür den Axel verpatzt, den er in der Kür zweimal zeigte, wobei der zweite Dreifache überdreht war.|
+überdrehen | Verb (überdreht, überdrehte, hat überdreht)| vt. | перекруть| Beispiel: Beide überdrehten ihren Sprung. Starostin hatte in der Kurzkür den Axel verpatzt, den er in der Kür zweimal zeigte, wobei der zweite Dreifache überdreht war.|
 
 Übersetzschritt |Substantiv|  maskulin | перебежка |der Übersetzschritt |des Übersetzschritts, Übersetzschrittes| dem Übersetzschritt | den Übersetzschritt| die Übersetzschritte| der Übersetzschritte| den Übersetzschritten| die Übersetzschritte| Beispiel: Mit solchen Übersetzschritten zeigt sie starke Gleittechnik.| Beschreibung: ein typischer Schritt in der Schrittfolge: das äußere Bein wird vor das innere Bein gesetzt, um den Kantenwechsel fließend zu gestalten|
 
