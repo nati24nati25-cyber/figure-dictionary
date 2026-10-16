@@ -227,6 +227,7 @@ def show_card(entry, images_dir="images", links_data=None):
 
         if is_noun and cases:
             with st.expander("📊 Grammatik / Form"):
+                st.write(f"**{grammar}**")
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
                 if len(cases) == 8:
                     rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
