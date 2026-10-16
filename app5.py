@@ -1,4 +1,3 @@
-
 import streamlit as st
 import os
 import re
@@ -48,6 +47,8 @@ def parse_entry(line):
     cases = None
     extra = 
     start_idx = -1
+    
+    # Поиск начала падежей
     for i, val in enumerate(rest):
         if val and re.match(r'^(der|die|das|des|dem|den)\b', val, re.IGNORECASE):
             start_idx = i
@@ -203,43 +204,43 @@ def show_gif(gif_path, width=150):
         unsafe_allow_html=True,
     )
 
-# ---------- КАРТОЧКА (ИСПРАВЛЕННАЯ) ----------
+# ---------- КАРТОЧКА (ИСПРАВЛЕННАЯ ПОД СКРИН) ----------
 def show_card(entry, images_dir="images", links_data=None):
-    word = entry["word"]          # "Axel"
-    grammar = entry["grammar"]    # "Substantiv, maskulin"
+    word = entry["word"]
+    grammar = entry["grammar"]
     translation = entry["translation"]
-    cases = entry["cases"]        # ["der Axel", "des Axels", ...]
+    cases = entry["cases"]
     image_name = entry["image"]
     sections = entry["sections"]
     is_noun = entry["is_noun"]
     abbr = entry.get("abbr")
 
     with st.container(border=True):
-        # --- ЗАГОЛОВОК (ИСПРАВЛЕНО: Axel, der) ---
+        # --- ЗАГОЛОВОК (СТРОГО КАК НА СКРИНЕ: Axel, der) ---
         if abbr:
             st.markdown(f"### **{abbr}** — {word}")
         else:
+            # Берем первый элемент из cases (например, "der Axel"), разбиваем и меняем порядок
             if cases and len(cases) > 0:
-                # cases у тебя = "der Axel"
-                # Разбиваем на артикль и слово, чтобы собрать "Axel, der"
-                parts = cases.split(" ", 1)
+                nom_form = cases
+                parts = nom_form.split(" ", 1)
                 if len(parts) == 2:
                     article, clean_word = parts, parts
                     st.markdown(f"### **{clean_word}, {article}**")
                 else:
-                    # Если вдруг нет пробела, оставляем как есть
-                    st.markdown(f"### **{cases}**")
+                    st.markdown(f"### **{nom_form}**")
             else:
                 st.markdown(f"### **{word}**")
 
         # --- ПЕРЕВОД ---
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
-        # --- АККОРДЕОН (ОСТАЛСЯ КАК НА СКРИНШОТЕ: der Axel, Substantiv...) ---
+        # --- АККОРДЕОН (СТРОГО КАК НА СКРИНЕ) ---
         if is_noun and cases:
             with st.expander("📊 Grammatik / Form"):
                 nom_form = cases if len(cases) >= 1 else word
                 
+                # Определяем род для скобок
                 g_lower = grammar.lower()
                 gender_text = ""
                 if "maskulin" in g_lower:
@@ -248,10 +249,11 @@ def show_card(entry, images_dir="images", links_data=None):
                     gender_text = "(Feminin)"
                 elif "neutrum" in g_lower:
                     gender_text = "(Neutrum)"
-
+                
+                # Формируем строку как на скриншоте: "der Axel, Substantiv (Maskulin)"
+                # grammar содержит "Substantiv, maskulin" или подобное
                 pos_text = grammar.split(",").strip()
-
-                # Строка в аккордеоне: der Axel, Substantiv (Maskulin)
+                
                 st.write(f"{nom_form}, {pos_text} {gender_text}")
 
                 # Таблица
@@ -346,6 +348,7 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
+
 
 
 
