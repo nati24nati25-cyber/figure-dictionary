@@ -45,7 +45,7 @@ def parse_entry(line):
     is_noun = (pos_raw.lower() == "substantiv")
 
     cases = None
-    extra = 
+    extra =  
     start_idx = -1
     
     # Поиск начала падежей
@@ -67,7 +67,7 @@ def parse_entry(line):
         extra = rest
 
     image_name = ""
-    cleaned_extra = 
+    cleaned_extra =  
     for item in reversed(extra):
         item_stripped = item.strip()
         if item_stripped.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
