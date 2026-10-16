@@ -225,34 +225,36 @@ def show_card(entry, images_dir="images", links_data=None):
 
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
-        if is_noun and cases:
-            with st.expander("📊 Grammatik / Form"):
-                if is_noun and cases:
-                    article_inner = cases[0].split()[0]
-                    gender_inner = grammar.split(",")[1].strip()
-                    st.markdown(f"**{article_inner} {word}, Substantiv ({gender_inner.capitalize()})**")
+                # --- АККОРДЕОН (ОТКРЫВАЕТСЯ ВСЕГДА) ---
+        with st.expander("📊 Grammatik / Form"):
+            if is_noun and cases:
+                # ЛОГИКА ДЛЯ СУЩЕСТВИТЕЛЬНЫХ (таблица)
+                article_inner = cases[0].split()[0]
+                gender_inner = grammar.split(",")[1].strip()
+                st.markdown(f"**{article_inner} {word}, Substantiv ({gender_inner.capitalize()})**")
 
-                    pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
-                    if len(cases) == 8:
-                        rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
-                        st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
-                    elif len(cases) == 4:
-                        rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
-                        st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
-
-                else:
-                    conjugation_text = ""
-                    if "(" in grammar and ")" in grammar:
-                        conjugation_text = grammar.split("(")[1].split(")")[0]
-
-                    base_type = grammar.split('(')[0].strip() if "(" in grammar else grammar
-
-                    if conjugation_text:
-                        st.markdown(f"**{word} - {base_type} ({conjugation_text})**")
-                    else:
-                        st.markdown(f"**{word} - {grammar}**")
+                pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
+                if len(cases) == 8:
+                    rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
+                    st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
+                elif len(cases) == 4:
+                    rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
+                    st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
+            
+            else:
+                # ЛОГИКА ДЛЯ ГЛАГОЛОВ (теперь реально сработает!)
+                conjugation_text = ""
+                base_type = grammar
                 
+                if "(" in grammar and ")" in grammar:
+                    parts = grammar.split("(")
+                    base_type = parts[0].strip()
+                    conjugation_text = parts[1].split(")")[0]
 
+                if conjugation_text:
+                    st.markdown(f"**{word} - {base_type} ({conjugation_text})**")
+                else:
+                    st.markdown(f"**{word} - {grammar}**")
 
         if not abbr:
             img_path = None
