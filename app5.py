@@ -1,4 +1,9 @@
 
+Ошибка `SyntaxError: invalid syntax` на строке `extra =` возникает, потому что в Python нельзя оставлять присваивание без значения. В предыдущем фрагменте это были «заглушки», которые не были заполнены.
+
+Ниже — **полностью исправленный код**. Я заменил все проблемные места (где было просто `extra =`, `entries =`, `cleaned_extra =` и т.д.) на корректную инициализацию пустыми списками ``. Код теперь синтаксически верен и готов к запуску.
+
+```python
 import streamlit as st
 import os
 import re
@@ -37,7 +42,7 @@ def parse_entry(line):
 
     # Поиск начала падежей (der, die, das...)
     cases = None
-    extra = 
+    extra =   # ИСПРАВЛЕНО: инициализация пустым списком
     start_idx = -1
     for i, val in enumerate(rest):
         if val and re.match(r'^(der|die|das|des|dem|den)\b', val, re.IGNORECASE):
@@ -58,7 +63,7 @@ def parse_entry(line):
 
     # Поиск имени картинки
     image_name = ""
-    cleaned_extra = 
+    cleaned_extra =   # ИСПРАВЛЕНО: инициализация пустым списком
     for item in reversed(extra):
         item_stripped = item.strip()
         if item_stripped.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
@@ -70,7 +75,7 @@ def parse_entry(line):
     # Парсинг секций (Beschreibung, Beispiel...)
     sections = {}
     current_key = None
-    current_text = 
+    current_text =   # ИСПРАВЛЕНО: инициализация пустым списком
     rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)\$', re.IGNORECASE)
 
     for item in extra:
@@ -102,7 +107,7 @@ def parse_entry(line):
 
 @st.cache_data
 def load_dictionary(file_path="dictionary_new.txt"):
-    entries = 
+    entries =   # ИСПРАВЛЕНО: инициализация пустым списком
     if not os.path.exists(file_path):
         return entries
     with open(file_path, "r", encoding="utf-8") as f:
@@ -135,7 +140,7 @@ def load_categories(file_path="categories.txt"):
 
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
-    abbrevs = 
+    abbrevs =   # ИСПРАВЛЕНО: инициализация пустым списком
     if not os.path.exists(file_path):
         return abbrevs
     with open(file_path, "r", encoding="utf-8") as f:
@@ -230,7 +235,7 @@ def show_card(entry, images_dir="images", links_data=None):
 
             # Таблица склонения через st.dataframe
             pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
-            data = 
+            data =   # ИСПРАВЛЕНО: инициализация пустым списком
             if len(cases) == 8:
                 for i in range(4):
                     data.append([pad_ru[i], cases[i], cases[i+4]])
@@ -282,7 +287,7 @@ def show_card(entry, images_dir="images", links_data=None):
         if origin:
             st.caption(f"Herkunft: {origin}")
     else:
-        # Если секций нет вообще — всё равно показываем заглушки, чтобы структура карточки была полной
+        # Если секций нет вообще — всё равно показываем заглушки
         cols = st.columns(2)
         with cols:
             st.markdown("**Beschreibung**")
@@ -341,5 +346,8 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
+```
+
+
 
 
