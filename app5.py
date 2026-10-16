@@ -1,18 +1,15 @@
 
-
 import streamlit as st
 import os
 import re
 import base64
 
-# ---------- КОНФИГУРАЦИЯ ----------
 CATEGORIES = [
     "Technik", "Sprünge", "Pirouetten", "Schritte", "Choreosequenz",
     "Grundelementen", "Einzellauf", "Paarlauf", "Eistanz",
     "Synchroneiskunstlauf", "Richterlexikon", "Abkürzungen", "Zubehör"
 ]
 
-# ---------- ПАРСЕР ----------
 def parse_entry(line):
     fields = [f.strip() for f in line.split("|")]
     if len(fields) < 3:
@@ -21,7 +18,6 @@ def parse_entry(line):
     word = fields
     pos_raw = fields
 
-    # Определение перевода и грамматики
     if re.search(r'[\u0400-\u04FF]', fields):
         grammar_raw = ""
         translation = fields
@@ -36,9 +32,8 @@ def parse_entry(line):
     grammar_display = f"{pos_raw}, {grammar_raw}" if grammar_raw else pos_raw
     is_noun = (pos_raw.lower() == "substantiv")
 
-    # Поиск начала падежей (der, die, das...)
     cases = None
-    extra =   
+    extra = 
     start_idx = -1
     for i, val in enumerate(rest):
         if val and re.match(r'^(der|die|das|des|dem|den)\b', val, re.IGNORECASE):
@@ -57,9 +52,8 @@ def parse_entry(line):
     else:
         extra = rest
 
-    # Поиск имени картинки
     image_name = ""
-    cleaned_extra =   
+    cleaned_extra = 
     for item in reversed(extra):
         item_stripped = item.strip()
         if item_stripped.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
@@ -68,10 +62,9 @@ def parse_entry(line):
             cleaned_extra.insert(0, item)
     extra = cleaned_extra
 
-    # Парсинг секций (Beschreibung, Beispiel...)
     sections = {}
     current_key = None
-    current_text =   # ИСПРАВЛЕНО: инициализация пустым списком
+    current_text = 
     rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)\$', re.IGNORECASE)
 
     for item in extra:
@@ -103,7 +96,7 @@ def parse_entry(line):
 
 @st.cache_data
 def load_dictionary(file_path="dictionary_new.txt"):
-    entries =   # ИСПРАВЛЕНО: инициализация пустым списком
+    entries = 
     if not os.path.exists(file_path):
         return entries
     with open(file_path, "r", encoding="utf-8") as f:
@@ -136,7 +129,7 @@ def load_categories(file_path="categories.txt"):
 
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
-    abbrevs =   # ИСПРАВЛЕНО: инициализация пустым списком
+    abbrevs = 
     if not os.path.exists(file_path):
         return abbrevs
     with open(file_path, "r", encoding="utf-8") as f:
@@ -186,8 +179,7 @@ def show_gif(gif_path, width=150):
     data_url = base64.b64encode(contents).decode("utf-8")
     st.markdown(f'<img src="data:image/gif;base64,{data_url}" width="{width}" style="display:block; margin:0 auto;">', unsafe_allow_html=True)
 
-# ---------- ФУНКЦИЯ КАРТОЧКИ ----------
-def show_card(entry, images_dir="images", links_data=None):
+def show_card(entry, images_dir="images"):
     word = entry["word"]
     grammar = entry["grammar"]
     translation = entry["translation"]
@@ -197,7 +189,6 @@ def show_card(entry, images_dir="images", links_data=None):
     is_noun = entry["is_noun"]
     abbr = entry.get("abbr")
 
-    # --- 1. Заголовок и Перевод (Снаружи экспандера) ---
     if abbr:
         st.subheader(f"{abbr} — {word}")
     else:
@@ -205,11 +196,9 @@ def show_card(entry, images_dir="images", links_data=None):
 
     st.caption(translation)
 
-    # --- 2. Expander: Form | Grammatik ---
     with st.expander("📋 Form | Grammatik"):
         if is_noun and cases:
             article_word = cases if cases else ""
-
             gender_part = ""
             pos_part = grammar
 
@@ -229,9 +218,8 @@ def show_card(entry, images_dir="images", links_data=None):
             else:
                 st.write(f"{article_word}, {pos_part}")
 
-            # Таблица склонения через st.dataframe
             pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
-            data =   # ИСПРАВЛЕНО: инициализация пустым списком
+            data = 
             if len(cases) == 8:
                 for i in range(4):
                     data.append([pad_ru[i], cases[i], cases[i+4]])
@@ -244,13 +232,11 @@ def show_card(entry, images_dir="images", links_data=None):
                 1: st.column_config.ColumnConfig(header="Sing."),
                 2: st.column_config.ColumnConfig(header="Pl.")
             })
-
         elif is_noun:
             st.write("Нет данных о склонении.")
         else:
             st.write(grammar)
 
-    # --- 3. Картинка ---
     if not abbr:
         img_path = None
         if image_name:
@@ -267,37 +253,22 @@ def show_card(entry, images_dir="images", links_data=None):
             else:
                 st.image(img_path, use_column_width=True)
 
-    # --- 4. Доп. информация: Beschreibung, Beispiel, Herkunft ---
-    if sections:
-        cols = st.columns(2)
-        with cols:
-            st.markdown("**Beschreibung**")
-            desc = sections.get("Beschreibung", "…………………")
-            st.write(desc)
-        with cols:
-            st.markdown("**Beispiel**")
-            example = sections.get("Beispiel", "…………………")
-            st.write(example)
+    cols = st.columns(2)
+    with cols:
+        st.markdown("**Beschreibung**")
+        st.write(sections.get("Beschreibung", "…………………"))
+    with cols:
+        st.markdown("**Beispiel**")
+        st.write(sections.get("Beispiel", "…………………"))
 
-        origin = sections.get("Herkunft", "")
-        if origin:
-            st.caption(f"Herkunft: {origin}")
-    else:
-        # Если секций нет вообще — всё равно показываем заглушки
-        cols = st.columns(2)
-        with cols:
-            st.markdown("**Beschreibung**")
-            st.write("…………………")
-        with cols:
-            st.markdown("**Beispiel**")
-            st.write("…………………")
+    origin = sections.get("Herkunft", "")
+    if origin:
+        st.caption(f"Herkunft: {origin}")
 
-# Обработка GIF в конце страницы
 if hasattr(st.session_state, 'current_gif') and st.session_state.current_gif:
     show_gif(st.session_state.current_gif, width=300)
     del st.session_state.current_gif
 
-# ---------- ИНТЕРФЕЙС ----------
 st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
 st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
 
@@ -342,7 +313,8 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
-```
+
+
 
 
 
