@@ -227,11 +227,15 @@ def show_card(entry, images_dir="images", links_data=None):
 
         if is_noun and cases:
             with st.expander("📊 Grammatik / Form"):
-                st.write(f"**{grammar}**")
+                article_inner = cases[0].split()[0]
+                gender_inner = grammar.split(",")[1].strip()
+                st.markdown(f"**{article_inner} {word}, Substantiv ({gender_inner.capitalize()})**")
+
+                # ТАБЛИЦА (как была, без изменений)
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
                 if len(cases) == 8:
                     rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
-                    st.markdown("|  Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
+                    st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
                 elif len(cases) == 4:
                     rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
                     st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
