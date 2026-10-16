@@ -17,19 +17,19 @@ def parse_entry(line):
     if len(fields) < 3:
         return None
 
-    word = fields[0]
-    pos_raw = fields[1]
+    word = fields
+    pos_raw = fields
 
     # Определение перевода и грамматики
-    if re.search(r'[\u0400-\u04FF]', fields[2]):
+    if re.search(r'[\u0400-\u04FF]', fields):
         grammar_raw = ""
-        translation = fields[2]
+        translation = fields
         rest = fields[3:]
     else:
         if len(fields) < 4:
             return None
-        grammar_raw = fields[2]
-        translation = fields[3]
+        grammar_raw = fields
+        translation = fields
         rest = fields[4:]
 
     grammar_display = f"{pos_raw}, {grammar_raw}" if grammar_raw else pos_raw
@@ -37,7 +37,7 @@ def parse_entry(line):
 
     # Поиск начала падежей (der, die, das...)
     cases = None
-    extra = []
+    extra = 
     start_idx = -1
     for i, val in enumerate(rest):
         if val and re.match(r'^(der|die|das|des|dem|den)\b', val, re.IGNORECASE):
@@ -58,7 +58,7 @@ def parse_entry(line):
 
     # Поиск имени картинки
     image_name = ""
-    cleaned_extra = []
+    cleaned_extra = 
     for item in reversed(extra):
         item_stripped = item.strip()
         if item_stripped.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
@@ -70,8 +70,8 @@ def parse_entry(line):
     # Парсинг секций (Beschreibung, Beispiel...)
     sections = {}
     current_key = None
-    current_text = []
-    rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)$', re.IGNORECASE)
+    current_text = 
+    rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)\$', re.IGNORECASE)
 
     for item in extra:
         item = item.strip()
@@ -83,7 +83,7 @@ def parse_entry(line):
                 sections[current_key] = " ".join(current_text).strip()
             current_key = match.group(1)
             start_text = match.group(2).strip()
-            current_text = [start_text] if start_text else []
+            current_text = [start_text] if start_text else 
         else:
             if current_key is not None:
                 current_text.append(item)
@@ -102,7 +102,7 @@ def parse_entry(line):
 
 @st.cache_data
 def load_dictionary(file_path="dictionary_new.txt"):
-    entries = []
+    entries = 
     if not os.path.exists(file_path):
         return entries
     with open(file_path, "r", encoding="utf-8") as f:
@@ -128,14 +128,14 @@ def load_categories(file_path="categories.txt"):
             parts = [p.strip() for p in line.split("|")]
             if len(parts) < 2:
                 continue
-            left, cat = parts[0], parts[1]
-            word = left.split(" - ", 1)[0].strip()
-            cats.setdefault(word.lower(), []).append(cat)
+            left, cat = parts, parts
+            word = left.split(" - ", 1).strip()
+            cats.setdefault(word.lower(), ).append(cat)
     return cats
 
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
-    abbrevs = []
+    abbrevs = 
     if not os.path.exists(file_path):
         return abbrevs
     with open(file_path, "r", encoding="utf-8") as f:
@@ -146,15 +146,15 @@ def load_abbreviations(file_path="categories.txt"):
             parts = [p.strip() for p in line.split("|")]
             if len(parts) < 2:
                 continue
-            cat = parts[1]
+            cat = parts
             if cat != "Abkürzungen":
                 continue
-            left = parts[0]
+            left = parts
             chunks = [c.strip() for c in left.split(" - ")]
             if len(chunks) >= 3:
-                abbr, german, translation = chunks[0], " - ".join(chunks[1:-1]), chunks[-1]
+                abbr, german, translation = chunks, " - ".join(chunks[1:-1]), chunks[-1]
             elif len(chunks) == 2:
-                abbr, german, translation = chunks[0], chunks[0], ""
+                abbr, german, translation = chunks, chunks, ""
             else:
                 abbr, german, translation = left, "", ""
             abbrevs.append({
@@ -204,24 +204,22 @@ def show_card(entry, images_dir="images", links_data=None):
 
     st.caption(translation)
 
-    # --- 2. Подготовка контента для Expander ---
+    # --- 2. Expander: Form | Grammatik ---
     with st.expander("📋 Form | Grammatik"):
         if is_noun and cases:
-            # Получаем артикль из первого элемента cases (der/die/das)
-            article_word = cases[0] if cases else ""
+            article_word = cases if cases else ""
 
-            # Разбираем gender из grammar
             gender_part = ""
             pos_part = grammar
 
             if "(" in grammar:
                 parts = grammar.split("(")
-                pos_part = parts[0].strip()
-                gender_part = parts[1].replace(")", "").strip()
+                pos_part = parts.strip()
+                gender_part = parts.replace(")", "").strip()
             elif "," in grammar:
                 parts = grammar.split(",")
-                pos_part = parts[0].strip()
-                gender_part = parts[1].strip()
+                pos_part = parts.strip()
+                gender_part = parts.strip()
 
             gender_de = {"maskulin": "Maskulinum", "feminin": "Femininum", "neutrum": "Neutrum"}.get(gender_part.lower(), gender_part)
 
@@ -230,9 +228,9 @@ def show_card(entry, images_dir="images", links_data=None):
             else:
                 st.write(f"{article_word}, {pos_part}")
 
-            # Генерируем таблицу (БЕЗ заголовка "Tabelle der Deklination")
+            # Таблица склонения через st.dataframe
             pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
-            data = []
+            data = 
             if len(cases) == 8:
                 for i in range(4):
                     data.append([pad_ru[i], cases[i], cases[i+4]])
@@ -268,19 +266,30 @@ def show_card(entry, images_dir="images", links_data=None):
             else:
                 st.image(img_path, use_column_width=True)
 
-    # --- 4. Доп. информация ---
+    # --- 4. Доп. информация: Beschreibung, Beispiel, Herkunft ---
     if sections:
         cols = st.columns(2)
-        with cols[0]:
+        with cols:
             st.markdown("**Beschreibung**")
-            st.write(sections.get("Beschreibung", "…………………"))
-        with cols[1]:
+            desc = sections.get("Beschreibung", "…………………")
+            st.write(desc)
+        with cols:
             st.markdown("**Beispiel**")
-            st.write(sections.get("Beispiel", "…………………"))
+            example = sections.get("Beispiel", "…………………")
+            st.write(example)
 
         origin = sections.get("Herkunft", "")
         if origin:
             st.caption(f"Herkunft: {origin}")
+    else:
+        # Если секций нет вообще — всё равно показываем заглушки, чтобы структура карточки была полной
+        cols = st.columns(2)
+        with cols:
+            st.markdown("**Beschreibung**")
+            st.write("…………………")
+        with cols:
+            st.markdown("**Beispiel**")
+            st.write("…………………")
 
 # Обработка GIF в конце страницы
 if hasattr(st.session_state, 'current_gif') and st.session_state.current_gif:
@@ -297,10 +306,10 @@ try:
     st.success(f"✅ Hochgeladene Einträge: {len(entries)}")
 except FileNotFoundError:
     st.error("❌ Файл dictionary_new.txt не найден!")
-    entries = []
+    entries = 
 except Exception as e:
     st.error(f"Ошибка: {e}")
-    entries = []
+    entries = 
 
 categories_map = load_categories("categories.txt")
 
@@ -322,7 +331,7 @@ for tab, cat_name in zip(tabs, tab_names):
         else:
             cat_entries = [
                 e for e in filtered
-                if cat_name in categories_map.get(e.get("abbr", e["word"]).lower(), [])
+                if cat_name in categories_map.get(e.get("abbr", e["word"]).lower(), )
             ]
 
         if not cat_entries:
@@ -334,6 +343,3 @@ for tab, cat_name in zip(tabs, tab_names):
                     show_card(entry)
 
 
-   
-
-  
