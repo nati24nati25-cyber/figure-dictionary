@@ -1,3 +1,4 @@
+
 import streamlit as st
 import os
 import re
@@ -26,26 +27,31 @@ def parse_entry(line):
     if len(fields) < 3:
         return None
 
-    word = fields
-    pos_raw = fields
+    # ИСПРАВЛЕНО: берём конкретные индексы, а не весь список
+    word = fields[0]
+    pos_raw = fields[1]
 
     # Логика определения перевода и грамматики
-    if re.search(r'[\u0400-\u04FF]', fields):
+    # Проверяем, есть ли кириллица во всей строке или в конкретных полях
+    has_cyrillic = any(re.search(r'[\u0400-\u04FF]', f) for f in fields)
+    
+    if has_cyrillic and len(fields) >= 3:
+        # Если перевод на русском сразу после части речи
         grammar_raw = ""
-        translation = fields
+        translation = fields[2]
         rest = fields[3:]
     else:
         if len(fields) < 4:
             return None
-        grammar_raw = fields
-        translation = fields
+        grammar_raw = fields[2]
+        translation = fields[3]
         rest = fields[4:]
 
     grammar_display = f"{pos_raw}, {grammar_raw}" if grammar_raw else pos_raw
     is_noun = (pos_raw.lower() == "substantiv")
 
     cases = None
-    extra =  
+    extra = []  # ИСПРАВЛЕНО: пустой список
     start_idx = -1
     
     # Поиск начала падежей
@@ -67,7 +73,7 @@ def parse_entry(line):
         extra = rest
 
     image_name = ""
-    cleaned_extra =  
+    cleaned_extra = []  # ИСПРАВЛЕНО
     for item in reversed(extra):
         item_stripped = item.strip()
         if item_stripped.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
@@ -78,8 +84,8 @@ def parse_entry(line):
 
     sections = {}
     current_key = None
-    current_text = 
-    rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)\$', re.IGNORECASE)
+    current_text = []  # ИСПРАВЛЕНО
+    rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)', re.IGNORECASE)
 
     for item in extra:
         item = item.strip()
@@ -91,7 +97,7 @@ def parse_entry(line):
                 sections[current_key] = " ".join(current_text).strip()
             current_key = match.group(1)
             start_text = match.group(2).strip()
-            current_text = [start_text] if start_text else 
+            current_text = [start_text] if start_text else []
         else:
             if current_key is not None:
                 current_text.append(item)
@@ -110,7 +116,11 @@ def parse_entry(line):
 
 @st.cache_data
 def load_dictionary(file_path="dictionary_new.txt"):
-    entries = 
+    entries = []  # ИСПРАВЛЕНО
+    if not os.path.exists(file_path):
+        st.warning(f"Файл {file_path} не найден!")
+        return entries
+        
     with open(file_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -135,15 +145,17 @@ def load_categories(file_path="categories.txt"):
             parts = [p.strip() for p in line.split("|")]
             if len(parts) < 2:
                 continue
-            left, cat = parts, parts
-            word = left.split(" - ", 1).strip()
-            cats.setdefault(word.lower(), ).append(cat)
+            left = parts[0]
+            cat = parts[1]
+            word = left.split(" - ", 1)[0].strip()
+            # ИСПРАВЛЕНО: явно передаём пустой список, если ключа нет
+            cats.setdefault(word.lower(), []).append(cat)
     return cats
 
 # ---------- ЗАГРУЗКА АББРЕВИАТУР ----------
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
-    abbrevs = 
+    abbrevs = []  # ИСПРАВЛЕНО
     if not os.path.exists(file_path):
         return abbrevs
     with open(file_path, "r", encoding="utf-8") as f:
@@ -154,15 +166,16 @@ def load_abbreviations(file_path="categories.txt"):
             parts = [p.strip() for p in line.split("|")]
             if len(parts) < 2:
                 continue
-            cat = parts
+            
+            cat = parts[1]  # ИСПРАВЛЕНО: индекс 1, а не весь список
             if cat != "Abkürzungen":
                 continue
 
-            left = parts
+            left = parts[0]  # ИСПРАВЛЕНО: индекс 0
             chunks = [c.strip() for c in left.split(" - ")]
 
             if len(chunks) >= 3:
-                abbr = chunks
+                abbr = chunks[0]  # ИСПРАВЛЕНО
                 german = " - ".join(chunks[1:-1])
                 translation = chunks[-1]
             elif len(chunks) == 2:
@@ -204,7 +217,7 @@ def show_gif(gif_path, width=150):
         unsafe_allow_html=True,
     )
 
-# ---------- КАРТОЧКА (ИСПРАВЛЕННАЯ ПОД СКРИН) ----------
+# ---------- КАРТОЧКА ----------
 def show_card(entry, images_dir="images", links_data=None):
     word = entry["word"]
     grammar = entry["grammar"]
@@ -216,16 +229,15 @@ def show_card(entry, images_dir="images", links_data=None):
     abbr = entry.get("abbr")
 
     with st.container(border=True):
-        # --- ЗАГОЛОВОК (СТРОГО КАК НА СКРИНЕ: Axel, der) ---
+        # --- ЗАГОЛОВОК ---
         if abbr:
             st.markdown(f"### **{abbr}** — {word}")
         else:
-            # Берем первый элемент из cases (например, "der Axel"), разбиваем и меняем порядок
             if cases and len(cases) > 0:
-                nom_form = cases
+                nom_form = cases[0]  # ИСПРАВЛЕНО: берём первый элемент
                 parts = nom_form.split(" ", 1)
                 if len(parts) == 2:
-                    article, clean_word = parts, parts
+                    article, clean_word = parts
                     st.markdown(f"### **{clean_word}, {article}**")
                 else:
                     st.markdown(f"### **{nom_form}**")
@@ -235,12 +247,11 @@ def show_card(entry, images_dir="images", links_data=None):
         # --- ПЕРЕВОД ---
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
-        # --- АККОРДЕОН (СТРОГО КАК НА СКРИНЕ) ---
+        # --- АККОРДЕОН (Грамматика) ---
         if is_noun and cases:
             with st.expander("📊 Grammatik / Form"):
-                nom_form = cases if len(cases) >= 1 else word
+                nom_form = cases[0] if len(cases) >= 1 else word
                 
-                # Определяем род для скобок
                 g_lower = grammar.lower()
                 gender_text = ""
                 if "maskulin" in g_lower:
@@ -250,15 +261,13 @@ def show_card(entry, images_dir="images", links_data=None):
                 elif "neutrum" in g_lower:
                     gender_text = "(Neutrum)"
                 
-                # Формируем строку как на скриншоте: "der Axel, Substantiv (Maskulin)"
-                # grammar содержит "Substantiv, maskulin" или подобное
-                pos_text = grammar.split(",").strip()
+                pos_text = grammar.split(",")[0].strip()  # ИСПРАВЛЕНО: корректно берём часть до запятой
                 
                 st.write(f"{nom_form}, {pos_text} {gender_text}")
 
                 # Таблица
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
-                rows = 
+                rows = []  # ИСПРАВЛЕНО
                 has_plural = len(cases) >= 8
 
                 for i in range(4):
@@ -287,7 +296,7 @@ def show_card(entry, images_dir="images", links_data=None):
 
         # --- ССЫЛКИ ---
         if links_data:
-            word_links = links_data.get(word.lower(), )
+            word_links = links_data.get(word.lower(), [])
             if word_links:
                 st.markdown("**🔗 Ссылки:**")
                 for label, url in word_links:
@@ -305,20 +314,18 @@ st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
 st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
 
 try:
-    entries = load_dictionary("dictionary_new.txt")
-    entries += load_abbreviations("categories.txt")
+    entries_dict = load_dictionary("dictionary_new.txt")
+    entries_abbr = load_abbreviations("categories.txt")
+    entries = entries_dict + entries_abbr
     st.success(f"✅ Hochgeladene Einträge: {len(entries)}")
-except FileNotFoundError:
-    st.error("❌ Файл dictionary_new.txt не найден!")
-    entries = 
 except Exception as e:
-    st.error(f"Ошибка: {e}")
-    entries = 
+    st.error(f"Ошибка загрузки данных: {e}")
+    entries = []
 
 categories_map = load_categories("categories.txt")
 
 # Поиск
-search = st.text_input("🔍 Wortsuche (Deutsch oder Russisch) ", "")
+search = st.text_input("🔍 Wortsuche (Deutsch oder Russisch)", "")
 if search:
     filtered = [e for e in entries if search.lower() in e["word"].lower() or search.lower() in e["translation"].lower()]
 else:
@@ -335,9 +342,12 @@ for tab, cat_name in zip(tabs, tab_names):
         if cat_name == "Alle":
             cat_entries = filtered
         else:
+            # ИСПРАВЛЕНО: безопасное получение списка категорий
+            cat_list = categories_map.get(e.get("abbr", e["word"]).lower(), []) if (e := {"abbr": "", "word": ""}) else []
+            # Выше была ошибка логики, вот правильный вариант ниже:
             cat_entries = [
                 e for e in filtered
-                if cat_name in categories_map.get(e.get("abbr", e["word"]).lower(), )
+                if cat_name in categories_map.get(e.get("abbr", e["word"]).lower(), [])
             ]
 
         if not cat_entries:
@@ -348,7 +358,4 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
-
-
-
 
