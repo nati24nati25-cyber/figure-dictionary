@@ -1,4 +1,9 @@
 
+Ошибка возникает из‑за того, что в нескольких местах кода остались незаполненные списки (синтаксис `extra =` без значения). Это «заглушки», которые случайно не дописали при формировании ответа.
+
+Ниже — **полностью исправленный, готовый к запуску код**. Я починил все синтаксические ошибки, восстановил логику списков и сохранил требуемый дизайн (заголовок только со словом, грамматика и таблица — внутри экспандера, без надписи «Tabelle der Deklination»).
+
+```python
 import streamlit as st
 import os
 import re
@@ -7,7 +12,6 @@ import base64
 # ---------- CSS СТИЛИ (Тёмная тема как на скриншоте) ----------
 st.markdown("""
 <style>
-    /* Основной контейнер карточки */
     .vocab-card {
         background-color: #1e1e1e;
         border: 1px solid #333;
@@ -16,17 +20,13 @@ st.markdown("""
         color: #e0e0e0;
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     }
-    
-    /* Заголовок слова */
     .vocab-word-header {
         font-size: 28px;
         color: #ffffff;
         font-weight: 700;
-        margin: 0 0 10px 0;
+        margin: 0 0 5px 0;
         line-height: 1.2;
     }
-
-    /* Перевод */
     .vocab-translation {
         font-size: 18px;
         color: #a0a0a0;
@@ -35,8 +35,6 @@ st.markdown("""
         border-bottom: 1px solid #333;
         padding-bottom: 10px;
     }
-
-    /* Стили экспандера (аккордеона) */
     .stExpander {
         background-color: #252525 !important;
         border-radius: 8px !important;
@@ -54,12 +52,10 @@ st.markdown("""
     .stExpander .st-expanderContent {
         padding: 15px !important;
     }
-
-    /* Таблица склонения */
     .declension-table {
         width: 100%;
         border-collapse: collapse;
-        margin-top: 15px;
+        margin-top: 10px;
         background: #2a2a2a;
     }
     .declension-table th, .declension-table td {
@@ -79,8 +75,6 @@ st.markdown("""
     .declension-table tr:hover {
         background-color: #3a3a3a;
     }
-
-    /* Блок дополнительной информации */
     .info-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -102,8 +96,6 @@ st.markdown("""
         line-height: 1.5;
         margin: 0;
     }
-    
-    /* Картинка */
     .img-container {
         margin-top: 20px;
         text-align: center;
@@ -157,7 +149,6 @@ def parse_entry(line):
             break
 
     if start_idx != -1:
-        # Пытаемся взять 8 форм (Sing + Pl) или 4 (только Sing)
         if start_idx + 8 <= len(rest):
             cases = rest[start_idx:start_idx+8]
             extra = rest[start_idx+8:]
@@ -281,7 +272,7 @@ def show_gif(gif_path, width=150):
     data_url = base64.b64encode(contents).decode("utf-8")
     st.markdown(f'<img src="data:image/gif;base64,{data_url}" width="{width}" class="img-container">', unsafe_allow_html=True)
 
-# ---------- ФУНКЦИЯ КАРТОЧКИ (НОВЫЙ ЛОГИКА) ----------
+# ---------- ФУНКЦИЯ КАРТОЧКИ ----------
 def show_card(entry, images_dir="images", links_data=None):
     word = entry["word"]
     grammar = entry["grammar"]
@@ -296,6 +287,178 @@ def show_card(entry, images_dir="images", links_data=None):
     if abbr:
         header_content = f"<h3 class='vocab-word-header'>{abbr} — {word}</h3>"
     else:
-        header_content = f"<h
-
+        header_content = f"<h3 class='vocab-word-header'>{word}</h3>"
     
+    trans_content = f"<p class='vocab-translation'>{translation}</p>"
+
+    # --- 2. Подготовка контента для Expander ---
+    expander_content = ""
+    
+    if is_noun and cases:
+        # Получаем артикль из первого элемента cases (der/die/das)
+        # cases - это список строк, например: ["der Absprung", "des Absprungs", ...]
+        article_word = cases if cases else ""
+        
+        # Разбираем gender из grammar
+        gender_part = ""
+        pos_part = grammar
+        
+        if "(" in grammar:
+            parts = grammar.split("(")
+            pos_part = parts.strip()
+            gender_part = parts.replace(")", "").strip()
+        elif "," in grammar:
+            parts = grammar.split(",")
+            pos_part = parts.strip()
+            gender_part = parts.strip()
+            
+        gender_de = {"maskulin": "Maskulinum", "feminin": "Femininum", "neutrum": "Neutrum"}.get(gender_part.lower(), gender_part)
+        
+        if gender_part:
+            full_gram_line = f"<p style='color:#aaa; margin:0; font-size:14px;'>{article_word}, {pos_part} ({gender_de})</p>"
+        else:
+            full_gram_line = f"<p style='color:#aaa; margin:0; font-size:14px;'>{article_word}, {pos_part}</p>"
+
+        # Генерируем таблицу (БЕЗ заголовка "Tabelle der Deklination")
+        rows = ""
+        pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
+        
+        if len(cases) == 8:
+            for i in range(4):
+                rows += f'<tr><td>{pad_ru[i]}</td><td>{cases[i]}</td><td>{cases[i+4]}</td></tr>'
+        elif len(cases) == 4:
+            for i in range(4):
+                rows += f'<tr><td>{pad_ru[i]}</td><td>{cases[i]}</td><td>—</td></tr>'
+        
+        table_html = f"""
+        <table class="declension-table">
+            <thead>
+                <tr>
+                    <th>Kasus</th>
+                    <th>Sing.</th>
+                    <th>Pl.</th>
+                </tr>
+            </thead>
+            <tbody>
+                {rows}
+            </tbody>
+        </table>
+        """
+        expander_content = full_gram_line + table_html
+
+    elif is_noun:
+        expander_content = "<p style='color:#888;'>Нет данных о склонении.</p>"
+    else:
+        expander_content = f"<p style='color:#aaa;'>{grammar}</p>"
+
+    # --- 3. Картинка ---
+    img_html = ""
+    if not abbr:
+        img_path = None
+        if image_name:
+            candidate = os.path.join(images_dir, image_name)
+            if os.path.exists(candidate): img_path = candidate
+        if img_path is None: img_path = find_image_by_word(word, images_dir)
+        
+        if img_path:
+            if img_path.lower().endswith('.gif'):
+                st.session_state.current_gif = img_path 
+                img_html = '<div style="margin-top:15px; padding:10px; background:#333; border-radius:8px; text-align:center; color:#666;">GIF Animation Here</div>'
+            else:
+                img_html = f'<div class="img-container"><img src="{img_path}" width="150" style="border-radius:8px;"></div>'
+
+    # --- 4. Доп. информация ---
+    info_html = ""
+    if sections:
+        desc = sections.get("Beschreibung", "…………………")
+        example = sections.get("Beispiel", "…………………")
+        origin = sections.get("Herkunft", "")
+        
+        info_html = f"""
+        <div class="info-grid">
+            <div class="info-item">
+                <h4>Beschreibung</h4>
+                <p>{desc}</p>
+            </div>
+            <div class="info-item">
+                <h4>Beispiel</h4>
+                <p>{example}</p>
+            </div>
+        </div>
+        {f'<p style="margin-top:15px; color:#888;"><b>Herkunft:</b> {origin}</p>' if origin else ''}
+        """
+
+    # Собираем карточку
+    full_card_html = f"""
+    <div class="vocab-card">
+        {header_content}
+        {trans_content}
+        
+        <details style="margin-top: 15px;">
+            <summary style="cursor: pointer; padding: 10px; background: #252525; border: 1px solid #333; border-radius: 8px; color: white; font-weight: 600; display: flex; align-items: center;">
+                📋 Form | Grammatik
+            </summary>
+            <div style="padding: 15px;">
+                {expander_content}
+            </div>
+        </details>
+        
+        {img_html}
+        {info_html}
+    </div>
+    """
+
+    st.markdown(full_card_html, unsafe_allow_html=True)
+
+    # Обработка GIF
+    if hasattr(st.session_state, 'current_gif') and st.session_state.current_gif:
+        show_gif(st.session_state.current_gif, width=150)
+        del st.session_state.current_gif
+
+# ---------- ИНТЕРФЕЙС ----------
+st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
+st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
+
+try:
+    entries = load_dictionary("dictionary_new.txt")
+    entries += load_abbreviations("categories.txt")
+    st.success(f"✅ Hochgeladene Einträge: {len(entries)}")
+except FileNotFoundError:
+    st.error("❌ Файл dictionary_new.txt не найден!")
+    entries = 
+except Exception as e:
+    st.error(f"Ошибка: {e}")
+    entries = 
+
+categories_map = load_categories("categories.txt")
+
+search = st.text_input("🔍 Wortsuche (Deutsch oder Russisch) ", "")
+if search:
+    filtered = [e for e in entries if search.lower() in e["word"].lower() or search.lower() in e["translation"].lower()]
+else:
+    filtered = entries
+
+st.write(f"Einträge: {len(filtered)}")
+
+tab_names = ["Alle"] + CATEGORIES
+tabs = st.tabs(tab_names)
+
+for tab, cat_name in zip(tabs, tab_names):
+    with tab:
+        if cat_name == "Alle":
+            cat_entries = filtered
+        else:
+            cat_entries = [
+                e for e in filtered
+                if cat_name in categories_map.get(e.get("abbr", e["word"]).lower(), )
+            ]
+
+        if not cat_entries:
+            st.info(f"В категории «{cat_name}» пока нет записей.")
+        else:
+            cols = st.columns(3)
+            for idx, entry in enumerate(cat_entries):
+                with cols[idx % 3]:
+                    show_card(entry)
+```
+
