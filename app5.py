@@ -29,7 +29,7 @@ def parse_entry(line):
     word = fields[0]
     pos_raw = fields[1]
 
-    # Если в поле 3 есть кириллица — это перевод, грамматика пустая
+    # Логика определения перевода и грамматики
     if re.search(r'[\u0400-\u04FF]', fields[2]):
         grammar_raw = ""
         translation = fields[2]
@@ -109,8 +109,6 @@ def parse_entry(line):
 @st.cache_data
 def load_dictionary(file_path="dictionary_new.txt"):
     entries = []
-    if not os.path.exists(file_path):
-        return entries
     with open(file_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -124,7 +122,6 @@ def load_dictionary(file_path="dictionary_new.txt"):
 # ---------- ЗАГРУЗКА КАТЕГОРИЙ ----------
 @st.cache_data
 def load_categories(file_path="categories.txt"):
-    """Возвращает словарь: слово (в нижнем регистре) -> список категорий."""
     cats = {}
     if not os.path.exists(file_path):
         return cats
@@ -144,7 +141,6 @@ def load_categories(file_path="categories.txt"):
 # ---------- ЗАГРУЗКА АББРЕВИАТУР ----------
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
-    """Формат: 'сокращение - немецкое слово - русский перевод| Abkürzungen'."""
     abbrevs = []
     if not os.path.exists(file_path):
         return abbrevs
@@ -206,68 +202,69 @@ def show_gif(gif_path, width=150):
         unsafe_allow_html=True,
     )
 
-# ---------- КАРТОЧКА (с твоими правками: заголовок, аккордеон, таблица с артиклем+словом) ----------
+# ---------- КАРТОЧКА (ИСПРАВЛЕННАЯ) ----------
 def show_card(entry, images_dir="images", links_data=None):
     word = entry["word"]
-    grammar = entry["grammar"]
-    translation = entry["translation"]
-    cases = entry["cases"]
+    grammar = entry["grammar"]          # например: "Substantiv, maskulin"
+    translation = entry["translation"]   # "толчок"
+    cases = entry["cases"]              # список форм: ["der Absprung", "des Absprungs", ...]
     image_name = entry["image"]
     sections = entry["sections"]
     is_noun = entry["is_noun"]
     abbr = entry.get("abbr")
 
     with st.container(border=True):
-        # Заголовок
+        # --- ЗАГОЛОВОК ---
         if abbr:
+            # Для аббревиатур: "A. — Axel"
             st.markdown(f"### **{abbr}** — {word}")
         else:
-            article = cases[0] if (cases and len(cases) > 0) else ""
-            if article:
-                # Вариант 1 (как у тебя сейчас): Absprung, der
-                st.markdown(f"### **{word}, {article}**")
-                # Вариант 2 (каноничный): der Absprung
-                # st.markdown(f"### **{article} {word}**")
+            # Если есть падежи, берём Nom. Sing. (cases[0]) как заголовок.
+            # У тебя там уже "der Absprung" — так и будет в заголовке.
+            if cases and len(cases) > 0:
+                st.markdown(f"### **{cases[0]}**")
             else:
+                # Если падежей нет — просто слово
                 st.markdown(f"### **{word}**")
 
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
+        # --- АККОРДЕОН: Grammatik / Form ---
         if is_noun and cases:
-            with st.expander("📊 Form & Grammatik"):
-                article_text = cases[0] if (cases and len(cases) > 0) else ""
-                
-                gender_text = ""
+            with st.expander("📊 Grammatik / Form"):
+                # Строка: "der Absprung, Substantiv (Maskulin)"
+                nom_form = cases[0] if len(cases) >= 1 else word
+
+                # Извлекаем род из grammar: ищем "maskulin", "feminin", "neutrum"
                 g_lower = grammar.lower()
+                gender_text = ""
                 if "maskulin" in g_lower:
                     gender_text = "(Maskulin)"
                 elif "feminin" in g_lower:
                     gender_text = "(Feminin)"
                 elif "neutrum" in g_lower:
                     gender_text = "(Neutrum)"
-                
-                if article_text:
-                    st.write(f"{article_text} {word}, Substantiv {gender_text}")
-                else:
-                    st.write(f"{word}, Substantiv {gender_text}")
 
-                # ТАБЛИЦА (ИСПРАВЛЕННАЯ)
+                pos_text = grammar.split(",")[0].strip()  # "Substantiv"
+
+                st.write(f"{nom_form}, {pos_text} {gender_text}")
+
+                # Таблица: берём значения из словаря «как есть»
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
                 rows = []
-                has_plural = len(cases) >= 8
-                
-                for i in range(4):
-                    sing_article = cases[i] if i < len(cases) else "—"
-                    pl_article = cases[i+4] if (has_plural and (i+4) < len(cases)) else "—"
 
-                    sing_form = f"{sing_article} {word}" if sing_article != "—" else "—"
-                    pl_form = f"{pl_article} {word}" if pl_article != "—" else "—"
+                has_plural = len(cases) >= 8
+
+                for i in range(4):
+                    sing_form = cases[i] if i < len(cases) else "—"
+                    pl_form = cases[i+4] if (has_plural and (i+4) < len(cases)) else "—"
 
                     rows.append(f"| {pad_ru[i]} | {sing_form} | {pl_form} |")
 
-                st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
+                md_table = "| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows)
+                st.markdown(md_table)
 
-        # Картинка / GIF
+        # --- КАРТИНКА / GIF ---
         if not abbr:
             img_path = None
             if image_name:
@@ -283,7 +280,7 @@ def show_card(entry, images_dir="images", links_data=None):
                 else:
                     st.image(img_path, width=150)
 
-        # Ссылки
+        # --- ССЫЛКИ ---
         if links_data:
             word_links = links_data.get(word.lower(), [])
             if word_links:
@@ -291,20 +288,13 @@ def show_card(entry, images_dir="images", links_data=None):
                 for label, url in word_links:
                     st.markdown(f"- [{label}]({url})")
 
-        # Дополнительная информация
+        # --- ДОП. ИНФОРМАЦИЯ ---
         if sections:
             with st.expander("ℹ️ Zusätzliche Informationen"):
                 for key in ["Beschreibung", "Herkunft", "Beispiel"]:
                     if key in sections and sections[key]:
                         st.markdown(f"**{key}:** {sections[key]}")
 
-
-        # Дополнительная информация
-        if sections:
-            with st.expander("ℹ️ Zusätzliche Informationen"):
-                for key in ["Beschreibung", "Herkunft", "Beispiel"]:
-                    if key in sections and sections[key]:
-                        st.markdown(f"**{key}:** {sections[key]}")
 
 # ---------- ИНТЕРФЕЙС ----------
 st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
@@ -324,7 +314,7 @@ except Exception as e:
 categories_map = load_categories("categories.txt")
 
 # Поиск
-search = st.text_input("🔍 Wortsuche (Deutsch oder Russisch) ", "")
+search = st.text_input("🔍 Wortsuche (Deutsch oder Russisch) ", "")
 if search:
     filtered = [e for e in entries if search.lower() in e["word"].lower() or search.lower() in e["translation"].lower()]
 else:
@@ -332,7 +322,7 @@ else:
 
 st.write(f"Einträge: {len(filtered)}")
 
-# Вкладки по категориям
+# ---------- ВКЛАДКИ ПО КАТЕГОРИЯМ ----------
 tab_names = ["Alle"] + CATEGORIES
 tabs = st.tabs(tab_names)
 
@@ -354,5 +344,3 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
-
-
