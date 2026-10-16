@@ -216,7 +216,8 @@ def show_card(entry, images_dir="images", links_data=None):
         if abbr:
             st.markdown(f"### **{abbr}** — {word}")
         else:
-            st.markdown(f"### **{word}** — {grammar}")
+            article = cases[0].split()[0] if cases else "der"
+            st.markdown(f"### **{word}, {article}**")
 
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
