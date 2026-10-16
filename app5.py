@@ -38,7 +38,7 @@ def parse_entry(line):
 
     # Поиск начала падежей (der, die, das...)
     cases = None
-    extra =   # ИСПРАВЛЕНО: инициализация пустым списком
+    extra =   
     start_idx = -1
     for i, val in enumerate(rest):
         if val and re.match(r'^(der|die|das|des|dem|den)\b', val, re.IGNORECASE):
