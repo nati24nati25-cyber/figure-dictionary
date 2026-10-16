@@ -1,4 +1,3 @@
-
 import streamlit as st
 import os
 import re
@@ -104,7 +103,7 @@ def parse_entry(line):
         "cases": cases,
         "image": image_name,
         "sections": sections,
-        "is_noun": is_noun,
+        "is_noun": is_noun
     }
 
 @st.cache_data
@@ -125,6 +124,7 @@ def load_dictionary(file_path="dictionary_new.txt"):
 # ---------- ЗАГРУЗКА КАТЕГОРИЙ ----------
 @st.cache_data
 def load_categories(file_path="categories.txt"):
+    """Возвращает словарь: слово (в нижнем регистре) -> список категорий."""
     cats = {}
     if not os.path.exists(file_path):
         return cats
@@ -144,6 +144,7 @@ def load_categories(file_path="categories.txt"):
 # ---------- ЗАГРУЗКА АББРЕВИАТУР ----------
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
+    """Формат: 'сокращение - немецкое слово - русский перевод| Abkürzungen'."""
     abbrevs = 
     if not os.path.exists(file_path):
         return abbrevs
@@ -217,11 +218,13 @@ def show_card(entry, images_dir="images", links_data=None):
     abbr = entry.get("abbr")
 
     with st.container(border=True):
-        # --- 1. ЗАГОЛОВОК: Слово, артикль ---
+        # --- 1. ЗАГОЛОВОК: Слово, артикль (как на скриншоте: "Absprung, der") ---
         if abbr:
+            # Для аббревиатур оставляем старый формат
             st.markdown(f"### **{abbr}** — {word}")
         else:
             article = ""
+            # Берем первый артикль из списка cases, если он есть
             if cases and len(cases) > 0:
                 article = cases
             
@@ -234,25 +237,28 @@ def show_card(entry, images_dir="images", links_data=None):
         st.markdown(f"<p style='font-size:20px; color:#D4AF37;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
         # --- 3. АККОРДЕОН "Form & Grammatik" ---
-        with st.expander("📊 Form & Grammatik"):
-            article_text = cases if (cases and len(cases) > 0) else ""
-            
-            if article_text:
-                st.write(f"{article_text} {word}, {grammar_full}")
-            else:
-                st.write(f"{word}, {grammar_full}")
+        if is_noun and cases:
+            with st.expander("📊 Form & Grammatik"):
+                # Формируем строку: "der Absprung, Substantiv (Maskulinum)"
+                article_text = cases if (cases and len(cases) > 0) else ""
+                
+                if article_text:
+                    st.write(f"{article_text} {word}, {grammar_full}")
+                else:
+                    st.write(f"{word}, {grammar_full}")
 
-            # --- 4. ТАБЛИЦА ПАДЕЖЕЙ (СКЛЕЙКА АРТИКЛЯ И СЛОВА) ---
-            if is_noun and cases:
+                # --- 4. ТАБЛИЦА ПАДЕЖЕЙ (СКЛЕЙКА АРТИКЛЯ И СЛОВА) ---
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
                 rows = 
                 has_plural = len(cases) >= 8
                 
                 for i in range(4):
+                    # Получаем артикль для Singular и Plural
                     sing_article = cases[i] if i < len(cases) else "—"
                     pl_article = cases[i+4] if (has_plural and (i+4) < len(cases)) else "—"
                     
-                    # Формируем полные формы для таблицы, склеивая артикль и слово
+                    # СКЛЕИВАЕМ артикль и слово, чтобы получить "der Absprung", "des Absprungs" и т.д.
+                    # Это критически важно, так как в файле хранятся только артикли
                     sing_full = f"{sing_article} {word}" if sing_article != "—" else "—"
                     pl_full = f"{pl_article} {word}" if pl_article != "—" else "—"
                     
@@ -338,6 +344,3 @@ for tab, cat_name in zip(tabs, tab_names):
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
                     show_card(entry)
-
-
- 
