@@ -347,3 +347,5 @@ for tab, cat_name in zip(tabs, tab_names):
                 with cols[idx % 3]:
                     show_card(entry)
 
+
+
