@@ -240,22 +240,40 @@ def show_card(entry, images_dir="images", links_data=None):
                 elif len(cases) == 4:
                     rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
                     st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
-            
+
+
             else:
-                # ЛОГИКА ДЛЯ ГЛАГОЛОВ (теперь реально сработает!)
+                # ЛОГИКА ДЛЯ ГЛАГОЛОВ — с добавлением vi./vt. в одну строку
                 conjugation_text = ""
-                base_type = grammar
-                
+                base_type_raw = grammar
+
+                # Вытаскиваем часть до скобок и сами формы
                 if "(" in grammar and ")" in grammar:
                     parts = grammar.split("(")
-                    base_type = parts[0].strip()
+                    base_type_raw = parts[0].strip()
                     conjugation_text = parts[1].split(")")[0]
 
+                # Формируем основную строку: слово - тип (формы)
                 if conjugation_text:
-                    st.markdown(f"**{word} - {base_type} ({conjugation_text})**")
+                    line_core = f"{word} - {base_type_raw} ({conjugation_text})"
                 else:
-                    st.markdown(f"**{word} - {grammar}**")
+                    # Если скобок нет, показываем как есть
+                    line_core = f"{word} - {grammar}"
 
+                # Ищем пометку vi. или vt. в исходном grammar
+                marker = ""
+                if "vi." in grammar:
+                    marker = "vi."
+                elif "vt." in grammar:
+                    marker = "vt."
+
+                # Если нашли маркер — добавляем его через запятую
+                if marker:
+                    final_line = f"**{line_core}, {marker}**"
+                else:
+                    final_line = f"**{line_core}**"
+
+                
         if not abbr:
             img_path = None
             if image_name:
