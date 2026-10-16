@@ -59,7 +59,7 @@ def parse_entry(line):
 
     # Поиск имени картинки
     image_name = ""
-    cleaned_extra =   # ИСПРАВЛЕНО: инициализация пустым списком
+    cleaned_extra =   
     for item in reversed(extra):
         item_stripped = item.strip()
         if item_stripped.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
