@@ -46,7 +46,7 @@ def parse_entry(line):
     is_noun = (pos_raw.lower() == "substantiv")
 
     cases = None
-    extra =   # <-- Инициализация
+    extra =   
     start_idx = -1
     for i, val in enumerate(rest):
         if val and re.match(r'^(der|die|das|des|dem|den)\b', val, re.IGNORECASE):
@@ -66,7 +66,7 @@ def parse_entry(line):
         extra = rest
 
     image_name = ""
-    cleaned_extra =   # <-- Инициализация
+    cleaned_extra =   
     for item in reversed(extra):
         item_stripped = item.strip()
         if item_stripped.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp')):
@@ -77,7 +77,7 @@ def parse_entry(line):
 
     sections = {}
     current_key = None
-    current_text =   # <-- Инициализация
+    current_text =   
     rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)\$', re.IGNORECASE)
 
     for item in extra:
@@ -109,7 +109,7 @@ def parse_entry(line):
 
 @st.cache_data
 def load_dictionary(file_path="dictionary_new.txt"):
-    entries =   # <-- Инициализация
+    entries =   
     if not os.path.exists(file_path):
         return entries
     with open(file_path, "r", encoding="utf-8") as f:
@@ -144,7 +144,7 @@ def load_categories(file_path="categories.txt"):
 # ---------- ЗАГРУЗКА АББРЕВИАТУР ----------
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
-    abbrevs =   # <-- Инициализация
+    abbrevs =   
     if not os.path.exists(file_path):
         return abbrevs
     with open(file_path, "r", encoding="utf-8") as f:
