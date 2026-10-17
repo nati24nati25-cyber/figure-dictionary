@@ -237,6 +237,12 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
 
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
 
+        if not abbr:
+            audio_path = find_audio_by_word(word, audio_dir)
+            if audio_path:
+                st.markdown("**Aussprache:**")
+                st.audio(audio_path, format='audio/mp3')
+
                 # --- АККОРДЕОН (ОТКРЫВАЕТСЯ ВСЕГДА) ---
         with st.expander("📊 Grammatik / Form"):
             if is_noun and cases:
@@ -301,12 +307,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                     show_gif(img_path, width=150)
                 else:
                     st.image(img_path, width=150)
-
-        if not abbr:
-            audio_path = find_audio_by_word(word, audio_dir)
-            if audio_path:
-                st.markdown("**Aussprache: 🔊**")
-                st.audio(audio_path, format='audio/mp3')        
+        
         
         if links_data:
             word_links = links_data.get(word.lower(), [])
