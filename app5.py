@@ -240,7 +240,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
         if not abbr:
             audio_path = find_audio_by_word(word, audio_dir)
             if audio_path:
-                st.markdown("**Aussprache:**")
+                st.markdown("**Aussprache: 🔊**")
                 st.audio(audio_path, format='audio/mp3')
 
                 # --- АККОРДЕОН (ОТКРЫВАЕТСЯ ВСЕГДА) ---
