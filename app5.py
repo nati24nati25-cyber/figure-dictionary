@@ -193,6 +193,18 @@ def find_image_by_word(word, images_dir="images"):
             return candidate
     return None
 
+def find_audio_by_word(word, audio_dir="audio"):
+    """Ищет аудиофайл в папке audio по имени слова (регистронезависимо)."""
+    if not os.path.exists(audio_dir):
+        return None
+    word_lower = word.lower()
+    extensions = ['.mp3', '.wav', '.ogg', '.m4a', '.flac']
+    for ext in extensions:
+        candidate = os.path.join(audio_dir, word_lower + ext)
+        if os.path.exists(candidate):
+            return candidate
+    return None
+
 def show_gif(gif_path, width=150):
     with open(gif_path, "rb") as f:
         contents = f.read()
@@ -202,7 +214,7 @@ def show_gif(gif_path, width=150):
         unsafe_allow_html=True,
     )
 
-def show_card(entry, images_dir="images", links_data=None):
+def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
     word = entry["word"]
     grammar = entry["grammar"]
     translation = entry["translation"]
@@ -290,6 +302,11 @@ def show_card(entry, images_dir="images", links_data=None):
                 else:
                     st.image(img_path, width=150)
 
+        audio_path = find_audio_by_word(word, audio_dir)
+        if audio_path:
+            st.audio(audio_path, format='audio/mp3')
+
+        
         if links_data:
             word_links = links_data.get(word.lower(), [])
             if word_links:
@@ -347,4 +364,4 @@ for tab, cat_name in zip(tabs, tab_names):
             cols = st.columns(3)
             for idx, entry in enumerate(cat_entries):
                 with cols[idx % 3]:
-                    show_card(entry)
+                    show_card(entry, images_dir="images", audio_dir="audio")
