@@ -327,12 +327,12 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
 
                 # Если нашли маркер — добавляем его через запятую
                 if marker:
-                    title_text = f"{word}: {marker} / {clean_type}"
+                    rest_of_line = f"{marker} / {clean_type}"
                 else:
-                    # Если маркера нет — просто слово: тип
-                    title_text = f"{word}: {clean_type}"
+                    rest_of_line = clean_type
 
-                st.markdown(f"### **{title_text}**")
+                # ГЛАВНОЕ: нет ### (шрифт обычный), жирным только слово (word)
+                st.markdown(f"**{word}**: {rest_of_line}")
 
                 
         if not abbr:
