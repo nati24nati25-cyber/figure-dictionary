@@ -169,9 +169,7 @@ Kantensprung |Substantiv| maskulinum | реберный прыжок | der Kante
 
 Kantenwechsel |Substantiv| maskulinum | смена ребра | der Kantenwechsel| des Kantenwechsels| dem Kantenwechsel| den Kantenwechsel | die Kantenwechsel| der Kantenwechsel | den Kantenwechseln| die Kantenwechsel| Beispiel: Bei der Technik mit Oberkörperlage in den Kreis mogelten die Läufer kurz vor dem Absprung, machten einen unerlaubten Kantenwechsel auf die Innenkante und sprangen von dieser einen sog. „Flutz“.|
 
-Kombinationsdrehung mit Fußwechsel |Substantiv| feminin | комбинированное вращение со сменой позиции и сменой ноги|
-
-Kombinationsdrehung ohne Fußwechsel |Substantiv| feminin | комбинированное вращение со сменой позиции без смены ноги|
+Kombinationsdrehung |Substantiv| femininum | комбинированное вращение| die Kombinationsdrehung | der Kombinationsdrehung | der Kombinationsdrehung | die Kombinationsdrehung | die Kombinationsdrehungen |  der Kombinationsdrehungen | den Kombinationsdrehungen |  die Kombinationsdrehungen | Beschreibung: |Beispiel: .|
 
 Kombinationsprung |Substantiv| maskulinum | каскад | der Kombinationsprung | des Kombinationsprungs | dem Kombinationsprung | den Kombinationsprung | die Kombinationsprünge | der Kombinationsprünge | den Kombinationsprüngen | die Kombinationsprünge|Beschreibung: eine Abfolge von Sprüngen ohne Zwischenschritte.  Beide Partner führen sie synchron aus — mit gleichem Rhythmus, identischer Dynamik und Positionen vom Anlauf bis zur Landung|Beispiel: eine Abfolge von zwei oder mehr Sprüngen, die direkt hintereinander ausgeführt werden, ohne Zwischenschritte oder Drehungen.|
 
