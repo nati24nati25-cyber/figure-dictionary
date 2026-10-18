@@ -282,7 +282,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                 # ЛОГИКА ДЛЯ СУЩЕСТВИТЕЛЬНЫХ (таблица)
                 article_inner = cases[0].split()[0]
                 gender_inner = grammar.split(",")[1].strip()
-                st.markdown(f"**{article_inner} {word}: Substantiv ({gender_inner.capitalize()})**")
+                st.markdown(f"**{article_inner} {word}**: Substantiv ({gender_inner.capitalize()})")
 
                 pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
                 if len(cases) == 8:
