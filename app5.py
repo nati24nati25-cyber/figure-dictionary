@@ -320,7 +320,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
 
                 # Если нашли маркер — добавляем его через запятую
                 if marker:
-                    final_line = f"**{line_core}, *{marker}* **"
+                    final_line = f"**{line_core}, *{marker}* ** "
                 else:
                     final_line = f"**{line_core}**"
                 st.markdown(final_line)
