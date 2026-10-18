@@ -233,20 +233,6 @@ def show_gif(gif_path, width=150):
         unsafe_allow_html=True,
     )
 
-def find_audio_by_word(word, audio_dir="audio"):
-    """Ищет аудиофайл в папке audio по имени слова (регистронезависимо)."""
-    if not os.path.exists(audio_dir):
-        return None
-    
-    word_lower = word.lower()
-    extensions = ['.mp3', '.wav', '.ogg', '.m4a', '.flac']
-    
-    for ext in extensions:
-        candidate = os.path.join(audio_dir, word_lower + ext)
-        if os.path.exists(candidate):
-            return candidate
-    return None
-
 def show_audio_icon(audio_path):
     player_id = f"p_{uuid.uuid4().hex[:8]}"
 
