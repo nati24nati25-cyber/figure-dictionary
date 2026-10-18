@@ -314,16 +314,25 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                 # Ищем пометку vi. или vt. в исходном grammar
                 marker = ""
                 if "vi." in grammar:
-                    marker = "vi."
+                    marker = "vi"
                 elif "vt." in grammar:
-                    marker = "vt."
+                    marker = "vt"
+
+                clean_type = grammar
+                if marker == "vi":
+                    clean_type = clean_type.replace("vi.", "").strip().strip(",")
+                elif marker == "vt":
+                    clean_type = clean_type.replace("vt.", "").strip().strip(",")
+                
 
                 # Если нашли маркер — добавляем его через запятую
                 if marker:
-                    final_line = f"**{line_core}, *{marker}***"
+                    title_text = f"{word}: {marker} / {clean_type}"
                 else:
-                    final_line = f"**{line_core}**"
-                st.markdown(final_line)
+                    # Если маркера нет — просто слово: тип
+                    title_text = f"{word}: {clean_type}"
+
+                st.markdown(f"### **{title_text}**")
 
                 
         if not abbr:
