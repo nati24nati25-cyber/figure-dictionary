@@ -1,10 +1,10 @@
-abheben | Verb (hebt ab, hob ab, hat abgehoben)| vi. | отрываться от льда |Beispiel des Gebrauchs: beim Axel abheben|
+abheben | starkes Verb (hebt ab, hob ab, hat abgehoben)| vi. | отрываться от льда |Beispiel des Gebrauchs: beim Axel abheben|
 
-abrollen | Verb (rollt ab, rollte ab, ist abgerollt)| vi. | переходить, смещаться (на ребро)| Beispiel des Gebrauchs: Nach der Landung des dreifachen Salchows rollte sie sauber auf der Außenkante rückwärts ab.|
+abrollen | schwaches Verb (rollt ab, rollte ab, ist abgerollt)| vi. | переходить, смещаться (на ребро)| Beispiel des Gebrauchs: Nach der Landung des dreifachen Salchows rollte sie sauber auf der Außenkante rückwärts ab.|
 
 Absprung |Substantiv| maskulinum | толчок | der Absprung| des Absprungs| dem Absprung| den Absprung| die Absprünge | der Absprünge | den Absprüngen | die Absprünge| Beispiel des Gebrauchs: Wegen seines Absprungs Rra eignet er sich gut als zweiter Sprung in Sprungkombinationen, z. B. Flip – Euler – Salchow.|
 
-abspringen |Verb (springt ab, sprang ab, ist abgesprungen)| vi. | отталкиваться| Beispiel des Gebrauchs: Axel ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
+abspringen |starkes Verb (springt ab, sprang ab, ist abgesprungen)| vi. | отталкиваться| Beispiel des Gebrauchs: Axel ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
 
 Arabeske |Substantiv| femininum| арабеск |die Arabeske | der Arabeske| der Arabeske | die Arabeske | die Arabesken |  der Arabesken | den Arabesken |  die Arabesken |Definition: eine elegante Haltung im Eiskunstlauf, bei der Läufer auf einem Bein gleitet, das andere nach hinten streckt, den geraden Rücken behält und den Oberkörper leicht nach vorne neigt| Beispiel des Gebrauchs: Die Arabeske in der Choreosequenz war elegant und gut kontrolliert.|arabeske.jpg|
 
@@ -18,7 +18,7 @@ Ausgleichsschritt |Substantiv| maskulinum| степ-аут |der Ausgleichsschrit
 
 Auslauf |Substantiv| maskulinum | выезд | der Auslauf| des Auslaufs| dem Auslauf| den Auslauf| die Ausläufe | der Ausläufe | den Ausläufen | die Ausläufe| Beispiel des Gebrauchs: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.| auslauf.gif|
 
-аuslaufen |  Verb (läuft aus, lief aus, ist ausgelaufen)| vi. | выезжать, делать выезд| Beispiel des Gebrauchs: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
+аuslaufen | starkes  Verb (läuft aus, lief aus, ist ausgelaufen)| vi. | выезжать, делать выезд| Beispiel des Gebrauchs: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
 
 auswärts | Adverb | наружу (на наружное ребро)| Beispiel des Gebrauchs: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
  
@@ -36,7 +36,7 @@ Block |Substantiv| maskulinum | блок |der Block |des Blocks| dem Block | den
 
 Bogen |Substantiv| maskulinum | дуга |der Bogen |des Bogens | dem Bogen | den Bogen| die Bogen| der Bogen| den Bogen| die Bogen| Kurvenlauf auf einem Bein| Beispiel des Gebrauchs: Die Rotation wird erreicht, indem man die Arme ruckartig an den Oberkörper reißt, wobei der rechte etwas langsamer ist, da er den längeren Weg hat und einen kleinen Bogen macht.|
 
-bremsen |  Verb (bremst, bremste, hat bremst)| vi. | тормозить| Beispiel des Gebrauchs: Das nützt man aus, um zu bremsen bzw. sich vom Eis abzudrücken.|
+bremsen | schwaches Verb (bremst, bremste, hat bremst)| vi. | тормозить| Beispiel des Gebrauchs: Das nützt man aus, um zu bremsen bzw. sich vom Eis abzudrücken.|
 
 Cantilever |Substantiv| maskulinum | кантилевер |der Cantilever |des Cantilevers| dem Cantilever | den Cantilever| die Cantilever| der Cantilever| den Cantilevern| die Cantilever|Definition: eine spektakuläre Variante des Mondes, bei der man auf zwei Beinen mit stark nach hinten geneigtem Oberkörper gleitet, fast parallel zum Eis, und dabei Tiefe der Kanten sowie Körperkontrolle zeigt |Beispiel des Gebrauchs: Halte die Kanten tiefer im Cantilever, sonst verliert die Linie an Stabilität.|cantilever.webp|
 
@@ -90,7 +90,7 @@ Dreifachsprung |Substantiv| maskulinum | тройной прыжок | der Dreif
 
 Dreifachtoeloop |Substantiv| maskulinum | тройной тулуп | der Dreifachtoeloop| des Dreifachtoeloop(s)| dem Dreifachtoeloop| den Dreifachtoeloop| die Dreifachtoeloops | der Dreifachtoeloops | den Dreifachtoeloops | die Dreifachtoeloops | Definition: dreifacher Toeloop, ein Toeloop mit 3 Umdrehungen | Beispiel des Gebrauchs: Als letztes Element der Kombination sprang sie einen Dreifachtoeloop und erhielt volle Punktzahl.|dreifachtoeloop.gif|
 
-durchführen | Verb (durchführt, durchführte, hat durchgeführt)| vt. trennbar| исполнять, выполнять| Beispiel des Gebrauchs: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
+durchführen | schwaches Verb (durchführt, durchführte, hat durchgeführt)| vt. trennbar| исполнять, выполнять| Beispiel des Gebrauchs: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
 
 einbeinig | Adverb | на одной ноге| Beispiel des Gebrauchs: Schwieriger ist das Bremsen auf einem Bein bei einbeinigem Stand. Wird die Drehung langsamer, richtet man den Oberkörper auf und geht in eine einbeinige. Standpirouette über, dreht noch einige Male weiter und läuft wie üblich aus.|
 
@@ -192,11 +192,11 @@ Kür |Substantiv| femininum | произвольная программа |die K
 
 Kürtanz |Substantiv| maskulinum | произвольный танец |der Kürtanz |des Kürtanzes | dem Kürtanz | den Kürtanz| die Kürtänze| der Kürtänze| den Kürtänzen| die Kürtänze| Definition: ein frei gestaltetes Programm, bei dem Musik und Thema selbst gewählt werden können (auch mit Gesang)| Beispiel des Gebrauchs: Wir haben uns für einen Jazz-Mix als Musik für unseren Kürtanz entschieden.| kürtanz.jpg|
 
-landen |  Verb (landet, landete, ist gelandet)| vi. | приземляться| Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
+landen | schwaches Verb (landet, landete, ist gelandet)| vi. | приземляться| Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
 
 Landung |Substantiv| femininum | приземление |die Landung | der Landung | der Landung| die Landung | die Landungen |  der Landungen | den Landungen |  die Landungen | Beispiel des Gebrauchs: Mit der Landung auf der Zacke den Fuß zum Auslauf Rra senken.|
 
-laufen |  Verb (läuft, lief, ist gelaufen)| vi. | ехать, скользить| Beispiel des Gebrauchs: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
+laufen |starkes  Verb (läuft, lief, ist gelaufen)| vi. | ехать, скользить| Beispiel des Gebrauchs: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
 
 Laufschritt |Substantiv| maskulinum | елочка |der Laufschritt |des Laufschritts| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte|Beispiel des Gebrauchs: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
 
@@ -248,7 +248,7 @@ Salchow |Substantiv| maskulinum| сальхов | der Salchow| des Salchow[s]| d
 
 Schlangenbogen |Substantiv| maskulinum | перетяжка |der Schlangenbogen |des Schlangenbogens | dem Schlangenbogen | den Schlangenbogen| die Schlangenbögen| der Schlangenbögen| den Schlangenbögen| die Schlangenbögen| Definition: ein Schritt auf einem Bein mit Kanten- und Kreiswechsel, bei gleitendem Übergang von einem Kreisbogen zum anderen| Beispiel des Gebrauchs: Schritte: Cross Roll, Schlangenbögen, Chassées, Mohawks, Choctaws, Spitzenschritte | schlangenbogen.jpg|
 
-schleifen | Verb (schleift, schliff, hat geschliffen)| vt. | точить, затачивать| Beispiel des Gebrauchs: Kufe schleifen|
+schleifen | starkes Verb (schleift, schliff, hat geschliffen)| vt. | точить, затачивать| Beispiel des Gebrauchs: Kufe schleifen|
 
 Schlinge |Substantiv| feminin | петля |die Schlinge | der Schlinge | der Schlinge| die Schlinge | die Schlingen |  der Schlingen | den Schlingen |  die Schlingen | Definition: in einem verkleinerten Achter gelaufene Figur mit einer ovalen Eindrehung| Beispiel des Gebrauchs: Die Schlinge verlangt vom Kunstläufer stärkste Konzentration, besondere Standfestigkeit und ein hervorragendes Gleichgewichtsgefühl». |schlinge.jpg|
 
@@ -292,7 +292,7 @@ Storch |Substantiv| maskulinum | цапелька| der Storch | des Storchs | de
 
 Sturz |Substantiv| maskulinum | падение | der Sturz | des Sturzes | dem Sturz | den Sturz | die Stürze | der Stürze | den Stürzen | die Stürze| Beispiel des Gebrauchs: Beim Üben des Sturzes nach vorn ist es empfehlenswert, anfangs Knie- und Ellbogenschoner (vom Inlineskaten) zu verwenden.| sturz.gif|
 
-stürzen | Verb (stürzt, stürzte, ist gestürzt)| vi. | падать| Beispiel des Gebrauchs: Sie stürzte mehrfach auf dem Eis und brach anschließend in Tränen aus.|
+stürzen |schwaches Verb (stürzt, stürzte, ist gestürzt)| vi. | падать| Beispiel des Gebrauchs: Sie stürzte mehrfach auf dem Eis und brach anschließend in Tränen aus.|
 
 Synchroneiskunstlauf |Substantiv| maskulinum | синхронное катание | der Synchroneiskunstlauf| des Synchroneiskunstlaufs| dem Synchroneiskunstlauf| den Synchroneiskunstlauf| die Synchroneiskunstläufe | der Synchroneiskunstläufe | den Synchroneiskunstläufen | die Synchroneiskunstläufe |Definition: eine Teamdisziplin des Eiskunstlaufs, bei der eine Gruppe von Sportlern (traditionell 16 Personen, bei den Olympischen Spielen 2030 jedoch 9) Elemente maximal synchron ausführt und sich dabei wie eine Einheit bewegt| Beispiel des Gebrauchs: Beim diesjährigen Stadtfestival findet erstmals ein Wettbewerb im Synchroneiskunstlauf statt.|synchroneiskunstlauf.jpg|
 
@@ -362,7 +362,7 @@ Zirkel |Substantiv |maskulinum | циркуль |der Zirkel |des Zirkels | dem Z
 
 Zitrone |Substantiv|femininum | фонарик |die Zitrone | der Zitrone| der Zitrone | die Zitrone | die Zitrone |  der Zitrone | den Zitronen |  die Zitrone |Definition: eine typische Anfängerübung, bei der man gleitet und zeichnet mit beiden Beinen eine Figur auf das Eis, die an eine Zitrone erinnert – also so einen leicht ovalen Kreis |Beispiel des Gebrauchs: Die Übung 'Zitrone' hilft dir, das Gleichgewicht zu trainieren.| zitrone.jpg|
 
-überdrehen | Verb (überdreht, überdrehte, hat überdreht)| vt. | перекруть| Beispiel des Gebrauchs: Beide überdrehten ihren Sprung. Starostin hatte in der Kurzkür den Axel verpatzt, den er in der Kür zweimal zeigte, wobei der zweite Dreifache überdreht war.|
+überdrehen | schwaches Verb (überdreht, überdrehte, hat überdreht)| vt. | перекруть| Beispiel des Gebrauchs: Beide überdrehten ihren Sprung. Starostin hatte in der Kurzkür den Axel verpatzt, den er in der Kür zweimal zeigte, wobei der zweite Dreifache überdreht war.|
 
 Übersetzschritt |Substantiv|  maskulinum | перебежка |der Übersetzschritt |des Übersetzschritts, Übersetzschrittes| dem Übersetzschritt | den Übersetzschritt| die Übersetzschritte| der Übersetzschritte| den Übersetzschritten| die Übersetzschritte| Beispiel: Mit solchen Übersetzschritten zeigt sie starke Gleittechnik.| Definition: ein typischer Schritt in der Schrittfolge: das äußere Bein wird vor das innere Bein gesetzt, um den Kantenwechsel fließend zu gestalten|
 
