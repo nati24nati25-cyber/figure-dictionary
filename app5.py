@@ -317,7 +317,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                     st.markdown(f"- [{label}]({url})")
 
         if sections:
-            with st.expander("ℹ️ Zusätzliche Informationen"):
+            with st.expander("ℹ️ Zusätzliche Informationen (Beispiele etc.)"):
                 for key in ["Definition", "Herkunft", "Beispiel des Gebrauchs"]:
                     if key in sections and sections[key]:
                         st.markdown(f"**{key}:** {sections[key]}")
