@@ -76,7 +76,7 @@ def parse_entry(line):
     sections = {}
     current_key = None
     current_text = []
-    rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel):\s*(.*)$', re.IGNORECASE)
+    rubric_pattern = re.compile(r'^(Beschreibung|Herkunft|Beispiel des Gebrauchs):\s*(.*)$', re.IGNORECASE)
 
     for item in extra:
         item = item.strip()
