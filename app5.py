@@ -5,6 +5,24 @@ import re
 import base64
 import uuid
 
+st.markdown("""
+<style>
+    .audio-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 0;
+        line-height: 1;
+        color: #333;
+    }
+    .audio-btn:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+</style>
+""", unsafe_allow_html=True)
+
 CATEGORIES = [
     "Technik",
     "Sprünge",
@@ -215,10 +233,17 @@ def show_gif(gif_path, width=150):
         unsafe_allow_html=True,
     )
 
+def show_audio_icon(audio_path):
+    with open(audio_path, "rb") as f:
+        data_url = base64.b64encode(f.read()).decode("utf-8")
 
+    player_id = f"p_{uuid.uuid4().hex[:8]}"
 
-
-
+    html = f"""
+    <audio id="{player_id}" src="data:audio/mp3;base64,{data_url}"></audio>
+    <button style="background:none; border:none; cursor:pointer; font-size:24px; padding:0; line-height:1; color:#333; transition:transform 0.2s, opacity 0.2s;" onclick="document.getElementById('{player_id}').play()" title="Прослушать">🔊</button>
+    """
+    st.markdown(html, unsafe_allow_html=True)
 
 
 def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
@@ -247,7 +272,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
         if not abbr:
             audio_path = find_audio_by_word(word, audio_dir)
             if audio_path:
-                st.markdown("**Aussprache: 🔊**")
+                st.markdown("**Aussprache:**")
                 show_audio_icon(audio_path)
 
                 # --- АККОРДЕОН (ОТКРЫВАЕТСЯ ВСЕГДА) ---
