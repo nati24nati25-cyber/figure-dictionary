@@ -233,15 +233,30 @@ def show_gif(gif_path, width=150):
         unsafe_allow_html=True,
     )
 
-def show_audio_icon(audio_path):
-    with open(audio_path, "rb") as f:
-        data_url = base64.b64encode(f.read()).decode("utf-8")
+def find_audio_by_word(word, audio_dir="audio"):
+    """Ищет аудиофайл в папке audio по имени слова (регистронезависимо)."""
+    if not os.path.exists(audio_dir):
+        return None
+    
+    word_lower = word.lower()
+    extensions = ['.mp3', '.wav', '.ogg', '.m4a', '.flac']
+    
+    for ext in extensions:
+        candidate = os.path.join(audio_dir, word_lower + ext)
+        if os.path.exists(candidate):
+            return candidate
+    return None
 
+def show_audio_icon(audio_path):
     player_id = f"p_{uuid.uuid4().hex[:8]}"
 
     html = f"""
-    <audio id="{player_id}" src="data:audio/mp3;base64,{data_url}"></audio>
-    <button style="background:none; border:none; cursor:pointer; font-size:24px; padding:0; line-height:1; color:#333; transition:transform 0.2s, opacity 0.2s;" onclick="document.getElementById('{player_id}').play()" title="Прослушать">🔊</button>
+    <audio id="{player_id}" src="{audio_path}"></audio>
+    <button class="audio-btn" 
+            onclick="const p = document.getElementById('{player_id}'); 
+                     if (!p.paused) {{ p.pause(); p.currentTime = 0; }} 
+                     else {{ p.muted = false; p.play(); }}" 
+            title="Прослушать">🔊</button>
     """
     st.markdown(html, unsafe_allow_html=True)
 
