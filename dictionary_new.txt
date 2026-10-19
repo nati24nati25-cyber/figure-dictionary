@@ -118,6 +118,8 @@ Einlauf |Substantiv| maskulinum | заезд, вход, въезд (на пры�
 
 einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заезжать, въезжать|
 
+einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|
+
 einwärts | Adverb | внутрь (на внутреннее ребро)| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
 Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbogen| der Einwärtsbogen| den Einwärtsbogen| die Einwärtsbogen|
@@ -150,7 +152,7 @@ gespreizt | partizipiales Adjektiv | pp. | разведенные в сторо�
 
 gestanden | partizipiales Adjektiv | pp. | выстоянный (прыжок)| Beispiel des Gebrauchs: Der vierfache Lutz war knapp, aber er war gestanden. Er zeigte fünf Vierfache, drei davon waren sauber gestanden, bei den anderen beiden fiel er.
 
-getippt| partizipiales Adjektiv | pp. | зубцовый (нпрыжок)|Beispiel des Gebrauchs: Die sechs Grundsprünge lassen sich in Kantensprünge und getippte Sprünge unterteilen.|
+getippt| partizipiales Adjektiv | pp. | зубцовый (прыжок)|Beispiel des Gebrauchs: Die sechs Grundsprünge lassen sich in Kantensprünge und getippte Sprünge unterteilen.|
 
 gleiten | starkes Verb (gleitet, glitt, ist geglitten)| vi. | скользить| Beispiel des Gebrauchs: Rechten Fuß innerhalb der Spur aufsetzen und, die Lauflinie des linken Beins kreuzend, nach außen unter den Körperschwerpunkt gleiten lassen.|
 
