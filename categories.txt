@@ -25,6 +25,7 @@ einwärts | Technik
 Einwärtsbogen | Technik
 Fußwechsel | Technik
 gespreizt | Technik
+gestreckt | Technik
 getippt | Technik
 gleiten | Technik
 Innenkante | Technik
