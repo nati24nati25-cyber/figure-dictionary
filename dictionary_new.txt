@@ -22,7 +22,7 @@ Auslauf |Substantiv| maskulinum | выезд | der Auslauf| des Auslaufs| dem Au
 
 ausstrecken | schwaches  Verb (streckt aus, streckte aus, hat ausgestreckt)| vt. | вытягивать | Beispiel des Gebrauchs: Bei diesem Ausfallschritt wird das Laufbein gebeugt und das freie Bein nach hinten gerade ausgestreckt, wobei der Schlittschuh über das Eis schleift.|
 
-auswärts | Adverb | наружу (на наружное ребро)| Beispiel des Gebrauchs: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
+auswärts | Adverb | наружу (на наружном ребре)| Beispiel des Gebrauchs: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
  
 Auswärtsbogen |Substantiv| maskulin | наружная дуга |der Auswärtsbogen |des Auswärtsbogens | dem Auswärtsbogen | den Auswärtsbogen| die Auswärtsbogen| der Auswärtsbogen| den Auswärtsbogen| die Auswärtsbogen|Beispiel des Gebrauchs: Beim rechten Auswärtsbogen führt rechter Arm.|
 
@@ -120,7 +120,7 @@ einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заез�
 
 einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|
 
-einwärts | Adverb | внутрь (на внутреннее ребро)| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
+einwärts | Adverb | внутрь (на внутреннем ребре)| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
 Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbogen| der Einwärtsbogen| den Einwärtsbogen| die Einwärtsbogen|
  
