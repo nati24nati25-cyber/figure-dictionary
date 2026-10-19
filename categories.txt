@@ -7,6 +7,7 @@ Absprung | Technik
 Auftritt | Technik
 ausführen | Technik
 аuslaufen |Technik
+ausstrecken | Technik
 auswärts | Technik
 Auswärtsbogen | Technik
 Außenkante | Technik
@@ -19,10 +20,12 @@ einbeinig | Technik
 Eingang | Technik
 Einlauf | Technik
 einlaufen | Technik
+einnehmen | Technik
 einwärts | Technik
 Einwärtsbogen | Technik
 Fußwechsel | Technik
 gespreizt | Technik
+getippt | Technik
 gleiten | Technik
 Innenkante | Technik
 Kante | Technik
@@ -37,6 +40,7 @@ Spielbein | Technik
 Standbein | Technik
 Sturz | Technik
 stürzen | Technik
+tippen | Technik
 vorwärts | Technik
 Vorwärtsbogen | Technik
 Zahn | Technik
