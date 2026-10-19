@@ -312,7 +312,9 @@ Twizzlesequenz |Substantiv| femininum | серия твизлов |die Twizzlese
 
 Unterrotation |Substantiv| femininum | недокрут |die Unterrotation | der Unterrotation | der Unterrotation | die Unterrotation | die Unterrotationen |  der Unterrotationen | den Unterrotationen |  die Unterrotationen |Definition: nicht volle Rotation im Sprung; die fehlende Drehung wird erst beim Landen ausgeglichen |Beispiel des Gebrauchs: Der Sprung wurde wegen Unterrotation heruntergewertet.|
 
-unterrotiert | partizipiales Adjektiv | недокрученный (прыжок)| Beispiel des Gebrauchs: Der Technische Spezialist bewertete den Sprung als unterrotiert.| 
+unterrotiert | partizipiales Adjektiv | недокрученный (прыжок)| Beispiel des Gebrauchs: Der Technische Spezialist bewertete den Sprung als unterrotiert.|  
+
+Verbindungselement |Substantiv| neutrum  | соединительный элемент| das Verbindungselement |des Verbindungselements| dem Verbindungselement | das Verbindungselement |die Verbindungselemente |der Verbindungselemente |den die Verbindungselementen | die Verbindungselemente |Definition: alle Bewegungen, die man zwischen den Sprüngen und Pirouetten eines Programms (Kurzprogramm oder Kür) durchführt, wie Spiralen, Ina Bauer, Mond usw|Beispiel des Gebrauchs: Verbindungselemente tragen zum gesamten künstlerischen Ausdruck des Programms bei.|
 
 Verbindungssprung |Substantiv| maskulinum | соединительный прыжок | der Verbindungssprung | des Verbindungssprungs | dem Verbindungssprung | den Verbindungssprung | die Verbindungssprünge | der Verbindungssprünge | den Verbindungssprüngen | die Verbindungssprünge|Beispiel des Gebrauchs: Ein Euler oder auch Thorén ist ein spezifischer Verbindungssprung im Eiskunstlauf.|
 
