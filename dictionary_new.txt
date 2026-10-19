@@ -136,6 +136,8 @@ Flip |Substantiv| maskulinum | флип |der Flip |des Flips | dem Flip | den Fl
 
 Flugphase |Substantiv| femininum | фаза полета | die Flugphase | der Flugphase | der Flugphase | die Flugphase | die Flugphasen |  der Flugphasen | den Flugphasen |  die Flugphasen| Beispiel des Gebrauchs: die Flugphase beginnt mit einer halben Extra-Drehung.|
 
+Fußwechsel |Substantiv| maskulinum | смена ребра | der Fußwechsel| des Fußwechsels| dem Fußwechsel| den Fußwechsel | die Fußwechsel| der Fußwechsel | den Fußwechseln| die Fußwechsel| Beispiel des Gebrauchs: Bei Sprungfolgen wird zwischen den Sprüngen ein Fußwechsel oder eine Umdrehung durchgeführt, bei Sprungkombinationen dagegen nicht.|
+
 Gegendreier |Substantiv| maskulinum | скобка | der Gegendreier | des Gegendreiers | dem Gegendreier | den Gegendreier | die Gegendreier | der Gegendreier | den Gegendreiern | die Gegendreier |Beispiel des Gebrauchs: Der Gegendreier ist eine klassische Pflichtfigur, die auch heute noch als schwieriges Schrittelement in Schrittfolgen anerkannt ist.| gegendreier.jpg|
 
 Gegenwende |Substantiv| femininum| выкрюк |die Gegenwende | der Gegenwende | der Gegenwende | die Gegenwende | die Gegenwenden |  der Gegenwenden | den Gegenwenden |  die Gegenwenden| Definition: Pflichtfigur beim Eiskunstlauf, bei der drei Kreise in gleichmäßigem Tempo ohne Kantenwechsel gelaufen werden müssen| gegenwende.jpg|
