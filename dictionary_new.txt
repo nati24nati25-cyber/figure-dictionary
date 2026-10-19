@@ -150,6 +150,8 @@ gespreizt | partizipiales Adjektiv | pp. | разведенные в сторо�
 
 gestanden | partizipiales Adjektiv | pp. | выстоянный (прыжок)| Beispiel des Gebrauchs: Der vierfache Lutz war knapp, aber er war gestanden. Er zeigte fünf Vierfache, drei davon waren sauber gestanden, bei den anderen beiden fiel er.
 
+getippt| partizipiales Adjektiv | pp. | зубцовый (нпрыжок)|Beispiel des Gebrauchs: Die sechs Grundsprünge lassen sich in Kantensprünge und getippte Sprünge unterteilen.|
+
 gleiten | starkes Verb (gleitet, glitt, ist geglitten)| vi. | скользить| Beispiel des Gebrauchs: Rechten Fuß innerhalb der Spur aufsetzen und, die Lauflinie des linken Beins kreuzend, nach außen unter den Körperschwerpunkt gleiten lassen.|
 
 Gruppenlift |Substantiv| maskulinum| групповая поддержка | der Gruppenlift | des Gruppenlifts | dem Gruppenlift | den Gruppenlift | die Gruppenlifts | der Gruppenlifts | den Gruppenlifts | die Gruppenlifts |Definition: ein Element, bei dem ein oder mehrere Skater von zwei oder mehreren anderen Sportler:innen angehoben und in jeder Höhe gehalten werden |Beispiel des Gebrauchs: Die Mannschaft übt die Gruppenhebung für die neue Kür.| gruppenlift.webp|
@@ -306,7 +308,7 @@ Tanzhebung |Substantiv| femininum|  танцевальная поддержка 
 
 Tanzpirouette |Substantiv| femininum | танцевальное вращение |die Tanzpirouette | der Tanzpirouette | der Tanzpirouette | die Tanzpirouette | die Tanzpirouetten |  der Tanzpirouetten | den Tanzpirouetten |  die Tanzpirouetten |Definition: eine Pirouette, die das Paar gemeinsam, an derselben Stelle, um eine gemeinsame Achse auf einem Bein ausführt, wobei ein oder beide Partner das Bein wechseln können| Beispiel des Gebrauchs: Die Tanzpirouette ist ein eigenständiges Pflichtelement im Eistanz und wird separat bewertet.|tanzpirouette.jpg|
 
-tippen |schwaches Verb (tippt, tippte, hat getippt)| vt. | касаться (носком) | Beispiel des Gebrauchs: Beim Flip tippt der rechte Fuß in das Eis während sich der andere auf der Innenkante befindet.|
+tippen |schwaches Verb (tippt, tippte, hat getippt)| vt. | касаться (носком/зубцом конька) | Beispiel des Gebrauchs: Beim Flip tippt der rechte Fuß in das Eis während sich der andere auf der Innenkante befindet.|
 
 Toeloop |Substantiv| maskulinum | тулуп | der Toeloop| des Toeloop(s)| dem Toeloop| den Toeloop| die Toeloops | der Toeloops | den Toeloops | die Toeloops | Definition: vorwärts eingeleiteter Sprung, bei dem nach dem Anlauf mit der Zacke des Schlittschuhs ins Eis eingestochen und nach einer Drehung in der Luft auf dem Fuß, mit dem abgesprungen wurde, gelandet wird| Herkunft: englisch toe loop (jump), aus: toe = Schuhspitze, Zeh und loop, Looping| Beispiel des Gebrauchs: Beim Toeloop wird im Vergleich zu den beiden Sprüngen zuvor der linke Schlittschuh in das Eis getippt.|
 
