@@ -21,6 +21,7 @@ Einlauf | Technik
 einlaufen | Technik
 einwärts | Technik
 Einwärtsbogen | Technik
+Fußwechsel | Technik
 gespreizt | Technik
 gleiten | Technik
 Innenkante | Technik
