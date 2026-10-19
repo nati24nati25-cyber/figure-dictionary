@@ -274,7 +274,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
             audio_path = find_audio_by_word(word, audio_dir)
             if audio_path:
                 st.markdown("**Aussprache:**")
-                st.audio(audio_path, format=os.path.splitext(audio_path)[1:])
+                st.audio(audio_path)
 
                 # --- АККОРДЕОН (ОТКРЫВАЕТСЯ ВСЕГДА) ---
         with st.expander("📊 Grammatik / Form"):
