@@ -12,6 +12,7 @@ auswärts | Technik
 Auswärtsbogen | Technik
 Außenkante | Technik
 beidbeinig | Technik
+Bogen | Technik
 bremsen | Technik
 Drehachse | Technik
 Drehung | Technik
