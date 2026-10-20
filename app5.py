@@ -435,42 +435,34 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
 
 st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
 
-st.markdown("""
+
+with open("ice_background.png", "rb") as f:
+    bg_data = base64.b64encode(f.read()).decode("utf-8")
+
+st.markdown(f"""
 <style>
-[data-testid="stAppViewContainer"] {
-    background-color: #f1f8fc;
+[data-testid="stAppViewContainer"] {{
     background-image:
-        /* Мягкие ледяные блики */
-        radial-gradient(ellipse at 16% 12%, rgba(190, 228, 248, 0.48), transparent 34%),
-        radial-gradient(ellipse at 82% 30%, rgba(215, 237, 250, 0.60), transparent 38%),
-        radial-gradient(ellipse at 55% 92%, rgba(198, 224, 240, 0.36), transparent 42%),
-
-        /* Едва заметные тонкие трещинки */
-        linear-gradient(128deg, transparent 49.82%, rgba(126, 169, 191, 0.13) 49.9%, transparent 50.02%),
-        linear-gradient(34deg, transparent 57.78%, rgba(126, 169, 191, 0.11) 57.86%, transparent 57.98%),
-        linear-gradient(153deg, transparent 38.88%, rgba(255, 255, 255, 0.60) 38.96%, transparent 39.08%),
-        linear-gradient(72deg, transparent 68.88%, rgba(126, 169, 191, 0.10) 68.96%, transparent 69.08%),
-
-        /* Основной светлый градиент */
-        linear-gradient(135deg, #f9fcff 0%, #edf6fb 52%, #e6f1f7 100%);
-
-    background-attachment: fixed;
+        linear-gradient(rgba(232, 244, 250, 0.82), rgba(232, 244, 250, 0.82)),
+        url("data:image/png;base64,{bg_data}");
     background-size: cover;
-}
+    background-position: center;
+    background-attachment: fixed;
+}}
 
-[data-testid="stHeader"] {
+[data-testid="stHeader"] {{
     background: transparent;
-}
+}}
 
-/* Полупрозрачные карточки записей */
-div[data-testid="stVerticalBlockBorderWrapper"] {
-    background: rgba(255, 255, 255, 0.82);
-    border: 1px solid rgba(177, 205, 225, 0.55);
+div[data-testid="stVerticalBlockBorderWrapper"] {{
+    background: rgba(255, 255, 255, 0.88);
+    border: 1px solid rgba(177, 205, 225, 0.65);
     border-radius: 16px;
-    box-shadow: 0 6px 22px rgba(56, 91, 120, 0.07);
-}
+    box-shadow: 0 6px 22px rgba(56, 91, 120, 0.08);
+}}
 </style>
 """, unsafe_allow_html=True)
+
 
 
 st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
