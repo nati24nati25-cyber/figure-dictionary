@@ -438,23 +438,38 @@ st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
 st.markdown("""
 <style>
 [data-testid="stAppViewContainer"] {
-    background:
-        radial-gradient(ellipse at 12% 8%, rgba(155, 214, 255, 0.34), transparent 32%),
-        radial-gradient(ellipse at 88% 22%, rgba(204, 229, 255, 0.42), transparent 35%),
-        linear-gradient(135deg, #f8fcff 0%, #edf6fc 52%, #e7f0f8 100%);
+    background-color: #dceaf1;
+    background-image:
+        /* Лёгкое затемнение и холодный оттенок */
+        linear-gradient(rgba(13, 43, 62, 0.30), rgba(13, 43, 62, 0.30)),
+
+        /* Размытые ледяные участки */
+        radial-gradient(ellipse at 18% 15%, rgba(180, 220, 238, 0.42), transparent 34%),
+        radial-gradient(ellipse at 82% 70%, rgba(116, 171, 198, 0.28), transparent 38%),
+
+        /* Тонкие линии, похожие на трещины во льду */
+        linear-gradient(132deg, transparent 47.8%, rgba(225, 245, 255, 0.28) 48%, transparent 48.3%),
+        linear-gradient(34deg, transparent 56.8%, rgba(225, 245, 255, 0.20) 57%, transparent 57.3%),
+        linear-gradient(157deg, transparent 63.8%, rgba(225, 245, 255, 0.18) 64%, transparent 64.3%),
+        linear-gradient(72deg, transparent 31.8%, rgba(225, 245, 255, 0.16) 32%, transparent 32.3%),
+
+        /* Основной холодный градиент */
+        linear-gradient(145deg, #789caf 0%, #466d83 52%, #7899a8 100%);
+
     background-attachment: fixed;
+    background-size: cover;
 }
 
 [data-testid="stHeader"] {
-    background: rgba(255, 255, 255, 0);
+    background: transparent;
 }
 
-/* Полупрозрачные карточки записей */
+/* Светлые карточки, чтобы текст оставался хорошо читаемым */
 div[data-testid="stVerticalBlockBorderWrapper"] {
-    background: rgba(255, 255, 255, 0.78);
-    border: 1px solid rgba(177, 205, 225, 0.65);
+    background: rgba(255, 255, 255, 0.90);
+    border: 1px solid rgba(210, 231, 242, 0.75);
     border-radius: 16px;
-    box-shadow: 0 6px 22px rgba(56, 91, 120, 0.08);
+    box-shadow: 0 6px 22px rgba(20, 48, 65, 0.12);
 }
 </style>
 """, unsafe_allow_html=True)
