@@ -344,6 +344,7 @@ SSp. - Sitzpirouette - вращение «сидя»| Abkürzungen
 ####### Zubehör ####### 
 
 Kufe | Zubehör
+Kufentuch | Zubehör
 Kunststoffschoner | Zubehör
 Schlittschuhüberzieher | Zubehör
 Spinner | Zubehör
