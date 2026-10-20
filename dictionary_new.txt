@@ -192,11 +192,11 @@ kreisinner | Adjektiv | внутри круга|
 
 kreisäußer | Adjektiv | вне круга|
 
-Kreuzen |Substantiv| neutrum  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | | | | |Definition: ein wichtiger Manövrierzug: zwei Linien oder Gruppen kreuzen sich nach exakter Planung, wobei die Läufer millimetergenaue Abstände und Schnittpunkte einhalten müssen, um Kollisionen zu vermeiden und die Formationen sauber zu wechseln|Beispiel des Gebrauchs: Beim Kreuzen kommt es auf den perfekten Timing an.|kufentuch.png|
+Kreuzen |Substantiv| neutrum  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | | | | |Definition: ein wichtiger Manövrierzug: zwei Linien oder Gruppen kreuzen sich nach exakter Planung, wobei die Läufer millimetergenaue Abstände und Schnittpunkte einhalten müssen, um Kollisionen zu vermeiden und die Formationen sauber zu wechseln|Beispiel des Gebrauchs: Beim Kreuzen kommt es auf den perfekten Timing an.|kreuzen.webp|
 
 Kufe |Substantiv| femininum | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen | Beispiel des Gebrauchs: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |kufe.jpg|
 
-Kufentuch |Substantiv| neutrum  | тряпка для протирания лезвий| das Kufentuch |des Kufentuchs| dem Kufentuch | das Kufentuch | die Kufentücher |der Kufentücher |den Kufentüchern |die Kufentücher |Definition: ein Tuch, mit dem die Kufen der Schlittschuhe abgewischt werden, um Eisreste und Schmutz zu entfernen|Beispiel des Gebrauchs: Das Kufentuch dient dazu, die Kufen der Schlittschuhe trocken und sauber zu halten, damit die Kante besser greift.|kreuzen.webp|
+Kufentuch |Substantiv| neutrum  | тряпка для протирания лезвий| das Kufentuch |des Kufentuchs| dem Kufentuch | das Kufentuch | die Kufentücher |der Kufentücher |den Kufentüchern |die Kufentücher |Definition: ein Tuch, mit dem die Kufen der Schlittschuhe abgewischt werden, um Eisreste und Schmutz zu entfernen|Beispiel des Gebrauchs: Das Kufentuch dient dazu, die Kufen der Schlittschuhe trocken und sauber zu halten, damit die Kante besser greift.|kufentuch.png|
 
 Kunststoffschoner |Substantiv| maskulinum | чехол для лезвия |der Kunststoffschoner | des Kunststoffschoners | dem Kunststoffschoner | den Kunststoffschoner | die Kunststoffschoner |  der Kunststoffschoner | den Kunststoffschonern |  die Kunststoffschoner |Definition: harte Schutzhüllen für alle Schutzüberzieher, die man auf die Kufen steckt |Beispiel des Gebrauchs: die Kufenschoner werden benötigt, um die Kufen beim Laufen abseits der Eisfläche zu schützen.|kunststoffschoner.webp|
 
