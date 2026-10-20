@@ -59,6 +59,7 @@ Hocke | Grundelementen
 Storch | Grundelementen
 Pferdchen | Grundelementen
 Pistole | Grundelementen
+Slalom | Grundelementen
 Zitrone | Grundelementen
 
 ###### Grundelementen  ######
