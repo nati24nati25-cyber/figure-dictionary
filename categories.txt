@@ -301,12 +301,20 @@ Kür | Synchroneiskunstlauf
 #######  Richterlexikon  ####### 
 
 
+Ausführungsgrad | Richterlexikon
 Ausführungsqualität | Richterlexikon
 Ausgleichsschritt | Richterlexikon
+Basiswert | Richterlexikon
+Eislauffähigkeit | Richterlexikon
 Fehlversuch | Richterlexikon
+Gesamtpunktzahl | Richterlexikon
 Komponentenwertung | Richterlexikon
+Komposition | Richterlexikon
+Kostümverstoß | Richterlexikon
+Präsentation | Richterlexikon
 Unterrotation | Richterlexikon
 Wertungsprotokoll | Richterlexikon
+Zeitverletzung | Richterlexikon
 
 
 #######  Richterlexikon  ####### 
