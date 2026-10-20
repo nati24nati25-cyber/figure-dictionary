@@ -476,4 +476,9 @@ for tab, cat_name in zip(tabs, tab_names):
             st.write(f"Gefunden in der Kategorie В«{cat_name}В»: {len(cat_entries)}")
             cols = st.columns(3)
             for idx, entry in enumerate(cat_entries):
+                with cols[idx % 3]:
+                    show_card(entry, images_dir="images", audio_dir="audio")
+
+            
+            for idx, entry in enumerate(cat_entries):
 
