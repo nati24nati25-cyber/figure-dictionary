@@ -30,7 +30,6 @@ Außenkante |Substantiv| femininum| наружное ребрo |die Außenkante 
 
 Axel |Substantiv| maskulinum| аксель |der Axel |des Axels | dem Axel | den Axel| die Axel| der Axel| den Axeln| die Axel| Definition: von der Außenkante des linken Fußes vorwärts ausgeführter Sprung, bei dem der Läufer bzw. die Läuferin nach einer Umdrehung rückwärtslaufend mit der Außenkante des rechten Fußes wieder aufsetzt | Herkunft: nach dem norwegischen Eiskunstläufer Axel Paulsen| Beispiel des Gebrauchs: Der Axel wird vorwärts von der Außenkante des linken Fußes abgesprungen. Später zeigte er noch vier weitere Dreifache, nur der zweite Axel wurde nur einfach. | axel.jpg|
 
-
 Basiswert |Substantiv| maskulinum| базовая стоимость |der Basiswert | des Basiswerts| dem Basiswert | den Basiswert | die Basiswerte |  der Basiswerte | den Basiswerten |  die Basiswerte |Definition: die festgelegte Punktzahl, die für die korrekte Ausführung des Elements vorgesehen ist | Beispiel des Gebrauchs: Jedes Element hat einen festgelegten Basiswert an Punkten, der je nach Schwierigkeitsgrad und Ausführung variiert.|
 
 beidbeinig | Adverb | на двух ногах| Beispiel des Gebrauchs: Beim beidbeinigen Slalomlauf wird erstmals auch die Außenkante erfüllt. Aus dem beidbeinigen Stand oder Vorwärtslauf heraus wird ein großer Schiebeschritt vorwärts in den tiefen Ausfall gemacht.|
@@ -131,6 +130,8 @@ Einzellauf |Substantiv| maskulinum | одиночное катание |der Einz
 
 Einzelsprung |Substantiv| maskulinum | одиночный прыжок | der Einzelsprung | des Einzelsprungs | dem Einzelsprung | den Einzelsprung | die Einzelsprünge | der Einzelsprünge | den Einzelsprüngen | die Einzelsprünge| Beispiel des Gebrauchs: Fast alle Elemente waren perfekt ausgeführt, einzig beim Einzelsprung, dem dreifachen Toeloop, musste Alisa Efimova zu Boden gehen |
 
+Eislauffähigkeit |Substantiv| femininum | навык скольжения (катания)| die Eislauffähigkeit | der Eislauffähigkeit | der Eislauffähigkeit | die Eislauffähigkeit | die Eislauffähigkeiten |  der Eislauffähigkeiten | den Eislauffähigkeiten |  die Eislauffähigkeiten | Definition: |Beispiel des Gebrauchs: .|
+
 Eistanz |Substantiv| maskulinum | спортивные танцы, танцы на льду |der Eistanz |des Eistanzes | dem Eistanz | den Eistanz| die Eistänze| der Eistänze| den Eistänzen| die Eistänze| Definition: Disziplin des Eislaufs, bei der Paare Schritte tänzerischen Charakters im Rhythmus der Musik ausführen | Beispiel des Gebrauchs: Beim Eistanz setzten sich die deutschen Athleten souverän durch und gewannen Gold.| eistanz.jpg|
 
 Euler |Substantiv| maskulinum| ойлер |der Euler |des Euler[s] | dem Euler | den Euler| | | | |Definition: ein spezifischer, nach Kurt Euler bzw. nach Per Thorén benannter Verbindungssprung, der mit dem rechten Fuß rückwärts auswärts abgesprungen wird und die Landung nach einer Drehung, rückwärts einwärts auf dem linken Bein erfolgt| Beispiel des Gebrauchs: Seit der Saison 2019/20 ist zusätzlich der Euler (anderer Name: Thorén) in die Liste der offiziellen Sprünge aufgenommen worden, allerdings nur als Mittelsprung in einer dreiteiligen Sprungkombination und nur mit einer einzigen Umdrehung.| euler.jpg|
@@ -189,6 +190,8 @@ Kombinationsprung |Substantiv| maskulinum | каскад | der Kombinationsprung
 
 Komponentenwertung | Substantiv| femininum | оценки за компоненты |die Komponentenwertung | der Komponentenwertung | der Komponentenwertung | die Komponentenwertung | die Komponentenwertungen |  der Komponentenwertungen | den Komponentenwertungen |  die Komponentenwertungen | Definition: Gesamtbild der Programm. 5 Komponenten: Gleittechnik, Verbindungen, Komposition, Darstellung, Musikinterpretation. Bewertung: 0–10 Punkte pro Komponent|Beispiel des Gebrauchs: Ihre Komponentenwertung ist hoch, weil sie die Musik sehr intensiv interpretiert.|
 
+Komposition |Substantiv| femininum | композиция (хореография)| die Komposition | der Komposition | der Komposition | die Komposition | die Kompositionen |  der Kompositionen | den Kompositionen |  die Kompositionen | Definition: |Beispiel des Gebrauchs: .|
+
 Kreis |Substantiv| maskulinum | круг | der Kreis| des Kreises| dem Kreis| den Kreis | die Kreise| der Kreise | den Kreisen| die Kreise|Definition: eine grundlegende Formation, bei der die Mannschaft bildet einen oder mehrere Kreise und die Läufer bewegen sich relativ zu einem gemeinsamen Zentrum, während sie den Fronten und Richtungen durch verschiedene Schritte nachgeben |Beispiel des Gebrauchs: Schrittfolgen, Wandern und Richtungswechsel erhöhen beim Kreis den Schwierigkeitsgrad.| kreis.jpg|
 
 kreisinner | Adjektiv | внутри круга|
@@ -246,6 +249,8 @@ Pirouettenkombination |Substantiv| femininum| комбинированное в�
 Pistole |Substantiv| femininum | пистолетик |die Pistole | der Pistole | der Pistole | die Pistole| die Pistolen|  der Pistolen | den Pistolen |  die Pistolen | Definition: eine typische Pose, bei der man auf einem Bein, das stark gebeugt, gleitet und das andere nach vorne streckt|Beispiel des Gebrauchs: In ihrer Schrittfolge zeigt sie eine perfekte Pistole – die Linie ist sauber, und die Tiefe der Hocke beeindruckt.|pistole.jpg|
 
 Pivot |Substantiv| neutrum | пивотинг |das Pivot |des Pivots| dem Pivot | das Pivot |die Pivots |der Pivots | den Pivots | die Pivots|Definition: ein kollektiver Manövrierzug, bei dem eine gesamte Formation (Linie oder Block) eine 180°‑Drehung um einen festen Drehpunkt (Pivot-Punkt) rotiert|Beispiel des Gebrauchs: Beim Pivot ist der äußere Läufer der Anker: er bleibt quasi stehen, der Rest dreht sich um ihn herum.|pivot.jpg|
+
+Präsentation |Substantiv| femininum | исполнение программы| die Präsentation | der Präsentation | der Präsentation | die Präsentation | die Präsentationen |  der Präsentationen | den Präsentationen |  die Präsentationen | Definition: |Beispiel des Gebrauchs: .|
 
 Rehsprung |Substantiv| maskulinum | прыжок олень | der Rehsprung | des Rehsprungs | dem Rehsprung | den Rehsprung | die Rehsprünge | der Rehsprünge | den Rehsprüngen | die Rehsprünge|Definition:  ein Sprung von einem Bein auf das andere, bei dem das vordere Bein im Moment des Absprungs zunächst gebeugt und dann gestreckt wird| Beispiel des Gebrauchs: Bei dem Rehsprung wird das vordere Bein angewinkelt.|rehsprung.jpg|
 
