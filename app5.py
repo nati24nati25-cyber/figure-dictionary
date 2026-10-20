@@ -479,6 +479,7 @@ for tab, cat_name in zip(tabs, tab_names):
                 with cols[idx % 3]:
                     show_card(entry, images_dir="images", audio_dir="audio")
 
+
+
             
-            for idx, entry in enumerate(cat_entries):
 
