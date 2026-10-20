@@ -346,7 +346,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                 show_audio_icon(audio_path)
 
                 # --- РђРљРљРћР Р”Р•РћРќ (РћРўРљР Р«Р’РђР•РўРЎРЇ Р’РЎР•Р“Р”Рђ) ---
-        with st.expander("рџ“Љ Grammatik / Form"):
+        with st.expander("📊 Grammatik / Form"):
             if is_noun and cases:
                 # Р›РћР“РРљРђ Р”Р›РЇ РЎРЈР©Р•РЎРўР’РРўР•Р›Р¬РќР«РҐ (С‚Р°Р±Р»РёС†Р°)
                 article_inner = cases[0].split()[0]
@@ -428,20 +428,20 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                     st.markdown(f"- [{label}]({url})")
 
         if sections:
-            with st.expander("в„№пёЏ ZusГ¤tzliche Informationen (Beispiele etc.)"):
+            with st.expander("ℹ️ Zusätzliche Informationen (Beispiele etc.)"):
                 for key in ["Definition", "Herkunft", "Beispiel des Gebrauchs"]:
                     if key in sections and sections[key]:
                         st.markdown(f"**{key}:** {sections[key]}")
 
-st.set_page_config(page_title="Eiskunstlauf-WГ¶rterbuch", layout="wide")
-st.title("рџ“– Deutsch-russisches WГ¶rterbuch der Eiskunstlauf-Terminologie")
+st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
+st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
 
 try:
     entries = load_dictionary("dictionary_new.txt")
     entries += load_abbreviations("categories.txt")
-    st.success(f"вњ… Hochgeladene EintrГ¤ge: {len(entries)}")
+    st.success(f"✅ Hochgeladene Einträge: {len(entries)}")
 except FileNotFoundError:
-    st.error("вќЊ Р¤Р°Р№Р» dictionary_new.txt РЅРµ РЅР°Р№РґРµРЅ!")
+    st.error("❌ Файл dictionary_new.txt РЅРµ РЅР°Р№РґРµРЅ!")
     entries = []
 except Exception as e:
     st.error(f"РћС€РёР±РєР°: {e}")
