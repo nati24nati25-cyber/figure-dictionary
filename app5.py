@@ -1,31 +1,14 @@
 
 import streamlit as st
+import streamlit.components.v1 as components
 import os
 import re
 import base64
 import uuid
 
-st.markdown("""
-<style>
-    .audio-btn {
-        background: none;
-        border: none;
-        cursor: pointer;
-        font-size: 24px;
-        padding: 0;
-        line-height: 1;
-        color: #333;
-    }
-    .audio-btn:hover {
-        opacity: 0.8;
-        transform: scale(1.1);
-    }
-</style>
-""", unsafe_allow_html=True)
-
 CATEGORIES = [
     "Technik",
-    "Sprünge",
+    "SprГјnge",
     "Pirouetten",
     "Schritte",
     "Choreosequenz",
@@ -35,8 +18,8 @@ CATEGORIES = [
     "Eistanz",
     "Synchroneiskunstlauf",
     "Richterlexikon",
-    "Abkürzungen",
-    "Zubehör",
+    "AbkГјrzungen",
+    "ZubehГ¶r",
 ]
 
 def parse_entry(line):
@@ -128,13 +111,13 @@ def parse_entry(line):
 def load_dictionary(file_path="dictionary_new.txt"):
     entries = []
     if not os.path.exists(file_path):
-        st.warning(f"Файл {file_path} не найден!")
+        st.warning(f"Р¤Р°Р№Р» {file_path} РЅРµ РЅР°Р№РґРµРЅ!")
         return entries
         
     with open(file_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            if not line or line.startswith(("Abkürzungen", "—")):
+            if not line or line.startswith(("AbkГјrzungen", "вЂ”")):
                 continue
             entry = parse_entry(line)
             if entry:
@@ -173,7 +156,7 @@ def load_abbreviations(file_path="categories.txt"):
             if len(parts) < 2:
                 continue
             cat = parts[1]
-            if cat != "Abkürzungen":
+            if cat != "AbkГјrzungen":
                 continue
 
             left = parts[0]
@@ -192,7 +175,7 @@ def load_abbreviations(file_path="categories.txt"):
             abbrevs.append({
                 "word": german or abbr,
                 "abbr": abbr,
-                "grammar": "Abkürzung",
+                "grammar": "AbkГјrzung",
                 "translation": translation,
                 "cases": None,
                 "image": "",
@@ -213,7 +196,7 @@ def find_image_by_word(word, images_dir="images"):
     return None
 
 def find_audio_by_word(word, audio_dir="audio"):
-    """Ищет аудиофайл в папке audio по имени слова (регистронезависимо)."""
+    """РС‰РµС‚ Р°СѓРґРёРѕС„Р°Р№Р» РІ РїР°РїРєРµ audio РїРѕ РёРјРµРЅРё СЃР»РѕРІР° (СЂРµРіРёСЃС‚СЂРѕРЅРµР·Р°РІРёСЃРёРјРѕ)."""
     if not os.path.exists(audio_dir):
         return None
     word_lower = word.lower()
@@ -234,17 +217,104 @@ def show_gif(gif_path, width=150):
     )
 
 def show_audio_icon(audio_path):
-    player_id = f"p_{uuid.uuid4().hex[:8]}"
+    """РџРѕРєР°Р·С‹РІР°РµС‚ РєРЅРѕРїРєСѓ РїСЂРѕРёР·РЅРѕС€РµРЅРёСЏ Р±РµР· СЃС‚Р°РЅРґР°СЂС‚РЅРѕР№ РїР°РЅРµР»Рё РїР»РµРµСЂР°."""
+    with open(audio_path, "rb") as audio_file:
+        audio_data = base64.b64encode(audio_file.read()).decode("ascii")
 
-    html = f"""
-    <audio id="{player_id}" src="{audio_path}"></audio>
-    <button class="audio-btn" 
-            onclick="const p = document.getElementById('{player_id}'); 
-                     if (!p.paused) {{ p.pause(); p.currentTime = 0; }} 
-                     else {{ p.muted = false; p.play(); }}" 
-            title="Прослушать">🔊</button>
-    """
-    st.markdown(html, unsafe_allow_html=True)
+    mime_types = {
+        ".mp3": "audio/mpeg",
+        ".wav": "audio/wav",
+        ".ogg": "audio/ogg",
+        ".m4a": "audio/mp4",
+        ".flac": "audio/flac",
+    }
+    mime_type = mime_types.get(os.path.splitext(audio_path)[1].lower(), "audio/mpeg")
+    player_id = f"p_{uuid.uuid4().hex}"
+
+    components.html(
+        f"""
+        <!doctype html>
+        <html lang="de">
+        <head>
+        <meta charset="utf-8">
+        <style>
+            html, body {{ margin: 0; padding: 0; background: transparent; }}
+            .audio-row {{
+                display: flex; align-items: center; gap: 10px; min-height: 48px;
+                font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                color: #31333f;
+            }}
+            .audio-btn {{
+                display: inline-flex; align-items: center; justify-content: center;
+                width: 44px; height: 44px; padding: 0; flex-shrink: 0;
+                border: 1px solid #dce0e5; border-radius: 50%;
+                color: #31333f; background: #f4f5f7; cursor: pointer;
+                transition: background 0.15s, border-color 0.15s;
+            }}
+            .audio-btn:hover {{ background: #e8ebef; }}
+            .audio-btn:focus-visible {{ outline: 2px solid #2563eb; outline-offset: 2px; }}
+            .audio-btn[aria-pressed="true"] {{
+                color: #1d4ed8; background: #e8efff; border-color: #93b4ff;
+            }}
+            .audio-error {{ font-size: 12px; font-weight: 400; color: #b42318; }}
+        </style>
+        </head>
+        <body>
+        <div class="audio-row">
+            <span>Aussprache:</span>
+            <button class="audio-btn" type="button" id="{player_id}_button"
+                    title="Aussprache anhГ¶ren" aria-label="Aussprache anhГ¶ren"
+                    aria-pressed="false">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                     stroke-linejoin="round" aria-hidden="true">
+                    <path d="M11 5 6 9H3v6h3l5 4V5Z"></path>
+                    <path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"></path>
+                </svg>
+            </button>
+            <span id="{player_id}_error" class="audio-error" role="status"></span>
+        </div>
+        <audio id="{player_id}" preload="none" hidden
+               src="data:{mime_type};base64,{audio_data}"></audio>
+        <script>
+            const audio = document.getElementById("{player_id}");
+            const button = document.getElementById("{player_id}_button");
+            const error = document.getElementById("{player_id}_error");
+            function updateButton(playing) {{
+                button.setAttribute("aria-pressed", String(playing));
+                const label = playing ? "Wiedergabe stoppen" : "Aussprache anhГ¶ren";
+                button.setAttribute("aria-label", label);
+                button.title = label;
+            }}
+            button.addEventListener("click", async () => {{
+                error.textContent = "";
+                if (!audio.paused && !audio.ended) {{
+                    audio.pause();
+                    audio.currentTime = 0;
+                    return;
+                }}
+                try {{
+                    audio.currentTime = 0;
+                    await audio.play();
+                }} catch (err) {{
+                    updateButton(false);
+                    error.textContent = "Audio nicht verfГјgbar.";
+                }}
+            }});
+            audio.addEventListener("play", () => updateButton(true));
+            audio.addEventListener("pause", () => updateButton(false));
+            audio.addEventListener("ended", () => updateButton(false));
+            audio.addEventListener("error", () => {{
+                updateButton(false);
+                error.textContent = "Audio nicht verfГјgbar.";
+            }});
+        </script>
+        </body>
+        </html>
+        """,
+        height=52,
+        scrolling=False,
+    )
 
 
 def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
@@ -259,13 +329,13 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
 
     with st.container(border=True):
         if abbr:
-            st.markdown(f"### **{abbr}** — {word}")
+            st.markdown(f"### **{abbr}** вЂ” {word}")
         else:
             if is_noun and cases:
-                article = cases[0].split()[0]  # берём "der"/"die"/"das" из Nom. Sing.
+                article = cases[0].split()[0]  # Р±РµСЂС‘Рј "der"/"die"/"das" РёР· Nom. Sing.
                 st.markdown(f"### **{word}, {article}**")
             else:
-                # Для глаголов, наречий и т.п. — просто слово
+                # Р”Р»СЏ РіР»Р°РіРѕР»РѕРІ, РЅР°СЂРµС‡РёР№ Рё С‚.Рї. вЂ” РїСЂРѕСЃС‚Рѕ СЃР»РѕРІРѕ
                 st.markdown(f"### **{word}**")
 
         st.markdown(f"<p style='font-size:20px;'><b>{translation}</b></p>", unsafe_allow_html=True)
@@ -273,13 +343,12 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
         if not abbr:
             audio_path = find_audio_by_word(word, audio_dir)
             if audio_path:
-                st.markdown("**Aussprache:**")
-                st.audio(audio_path)
+                show_audio_icon(audio_path)
 
-                # --- АККОРДЕОН (ОТКРЫВАЕТСЯ ВСЕГДА) ---
-        with st.expander("📊 Grammatik / Form"):
+                # --- РђРљРљРћР Р”Р•РћРќ (РћРўРљР Р«Р’РђР•РўРЎРЇ Р’РЎР•Р“Р”Рђ) ---
+        with st.expander("рџ“Љ Grammatik / Form"):
             if is_noun and cases:
-                # ЛОГИКА ДЛЯ СУЩЕСТВИТЕЛЬНЫХ (таблица)
+                # Р›РћР“РРљРђ Р”Р›РЇ РЎРЈР©Р•РЎРўР’РРўР•Р›Р¬РќР«РҐ (С‚Р°Р±Р»РёС†Р°)
                 article_inner = cases[0].split()[0]
                 gender_inner = grammar.split(",")[1].strip()
                 st.markdown(f"**{article_inner} {word}**: Substantiv ({gender_inner.capitalize()})")
@@ -289,29 +358,29 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                     rows = [f"| {pad_ru[i]} | {cases[i]} | {cases[i+4]} |" for i in range(4)]
                     st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
                 elif len(cases) == 4:
-                    rows = [f"| {pad_ru[i]} | — | {cases[i]} |" for i in range(4)]
+                    rows = [f"| {pad_ru[i]} | вЂ” | {cases[i]} |" for i in range(4)]
                     st.markdown("| Kasus | Sing. | Pl. |\n|-------|-------|-------|\n" + "\n".join(rows))
 
 
             else:
-                # ЛОГИКА ДЛЯ ГЛАГОЛОВ — с добавлением vi./vt. в одну строку
+                # Р›РћР“РРљРђ Р”Р›РЇ Р“Р›РђР“РћР›РћР’ вЂ” СЃ РґРѕР±Р°РІР»РµРЅРёРµРј vi./vt. РІ РѕРґРЅСѓ СЃС‚СЂРѕРєСѓ
                 conjugation_text = ""
                 base_type_raw = grammar
 
-                # Вытаскиваем часть до скобок и сами формы
+                # Р’С‹С‚Р°СЃРєРёРІР°РµРј С‡Р°СЃС‚СЊ РґРѕ СЃРєРѕР±РѕРє Рё СЃР°РјРё С„РѕСЂРјС‹
                 if "(" in grammar and ")" in grammar:
                     parts = grammar.split("(")
                     base_type_raw = parts[0].strip()
                     conjugation_text = parts[1].split(")")[0]
 
-                # Формируем основную строку: слово - тип (формы)
+                # Р¤РѕСЂРјРёСЂСѓРµРј РѕСЃРЅРѕРІРЅСѓСЋ СЃС‚СЂРѕРєСѓ: СЃР»РѕРІРѕ - С‚РёРї (С„РѕСЂРјС‹)
                 if conjugation_text:
                     line_core = f"{word} - {base_type_raw} ({conjugation_text})"
                 else:
-                    # Если скобок нет, показываем как есть
+                    # Р•СЃР»Рё СЃРєРѕР±РѕРє РЅРµС‚, РїРѕРєР°Р·С‹РІР°РµРј РєР°Рє РµСЃС‚СЊ
                     line_core = f"{word} - {grammar}"
 
-                # Ищем пометку vi. или vt. в исходном grammar
+                # РС‰РµРј РїРѕРјРµС‚РєСѓ vi. РёР»Рё vt. РІ РёСЃС…РѕРґРЅРѕРј grammar
                 marker = ""
                 if "vi." in grammar:
                     marker = "vi"
@@ -325,13 +394,13 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                     clean_type = clean_type.replace("vt.", "").strip().strip(",")
                 
 
-                # Если нашли маркер — добавляем его через запятую
+                # Р•СЃР»Рё РЅР°С€Р»Рё РјР°СЂРєРµСЂ вЂ” РґРѕР±Р°РІР»СЏРµРј РµРіРѕ С‡РµСЂРµР· Р·Р°РїСЏС‚СѓСЋ
                 if marker:
                     rest_of_line = f"{marker} / {clean_type}"
                 else:
                     rest_of_line = clean_type
 
-                # ГЛАВНОЕ: нет ### (шрифт обычный), жирным только слово (word)
+                # Р“Р›РђР’РќРћР•: РЅРµС‚ ### (С€СЂРёС„С‚ РѕР±С‹С‡РЅС‹Р№), Р¶РёСЂРЅС‹Рј С‚РѕР»СЊРєРѕ СЃР»РѕРІРѕ (word)
                 st.markdown(f"**{word}**: {rest_of_line}")
 
                 
@@ -354,39 +423,39 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
         if links_data:
             word_links = links_data.get(word.lower(), [])
             if word_links:
-                st.markdown("**🔗 Ссылки:**")
+                st.markdown("**рџ”— РЎСЃС‹Р»РєРё:**")
                 for label, url in word_links:
                     st.markdown(f"- [{label}]({url})")
 
         if sections:
-            with st.expander("ℹ️ Zusätzliche Informationen (Beispiele etc.)"):
+            with st.expander("в„№пёЏ ZusГ¤tzliche Informationen (Beispiele etc.)"):
                 for key in ["Definition", "Herkunft", "Beispiel des Gebrauchs"]:
                     if key in sections and sections[key]:
                         st.markdown(f"**{key}:** {sections[key]}")
 
-st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
-st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
+st.set_page_config(page_title="Eiskunstlauf-WГ¶rterbuch", layout="wide")
+st.title("рџ“– Deutsch-russisches WГ¶rterbuch der Eiskunstlauf-Terminologie")
 
 try:
     entries = load_dictionary("dictionary_new.txt")
     entries += load_abbreviations("categories.txt")
-    st.success(f"✅ Hochgeladene Einträge: {len(entries)}")
+    st.success(f"вњ… Hochgeladene EintrГ¤ge: {len(entries)}")
 except FileNotFoundError:
-    st.error("❌ Файл dictionary_new.txt не найден!")
+    st.error("вќЊ Р¤Р°Р№Р» dictionary_new.txt РЅРµ РЅР°Р№РґРµРЅ!")
     entries = []
 except Exception as e:
-    st.error(f"Ошибка: {e}")
+    st.error(f"РћС€РёР±РєР°: {e}")
     entries = []
 
 categories_map = load_categories("categories.txt")
 
-search = st.text_input("🔍 Wortsuche (Deutsch oder Russisch) ", "")
+search = st.text_input("рџ”Ќ Wortsuche (Deutsch oder Russisch)В ", "")
 if search:
     filtered = [e for e in entries if search.lower() in e["word"].lower() or search.lower() in e["translation"].lower()]
 else:
     filtered = entries
 
-st.write(f"Einträge: {len(filtered)}")
+st.write(f"EintrГ¤ge: {len(filtered)}")
 
 tab_names = ["Alle"] + CATEGORIES
 tabs = st.tabs(tab_names)
@@ -402,10 +471,9 @@ for tab, cat_name in zip(tabs, tab_names):
             ]
 
         if not cat_entries:
-            st.info(f"В категории «{cat_name}» пока нет записей.")
+            st.info(f"Р’ РєР°С‚РµРіРѕСЂРёРё В«{cat_name}В» РїРѕРєР° РЅРµС‚ Р·Р°РїРёСЃРµР№.")
         else:
-            st.write(f"Gefunden in der Kategorie «{cat_name}»: {len(cat_entries)}")
+            st.write(f"Gefunden in der Kategorie В«{cat_name}В»: {len(cat_entries)}")
             cols = st.columns(3)
             for idx, entry in enumerate(cat_entries):
-                with cols[idx % 3]:
-                    show_card(entry, images_dir="images", audio_dir="audio")
+
