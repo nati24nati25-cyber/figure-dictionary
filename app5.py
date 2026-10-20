@@ -436,32 +436,30 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
 st.set_page_config(page_title="Eiskunstlauf-Wörterbuch", layout="wide")
 
 
-with open("ice_background.png", "rb") as f:
-    bg_data = base64.b64encode(f.read()).decode("utf-8")
-
-st.markdown(f"""
+st.markdown("""
 <style>
-[data-testid="stAppViewContainer"] {{
-    background-image:
-        linear-gradient(rgba(232, 244, 250, 0.82), rgba(232, 244, 250, 0.82)),
-        url("data:image/png;base64,{bg_data}");
-    background-size: cover;
-    background-position: center;
+[data-testid="stAppViewContainer"] {
+    background:
+        radial-gradient(ellipse at 12% 8%, rgba(155, 214, 255, 0.34), transparent 32%),
+        radial-gradient(ellipse at 88% 22%, rgba(204, 229, 255, 0.42), transparent 35%),
+        linear-gradient(135deg, #f8fcff 0%, #edf6fc 52%, #e7f0f8 100%);
     background-attachment: fixed;
-}}
+}
 
-[data-testid="stHeader"] {{
-    background: transparent;
-}}
+[data-testid="stHeader"] {
+    background: rgba(255, 255, 255, 0);
+}
 
-div[data-testid="stVerticalBlockBorderWrapper"] {{
-    background: rgba(255, 255, 255, 0.88);
+/* Полупрозрачные карточки записей */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: rgba(255, 255, 255, 0.78);
     border: 1px solid rgba(177, 205, 225, 0.65);
     border-radius: 16px;
     box-shadow: 0 6px 22px rgba(56, 91, 120, 0.08);
-}}
+}
 </style>
 """, unsafe_allow_html=True)
+
 
 
 
