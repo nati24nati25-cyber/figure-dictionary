@@ -125,19 +125,19 @@ Einstichsprung |Substantiv| maskulinum | зубцовый прыжок | der Ein
 
 Einlauf |Substantiv| maskulinum | заезд, вход, въезд (на прыжок) | der Einlauf | des Einlaufs| dem Einlauf | den Einlauf | die Einläufe| der Einläufe | den Einläufen | die Einläufe| Beispiel des Gebrauchs: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.|
 
-einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заезжать, въезжать|
+einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заезжать, въезжать|Beispiel des Gebrauchs: ....|
 
-einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|
+einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|Definition: ....|Beispiel des Gebrauchs: ....|
 
 einwärts | Adverb | внутрь (на внутреннем ребре)| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
-Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbögen| der Einwärtsbögen| den Einwärtsbögen| die Einwärtsbögen|
+Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbögen| der Einwärtsbögen| den Einwärtsbögen| die Einwärtsbögen|Definition: ....|Beispiel des Gebrauchs: ....|
 
 Einwärtszirkel |Substantiv |maskulinum | внутренний циркуль |der Einwärtszirkel |des Einwärtszirkels | dem Einwärtszirkel | den Einwärtszirkel| die Einwärtszirkel| der Einwärtszirkel| den Einwärtszirkeln| die Einwärtszirkel| Definition: Figur, bei der ein Bein mit der hinteren oder vorderen Spitze ins Eis gesetzt wird und zirkelartig mit dem anderen Bein vorwärts oder rückwärts Kreise gelaufen werden| Beispiel des Gebrauchs: Der Zirkel ra dagegen ist etwas schwerer zu erlernen, denn mit dem Gewicht gut auf der Außenkante muss man lang auf dieser rückwärts gleiten, ehe die Zacke zum Zirkel eingesetzt werden darf. Der Radius des Kreisbogens verkürzt sich, das linke Bein sticht mit der Zacke weit hinter dem Körper ins Eis und man gleitet Rra im Zirkel um diesen Punkt. | 
  
 Einzellauf |Substantiv| maskulinum | одиночное катание |der Einzellauf |des Einzellaufs, Einzellaufes| dem Einzellauf | den Einzellauf| die Einzelläufe| der Einzelläufe| den Einzelläufen| die Einzelläufe| Definition: die älteste und grundlegendste Disziplin des Eiskunstlaufs. Ein einzelner Sportler – Frau oder Mann – tritt allein auf dem Eis auf und kombiniert technische Elemente mit künstlerischem Ausdruck| Beispiel des Gebrauchs: Im Einzellauf legt der Athlet besonderen Wert auf die Sprungkombination in der zweiten Hälfte.| einzellauf.gif|
 
-Einzelsprung |Substantiv| maskulinum | одиночный прыжок | der Einzelsprung | des Einzelsprungs | dem Einzelsprung | den Einzelsprung | die Einzelsprünge | der Einzelsprünge | den Einzelsprüngen | die Einzelsprünge|Definition: |Beispiel des Gebrauchs: Fast alle Elemente waren perfekt ausgeführt, einzig beim Einzelsprung, dem dreifachen Toeloop, musste Alisa Efimova zu Boden gehen |
+Einzelsprung |Substantiv| maskulinum | одиночный прыжок | der Einzelsprung | des Einzelsprungs | dem Einzelsprung | den Einzelsprung | die Einzelsprünge | der Einzelsprünge | den Einzelsprüngen | die Einzelsprünge|Definition: .... |Beispiel des Gebrauchs: Fast alle Elemente waren perfekt ausgeführt, einzig beim Einzelsprung, dem dreifachen Toeloop, musste Alisa Efimova zu Boden gehen |
 
 Eislauffähigkeit |Substantiv| femininum | навык скольжения (катания)| die Eislauffähigkeit | der Eislauffähigkeit | der Eislauffähigkeit | die Eislauffähigkeit | die Eislauffähigkeiten |  der Eislauffähigkeiten | den Eislauffähigkeiten |  die Eislauffähigkeiten | Definition: die technische Beherrschung des Eislaufens und die Fähigkeit, Kufen und Körper präzise zu kontrollieren|Beispiel des Gebrauchs: Die Eislauffähigkeiten zeigen eine solide Kufenkontrolle: Die Kanten sind klar, die Kurvenbewegungen fließen nahtlos ineinander, und die Geschwindigkeitskontrolle ermöglicht präzise Abstufungen zwischen Kraft und Leichtigkeit.|
 
@@ -285,7 +285,6 @@ Rückwärtsbogen |Substantiv| maskulinum| задняя дуга |der Rückwärts
 
 Rückwärtslauf |Substantiv| maskulinum| движение на ход назад |der Rückwärtslauf |des Rückwärtslaufs | dem Rückwärtslauf | den Rückwärtslauf| die Rückwärtsläufe| der Rückwärtsläufe| den Rückwärtsläufen| die Rückwärtsläufe| Beispiel des Gebrauchs: ....|
 
-
 Salchow |Substantiv| maskulinum| сальхов | der Salchow| des Salchow[s]| dem Salchow| den Salchow | die Salchows| der Salchows | den Salchows| die Salchows|  Definition: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem die Läuferin/der Läufer mit einem Fuß abspringt, in der Luft eine Drehung ausführt und mit dem anderen Fuß wieder aufkommt | Herkunft: nach dem schwedischen Eiskunstlaufweltmeister U. Salchow | Beispiel des Gebrauchs: Verewigt hat er sich durch die Erfindung des Salchows. Der Schwede Grafström und der Kanadier Montgomery Wilson stehen 1928 den ersten Doppelsprung, einen Salchow. |salchow.jpg|
 
 Schlangenbogen |Substantiv| maskulinum | перетяжка |der Schlangenbogen |des Schlangenbogens | dem Schlangenbogen | den Schlangenbogen| die Schlangenbögen| der Schlangenbögen| den Schlangenbögen| die Schlangenbögen| Definition: ein Schritt auf einem Bein mit Kanten- und Kreiswechsel, bei gleitendem Übergang von einem Kreisbogen zum anderen| Beispiel des Gebrauchs: Schritte: Cross Roll, Schlangenbögen, Chassées, Mohawks, Choctaws, Spitzenschritte | schlangenbogen.jpg|
@@ -389,6 +388,8 @@ Vierfachtoeloop |Substantiv| maskulinum  | четверной тулуп | der V
 vorwärts | Adverb | вперед| Beispiel des Gebrauchs: Das Übersetzen vorwärts wird auf einem Kreisbogen gelaufen. Dann das Standbein aktiv vorwärts schieben.|
 
 Vorwärtsbogen |Substantiv| maskulinum | передняя дуга |der Vorwärtsbogen |des Vorwärtsbogens | dem Vorwärtsbogen | den Vorwärtsbogen| die Vorwärtsbögen| der Vorwärtsbögen| den Vorwärtsboögen| die Vorwärtsbögen| Beispiel des Gebrauchs: Sobald der Vorwärtsbogen „sitzt“, lassen sich schon nette Figuren zu zweit fahren.|
+
+Vorwärtslauf |Substantiv| maskulinum| движение на ход вперед  |der Vorwärtslauf |des Vorwärtslaufs | dem Vorwärtslauf | den Vorwärtslauf| die Vorwärtsläufe| der Vorwärtsläufe| den Vorwärtsläufen| die Vorwärtsläufe|Definition: ....| Beispiel des Gebrauchs: ....|
 
 Walzerschritt |Substantiv| maskulinum | вальсовый шаг |der Walzerschritt |des Walzerschritts| dem Walzerschritt | den Walzerschritt| die Walzerschritte| der Walzerschritte| den Walzerschritten| die Walzerschritte |Definition: eine rhythmische Schrittfolge im 3/4-Takt, die im Paarlauf synchron ausgeführt wird. Die Abfolge: Vorwärtsbogen – Rückwärtsbogen – Untersetzen, mit sanften Körperbewegungen|Beispiel des Gebrauchs: Eine Folge von Walzerschritten kann nur abwechselnd links und rechts ausgeführt werden.|
 
