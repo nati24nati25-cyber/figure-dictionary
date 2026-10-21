@@ -16,6 +16,7 @@ beugen | Technik
 Bogen | Technik
 bremsen | Technik
 Drehachse | Technik
+drehen | Technik
 Drehung | Technik
 durchführen | Technik
 einbeinig | Technik
@@ -26,6 +27,7 @@ einnehmen | Technik
 einwärts | Technik
 Einwärtsbogen | Technik
 Fußwechsel | Technik
+Geschwindigkeit | Technik
 gespreizt | Technik
 gestreckt | Technik
 getippt | Technik
@@ -35,9 +37,12 @@ Kante | Technik
 Kantenwechsel | Technik
 landen | Technik
 laufen | Technik
+Laufrichtung | Technik
+Richtungswechsel | Technik
 Rotation | Technik
 rückwärts | Technik
 Rückwärtsbogen | Technik
+Rückwärtslauf | Technik
 schleifen | Technik
 Spielbein | Technik
 Standbein | Technik
@@ -46,6 +51,9 @@ stürzen | Technik
 tippen | Technik
 vorwärts | Technik
 Vorwärtsbogen | Technik
+Vorwärtslauf | Technik
+Uhrzeigersinn | Technik
+umdrehen | Technik
 Zacke | Technik
 
 ###### Technik ######
@@ -359,6 +367,7 @@ Kufe | Zubehör
 Kufentuch | Zubehör
 Kunststoffschoner | Zubehör
 Schlittschuhüberzieher | Zubehör
+schnüren |  Zubehör
 Spinner | Zubehör
 Stoffschoner | Zubehör
 
