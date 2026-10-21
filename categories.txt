@@ -46,7 +46,7 @@ stürzen | Technik
 tippen | Technik
 vorwärts | Technik
 Vorwärtsbogen | Technik
-Zahn | Technik
+Zacke | Technik
 
 ###### Technik ######
 
@@ -358,5 +358,7 @@ Kunststoffschoner | Zubehör
 Schlittschuhüberzieher | Zubehör
 Spinner | Zubehör
 Stoffschoner | Zubehör
+
+
 
 ####### Zubehör ####### 
