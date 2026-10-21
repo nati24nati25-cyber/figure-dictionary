@@ -78,6 +78,9 @@ doppelt |Adjektiv | двойной (в два оборота)| Beispiel des Gebr
 
 Drehachse |Substantiv| femininum | вращательная ось |die Drehachse | der Drehachse | der Drehachse | die Drehachse | die Drehachsen |  der Drehachsen | den Drehachsen |  die Drehachsen | Beschreibng: Achse, um die eine Drehung erfolgt| Beispiel des Gebrauchs: Beim Positionswechsel auf einem Bein von der Waage- in die Sitzposition werden die Extremitäten weit und schnell von der Drehachse entfernt geführt. |
 
+drehen | schwaches Verb (dreht, drehte, hat gedreht)| vi. | вращаться| Beispiel des Gebrauchs:  .....|
+
+
 Drehung |Substantiv| femininum | оборот |die Drehung | der Drehung | der Drehung | die Drehung | die Drehungen |  der Drehungen | den Drehungen |  die Drehungen | Beispiel des Gebrauchs: Zur Einleitung der Drehung wird der linke Arm zurückgezogen, das Standbein streckt sich und Oberkörper, Spielbein und Arme gehen in die waagerechte Haltung über. Es variiert nur die Körperhaltung im Flug, damit mehrfache Drehungen möglich sind.|
 
 Dreier |Substantiv| maskulinum | тройка | der Dreier | des Dreiers | dem Dreier | den Dreier | die Dreier | der Dreier | den Dreiern | die Dreier | Definition: Wechsel der Laufrichtung auf einem Bein von vorwärts nach rückwärts (über die Schlittschuhspitze) oder von rückwärts nach vorwärts (über die Ferse) mit Kantenwechsel und Drehung mit Rotation im Sinne des Einlaufbogens| dreier.jpg|
@@ -158,7 +161,9 @@ Gegendreier |Substantiv| maskulinum | скобка | der Gegendreier | des Gegen
 
 Gegenwende |Substantiv| femininum| выкрюк |die Gegenwende | der Gegenwende | der Gegenwende | die Gegenwende | die Gegenwenden |  der Gegenwenden | den Gegenwenden |  die Gegenwenden| Definition: Pflichtfigur beim Eiskunstlauf, bei der drei Kreise in gleichmäßigem Tempo ohne Kantenwechsel gelaufen werden müssen| gegenwende.jpg|
 
-Gesamtpunktzahl |Substantiv| femininum| итоговая оценка |die Gesamtpunktzahl | der Gesamtpunktzahl | der Gesamtpunktzahl | die Gesamtpunktzahl | die Gesamtpunktzahlen |  der Gesamtpunktzahlen | den Gesamtpunktzahlen |  die Gesamtpunktzahlen| Definition: Pflichtfigur beim Eiskunstlauf, bei der drei Kreise in gleichmäßigem Tempo ohne Kantenwechsel gelaufen werden müssen|Definition: die Summe von dem Technischem Gesamtwert TES (engl. Technical Element Score) und den Gesamtpunkten der Programmkomponenten PCS (engl. Program Component Score) |Beispiel des Gebrauchs: Die Gesamtpunktzahl nach beiden Programmen entscheidet über die Endplatzierung und damit über einen möglichen Podiumsplatz.| 
+Gesamtpunktzahl |Substantiv| femininum| итоговая оценка |die Gesamtpunktzahl | der Gesamtpunktzahl | der Gesamtpunktzahl | die Gesamtpunktzahl | die Gesamtpunktzahlen |  der Gesamtpunktzahlen | den Gesamtpunktzahlen |  die Gesamtpunktzahlen| |Definition: die Summe von dem Technischem Gesamtwert TES (engl. Technical Element Score) und den Gesamtpunkten der Programmkomponenten PCS (engl. Program Component Score) |Beispiel des Gebrauchs: Die Gesamtpunktzahl nach beiden Programmen entscheidet über die Endplatzierung und damit über einen möglichen Podiumsplatz.| 
+
+Geschwindigkeit |Substantiv| femininum| равновесие |die Geschwindigkeit | der Geschwindigkeit | der Gesamtpunktzahl | die Gesamtpunktzahl | die Geschwindigkeiten |  der Geschwindigkeiten | den Geschwindigkeiten |  die Geschwindigkeiten| Definition: ... |Beispiel des Gebrauchs: ...| 
 
 gespreizt | partizipiales Adjektiv | pp. | разведенные в сторону (ноги)| Beispiel des Gebrauchs: Das Paar zeigte eine atemberaubende Hochliftfigur, bei der die Partnerin ihre gespreizten Beine im rechten Winkel zur Achse des Partners hielt.|
 
@@ -226,6 +231,8 @@ Landung |Substantiv| femininum | приземление |die Landung | der Landu
 
 laufen |starkes  Verb (läuft, lief, ist gelaufen)| vi. | ехать, скользить| Beispiel des Gebrauchs: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
 
+Laufrichtung | femininum | направление движения |die Laufrichtung | der Laufrichtung | der Laufrichtung| die Laufrichtung | die Laufrichtungen |  der Laufrichtungen | den Laufrichtungen |  die Laufrichtungen | Beispiel des Gebrauchs: ....|
+
 Laufschritt |Substantiv| maskulinum | елочка |der Laufschritt |des Laufschritts| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte|Beispiel des Gebrauchs: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
 
 Linie |Substantiv| femininum | линия |die Linie | der Linie | der Linie| die Linie | die Linien |  der Linien | den Linien |  die Linien |Definition: eine grundlegende Formation, die Mannschaft stellt sich in einer Reihe (Schlange) oder in einer Linie (Reihe nebeneinander) auf und bewegt sich als einheitliche Formation über die Eisfläche |Beispiel des Gebrauchs: Achtet in der Linie darauf, dass niemand aus der Achse fällt.|linie.png|
@@ -264,6 +271,8 @@ Rehsprung |Substantiv| maskulinum | прыжок олень | der Rehsprung | de
 
 Rhythmustanz |Substantiv| maskulinum | ритм-танец |der Rhythmustanz |des Rhythmustanzes | dem Rhythmustanz | den Rhythmustanz| die Rhythmustänze| der Rhythmustänze| den Rhythmustänzen| die Rhythmustänze| Definition: Früher als „Originaltanz“ bekannt. Hier wird ein vom ISU vorgegebener Rhythmus oder ein Thema getanzt, wie Tango, Walzer oder Swing| Beispiel des Gebrauchs: Im Rhythmustanz zeigten die Athleten eine präzise Anpassung an den Beat und überzeugten mit ihrer Synchronität.|rhythmustanz.jpg|
 
+Richtungswechsel |Substantiv| maskulinum | смена направления (движения)| der Richtungswechsel| des Richtungswechsels| dem Richtungswechsel| den Richtungswechsel | die Richtungswechsel| der Richtungswechsel | den Richtungswechseln| die Richtungswechsel| Beispiel des Gebrauchs: ....|
+
 Rittberger |Substantiv| maskulinum | риттбергер | der Rittberger| des Rittbergers| dem Rittberger| den Rittberger | die Rittberger| der Rittberger | den Rittbergern| die Rittberger| Definition: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem man mit einem Fuß abspringt, in der Luft eine Drehung ausführt und mit dem gleichen Fuß wieder aufkommt| Herkunft: nach dem deutschen Eiskunstläufer W. Rittberger| Beispiel des Gebrauchs: Der Rittberger ist der einzige Sprung, bei dem die Einlaufphase auf beiden Füßen erfolgt.|Rittberger.jpg|
 
 Rittbergerschritt |Substantiv| maskulinum | риттбергеровый шаг |der Rittbergerschritt |des Rittbergerschritts| dem Rittbergerschritt | den Rittbergerschritt| die Rittbergerschritte| der Rittbergerschritte| den Rittbergerschritten| die Rittbergerschritte|Definition: ein Vorbereitungsschritt für den Rittberger, bei dem man einen Doppeldreier mit gewickeltem Spielfuß ausführt|Beispiel des Gebrauchs: einen Rittbergerschritt benutzt man als Übergangselement zum Sprung.|
@@ -272,7 +281,10 @@ Rotation |Substantiv| femininum | вращение |die Rotation | der Rotation 
 
 rückwärts | Adverb | назад| Beispiel des Gebrauchs: Rückwärts laufen ist ungewohnt und ja auch im normalen Leben nicht üblich. An dieser Stelle sollen nur die einfachsten Richtungswechsel von vorwärts auf rückwärts und umgekehrt angesprochen werden.|
 
-Rückwärtsbogen |Substantiv| maskulinum| задняя дуга |der Rückwärtsbogen |des Rückwärtsbogens | dem Rückwärtsbogen | den Rückwärtsbogen| die Rückwärtsbögen| der Rückwärtsbögen| den Rückwärtsbögen| die Rückwärtsbögen|
+Rückwärtsbogen |Substantiv| maskulinum| задняя дуга |der Rückwärtsbogen |des Rückwärtsbogens | dem Rückwärtsbogen | den Rückwärtsbogen| die Rückwärtsbögen| der Rückwärtsbögen| den Rückwärtsbögen| die Rückwärtsbögen| Beispiel des Gebrauchs: ....|
+
+Rückwärtslauf |Substantiv| maskulinum| движение на ход назад |der Rückwärtslauf |des Rückwärtslaufs | dem Rückwärtslauf | den Rückwärtslauf| die Rückwärtsläufe| der Rückwärtsläufe| den Rückwärtsläufen| die Rückwärtsläufe| Beispiel des Gebrauchs: ....|
+
 
 Salchow |Substantiv| maskulinum| сальхов | der Salchow| des Salchow[s]| dem Salchow| den Salchow | die Salchows| der Salchows | den Salchows| die Salchows|  Definition: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem die Läuferin/der Läufer mit einem Fuß abspringt, in der Luft eine Drehung ausführt und mit dem anderen Fuß wieder aufkommt | Herkunft: nach dem schwedischen Eiskunstlaufweltmeister U. Salchow | Beispiel des Gebrauchs: Verewigt hat er sich durch die Erfindung des Salchows. Der Schwede Grafström und der Kanadier Montgomery Wilson stehen 1928 den ersten Doppelsprung, einen Salchow. |salchow.jpg|
 
@@ -283,6 +295,8 @@ schleifen | starkes Verb (schleift, schliff, hat geschliffen)| vt. | точит�
 Schlinge |Substantiv| feminin | петля |die Schlinge | der Schlinge | der Schlinge| die Schlinge | die Schlingen |  der Schlingen | den Schlingen |  die Schlingen | Definition: in einem verkleinerten Achter gelaufene Figur mit einer ovalen Eindrehung| Beispiel des Gebrauchs: Die Schlinge verlangt vom Kunstläufer stärkste Konzentration, besondere Standfestigkeit und ein hervorragendes Gleichgewichtsgefühl». |schlinge.jpg|
 
 Schlittschuhüberzieher |Substantiv| maskulinum | чехол на конек |der Schlittschuhüberzieher |des Schlittschuhüberziehers| dem Schlittschuhüberzieher | den Schlittschuhüberzieher| die Schlittschuhüberzieher| der Schlittschuhüberzieher| den Schlittschuhüberziehern| die Schlittschuhüberzieher|Definition: Stoff- oder Elasthan-Überzieher, die über den oberen Teil des Schlittschuhs gezogen werden und den Schuh vor Abnutzung, Kratzern und Schmutz während des Trainings schützen| Beispiel des Gebrauchs: Der Schlittschuhüberzieher ist der ideale Schutz gegen  Abnutzung, Kratzer und Schmutz während des Trainings. | schlittschuhüberzieher.jpg|
+
+schnüren | schwaches Verb (schnürt, schnürte, hat geschnürt)| vi. | поворачиваться| Beispiel des Gebrauchs:  .....|
 
 Schraubenpirouette |Substantiv| femininum | винт |die Schraubenpirouette | der Schraubenpirouette | der Schraubenpirouette | die Schraubenpirouette | die Schraubenpirouetten |  der Schraubenpirouetten | den Schraubenpirouetten |  die Schraubenpirouetten | Definition: Die Schraubenpirouette ist eine Version der Standpirouette, allerdings ist sie ein bisschen schwieriger. Das Spielbein überkreuzt bei der Schraubenpirouette das Standbein, sodass der Schwung noch verstärkt wird|Beispiel des Gebrauchs: Der Ablauf der Schraubenpirouette ist gleich wie bei der Standpirouette.|schraubenpirouette.gif|
 
@@ -344,9 +358,13 @@ Twizzle |Substantiv| maskulinum |  твизл | der Twizzle| des Twizzles| dem T
 
 Twizzlesequenz |Substantiv| femininum | серия твизлов |die Twizzlesequenz | der Twizzlesequenz | der Twizzlesequenz | die Twizzlesequenz | die Twizzlesequenzen |  der Twizzlesequenzen | den Twizzlesequenzen |  die Twizzlesequenzen|Definition: eine der zentralen und verpflichtenden Komponenten im Eistanz | Beispiel des Gebrauchs: In der Twizzlesequenz müssen wir vor allem auf die Kantenkontrolle und die gleichbleibende Distanz zwischen den Partnern achten.|twizzlesequenz.webp|
 
+umdrehen | schwaches Verb (dreht um, drehte um, hat umgedreht)| vi. | поворачиваться| Beispiel des Gebrauchs:  .....|
+
 Unterrotation |Substantiv| femininum | недокрут |die Unterrotation | der Unterrotation | der Unterrotation | die Unterrotation | die Unterrotationen |  der Unterrotationen | den Unterrotationen |  die Unterrotationen |Definition: nicht volle Rotation im Sprung; die fehlende Drehung wird erst beim Landen ausgeglichen |Beispiel des Gebrauchs: Der Sprung wurde wegen Unterrotation heruntergewertet.|
 
 unterrotiert | partizipiales Adjektiv | недокрученный (прыжок)| Beispiel des Gebrauchs: Der Technische Spezialist bewertete den Sprung als unterrotiert.|  
+
+Uhrzeigersinn |Substantiv| maskulinum | по часовой стрелке | der Uhrzeigersinn | des Uhrzeigersinns | dem Uhrzeigersinn | den Uhrzeigersinn | die Uhrzeigersinne | der Uhrzeigersinne | den Uhrzeigersinnen | die Uhrzeigersinne|Definition:......|Beispiel des Gebrauchs: ....|
 
 Verbindungselement |Substantiv| neutrum  | соединительный элемент| das Verbindungselement |des Verbindungselements| dem Verbindungselement | das Verbindungselement |die Verbindungselemente |der Verbindungselemente |den die Verbindungselementen | die Verbindungselemente |Definition: alle Bewegungen, die man zwischen den Sprüngen und Pirouetten eines Programms (Kurzprogramm oder Kür) durchführt, wie Spiralen, Ina Bauer, Mond usw|Beispiel des Gebrauchs: Verbindungselemente tragen zum gesamten künstlerischen Ausdruck des Programms bei.|
 
