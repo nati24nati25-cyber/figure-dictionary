@@ -42,7 +42,7 @@ Biellmannpirouette |Substantiv| femininum | бильман |die Biellmannpirouet
 
 Block |Substantiv| maskulinum | блок |der Block |des Blocks| dem Block | den Block| die Blöcke| der Blöcke| den Blöcken| die Blöcke|Definition: ein besonderes Element, bei dem die Läufer dieselbe Körperhaltung, denselben Kanteneinsatz und denselben Bewegungsablauf millimetergenau gleichzeitig umsetzen müssen| Beispiel des Gebrauchs: Drei bis fünf parallele Reihen bilden einen Block |block.jpg|
 
-Bogen |Substantiv| maskulinum | дуга |der Bogen |des Bogens | dem Bogen | den Bogen| die Bogen| der Bogen| den Bogen| die Bogen| Kurvenlauf auf einem Bein| Beispiel des Gebrauchs: Die Rotation wird erreicht, indem man die Arme ruckartig an den Oberkörper reißt, wobei der rechte etwas langsamer ist, da er den längeren Weg hat und einen kleinen Bogen macht.|
+Bogen |Substantiv| maskulinum | дуга |der Bogen |des Bogens | dem Bogen | den Bogen| die Bögen| der Bögen| den Bögen| die Bögen| Kurvenlauf auf einem Bein| Beispiel des Gebrauchs: Die Rotation wird erreicht, indem man die Arme ruckartig an den Oberkörper reißt, wobei der rechte etwas langsamer ist, da er den längeren Weg hat und einen kleinen Bogen macht.|
 
 bremsen | schwaches Verb (bremst, bremste, hat bremst)| vi. | тормозить| Beispiel des Gebrauchs: Das nützt man aus, um zu bremsen bzw. sich vom Eis abzudrücken.|
 
@@ -126,7 +126,7 @@ einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| прини
 
 einwärts | Adverb | внутрь (на внутреннем ребре)| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
-Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbogen| der Einwärtsbogen| den Einwärtsbogen| die Einwärtsbogen|
+Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbögen| der Einwärtsbögen| den Einwärtsbögen| die Einwärtsbögen|
  
 Einzellauf |Substantiv| maskulinum | одиночное катание |der Einzellauf |des Einzellaufs, Einzellaufes| dem Einzellauf | den Einzellauf| die Einzelläufe| der Einzelläufe| den Einzelläufen| die Einzelläufe| Definition: die älteste und grundlegendste Disziplin des Eiskunstlaufs. Ein einzelner Sportler – Frau oder Mann – tritt allein auf dem Eis auf und kombiniert technische Elemente mit künstlerischem Ausdruck| Beispiel des Gebrauchs: Im Einzellauf legt der Athlet besonderen Wert auf die Sprungkombination in der zweiten Hälfte.| einzellauf.gif|
 
@@ -204,7 +204,7 @@ kreisäußer | Adjektiv | вне круга|
 
 Kreuzen |Substantiv| neutrum  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | | | | |Definition: ein wichtiger Manövrierzug: zwei Linien oder Gruppen kreuzen sich nach exakter Planung, wobei die Läufer millimetergenaue Abstände und Schnittpunkte einhalten müssen, um Kollisionen zu vermeiden und die Formationen sauber zu wechseln|Beispiel des Gebrauchs: Beim Kreuzen kommt es auf den perfekten Timing an.|kreuzen.webp|
 
-Kufe |Substantiv| femininum | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen | Beispiel des Gebrauchs: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |kufe.jpg|
+Kufe |Substantiv| femininum | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen |Definition: eine Gleitkante, die längs unter der Mitte des Schuhs angeschraubt ist und vom Zwischenraum neben dem großen Zeh bis zur Mitte der Ferse reicht; sie besteht aus gehärtetem Stahl und dient als Gleitfläche| Beispiel des Gebrauchs: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |kufe.jpg|
 
 Kufentuch |Substantiv| neutrum  | тряпка для протирания лезвий| das Kufentuch |des Kufentuchs| dem Kufentuch | das Kufentuch | die Kufentücher |der Kufentücher |den Kufentüchern |die Kufentücher |Definition: ein Tuch, mit dem die Kufen der Schlittschuhe abgewischt werden, um Eisreste und Schmutz zu entfernen|Beispiel des Gebrauchs: Das Kufentuch dient dazu, die Kufen der Schlittschuhe trocken und sauber zu halten, damit die Kante besser greift.|kufentuch.png|
 
@@ -268,7 +268,7 @@ Rotation |Substantiv| femininum | вращение |die Rotation | der Rotation 
 
 rückwärts | Adverb | назад| Beispiel des Gebrauchs: Rückwärts laufen ist ungewohnt und ja auch im normalen Leben nicht üblich. An dieser Stelle sollen nur die einfachsten Richtungswechsel von vorwärts auf rückwärts und umgekehrt angesprochen werden.|
 
-Rückwärtsbogen |Substantiv| maskulinum| задняя дуга |der Rückwärtsbogen |des Rückwärtsbogens | dem Rückwärtsbogen | den Rückwärtsbogen| die Rückwärtsbogen| der Rückwärtsbogen| den Rückwärtsbogen| die Rückwärtsbogen|
+Rückwärtsbogen |Substantiv| maskulinum| задняя дуга |der Rückwärtsbogen |des Rückwärtsbogens | dem Rückwärtsbogen | den Rückwärtsbogen| die Rückwärtsbögen| der Rückwärtsbögen| den Rückwärtsbögen| die Rückwärtsbögen|
 
 Salchow |Substantiv| maskulinum| сальхов | der Salchow| des Salchow[s]| dem Salchow| den Salchow | die Salchows| der Salchows | den Salchows| die Salchows|  Definition: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem die Läuferin/der Läufer mit einem Fuß abspringt, in der Luft eine Drehung ausführt und mit dem anderen Fuß wieder aufkommt | Herkunft: nach dem schwedischen Eiskunstlaufweltmeister U. Salchow | Beispiel des Gebrauchs: Verewigt hat er sich durch die Erfindung des Salchows. Der Schwede Grafström und der Kanadier Montgomery Wilson stehen 1928 den ersten Doppelsprung, einen Salchow. |salchow.jpg|
 
@@ -366,7 +366,7 @@ Vierfachtoeloop |Substantiv| maskulinum  | четверной тулуп | der V
 
 vorwärts | Adverb | вперед| Beispiel des Gebrauchs: Das Übersetzen vorwärts wird auf einem Kreisbogen gelaufen. Dann das Standbein aktiv vorwärts schieben.|
 
-Vorwärtsbogen |Substantiv| maskulinum | передняя дуга |der Vorwärtsbogen |des Vorwärtsbogens | dem Vorwärtsbogen | den Vorwärtsbogen| die Vorwärtsbogen| der Vorwärtsbogen| den Vorwärtsbogen| die Vorwärtsbogen| Beispiel des Gebrauchs: Sobald der Vorwärtsbogen „sitzt“, lassen sich schon nette Figuren zu zweit fahren.|
+Vorwärtsbogen |Substantiv| maskulinum | передняя дуга |der Vorwärtsbogen |des Vorwärtsbogens | dem Vorwärtsbogen | den Vorwärtsbogen| die Vorwärtsbögen| der Vorwärtsbögen| den Vorwärtsboögen| die Vorwärtsbögen| Beispiel des Gebrauchs: Sobald der Vorwärtsbogen „sitzt“, lassen sich schon nette Figuren zu zweit fahren.|
 
 Walzerschritt |Substantiv| maskulinum | вальсовый шаг |der Walzerschritt |des Walzerschritts| dem Walzerschritt | den Walzerschritt| die Walzerschritte| der Walzerschritte| den Walzerschritten| die Walzerschritte |Definition: eine rhythmische Schrittfolge im 3/4-Takt, die im Paarlauf synchron ausgeführt wird. Die Abfolge: Vorwärtsbogen – Rückwärtsbogen – Untersetzen, mit sanften Körperbewegungen|Beispiel des Gebrauchs: Eine Folge von Walzerschritten kann nur abwechselnd links und rechts ausgeführt werden.|
 
@@ -388,7 +388,7 @@ Wertungsprotokoll |Substantiv| neutrum | протокол (разг. распе�
 
 Wurfsprung |Substantiv| maskulinum | выброс | der Wurfsprung | des Wurfsprungs | dem Wurfsprung | den Wurfsprung | die Wurfsprünge | der Wurfsprünge | den Wurfsprüngen | die Wurfsprünge| Definition: Der Partner wirft die Partnerin in die Luft, sie dreht sich und landet allein auf dem Eis|Beispiel des Gebrauchs: Der Wurfsprung war technisch sauber, die Rotation war vollständig, und die Landung gelang ohne Korrekturschritte. | wurfsprung.webp|
 
-Zahn |Substantiv| maskulinum | зубец |der Zahn |des Zahns| dem Zahn | den Zahn| die Zähne| der Zähne| den Zähnen| die Zähne|
+Zacke |Substantiv| femininum | зубец |die Zacke | der Zacke| der Zacke | die Zacke | die Zacken |  der Zacken | den Zacken |  die Zacken |Definition: eine typische Anfängerübung, bei der man gleitet und zeichnet mit beiden Beinen eine Figur auf das Eis, die an eine Zitrone erinnert – also so einen leicht ovalen Kreis |Beispiel des Gebrauchs: Die Übung 'Zitrone' hilft dir, das Gleichgewicht zu trainieren.|
 
 Zirkel |Substantiv |maskulinum | циркуль |der Zirkel |des Zirkels | dem Zirkel | den Zirkel| die Zirkel| der Zirkel| den Zirkeln| die Zirkel| Definition: Figur, bei der ein Bein mit der hinteren oder vorderen Spitze ins Eis gesetzt wird und zirkelartig mit dem anderen Bein vorwärts oder rückwärts Kreise gelaufen werden| Beispiel des Gebrauchs: Der Zirkel ra dagegen ist etwas schwerer zu erlernen, denn mit dem Gewicht gut auf der Außenkante muss man lang auf dieser rückwärts gleiten, ehe die Zacke zum Zirkel eingesetzt werden darf. Der Radius des Kreisbogens verkürzt sich, das linke Bein sticht mit der Zacke weit hinter dem Körper ins Eis und man gleitet Rra im Zirkel um diesen Punkt. | zirkel.gif|
 
