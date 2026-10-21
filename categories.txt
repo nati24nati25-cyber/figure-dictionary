@@ -55,11 +55,14 @@ Zacke | Technik
 
 ###### Grundelementen  ######
 
+Auswärtszirkel | Grundelementen
+Einwärtszirkel | Grundelementen
 Hocke | Grundelementen
 Storch | Grundelementen
 Pferdchen | Grundelementen
 Pistole | Grundelementen
 Slalom | Grundelementen
+Zirkel | Grundelementen
 Zitrone | Grundelementen
 
 ###### Grundelementen  ######
