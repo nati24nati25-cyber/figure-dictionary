@@ -6,7 +6,7 @@ abspringen  | Technik
 Absprung | Technik
 Auftritt | Technik
 ausführen | Technik
-аuslaufen |Technik
+auslaufen |Technik
 ausstrecken | Technik
 auswärts | Technik
 Auswärtsbogen | Technik
