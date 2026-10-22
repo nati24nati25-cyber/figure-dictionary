@@ -1,16 +1,15 @@
-abheben | starkes Verb (hebt ab, hob ab, hat abgehoben)| vi. | отрываться от льда |Beispiel des Gebrauchs: beim Axel abheben|
+abheben | starkes Verb (hebt ab, hob ab, hat abgehoben)| vi. | отрываться от льда|Definition: sich in die Luft erheben |Beispiel des Gebrauchs: Durch energische Kniestreckung heben Spitzenschritte vom Eis ab, werden zu Hüpfern oder gar kleinen Sprüngen.|
 
-abrollen | schwaches Verb (rollt ab, rollte ab, ist abgerollt)| vi. | переходить, смещаться (на ребро)| Beispiel des Gebrauchs: Nach der Landung des dreifachen Salchows rollte sie sauber auf der Außenkante rückwärts ab.|
-
+abrollen | schwaches Verb (rollt ab, rollte ab, ist abgerollt)| vi. | переходить, смещаться (на ребро)|Definition: verlagern | Beispiel des Gebrauchs: Nach der Landung des dreifachen Salchows rollte sie sauber auf der Außenkante rückwärts ab.
 Absprung |Substantiv| maskulinum | толчок | der Absprung| des Absprungs| dem Absprung| den Absprung| die Absprünge | der Absprünge | den Absprüngen | die Absprünge| Beispiel des Gebrauchs: Wegen seines Absprungs Rra eignet er sich gut als zweiter Sprung in Sprungkombinationen, z. B. Flip – Euler – Salchow.|
 
-abspringen |starkes Verb (springt ab, sprang ab, ist abgesprungen)| vi. | отталкиваться| Beispiel des Gebrauchs: Axel ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
+abspringen |starkes Verb (springt ab, sprang ab, ist abgesprungen)| vi. | отталкиваться |Definition: sich aus einem Anlauf, dem Stand heraus abdrücken und springen| Beispiel des Gebrauchs: Axel ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
 
 Arabeske |Substantiv| femininum| арабеск |die Arabeske | der Arabeske| der Arabeske | die Arabeske | die Arabesken |  der Arabesken | den Arabesken |  die Arabesken |Definition: eine elegante Haltung im Eiskunstlauf, bei der Läufer auf einem Bein gleitet, das andere nach hinten streckt, den geraden Rücken behält und den Oberkörper leicht nach vorne neigt| Beispiel des Gebrauchs: Die Arabeske in der Choreosequenz war elegant und gut kontrolliert.|arabeske.jpg|
 
-Auftritt |Substantiv| maskulinum | выступление, прокат | der Auftritt| des Auftritts| dem Auftritt| den Auftritt| die Auftritte | der Auftritte | den Auftritten | die Auftritte| Beispiel des Gebrauchs: Ein spanischer Eiskunstläufer begeistert mit seinem Auftritt.|
+Auftritt |Substantiv| maskulinum | выступление, прокат | der Auftritt| des Auftritts| dem Auftritt| den Auftritt| die Auftritte | der Auftritte | den Auftritten | die Auftritte|Definition:  das Auftreten eines Eiskunstläufer auf dem Eis | Beispiel des Gebrauchs: Ein spanischer Eiskunstläufer begeistert mit seinem Auftritt.|
 
-ausführen | Verb (führt aus, führte aus, hat ausgeführt)| vt. | выполнять| Beispiel des Gebrauchs: Spagatsprünge werden daher mit weit gespreizter Beinhaltung ausgeführt.|
+ausführen | Verb (führt aus, führte aus, hat ausgeführt)| vt. | выполнять|Definition: etawas machen, realisieren | Beispiel des Gebrauchs: Spagatsprünge werden daher mit weit gespreizter Beinhaltung ausgeführt.|
 
 Ausführungsgrad |Substantiv| maskulinum | оценка качества исполнения | der Ausführungsgrad| des Ausführungsgrads| dem Ausführungsgrad| den Ausführungsgrad| die Ausführungsgrade | der Ausführungsgrade | den Ausführungsgraden | die Ausführungsgrade| Definition: die Bewertung der Ausführungsqualität des Elements – hierbei kann der Wert des Elements erhöht oder verringert werden | Beispiel des Gebrauchs:  Nach der Festlegung des Basiswerts vergibt die Jury den Ausführungsgrad (Grade of Execution, GOE) auf einer Skala von +5 bis -5, abhängig davon, wie präzise und sauber das Element ausgeführt wurde.|
 
@@ -18,39 +17,39 @@ Ausführungsqualität |Substantiv| femininum | качество исполнен
 
 Ausgleichsschritt |Substantiv| maskulinum| степ-аут |der Ausgleichsschritt |des Ausgleichsschritts| dem Ausgleichsschritt | den Ausgleichsschritt| die Ausgleichsschritte| der Ausgleichsschritte| den Ausgleichsschritten| die Ausgleichsschritte|Definition: ein korrigierender Schritt nach der Landung auf einem Bein, um das Gleichgewicht wiederzufinden|Beispiel des Gebrauchs: Er hat den Sprung zwar gelandet, aber mit einem deutlichen Ausgleichsschritt.|
 
-Auslauf |Substantiv| maskulinum | выезд | der Auslauf| des Auslaufs| dem Auslauf| den Auslauf| die Ausläufe | der Ausläufe | den Ausläufen | die Ausläufe| Beispiel des Gebrauchs: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.| auslauf.gif|
+Auslauf |Substantiv| maskulinum | выезд | der Auslauf| des Auslaufs| dem Auslauf| den Auslauf| die Ausläufe | der Ausläufe | den Ausläufen | die Ausläufe|Definition: die kontrollierte Landung und die anschließende Phase nach einem Sprung oder Element.| Beispiel des Gebrauchs: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.| auslauf.gif|
 
-аuslaufen | starkes  Verb (läuft aus, lief aus, ist ausgelaufen)| vi. | выезжать, делать выезд| Beispiel des Gebrauchs: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
+аuslaufen | starkes  Verb (läuft aus, lief aus, ist ausgelaufen)| vi. | выезжать, делать выезд|Definition: einen Sprung oder Element zu Ende gehen | Beispiel des Gebrauchs: Gegen Ende der Pirouette richtet sich der Körper auf, das Standbein streckt sich, es wird ausgelaufen wie bei der einbeinigen Standpirouette.|
 
-ausstrecken | schwaches  Verb (streckt aus, streckte aus, hat ausgestreckt)| vt. | вытягивать | Beispiel des Gebrauchs: Bei diesem Ausfallschritt wird das Laufbein gebeugt und das freie Bein nach hinten gerade ausgestreckt, wobei der Schlittschuh über das Eis schleift.|
+ausstrecken | schwaches  Verb (streckt aus, streckte aus, hat ausgestreckt)| vt. | вытягивать|Definition: etwas langmachen, dehnen | Beispiel des Gebrauchs: Bei diesem Ausfallschritt wird das Laufbein gebeugt und das freie Bein nach hinten gerade ausgestreckt, wobei der Schlittschuh über das Eis schleift.|
 
-auswärts | Adverb | наружу (на наружном ребре)| Beispiel des Gebrauchs: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
+auswärts | Adverb | наружу (на наружном ребре)|Definition: auf der Außenkante sein | Beispiel des Gebrauchs: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
  
-Auswärtsbogen |Substantiv| maskulinum | наружная дуга |der Auswärtsbogen |des Auswärtsbogens | dem Auswärtsbogen | den Auswärtsbogen| die Auswärtsbogen| der Auswärtsbogen| den Auswärtsbogen| die Auswärtsbogen|Beispiel des Gebrauchs: Beim rechten Auswärtsbogen führt rechter Arm.|
+Auswärtsbogen |Substantiv| maskulinum | наружная дуга |der Auswärtsbogen |des Auswärtsbogens | dem Auswärtsbogen | den Auswärtsbogen| die Auswärtsbogen| der Auswärtsbogen| den Auswärtsbogen| die Auswärtsbogen|Definition: |Beispiel des Gebrauchs: Beim rechten Auswärtsbogen führt rechter Arm.|
 
 Auswärtszirkel |Substantiv |maskulinum | наружний циркуль |der Auswärtszirkel |des Auswärtszirkels | dem Auswärtszirkel | den Auswärtszirkel| die Auswärtszirkel| der Auswärtszirkel| den Auswärtszirkeln| die Auswärtszirkel| Definition: Figur, bei der ein Bein mit der hinteren oder vorderen Spitze ins Eis gesetzt wird und zirkelartig mit dem anderen Bein auf der Außenkante vorwärts oder rückwärts Kreise gelaufen werden| Beispiel des Gebrauchs: Beim Auswärtszirkel verschiebt sich der Schwerpunkt leicht nach außen, um die Kante stabil zu halten.|
 
-Außenkante |Substantiv| femininum| наружное ребрo |die Außenkante | der Außenkante | der Außenkante | die Außenkante | die Außenkanten |  der Außenkanten | den Außenkanten |  die Außenkanten | Beispiel des Gebrauchs: Nun wird dabei aber auch die Kante gewechselt, von der Außenkante dreht man auf die Innenkante und umgekehrt.|
+Außenkante |Substantiv| femininum| наружное ребрo |die Außenkante | der Außenkante | der Außenkante | die Außenkante | die Außenkanten |  der Außenkanten | den Außenkanten |  die Außenkanten |Definition:...... | Beispiel des Gebrauchs: Nun wird dabei aber auch die Kante gewechselt, von der Außenkante dreht man auf die Innenkante und umgekehrt.|
 
 Axel |Substantiv| maskulinum| аксель |der Axel |des Axels | dem Axel | den Axel| die Axel| der Axel| den Axeln| die Axel| Definition: von der Außenkante des linken Fußes vorwärts ausgeführter Sprung, bei dem der Läufer bzw. die Läuferin nach einer Umdrehung rückwärtslaufend mit der Außenkante des rechten Fußes wieder aufsetzt | Herkunft: nach dem norwegischen Eiskunstläufer Axel Paulsen| Beispiel des Gebrauchs: Der Axel wird vorwärts von der Außenkante des linken Fußes abgesprungen. Später zeigte er noch vier weitere Dreifache, nur der zweite Axel wurde nur einfach. | axel.jpg|
 
 Basiswert |Substantiv| maskulinum| базовая стоимость |der Basiswert | des Basiswerts| dem Basiswert | den Basiswert | die Basiswerte |  der Basiswerte | den Basiswerten |  die Basiswerte |Definition: die festgelegte Punktzahl, die für die korrekte Ausführung des Elements vorgesehen ist | Beispiel des Gebrauchs: Jedes Element hat einen festgelegten Basiswert an Punkten, der je nach Schwierigkeitsgrad und Ausführung variiert.|
 
-beidbeinig | Adverb | на двух ногах| Beispiel des Gebrauchs: Beim beidbeinigen Slalomlauf wird erstmals auch die Außenkante erfüllt. Aus dem beidbeinigen Stand oder Vorwärtslauf heraus wird ein großer Schiebeschritt vorwärts in den tiefen Ausfall gemacht.|
+beidbeinig | Adverb | на двух ногах|Definition: auf zwei Beinen sein | Beispiel des Gebrauchs: Beim beidbeinigen Slalomlauf wird erstmals auch die Außenkante erfüllt. Aus dem beidbeinigen Stand oder Vorwärtslauf heraus wird ein großer Schiebeschritt vorwärts in den tiefen Ausfall gemacht.|
 
-beugen | schwaches Verb (beugt, beugte, hat gebeugt)| vi./vt.| сгибать | Beispiel des Gebrauchs: Eine andere Version der eingesprungenen Sitzpirouette beinhaltet einen Fußwechsel in der Luft: nachdem man die Sitzposition in der Luft eingenommen hat, streckt man das linke Bein vor und beugt gleichzeitig das rechte, auf dem man schließlich landet.|
+beugen | schwaches Verb (beugt, beugte, hat gebeugt)| vi./vt.| сгибать|Definition: ..... | Beispiel des Gebrauchs: Eine andere Version der eingesprungenen Sitzpirouette beinhaltet einen Fußwechsel in der Luft: nachdem man die Sitzposition in der Luft eingenommen hat, streckt man das linke Bein vor und beugt gleichzeitig das rechte, auf dem man schließlich landet.|
 
-Biellmannpirouette |Substantiv| femininum | бильман |die Biellmannpirouette | der Biellmannpirouette | der Biellmannpirouette | die Biellmannpirouette | die Biellmannpirouetten |  der Biellmannpirouetten | den Biellmannpirouetten |  die Biellmannpirouetten | Herkunft: nach der Schweizer Eiskunstläuferin Denise Biellmann| Beispiel des Gebrauchs: Jewgeni Pljuschtschenko war der erste männliche Eiskunstläufer, der die Biellmannpirouette in sein Programm aufnahm.| biellmannpirouette.jpg|
+Biellmannpirouette |Substantiv| femininum | бильман |die Biellmannpirouette | der Biellmannpirouette | der Biellmannpirouette | die Biellmannpirouette | die Biellmannpirouetten |  der Biellmannpirouetten | den Biellmannpirouetten |  die Biellmannpirouetten|Definition: ....... | Herkunft: nach der Schweizer Eiskunstläuferin Denise Biellmann| Beispiel des Gebrauchs: Jewgeni Pljuschtschenko war der erste männliche Eiskunstläufer, der die Biellmannpirouette in sein Programm aufnahm.| biellmannpirouette.jpg|
 
 Block |Substantiv| maskulinum | блок |der Block |des Blocks| dem Block | den Block| die Blöcke| der Blöcke| den Blöcken| die Blöcke|Definition: ein besonderes Element, bei dem die Läufer dieselbe Körperhaltung, denselben Kanteneinsatz und denselben Bewegungsablauf millimetergenau gleichzeitig umsetzen müssen| Beispiel des Gebrauchs: Drei bis fünf parallele Reihen bilden einen Block |block.jpg|
 
-Bogen |Substantiv| maskulinum | дуга |der Bogen |des Bogens | dem Bogen | den Bogen| die Bögen| der Bögen| den Bögen| die Bögen| Kurvenlauf auf einem Bein| Beispiel des Gebrauchs: Die Rotation wird erreicht, indem man die Arme ruckartig an den Oberkörper reißt, wobei der rechte etwas langsamer ist, da er den längeren Weg hat und einen kleinen Bogen macht.|
+Bogen |Substantiv| maskulinum | дуга |der Bogen |des Bogens | dem Bogen | den Bogen| die Bögen| der Bögen| den Bögen| die Bögen|Definition: Kurvenlauf auf einem Bein| Beispiel des Gebrauchs: Die Rotation wird erreicht, indem man die Arme ruckartig an den Oberkörper reißt, wobei der rechte etwas langsamer ist, da er den längeren Weg hat und einen kleinen Bogen macht.|
 
-bremsen | schwaches Verb (bremst, bremste, hat bremst)| vi. | тормозить| Beispiel des Gebrauchs: Das nützt man aus, um zu bremsen bzw. sich vom Eis abzudrücken.|
+bremsen | schwaches Verb (bremst, bremste, hat bremst)| vi. | тормозить|Definition: die Geschwindigkeit verringern, stoppen | Beispiel des Gebrauchs: Das nützt man aus, um zu bremsen bzw. sich vom Eis abzudrücken.|
 
 Cantilever |Substantiv| maskulinum | кантилевер |der Cantilever |des Cantilevers| dem Cantilever | den Cantilever| die Cantilever| der Cantilever| den Cantilevern| die Cantilever|Definition: eine spektakuläre Variante des Mondes, bei der man auf zwei Beinen mit stark nach hinten geneigtem Oberkörper gleitet, fast parallel zum Eis, und dabei Tiefe der Kanten sowie Körperkontrolle zeigt |Beispiel des Gebrauchs: Halte die Kanten tiefer im Cantilever, sonst verliert die Linie an Stabilität.|cantilever.webp|
 
-Chasséeschritt |Substantiv| maskulinum | шоссе |der Chasséeschritt |des Chasséeschritts| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|
+Chasséeschritt |Substantiv| maskulinum | шоссе |der Chasséeschritt |des Chasséeschritts| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|Definition: .....|Beispiel des Gebrauchs: ....|
 
 Choctaw |Substantiv| maskulinum | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws|Beispiel des Gebrauchs: geschlossener/offener Choctaw  Der Choctaw wird oft in den Schrittfolgen durchgeführt.|choctaw.jpg|
 
@@ -128,7 +127,7 @@ einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заез�
 
 einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|Definition: ....|Beispiel des Gebrauchs: ....|
 
-einwärts | Adverb | внутрь (на внутреннем ребре)| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
+einwärts | Adverb | внутрь (на внутреннем ребре)|Definition: auf der Innenkante sein| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
 Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbögen| der Einwärtsbögen| den Einwärtsbögen| die Einwärtsbögen|Definition: ....|Beispiel des Gebrauchs: ....|
 
