@@ -27,7 +27,7 @@ einnehmen | Technik
 einwärts | Technik
 Einwärtsbogen | Technik
 Fußwechsel | Technik
-Geschwindigkeit | Technik
+Gleichgewicht | Technik
 gespreizt | Technik
 gestreckt | Technik
 getippt | Technik
