@@ -230,7 +230,7 @@ Landung |Substantiv| femininum | приземление |die Landung | der Landu
 
 laufen |starkes  Verb (läuft, lief, ist gelaufen)| vi. | ехать, скользить| Beispiel des Gebrauchs: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
 
-Laufrichtung | femininum | направление движения |die Laufrichtung | der Laufrichtung | der Laufrichtung| die Laufrichtung | die Laufrichtungen |  der Laufrichtungen | den Laufrichtungen |  die Laufrichtungen | Beispiel des Gebrauchs: ....|
+Laufrichtung | femininum | направление движения |die Laufrichtung | der Laufrichtung | der Laufrichtung| die Laufrichtung | die Laufrichtungen |  der Laufrichtungen | den Laufrichtungen |  die Laufrichtungen| Definition: Richtung, in die jemand, etwas läuft | Beispiel des Gebrauchs: Der Blick sollte immer ein Stück in Laufrichtung voraus und, damit der Kopf hoch, die Haltung aufrecht ist, leicht nach oben gerichtet sein. |
 
 Laufschritt |Substantiv| maskulinum | елочка |der Laufschritt |des Laufschritts| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte|Beispiel des Gebrauchs: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
 
@@ -270,7 +270,7 @@ Rehsprung |Substantiv| maskulinum | прыжок олень | der Rehsprung | de
 
 Rhythmustanz |Substantiv| maskulinum | ритм-танец |der Rhythmustanz |des Rhythmustanzes | dem Rhythmustanz | den Rhythmustanz| die Rhythmustänze| der Rhythmustänze| den Rhythmustänzen| die Rhythmustänze| Definition: Früher als „Originaltanz“ bekannt. Hier wird ein vom ISU vorgegebener Rhythmus oder ein Thema getanzt, wie Tango, Walzer oder Swing| Beispiel des Gebrauchs: Im Rhythmustanz zeigten die Athleten eine präzise Anpassung an den Beat und überzeugten mit ihrer Synchronität.|rhythmustanz.jpg|
 
-Richtungswechsel |Substantiv| maskulinum | смена направления (движения)| der Richtungswechsel| des Richtungswechsels| dem Richtungswechsel| den Richtungswechsel | die Richtungswechsel| der Richtungswechsel | den Richtungswechseln| die Richtungswechsel| Beispiel des Gebrauchs: ....|
+Richtungswechsel |Substantiv| maskulinum | смена направления (движения)| der Richtungswechsel| des Richtungswechsels| dem Richtungswechsel| den Richtungswechsel | die Richtungswechsel| der Richtungswechsel | den Richtungswechseln| die Richtungswechsel| Definition: Wechsel der Richtung| Beispiel des Gebrauchs: Beim Richtungswechsel ist die Gewichtsverlagerung entscheidend, damit der Läufer nicht ins Schwanken gerät.|
 
 Rittberger |Substantiv| maskulinum | риттбергер | der Rittberger| des Rittbergers| dem Rittberger| den Rittberger | die Rittberger| der Rittberger | den Rittbergern| die Rittberger| Definition: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem man mit einem Fuß abspringt, in der Luft eine Drehung ausführt und mit dem gleichen Fuß wieder aufkommt| Herkunft: nach dem deutschen Eiskunstläufer W. Rittberger| Beispiel des Gebrauchs: Der Rittberger ist der einzige Sprung, bei dem die Einlaufphase auf beiden Füßen erfolgt.|Rittberger.jpg|
 
