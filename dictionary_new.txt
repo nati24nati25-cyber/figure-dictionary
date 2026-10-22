@@ -78,8 +78,7 @@ doppelt |Adjektiv | двойной (в два оборота)| Beispiel des Gebr
 
 Drehachse |Substantiv| femininum | вращательная ось |die Drehachse | der Drehachse | der Drehachse | die Drehachse | die Drehachsen |  der Drehachsen | den Drehachsen |  die Drehachsen | Beschreibng: Achse, um die eine Drehung erfolgt| Beispiel des Gebrauchs: Beim Positionswechsel auf einem Bein von der Waage- in die Sitzposition werden die Extremitäten weit und schnell von der Drehachse entfernt geführt. |
 
-drehen | schwaches Verb (dreht, drehte, hat gedreht)| vi. | вращаться| Beispiel des Gebrauchs:  .....|
-
+drehen sich | schwaches Verb (dreht, drehte, hat gedreht)| vi. | вращаться| Definition: um seine Achse bewegen| Beispiel des Gebrauchs:  Man kann darauf stehen, kleine Schritte gehen, sich drehen oder seitliche Nachstellschritte bzw. -hüpfer machen. |
 
 Drehung |Substantiv| femininum | оборот |die Drehung | der Drehung | der Drehung | die Drehung | die Drehungen |  der Drehungen | den Drehungen |  die Drehungen | Beispiel des Gebrauchs: Zur Einleitung der Drehung wird der linke Arm zurückgezogen, das Standbein streckt sich und Oberkörper, Spielbein und Arme gehen in die waagerechte Haltung über. Es variiert nur die Körperhaltung im Flug, damit mehrfache Drehungen möglich sind.|
 
@@ -163,8 +162,6 @@ Gegenwende |Substantiv| femininum| выкрюк |die Gegenwende | der Gegenwende
 
 Gesamtpunktzahl |Substantiv| femininum| итоговая оценка |die Gesamtpunktzahl | der Gesamtpunktzahl | der Gesamtpunktzahl | die Gesamtpunktzahl | die Gesamtpunktzahlen |  der Gesamtpunktzahlen | den Gesamtpunktzahlen |  die Gesamtpunktzahlen| |Definition: die Summe von dem Technischem Gesamtwert TES (engl. Technical Element Score) und den Gesamtpunkten der Programmkomponenten PCS (engl. Program Component Score) |Beispiel des Gebrauchs: Die Gesamtpunktzahl nach beiden Programmen entscheidet über die Endplatzierung und damit über einen möglichen Podiumsplatz.| 
 
-Geschwindigkeit |Substantiv| femininum| равновесие |die Geschwindigkeit | der Geschwindigkeit | der Gesamtpunktzahl | die Gesamtpunktzahl | die Geschwindigkeiten |  der Geschwindigkeiten | den Geschwindigkeiten |  die Geschwindigkeiten| Definition: ... |Beispiel des Gebrauchs: ...| 
-
 gespreizt | partizipiales Adjektiv | pp. | разведенные в сторону (ноги)| Beispiel des Gebrauchs: Das Paar zeigte eine atemberaubende Hochliftfigur, bei der die Partnerin ihre gespreizten Beine im rechten Winkel zur Achse des Partners hielt.|
 
 gestanden | partizipiales Adjektiv | pp. | выстоянный (прыжок)| Beispiel des Gebrauchs: Der vierfache Lutz war knapp, aber er war gestanden. Er zeigte fünf Vierfache, drei davon waren sauber gestanden, bei den anderen beiden fiel er.|
@@ -172,6 +169,8 @@ gestanden | partizipiales Adjektiv | pp. | выстоянный (прыжок)| 
 gestreckt | partizipiales Adjektiv | pp. | вытянутая (нога) | Beispiel des Gebrauchs: Bei der Arabeske ist das freie Bein dabei gestreckt.|
 
 getippt| partizipiales Adjektiv | pp. | зубцовый (прыжок)|Beispiel des Gebrauchs: Die sechs Grundsprünge lassen sich in Kantensprünge und getippte Sprünge unterteilen.|
+
+Gleichgewicht |Substantiv| femininum| равновесие |das Gleichgewicht | des Gleichgewichts | dem Gleichgewicht | das Gleichgewicht | die Gleichgewichte |  der Gleichgewichte | den Gleichgewichte |  die Gleichgewichte| Definition: Zustand eines Körpers, in dem die entgegengesetzt wirkenden Kräfte einander aufheben |Beispiel des Gebrauchs: Der Anfänger sollte sich möglichst ohne Hilfe eines anderen auf dem Eis bewegen, denn Gleichgewicht und richtigen Stand kann man nur erfühlen, wenn man auf den eigenen Beinen steht. | 
 
 gleiten | starkes Verb (gleitet, glitt, ist geglitten)| vi. | скользить| Beispiel des Gebrauchs: Rechten Fuß innerhalb der Spur aufsetzen und, die Lauflinie des linken Beins kreuzend, nach außen unter den Körperschwerpunkt gleiten lassen.|
 
@@ -283,7 +282,7 @@ rückwärts | Adverb | назад| Beispiel des Gebrauchs: Rückwärts laufen is
 
 Rückwärtsbogen |Substantiv| maskulinum| задняя дуга |der Rückwärtsbogen |des Rückwärtsbogens | dem Rückwärtsbogen | den Rückwärtsbogen| die Rückwärtsbögen| der Rückwärtsbögen| den Rückwärtsbögen| die Rückwärtsbögen| Beispiel des Gebrauchs: ....|
 
-Rückwärtslauf |Substantiv| maskulinum| движение на ход назад |der Rückwärtslauf |des Rückwärtslaufs | dem Rückwärtslauf | den Rückwärtslauf| die Rückwärtsläufe| der Rückwärtsläufe| den Rückwärtsläufen| die Rückwärtsläufe| Beispiel des Gebrauchs: ....|
+Rückwärtslauf |Substantiv| maskulinum| скольжение на ход назад |der Rückwärtslauf |des Rückwärtslaufs | dem Rückwärtslauf | den Rückwärtslauf| die Rückwärtsläufe| der Rückwärtsläufe| den Rückwärtsläufen| die Rückwärtsläufe|Definition: nach hinten laufen | Beispiel des Gebrauchs: Beim Rückwärtslauf muss der Läufer seine Körperhaltung kontrollieren, um das Gleichgewicht zu halten.|
 
 Salchow |Substantiv| maskulinum| сальхов | der Salchow| des Salchow[s]| dem Salchow| den Salchow | die Salchows| der Salchows | den Salchows| die Salchows|  Definition: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem die Läuferin/der Läufer mit einem Fuß abspringt, in der Luft eine Drehung ausführt und mit dem anderen Fuß wieder aufkommt | Herkunft: nach dem schwedischen Eiskunstlaufweltmeister U. Salchow | Beispiel des Gebrauchs: Verewigt hat er sich durch die Erfindung des Salchows. Der Schwede Grafström und der Kanadier Montgomery Wilson stehen 1928 den ersten Doppelsprung, einen Salchow. |salchow.jpg|
 
@@ -295,7 +294,8 @@ Schlinge |Substantiv| feminin | петля |die Schlinge | der Schlinge | der Sc
 
 Schlittschuhüberzieher |Substantiv| maskulinum | чехол на конек |der Schlittschuhüberzieher |des Schlittschuhüberziehers| dem Schlittschuhüberzieher | den Schlittschuhüberzieher| die Schlittschuhüberzieher| der Schlittschuhüberzieher| den Schlittschuhüberziehern| die Schlittschuhüberzieher|Definition: Stoff- oder Elasthan-Überzieher, die über den oberen Teil des Schlittschuhs gezogen werden und den Schuh vor Abnutzung, Kratzern und Schmutz während des Trainings schützen| Beispiel des Gebrauchs: Der Schlittschuhüberzieher ist der ideale Schutz gegen  Abnutzung, Kratzer und Schmutz während des Trainings. | schlittschuhüberzieher.jpg|
 
-schnüren | schwaches Verb (schnürt, schnürte, hat geschnürt)| vi. | поворачиваться| Beispiel des Gebrauchs:  .....|
+schnüren | schwaches Verb (schnürt, schnürte, hat geschnürt)| vi. | зашнуровывать| Definition: binden, fest anziehen| Beispiel des Gebrauchs: In Höhe der Zehen wird locker geschnürt, vom Mittelfuß bis über den Knöchel fest, bei den letzten 2-3 Haken lässt man die 
+Schnürung locker auslaufen.|
 
 Schraubenpirouette |Substantiv| femininum | винт |die Schraubenpirouette | der Schraubenpirouette | der Schraubenpirouette | die Schraubenpirouette | die Schraubenpirouetten |  der Schraubenpirouetten | den Schraubenpirouetten |  die Schraubenpirouetten | Definition: Die Schraubenpirouette ist eine Version der Standpirouette, allerdings ist sie ein bisschen schwieriger. Das Spielbein überkreuzt bei der Schraubenpirouette das Standbein, sodass der Schwung noch verstärkt wird|Beispiel des Gebrauchs: Der Ablauf der Schraubenpirouette ist gleich wie bei der Standpirouette.|schraubenpirouette.gif|
 
@@ -357,13 +357,13 @@ Twizzle |Substantiv| maskulinum |  твизл | der Twizzle| des Twizzles| dem T
 
 Twizzlesequenz |Substantiv| femininum | серия твизлов |die Twizzlesequenz | der Twizzlesequenz | der Twizzlesequenz | die Twizzlesequenz | die Twizzlesequenzen |  der Twizzlesequenzen | den Twizzlesequenzen |  die Twizzlesequenzen|Definition: eine der zentralen und verpflichtenden Komponenten im Eistanz | Beispiel des Gebrauchs: In der Twizzlesequenz müssen wir vor allem auf die Kantenkontrolle und die gleichbleibende Distanz zwischen den Partnern achten.|twizzlesequenz.webp|
 
-umdrehen | schwaches Verb (dreht um, drehte um, hat umgedreht)| vi. | поворачиваться| Beispiel des Gebrauchs:  .....|
+umdrehen sich| schwaches Verb (dreht um, drehte um, hat umgedreht)| vi. | поворачиваться| Definition: seine Richtung durch eine Drehung ändern | Beispiel des Gebrauchs: 3 x Übersetzen, Flieger vorwärts, sich umdrehen, 3 x Übersetzen, Flieger rückwärts. |
 
 Unterrotation |Substantiv| femininum | недокрут |die Unterrotation | der Unterrotation | der Unterrotation | die Unterrotation | die Unterrotationen |  der Unterrotationen | den Unterrotationen |  die Unterrotationen |Definition: nicht volle Rotation im Sprung; die fehlende Drehung wird erst beim Landen ausgeglichen |Beispiel des Gebrauchs: Der Sprung wurde wegen Unterrotation heruntergewertet.|
 
-unterrotiert | partizipiales Adjektiv | недокрученный (прыжок)| Beispiel des Gebrauchs: Der Technische Spezialist bewertete den Sprung als unterrotiert.|  
+unterrotiert | partizipiales Adjektiv | недокрученный (прыжок)| Definition:   | Beispiel des Gebrauchs: Der Technische Spezialist bewertete den Sprung als unterrotiert.|  
 
-Uhrzeigersinn |Substantiv| maskulinum | по часовой стрелке | der Uhrzeigersinn | des Uhrzeigersinns | dem Uhrzeigersinn | den Uhrzeigersinn | die Uhrzeigersinne | der Uhrzeigersinne | den Uhrzeigersinnen | die Uhrzeigersinne|Definition:......|Beispiel des Gebrauchs: ....|
+Uhrzeigersinn |Substantiv| maskulinum | по часовой стрелке | der Uhrzeigersinn | des Uhrzeigersinns | dem Uhrzeigersinn | den Uhrzeigersinn | die Uhrzeigersinne | der Uhrzeigersinne | den Uhrzeigersinnen | die Uhrzeigersinne|Definition: Richtung, in der die Zeiger einer Uhr laufen |Beispiel des Gebrauchs: Fährt man im Uhrzeigersinn auf dem rechten Bein, ist das die rechte Außenkante. |
 
 Verbindungselement |Substantiv| neutrum  | соединительный элемент| das Verbindungselement |des Verbindungselements| dem Verbindungselement | das Verbindungselement |die Verbindungselemente |der Verbindungselemente |den die Verbindungselementen | die Verbindungselemente |Definition: alle Bewegungen, die man zwischen den Sprüngen und Pirouetten eines Programms (Kurzprogramm oder Kür) durchführt, wie Spiralen, Ina Bauer, Mond usw|Beispiel des Gebrauchs: Verbindungselemente tragen zum gesamten künstlerischen Ausdruck des Programms bei.|
 
@@ -389,7 +389,7 @@ vorwärts | Adverb | вперед| Beispiel des Gebrauchs: Das Übersetzen vorw�
 
 Vorwärtsbogen |Substantiv| maskulinum | передняя дуга |der Vorwärtsbogen |des Vorwärtsbogens | dem Vorwärtsbogen | den Vorwärtsbogen| die Vorwärtsbögen| der Vorwärtsbögen| den Vorwärtsboögen| die Vorwärtsbögen| Beispiel des Gebrauchs: Sobald der Vorwärtsbogen „sitzt“, lassen sich schon nette Figuren zu zweit fahren.|
 
-Vorwärtslauf |Substantiv| maskulinum| движение на ход вперед  |der Vorwärtslauf |des Vorwärtslaufs | dem Vorwärtslauf | den Vorwärtslauf| die Vorwärtsläufe| der Vorwärtsläufe| den Vorwärtsläufen| die Vorwärtsläufe|Definition: ....| Beispiel des Gebrauchs: ....|
+Vorwärtslauf |Substantiv| maskulinum| скольжение на ход вперед  |der Vorwärtslauf |des Vorwärtslaufs | dem Vorwärtslauf | den Vorwärtslauf| die Vorwärtsläufe| der Vorwärtsläufe| den Vorwärtsläufen| die Vorwärtsläufe|Definition: nach vorne laufen| Beispiel des Gebrauchs: Diese Übung ist für Kanten gut, auch weil zB. beim ganz normalen Vorwärtslauf ebenfalls die Außenkante belastet wird.|
 
 Walzerschritt |Substantiv| maskulinum | вальсовый шаг |der Walzerschritt |des Walzerschritts| dem Walzerschritt | den Walzerschritt| die Walzerschritte| der Walzerschritte| den Walzerschritten| die Walzerschritte |Definition: eine rhythmische Schrittfolge im 3/4-Takt, die im Paarlauf synchron ausgeführt wird. Die Abfolge: Vorwärtsbogen – Rückwärtsbogen – Untersetzen, mit sanften Körperbewegungen|Beispiel des Gebrauchs: Eine Folge von Walzerschritten kann nur abwechselnd links und rechts ausgeführt werden.|
 
