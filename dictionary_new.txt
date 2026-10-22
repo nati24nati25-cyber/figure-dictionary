@@ -1,6 +1,7 @@
 abheben | starkes Verb (hebt ab, hob ab, hat abgehoben)| vi. | отрываться от льда|Definition: sich in die Luft erheben |Beispiel des Gebrauchs: Durch energische Kniestreckung heben Spitzenschritte vom Eis ab, werden zu Hüpfern oder gar kleinen Sprüngen.|
 
-abrollen | schwaches Verb (rollt ab, rollte ab, ist abgerollt)| vi. | переходить, смещаться (на ребро)|Definition: verlagern | Beispiel des Gebrauchs: Nach der Landung des dreifachen Salchows rollte sie sauber auf der Außenkante rückwärts ab.
+abrollen | schwaches Verb (rollt ab, rollte ab, ist abgerollt)| vi. | переходить, смещаться (на ребро)|Definition: verlagern | Beispiel des Gebrauchs: Nach der Landung des dreifachen Salchows rollte sie sauber auf der Außenkante rückwärts ab.|
+
 Absprung |Substantiv| maskulinum | толчок | der Absprung| des Absprungs| dem Absprung| den Absprung| die Absprünge | der Absprünge | den Absprüngen | die Absprünge| Beispiel des Gebrauchs: Wegen seines Absprungs Rra eignet er sich gut als zweiter Sprung in Sprungkombinationen, z. B. Flip – Euler – Salchow.|
 
 abspringen |starkes Verb (springt ab, sprang ab, ist abgesprungen)| vi. | отталкиваться |Definition: sich aus einem Anlauf, dem Stand heraus abdrücken und springen| Beispiel des Gebrauchs: Axel ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
@@ -51,7 +52,8 @@ Cantilever |Substantiv| maskulinum | кантилевер |der Cantilever |des C
 
 Chasséeschritt |Substantiv| maskulinum | шоссе |der Chasséeschritt |des Chasséeschritts| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|Definition: .....|Beispiel des Gebrauchs: ....|
 
-Choctaw |Substantiv| maskulinum | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws|Definition: .....|Beispiel des Gebrauchs: geschlossener/offener Choctaw  Der Choctaw wird oft in den Schrittfolgen durchgeführt.|choctaw.jpg|
+Choctaw |Substantiv| maskulinum | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws|Definition: ein Schritt, bei dem mit einem Fußwechsel gleichzeitig die Laufrich
+tung geändert wird, von vorwärts auf rückwärts oder umgekehrt. |Beispiel des Gebrauchs: Wieder unterscheidet man nach Art der Hüftstellung einen offenen und einen geschlossenen Choctaw.|choctaw.jpg|
 
 Choreosequenz |Substantiv| femininum | хореографическая последовательность |die Choreosequenz | der Choreosequenz | der Choreosequenz | die Choreosequenz | die Choreosequenzen |  der Choreosequenzen | den Choreosequenzen |  die Choreosequenzen|Definition: ..... | Beispiel des Gebrauchs: .|choreosequenz.gif|
 
@@ -59,7 +61,7 @@ Crossroll |Substantiv| maskulinum | кросс ролл |der Crossroll |des Cros
 
 Doppelaxel |Substantiv| maskulinum| двойной аксель (дупель) |der Doppelaxel |des Doppelaxels | dem Doppelaxel | den Doppelaxel| die Doppelaxel| der Doppelaxel| den Doppelaxeln| die Doppelaxel| doppelter Axel|Definition: doppelter Axel, ein Axel mit 2,5 Umdrehungen |Beispiel des Gebrauchs: Sie trainierte den Doppelaxel so lange, bis er automatisch saß.|doppelaxel.gif|
 
-Doppeldreier |Substantiv| maskulinum | двукратная тройка | der Doppeldreier | des Doppeldreiers | dem Doppeldreier | den Doppeldreier | die Doppeldreier | der Doppeldreier | den Doppeldreiern | die Doppeldreier | Definition: doppelter Dreier, eine Kombination aus zwei aufeinanderfolgenden Dreier-Wendungen|Beispiel des Gebrauchs: ückwärts auswärts Doppeldreier | doppeldreier.jpg|
+Doppeldreier |Substantiv| maskulinum | двукратная тройка | der Doppeldreier | des Doppeldreiers | dem Doppeldreier | den Doppeldreier | die Doppeldreier | der Doppeldreier | den Doppeldreiern | die Doppeldreier | Definition: doppelter Dreier, eine Kombination aus zwei aufeinanderfolgenden Dreier-Wendungen|Beispiel des Gebrauchs: Bei der Schrittfolge muss der Doppeldreier rückwärts und einwärts sauber ausgeführt werden, sowohl links als auch rechts. | doppeldreier.jpg|
 
 Doppelsalchow |Substantiv| maskulinum | двойной сальхов | der Doppelsalchow| des Doppelsalchow[s]| dem Doppelsalchow| den Doppelsalchow | die Doppelsalchows| der Doppelsalchows | den Doppelsalchows| die Doppelsalchows| Definition: doppelter Salchow, ein Salchow mit 2 Umdrehungen | Beispiel des Gebrauchs: Nach dem Sturz beim Doppelsalchow musste sie die Kür mit einer anderen Kombination fortsetzen.| doppelsalchow.gif|
 
@@ -155,11 +157,12 @@ Flugphase |Substantiv| femininum | фаза полета | die Flugphase | der F
 
 Fußwechsel |Substantiv| maskulinum | смена ребра | der Fußwechsel| des Fußwechsels| dem Fußwechsel| den Fußwechsel | die Fußwechsel| der Fußwechsel | den Fußwechseln| die Fußwechsel| Beispiel des Gebrauchs: Bei Sprungfolgen wird zwischen den Sprüngen ein Fußwechsel oder eine Umdrehung durchgeführt, bei Sprungkombinationen dagegen nicht.|
 
-Gegendreier |Substantiv| maskulinum | скобка | der Gegendreier | des Gegendreiers | dem Gegendreier | den Gegendreier | die Gegendreier | der Gegendreier | den Gegendreiern | die Gegendreier |Beispiel des Gebrauchs: Der Gegendreier ist eine klassische Pflichtfigur, die auch heute noch als schwieriges Schrittelement in Schrittfolgen anerkannt ist.| gegendreier.jpg|
+Gegendreier |Substantiv| maskulinum | скобка | der Gegendreier | des Gegendreiers | dem Gegendreier | den Gegendreier | die Gegendreier | der Gegendreier | den Gegendreiern | die Gegendreier| Definition: Wechsel der Laufrichtung auf einem Bein von vorwärts nach rückwärts (über den Fußballen) oder von rückwärts nach vorwärts (über die Ferse) mit Kantenwechsel, aber gegen die Rotation des Einlauf- bzw. Auslaufbogens |Beispiel des Gebrauchs: Der Gegendreier ist eine klassische Pflichtfigur, die auch heute noch als schwieriges Schrittelement in Schrittfolgen anerkannt ist.| gegendreier.jpg|
 
-Gegenwende |Substantiv| femininum| выкрюк |die Gegenwende | der Gegenwende | der Gegenwende | die Gegenwende | die Gegenwenden |  der Gegenwenden | den Gegenwenden |  die Gegenwenden| Definition: Pflichtfigur beim Eiskunstlauf, bei der drei Kreise in gleichmäßigem Tempo ohne Kantenwechsel gelaufen werden müssen| gegenwende.jpg|
+Gegenwende |Substantiv| femininum| выкрюк |die Gegenwende | der Gegenwende | der Gegenwende | die Gegenwende | die Gegenwenden |  der Gegenwenden | den Gegenwenden |  die Gegenwenden| Definition: eine Drehungen, bei der auf 
+einem Bein ohne Kantenwechsel gegen diese Drehrichtung die Laufrichtung gewechselt wird gegen|Beispiel des Gebrauchs: Die saubere Gegenwende zeigt gute Kantenkontrolle.| gegenwende.jpg|
 
-Gesamtpunktzahl |Substantiv| femininum| итоговая оценка |die Gesamtpunktzahl | der Gesamtpunktzahl | der Gesamtpunktzahl | die Gesamtpunktzahl | die Gesamtpunktzahlen |  der Gesamtpunktzahlen | den Gesamtpunktzahlen |  die Gesamtpunktzahlen| |Definition: die Summe von dem Technischem Gesamtwert TES (engl. Technical Element Score) und den Gesamtpunkten der Programmkomponenten PCS (engl. Program Component Score) |Beispiel des Gebrauchs: Die Gesamtpunktzahl nach beiden Programmen entscheidet über die Endplatzierung und damit über einen möglichen Podiumsplatz.| 
+Gesamtpunktzahl |Substantiv| femininum| итоговая оценка |die Gesamtpunktzahl | der Gesamtpunktzahl | der Gesamtpunktzahl | die Gesamtpunktzahl | die Gesamtpunktzahlen |  der Gesamtpunktzahlen | den Gesamtpunktzahlen |  die Gesamtpunktzahlen| Definition: die Summe von dem Technischem Gesamtwert TES (engl. Technical Element Score) und den Gesamtpunkten der Programmkomponenten PCS (engl. Program Component Score) |Beispiel des Gebrauchs: Die Gesamtpunktzahl nach beiden Programmen entscheidet über die Endplatzierung und damit über einen möglichen Podiumsplatz.| 
 
 gespreizt | partizipiales Adjektiv | pp. | разведенные в сторону (ноги)| Beispiel des Gebrauchs: Das Paar zeigte eine atemberaubende Hochliftfigur, bei der die Partnerin ihre gespreizten Beine im rechten Winkel zur Achse des Partners hielt.|
 
@@ -193,9 +196,9 @@ Kante |Substantiv| femininum | ребро |die Kante | der Kante | der Kante | d
 
 Kantensprung |Substantiv| maskulinum | реберный прыжок | der Kantensprung | des Kantensprungs | dem Kantensprung | den Kantensprung | die Kantensprünge | der Kantensprünge | den Kantensprüngen | die Kantensprünge|Definition: ein Sprung, bei dem der Absprung direkt von der Kante des Schlittschuhs erfolgt| Beispiel des Gebrauchs: Bei Kantensprüngen erfolgt der Absprung ohne zusätzlichen Einstich — die gesamte Sprungkraft wird aus der Kante und der Rotationsbewegung des Körpers gewonnen.|
 
-Kantenwechsel |Substantiv| maskulinum | смена ребра | der Kantenwechsel| des Kantenwechsels| dem Kantenwechsel| den Kantenwechsel | die Kantenwechsel| der Kantenwechsel | den Kantenwechseln| die Kantenwechsel| Beispiel des Gebrauchs: Bei der Technik mit Oberkörperlage in den Kreis mogelten die Läufer kurz vor dem Absprung, machten einen unerlaubten Kantenwechsel auf die Innenkante und sprangen von dieser einen sog. „Flutz“.|
+Kantenwechsel |Substantiv| maskulinum | смена ребра | der Kantenwechsel| des Kantenwechsels| dem Kantenwechsel| den Kantenwechsel | die Kantenwechsel| der Kantenwechsel | den Kantenwechseln| die Kantenwechsel|Definition: von einer Kante auf die andere abrollen | Beispiel des Gebrauchs: Bei der Technik mit Oberkörperlage in den Kreis mogelten die Läufer kurz vor dem Absprung, machten einen unerlaubten Kantenwechsel auf die Innenkante und sprangen von dieser einen sog. „Flutz“.|
 
-Kombinationsdrehung |Substantiv| femininum | комбинированное вращение| die Kombinationsdrehung | der Kombinationsdrehung | der Kombinationsdrehung | die Kombinationsdrehung | die Kombinationsdrehungen |  der Kombinationsdrehungen | den Kombinationsdrehungen |  die Kombinationsdrehungen | Definition: |Beispiel des Gebrauchs: .|
+Kombinationsdrehung |Substantiv| femininum | комбинированное вращение| die Kombinationsdrehung | der Kombinationsdrehung | der Kombinationsdrehung | die Kombinationsdrehung | die Kombinationsdrehungen |  der Kombinationsdrehungen | den Kombinationsdrehungen |  die Kombinationsdrehungen | Definition: .......|Beispiel des Gebrauchs: ......|
 
 Kombinationsprung |Substantiv| maskulinum | каскад | der Kombinationsprung | des Kombinationsprungs | dem Kombinationsprung | den Kombinationsprung | die Kombinationsprünge | der Kombinationsprünge | den Kombinationsprüngen | die Kombinationsprünge|Definition: eine Abfolge von Sprüngen ohne Zwischenschritte.  Beide Partner führen sie synchron aus — mit gleichem Rhythmus, identischer Dynamik und Positionen vom Anlauf bis zur Landung|Beispiel des Gebrauchs: eine Abfolge von zwei oder mehr Sprüngen, die direkt hintereinander ausgeführt werden, ohne Zwischenschritte oder Drehungen.|
 
@@ -205,9 +208,9 @@ Komposition |Substantiv| femininum | композиция (хореографи�
 
 Kreis |Substantiv| maskulinum | круг | der Kreis| des Kreises| dem Kreis| den Kreis | die Kreise| der Kreise | den Kreisen| die Kreise|Definition: eine grundlegende Formation, bei der die Mannschaft bildet einen oder mehrere Kreise und die Läufer bewegen sich relativ zu einem gemeinsamen Zentrum, während sie den Fronten und Richtungen durch verschiedene Schritte nachgeben |Beispiel des Gebrauchs: Schrittfolgen, Wandern und Richtungswechsel erhöhen beim Kreis den Schwierigkeitsgrad.| kreis.jpg|
 
-kreisinner | Adjektiv | внутри круга|
+kreisinner | Adjektiv | внутренняя часть круга|Definition: nahe am Kreismittelpunkt |Beispiel des Gebrauchs: Das kreisinnere Bein hat Außenkante, das kreisäußere Innenkante.|
 
-kreisäußer | Adjektiv | вне круга|
+kreisäußer | Adjektiv | внешняя часть круга|Definition: weit vom Kreismittelpunkt entfernt|Beispiel des Gebrauchs: Aus dem Übersetzen rückwärts gegen den Uhrzeigersinn kommend, auf der Innenkante des kreisäußeren linken Beins gleiten.|
 
 Kreuzen |Substantiv| neutrum  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | | | | |Definition: ein wichtiger Manövrierzug: zwei Linien oder Gruppen kreuzen sich nach exakter Planung, wobei die Läufer millimetergenaue Abstände und Schnittpunkte einhalten müssen, um Kollisionen zu vermeiden und die Formationen sauber zu wechseln|Beispiel des Gebrauchs: Beim Kreuzen kommt es auf den perfekten Timing an.|kreuzen.webp|
 
@@ -237,7 +240,7 @@ Linie |Substantiv| femininum | линия |die Linie | der Linie | der Linie| di
 
 Lutz |Substantiv| maskulinum | лутц | der Lutz| des Lutz| dem Lutz| den Lutz | die Lutz| der Lutz | den Lutz| die Lutz| Definition: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem der Läufer bzw. die Läuferin mit der Fußspitze auf den Boden tippt, abspringt, eine bzw. mehrere Drehungen in der Luft entgegen der im Anlauf eingeschlagenen Richtung macht und mit dem anderen Fuß wieder aufkommt | Herkunft: nach dem österreichischen Kunstläufer A. Lutz| Beispiel des Gebrauchs: Beim Lutz ist der letzte Anlaufschritt auf der rückwärts auswärts Kante des linken Fußes, der Absprung erfolgt von der Zacke des rechten Schuhs. |lutz.jpg|
 
-Mohawk |Substantiv| maskulinum | моухок |der Mohawk |des Mohawks| dem Mohawk | den Mohawk| die Mohawks| der Mohawks| den Mohawks| die Mohawks| Definition: Schritt mit halber Drehung, ohne Kantenwechsel, also von Innenkante auf Innenkante oder von Außenkante auf Außenkante|Beispiel: geschlossener/offener Mohawk|mohawk.jpg|
+Mohawk |Substantiv| maskulinum | моухок |der Mohawk |des Mohawks| dem Mohawk | den Mohawk| die Mohawks| der Mohawks| den Mohawks| die Mohawks| Definition: Schritt mit halber Drehung, ohne Kantenwechsel, also von Innenkante auf Innenkante oder von Außenkante auf Außenkante|Beispiel: Nach der Hüftstellung zu Ende des Schritts unterscheidet man offene und geschlossene Mohawks.|mohawk.jpg|
 
 Mond |Substantiv| maskulinum | кораблик |der Mond |des Monds| dem Mond | den Mond| die Monde| der Monde| den Monden| die Monde| Definition: mit auswärts gespreizten Beinen auf den Innen- oder Außenkanten gelaufene halbmondförmige Figur| Beispiel: „Moves in the Field“, deutsch „Bewegungen auf dem Eis”, bestehen aus Kürelementen, die vor allem gutes Eislaufen ausdrücken sollen, und enthalten neben Schritten und Drehungen auch Spiralen, Arabesken, Monde sowie kleine Sprünge. Der Einlauf zum Mond erfolgt z. B. Lve, Arme in Gegenhaltung. |mond.jpg|
 
@@ -404,7 +407,7 @@ Wechselstandpirouette |Substantiv| femininum | винт со сменой ног
 
 Wechselwaagepirouette |Substantiv| femininum | либела со сменой ноги |die Wechselwaagepirouette | der Wechselwaagepirouette | der Wechselwaagepirouette | die Wechselwaagepirouette | die Wechselwaagepirouetten |  der Wechselwaagepirouetten | den Wechselwaagepirouetten |  die Wechselwaagepirouetten|Definition:....... | Beispiel des Gebrauchs: Im Prinzip springt man in die Wechselwaagepirouette, ohne jedoch vorher auf der 1. Bein gedreht zu haben.|
 
-Wende |Substantiv| femininum | крюк |die Wende | der Wende | der Wende | die Wende | die Wenden |  der Wenden | den Wenden |  die Wenden|Definition:....... | Beispiel des Gebrauchs: ein Richtungswechsel ohne Fußwechsel und ohne Kantenwechsel| Definition: Figur, bei der ein Bogen auf der gleichen Kante vorwärts und rückwärts ausgeführt wird | wende.jpg|
+Wende |Substantiv| femininum | крюк |die Wende | der Wende | der Wende | die Wende | die Wenden |  der Wenden | den Wenden |  die Wenden|Definition: eine Drehung, bei der auf einem Bein ohne Kantenwechsel in Drehrichtung die Laufrichtung gewechselt wird | Beispiel des Gebrauchs: ein Richtungswechsel ohne Fußwechsel und ohne Kantenwechsel| wende.jpg|
 
 Wertungsprotokoll |Substantiv| neutrum | протокол (разг. распечатка) |das Wertungsprotokoll |des Wertungsprotokolls| dem Wertungsprotokoll | das Wertungsprotokoll |die Wertungsprotokolle |der Wertungsprotokolle | den Wertungsprotokollen | die Wertungsprotokolle|Definition: der richterliche Protokoll (oder die Ausdruckversion), in dem alle Elemente, ihre Basiswerte, die Ausführungsqualität, die Komponenten und alle Abzüge detailliert aufgelistet sind| Beispiel des Gebrauchs: Im Wertungsprotokoll sieht man sehr deutlich, dass der zweite Sprung in der Kombination eine Unterrotation erhielt.|
 
