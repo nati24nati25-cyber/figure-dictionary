@@ -36,7 +36,7 @@ Axel |Substantiv| maskulinum| аксель |der Axel |des Axels | dem Axel | den
 
 Basiswert |Substantiv| maskulinum| базовая стоимость |der Basiswert | des Basiswerts| dem Basiswert | den Basiswert | die Basiswerte |  der Basiswerte | den Basiswerten |  die Basiswerte |Definition: die festgelegte Punktzahl, die für die korrekte Ausführung des Elements vorgesehen ist | Beispiel des Gebrauchs: Jedes Element hat einen festgelegten Basiswert an Punkten, der je nach Schwierigkeitsgrad und Ausführung variiert.|
 
-beidbeinig | Adverb | на двух ногах| Definition: mit zwei Beinen etwas ausführen| | Beispiel des Gebrauchs: Beim beidbeinigen Slalomlauf wird erstmals auch die Außenkante erfüllt. Aus dem beidbeinigen Stand oder Vorwärtslauf heraus wird ein großer Schiebeschritt vorwärts in den tiefen Ausfall gemacht.|
+beidbeinig | Adverb | на двух ногах| Definition: mit zwei Beinen etwas ausführen| Beispiel des Gebrauchs: Beim beidbeinigen Slalomlauf wird erstmals auch die Außenkante erfüllt. Aus dem beidbeinigen Stand oder Vorwärtslauf heraus wird ein großer Schiebeschritt vorwärts in den tiefen Ausfall gemacht.|
 
 beugen | schwaches Verb (beugt, beugte, hat gebeugt)| vi./vt.| сгибать|Definition: ..... | Beispiel des Gebrauchs: Eine andere Version der eingesprungenen Sitzpirouette beinhaltet einen Fußwechsel in der Luft: nachdem man die Sitzposition in der Luft eingenommen hat, streckt man das linke Bein vor und beugt gleichzeitig das rechte, auf dem man schließlich landet.|
 
