@@ -2,7 +2,7 @@ abheben | starkes Verb (hebt ab, hob ab, hat abgehoben)| vi. | отрывать�
 
 abrollen | schwaches Verb (rollt ab, rollte ab, ist abgerollt)| vi. | переходить, смещаться (на ребро)|Definition: verlagern | Beispiel des Gebrauchs: Nach der Landung des dreifachen Salchows rollte sie sauber auf der Außenkante rückwärts ab.|
 
-Absprung |Substantiv| maskulinum | толчок | der Absprung| des Absprungs| dem Absprung| den Absprung| die Absprünge | der Absprünge | den Absprüngen | die Absprünge| Beispiel des Gebrauchs: Wegen seines Absprungs Rra eignet er sich gut als zweiter Sprung in Sprungkombinationen, z. B. Flip – Euler – Salchow.|
+Absprung |Substantiv| maskulinum | толчок | der Absprung| des Absprungs| dem Absprung| den Absprung| die Absprünge | der Absprünge | den Absprüngen | die Absprünge|Definition: .....| Beispiel des Gebrauchs: Wegen seines Absprungs Rra eignet er sich gut als zweiter Sprung in Sprungkombinationen, z. B. Flip – Euler – Salchow.|
 
 abspringen |starkes Verb (springt ab, sprang ab, ist abgesprungen)| vi. | отталкиваться |Definition: sich aus einem Anlauf, dem Stand heraus abdrücken und springen| Beispiel des Gebrauchs: Axel ist der einzige Sprung, der vorwärts von der Außenkante des linken Fußes abgesprungen wird.|
 
@@ -26,7 +26,7 @@ ausstrecken | schwaches  Verb (streckt aus, streckte aus, hat ausgestreckt)| vt.
 
 auswärts | Adverb | наружу (на наружном ребре)|Definition: auf der Außenkante sein | Beispiel des Gebrauchs: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
  
-Auswärtsbogen |Substantiv| maskulinum | наружная дуга |der Auswärtsbogen |des Auswärtsbogens | dem Auswärtsbogen | den Auswärtsbogen| die Auswärtsbogen| der Auswärtsbogen| den Auswärtsbogen| die Auswärtsbogen|Definition: |Beispiel des Gebrauchs: Beim rechten Auswärtsbogen führt rechter Arm.|
+Auswärtsbogen |Substantiv| maskulinum | наружная дуга |der Auswärtsbogen |des Auswärtsbogens | dem Auswärtsbogen | den Auswärtsbogen| die Auswärtsbogen| der Auswärtsbogen| den Auswärtsbogen| die Auswärtsbogen|Definition: eine Grundfigur, bei der man auf einer Außenkante eine gekrümmte Linie über das Eis zieht |Beispiel des Gebrauchs: Beim rechten Auswärtsbogen führt rechter Arm.|
 
 Auswärtszirkel |Substantiv |maskulinum | наружний циркуль |der Auswärtszirkel |des Auswärtszirkels | dem Auswärtszirkel | den Auswärtszirkel| die Auswärtszirkel| der Auswärtszirkel| den Auswärtszirkeln| die Auswärtszirkel| Definition: Figur, bei der ein Bein mit der hinteren oder vorderen Spitze ins Eis gesetzt wird und zirkelartig mit dem anderen Bein auf der Außenkante vorwärts oder rückwärts Kreise gelaufen werden| Beispiel des Gebrauchs: Beim Auswärtszirkel verschiebt sich der Schwerpunkt leicht nach außen, um die Kante stabil zu halten.|
 
@@ -44,7 +44,7 @@ Biellmannpirouette |Substantiv| femininum | бильман |die Biellmannpirouet
 
 Block |Substantiv| maskulinum | блок |der Block |des Blocks| dem Block | den Block| die Blöcke| der Blöcke| den Blöcken| die Blöcke|Definition: ein besonderes Element, bei dem die Läufer dieselbe Körperhaltung, denselben Kanteneinsatz und denselben Bewegungsablauf millimetergenau gleichzeitig umsetzen müssen| Beispiel des Gebrauchs: Drei bis fünf parallele Reihen bilden einen Block |block.jpg|
 
-Bogen |Substantiv| maskulinum | дуга |der Bogen |des Bogens | dem Bogen | den Bogen| die Bögen| der Bögen| den Bögen| die Bögen|Definition: Kurvenlauf auf einem Bein| Beispiel des Gebrauchs: Die Rotation wird erreicht, indem man die Arme ruckartig an den Oberkörper reißt, wobei der rechte etwas langsamer ist, da er den längeren Weg hat und einen kleinen Bogen macht.|
+Bogen |Substantiv| maskulinum | дуга |der Bogen |des Bogens | dem Bogen | den Bogen| die Bögen| der Bögen| den Bögen| die Bögen|Definition: eine Grundfigur, bei der man auf einer Kante (innen oder außen) eine gekrümmte Linie über das Eis zieht| Beispiel des Gebrauchs: Die Rotation wird erreicht, indem man die Arme ruckartig an den Oberkörper reißt, wobei der rechte etwas langsamer ist, da er den längeren Weg hat und einen kleinen Bogen macht.|
 
 bremsen | schwaches Verb (bremst, bremste, hat bremst)| vi. | тормозить|Definition: die Geschwindigkeit verringern, stoppen | Beispiel des Gebrauchs: Das nützt man aus, um zu bremsen bzw. sich vom Eis abzudrücken.|
 
@@ -57,7 +57,7 @@ tung geändert wird, von vorwärts auf rückwärts oder umgekehrt. |Beispiel des
 
 Choreosequenz |Substantiv| femininum | хореографическая последовательность |die Choreosequenz | der Choreosequenz | der Choreosequenz | die Choreosequenz | die Choreosequenzen |  der Choreosequenzen | den Choreosequenzen |  die Choreosequenzen|Definition: ..... | Beispiel des Gebrauchs: .|choreosequenz.gif|
 
-Crossroll |Substantiv| maskulinum | кросс ролл |der Crossroll |des Crossrolls| dem Crossroll | den Crossroll| die Crossrolls| der Crossrolls| den Crossrolls| die Crossrolls|Definition: ein Schritt, bei dem vorwärts bzw. rückwärts kleine Bögen auf der Außenkante gelaufen werden| crossroll.jpg|
+Crossroll |Substantiv| maskulinum | кросс ролл |der Crossroll |des Crossrolls| dem Crossroll | den Crossroll| die Crossrolls| der Crossrolls| den Crossrolls| die Crossrolls|Definition: ein Schritt, bei dem vorwärts bzw. rückwärts kleine Bögen auf der Außenkante gelaufen werden|Beispiel des Gebrauchs: Beim Erlernen des Crossrolls vorwärts hilft die Vorstellung, sich „die Füße abzuschneiden”: x-beinig stehen, die Spitzen der Füße zueinander.| crossroll.jpg|
 
 Doppelaxel |Substantiv| maskulinum| двойной аксель (дупель) |der Doppelaxel |des Doppelaxels | dem Doppelaxel | den Doppelaxel| die Doppelaxel| der Doppelaxel| den Doppelaxeln| die Doppelaxel| doppelter Axel|Definition: doppelter Axel, ein Axel mit 2,5 Umdrehungen |Beispiel des Gebrauchs: Sie trainierte den Doppelaxel so lange, bis er automatisch saß.|doppelaxel.gif|
 
@@ -77,7 +77,7 @@ Doppeltoeloop |Substantiv| maskulinum | двойной тулуп | der Doppelto
 
 doppelt |Adjektiv | двойной (в два оборота)| Definition: mit 2 Umdrehungen| Beispiel des Gebrauchs: Richard (Dick) Button springt bei seinem ersten Olympiasieg in St. Moritz als erster Läufer in einem Wettbewerb einen doppelten Axel. Es kann auch eine Folge von bis zu fünf oder sechs Sprüngen sein, die einfach oder doppelt ausgeführt werden.|
 
-Drehachse |Substantiv| femininum | вращательная ось |die Drehachse | der Drehachse | der Drehachse | die Drehachse | die Drehachsen |  der Drehachsen | den Drehachsen |  die Drehachsen | Beschreibng: Achse, um die eine Drehung erfolgt| Beispiel des Gebrauchs: Beim Positionswechsel auf einem Bein von der Waage- in die Sitzposition werden die Extremitäten weit und schnell von der Drehachse entfernt geführt. |
+Drehachse |Substantiv| femininum | вращательная ось |die Drehachse | der Drehachse | der Drehachse | die Drehachse | die Drehachsen |  der Drehachsen | den Drehachsen |  die Drehachsen | Definition: Achse, um die eine Drehung erfolgt| Beispiel des Gebrauchs: Beim Positionswechsel auf einem Bein von der Waage- in die Sitzposition werden die Extremitäten weit und schnell von der Drehachse entfernt geführt. |
 
 drehen sich | schwaches Verb (dreht, drehte, hat gedreht)| vi. | вращаться| Definition: um seine Achse bewegen| Beispiel des Gebrauchs:  Man kann darauf stehen, kleine Schritte gehen, sich drehen oder seitliche Nachstellschritte bzw. -hüpfer machen. |
 
@@ -125,19 +125,19 @@ Einstichsprung |Substantiv| maskulinum | зубцовый прыжок | der Ein
 
 Einlauf |Substantiv| maskulinum | заезд, вход, въезд (на прыжок) | der Einlauf | des Einlaufs| dem Einlauf | den Einlauf | die Einläufe| der Einläufe | den Einläufen | die Einläufe| Beispiel des Gebrauchs: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.|
 
-einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заезжать, въезжать|Beispiel des Gebrauchs: ....|
+einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заезжать, въезжать|Beispiel des Gebrauchs: .....|
 
 einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|Definition: ....|Beispiel des Gebrauchs: ....|
 
 einwärts | Adverb | внутрь (на внутреннем ребре)|Definition: auf der Innenkante sein| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
-Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbögen| der Einwärtsbögen| den Einwärtsbögen| die Einwärtsbögen|Definition: ....|Beispiel des Gebrauchs: ....|
+Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbögen| der Einwärtsbögen| den Einwärtsbögen| die Einwärtsbögen|Definition: eine Grundfigur, bei der man auf einer Innenkante eine gekrümmte Linie über das Eis zieht|Beispiel des Gebrauchs: Wir üben heute rückwärts-Einwärtsbögen, um die Balance und die Körperstellung zu verbessern.|
 
 Einwärtszirkel |Substantiv |maskulinum | внутренний циркуль |der Einwärtszirkel |des Einwärtszirkels | dem Einwärtszirkel | den Einwärtszirkel| die Einwärtszirkel| der Einwärtszirkel| den Einwärtszirkeln| die Einwärtszirkel| Definition: Figur, bei der ein Bein mit der hinteren oder vorderen Spitze ins Eis gesetzt wird und zirkelartig mit dem anderen Bein auf der Innenkante vorwärts oder rückwärts Kreise gelaufen werden| Beispiel des Gebrauchs: Ein sauberer Einwärtszirkel zeigt, dass der Läufer die Gewichtsverlagerung beherrscht.| 
  
 Einzellauf |Substantiv| maskulinum | одиночное катание |der Einzellauf |des Einzellaufs, Einzellaufes| dem Einzellauf | den Einzellauf| die Einzelläufe| der Einzelläufe| den Einzelläufen| die Einzelläufe| Definition: die älteste und grundlegendste Disziplin des Eiskunstlaufs. Ein einzelner Sportler – Frau oder Mann – tritt allein auf dem Eis auf und kombiniert technische Elemente mit künstlerischem Ausdruck| Beispiel des Gebrauchs: Im Einzellauf legt der Athlet besonderen Wert auf die Sprungkombination in der zweiten Hälfte.| einzellauf.gif|
 
-Einzelsprung |Substantiv| maskulinum | одиночный прыжок | der Einzelsprung | des Einzelsprungs | dem Einzelsprung | den Einzelsprung | die Einzelsprünge | der Einzelsprünge | den Einzelsprüngen | die Einzelsprünge|Definition: .... |Beispiel des Gebrauchs: Fast alle Elemente waren perfekt ausgeführt, einzig beim Einzelsprung, dem dreifachen Toeloop, musste Alisa Efimova zu Boden gehen |
+Einzelsprung |Substantiv| maskulinum | одиночный прыжок | der Einzelsprung | des Einzelsprungs | dem Einzelsprung | den Einzelsprung | die Einzelsprünge | der Einzelsprünge | den Einzelsprüngen | die Einzelsprünge|Definition: ein Sprung, der isoliert ausgeführt wird — ohne direkte Anbindung an einen weiteren Sprung in einer Kombination oder Folge |Beispiel des Gebrauchs: Fast alle Elemente waren perfekt ausgeführt, einzig beim Einzelsprung, dem dreifachen Toeloop, musste Alisa Efimova zu Boden gehen |
 
 Eislauffähigkeit |Substantiv| femininum | навык скольжения (катания)| die Eislauffähigkeit | der Eislauffähigkeit | der Eislauffähigkeit | die Eislauffähigkeit | die Eislauffähigkeiten |  der Eislauffähigkeiten | den Eislauffähigkeiten |  die Eislauffähigkeiten | Definition: die technische Beherrschung des Eislaufens und die Fähigkeit, Kufen und Körper präzise zu kontrollieren|Beispiel des Gebrauchs: Die Eislauffähigkeiten zeigen eine solide Kufenkontrolle: Die Kanten sind klar, die Kurvenbewegungen fließen nahtlos ineinander, und die Geschwindigkeitskontrolle ermöglicht präzise Abstufungen zwischen Kraft und Leichtigkeit.|
 
@@ -145,52 +145,51 @@ Eistanz |Substantiv| maskulinum | спортивные танцы, танцы н
 
 Euler |Substantiv| maskulinum| ойлер |der Euler |des Euler[s] | dem Euler | den Euler| | | | |Definition: ein spezifischer, nach Kurt Euler bzw. nach Per Thorén benannter Verbindungssprung, der mit dem rechten Fuß rückwärts auswärts abgesprungen wird und die Landung nach einer Drehung, rückwärts einwärts auf dem linken Bein erfolgt| Beispiel des Gebrauchs: Seit der Saison 2019/20 ist zusätzlich der Euler (anderer Name: Thorén) in die Liste der offiziellen Sprünge aufgenommen worden, allerdings nur als Mittelsprung in einer dreiteiligen Sprungkombination und nur mit einer einzigen Umdrehung.| euler.jpg|
 
-Fechter |Substantiv| maskulinum | выпад |der Fechter |des Fechters | dem Fechter | den Fechter| die Fechter| der Fechter| den Fechtern| die Fechter|Beispiel des Gebrauchs: Diese Dinge sind Voraussetzungen für die ersten Übungen wie die Hocke, den ‚Flieger‘ oder den ‚Fechter‘, die Lieblingsübung der sechsjährigen Natalie.| fechter.jpg|
+Fechter |Substantiv| maskulinum | выпад |der Fechter |des Fechters | dem Fechter | den Fechter| die Fechter| der Fechter| den Fechtern| die Fechter|Definition: ein Ausfallschritt auf dem Eis, wobei der Körper gleich ist, das Standbeinknie weniger stark gebeugt ist, die Innenseite der Kufe übers Eis schleift|Beispiel des Gebrauchs: Diese Dinge sind Voraussetzungen für die ersten Übungen wie die Hocke, den ‚Flieger‘ oder den ‚Fechter‘, die Lieblingsübung der sechsjährigen Natalie.| fechter.jpg|
 
 Fehlversuch |Substantiv| maskulinum | срыв |der Fehlversuch |des Fehlversuchs | dem Fehlversuch | den Fehlversuch| die Fehlversuche| der Fehlversuche| den Fehlversuchen| die Fehlversuche|Definition: kein erfolgreicher Versuch, oft mit Sturz oder Abbruch| Beispiel des Gebrauchs: Bei diesem Element gab es einen Fehlversuch wegen des frühen Sturzes.|
 
-Flieger |Substantiv| maskulinum | ласточка |der Flieger |des Fliegers | dem Flieger | den Flieger| die Flieger| der Flieger| den Fliegern| die Flieger| flieger.jpg|
+Flieger |Substantiv| maskulinum | ласточка |der Flieger |des Fliegers | dem Flieger | den Flieger| die Flieger| der Flieger| den Fliegern| die Flieger|Definition: ......|Beispiel des Gebrauchs: .....| flieger.jpg|
 
 Flip |Substantiv| maskulinum | флип |der Flip |des Flips | dem Flip | den Flip| die Flips| der Flips| den Flips| die Flips| Definition: nach dem Entstehen mit der Zacke des Schlittschuhs ausgeführter Sprung mit einer vollen Drehung und Landung auf demselben Bein, mit dem abgesprungen wurde| Beispiel des Gebrauchs: Beim Flip tippt der rechte Fuß in das Eis während sich der andere auf der Innenkante befindet. Das bedeutet, die Anlaufrichtung hat einen Bogen entgegen der Drehrichtung des Sprungs, was diesen Sprung schwerer als den ansonsten gleich ausgeführten Flip macht.|
 
-Flugphase |Substantiv| femininum | фаза полета | die Flugphase | der Flugphase | der Flugphase | die Flugphase | die Flugphasen |  der Flugphasen | den Flugphasen |  die Flugphasen| Beispiel des Gebrauchs: die Flugphase beginnt mit einer halben Extra-Drehung.|
+Flugphase |Substantiv| femininum | фаза полета | die Flugphase | der Flugphase | der Flugphase | die Flugphase | die Flugphasen |  der Flugphasen | den Flugphasen |  die Flugphasen|Definition: ein Teil eines Sprungs, in dem man keinen Kontakt mehr mit dem Eis hat und sich in der Luft dreht| Beispiel des Gebrauchs: die Flugphase beginnt mit einer halben Extra-Drehung.|
 
-Fußwechsel |Substantiv| maskulinum | смена ребра | der Fußwechsel| des Fußwechsels| dem Fußwechsel| den Fußwechsel | die Fußwechsel| der Fußwechsel | den Fußwechseln| die Fußwechsel| Beispiel des Gebrauchs: Bei Sprungfolgen wird zwischen den Sprüngen ein Fußwechsel oder eine Umdrehung durchgeführt, bei Sprungkombinationen dagegen nicht.|
+Fußwechsel |Substantiv| maskulinum | смена ребра | der Fußwechsel| des Fußwechsels| dem Fußwechsel| den Fußwechsel | die Fußwechsel| der Fußwechsel | den Fußwechseln| die Fußwechsel|Definition: ein Übergang der Körperlast von einem Bein auf das andere während der Fortbewegung über das Eis| Beispiel des Gebrauchs: Bei Sprungfolgen wird zwischen den Sprüngen ein Fußwechsel oder eine Umdrehung durchgeführt, bei Sprungkombinationen dagegen nicht.|
 
 Gegendreier |Substantiv| maskulinum | скобка | der Gegendreier | des Gegendreiers | dem Gegendreier | den Gegendreier | die Gegendreier | der Gegendreier | den Gegendreiern | die Gegendreier| Definition: Wechsel der Laufrichtung auf einem Bein von vorwärts nach rückwärts (über den Fußballen) oder von rückwärts nach vorwärts (über die Ferse) mit Kantenwechsel, aber gegen die Rotation des Einlauf- bzw. Auslaufbogens |Beispiel des Gebrauchs: Der Gegendreier ist eine klassische Pflichtfigur, die auch heute noch als schwieriges Schrittelement in Schrittfolgen anerkannt ist.| gegendreier.jpg|
 
-Gegenwende |Substantiv| femininum| выкрюк |die Gegenwende | der Gegenwende | der Gegenwende | die Gegenwende | die Gegenwenden |  der Gegenwenden | den Gegenwenden |  die Gegenwenden| Definition: eine Drehungen, bei der auf 
-einem Bein ohne Kantenwechsel gegen diese Drehrichtung die Laufrichtung gewechselt wird gegen|Beispiel des Gebrauchs: Die saubere Gegenwende zeigt gute Kantenkontrolle.| gegenwende.jpg|
+Gegenwende |Substantiv| femininum| выкрюк |die Gegenwende | der Gegenwende | der Gegenwende | die Gegenwende | die Gegenwenden |  der Gegenwenden | den Gegenwenden |  die Gegenwenden| Definition: eine Drehungen, bei der auf einem Bein ohne Kantenwechsel gegen diese Drehrichtung die Laufrichtung gewechselt wird gegen|Beispiel des Gebrauchs: Die saubere Gegenwende zeigt gute Kantenkontrolle.| gegenwende.jpg|
 
 Gesamtpunktzahl |Substantiv| femininum| итоговая оценка |die Gesamtpunktzahl | der Gesamtpunktzahl | der Gesamtpunktzahl | die Gesamtpunktzahl | die Gesamtpunktzahlen |  der Gesamtpunktzahlen | den Gesamtpunktzahlen |  die Gesamtpunktzahlen| Definition: die Summe von dem Technischem Gesamtwert TES (engl. Technical Element Score) und den Gesamtpunkten der Programmkomponenten PCS (engl. Program Component Score) |Beispiel des Gebrauchs: Die Gesamtpunktzahl nach beiden Programmen entscheidet über die Endplatzierung und damit über einen möglichen Podiumsplatz.| 
 
-gespreizt | partizipiales Adjektiv | pp. | разведенные в сторону (ноги)| Beispiel des Gebrauchs: Das Paar zeigte eine atemberaubende Hochliftfigur, bei der die Partnerin ihre gespreizten Beine im rechten Winkel zur Achse des Partners hielt.|
+gespreizt | partizipiales Adjektiv | pp. | разведенные в сторону (ноги)| Definition:......| Beispiel des Gebrauchs: Das Paar zeigte eine atemberaubende Hochliftfigur, bei der die Partnerin ihre gespreizten Beine im rechten Winkel zur Achse des Partners hielt.|
 
-gestanden | partizipiales Adjektiv | pp. | выстоянный (прыжок)| Beispiel des Gebrauchs: Der vierfache Lutz war knapp, aber er war gestanden. Er zeigte fünf Vierfache, drei davon waren sauber gestanden, bei den anderen beiden fiel er.|
+gestanden | partizipiales Adjektiv | pp. | выстоянный (прыжок)| Definition: .......| Beispiel des Gebrauchs: Der vierfache Lutz war knapp, aber er war gestanden. Er zeigte fünf Vierfache, drei davon waren sauber gestanden, bei den anderen beiden fiel er.|
 
-gestreckt | partizipiales Adjektiv | pp. | вытянутая (нога) | Beispiel des Gebrauchs: Bei der Arabeske ist das freie Bein dabei gestreckt.|
+gestreckt | partizipiales Adjektiv | pp. | вытянутая (нога)| Definition:....... | Beispiel des Gebrauchs: Bei der Arabeske ist das freie Bein dabei gestreckt.|
 
-getippt| partizipiales Adjektiv | pp. | зубцовый (прыжок)|Beispiel des Gebrauchs: Die sechs Grundsprünge lassen sich in Kantensprünge und getippte Sprünge unterteilen.|
+getippt| partizipiales Adjektiv | pp. | зубцовый (прыжок)| Definition:.........|Beispiel des Gebrauchs: Die sechs Grundsprünge lassen sich in Kantensprünge und getippte Sprünge unterteilen.|
 
 Gleichgewicht |Substantiv| femininum| равновесие |das Gleichgewicht | des Gleichgewichts | dem Gleichgewicht | das Gleichgewicht | die Gleichgewichte |  der Gleichgewichte | den Gleichgewichte |  die Gleichgewichte| Definition: Zustand eines Körpers, in dem die entgegengesetzt wirkenden Kräfte einander aufheben |Beispiel des Gebrauchs: Der Anfänger sollte sich möglichst ohne Hilfe eines anderen auf dem Eis bewegen, denn Gleichgewicht und richtigen Stand kann man nur erfühlen, wenn man auf den eigenen Beinen steht. | 
 
-gleiten | starkes Verb (gleitet, glitt, ist geglitten)| vi. | скользить| Beispiel des Gebrauchs: Rechten Fuß innerhalb der Spur aufsetzen und, die Lauflinie des linken Beins kreuzend, nach außen unter den Körperschwerpunkt gleiten lassen.|
+gleiten | starkes Verb (gleitet, glitt, ist geglitten)| vi. | скользить| Definition:......| Beispiel des Gebrauchs: Rechten Fuß innerhalb der Spur aufsetzen und, die Lauflinie des linken Beins kreuzend, nach außen unter den Körperschwerpunkt gleiten lassen.|
 
 Gruppenlift |Substantiv| maskulinum| групповая поддержка | der Gruppenlift | des Gruppenlifts | dem Gruppenlift | den Gruppenlift | die Gruppenlifts | der Gruppenlifts | den Gruppenlifts | die Gruppenlifts |Definition: ein Element, bei dem ein oder mehrere Skater von zwei oder mehreren anderen Sportler:innen angehoben und in jeder Höhe gehalten werden |Beispiel des Gebrauchs: Die Mannschaft übt die Gruppenhebung für die neue Kür.| gruppenlift.webp|
 
 Hebung |Substantiv| femininum | поддержка |die Hebung | der Hebung | der Hebung | die Hebung | die Hebungen |  der Hebungen | den Hebungen |  die Hebungen |Definition: Die Hebung in der zweiten Programmhälfte wurde mit großer Kraft und sauberer Linie ausgeführt|Beispiel des Gebrauchs: Die Bezeichnung der Hebungen erfolgt nach der Haltung des Herren in dem Moment, wenn die Dame beim Aufstieg über die Schulter kommt.| hebung.gif|
 
-Himmelspirouette |Substantiv| femininum| заклон |die Himmelspirouette | der Himmelspirouette | der Himmelspirouette | die Himmelspirouette | die Himmelspirouetten |  der Himmelspirouetten | den Himmelspirouetten |  die Himmelspirouetten | Beispiel des Gebrauchs: Diese Abwandlung der Himmelspirouetten sind die Königs- und die Biellmannpirouette.| himmelspirouette.gif|
+Himmelspirouette |Substantiv| femininum| заклон |die Himmelspirouette | der Himmelspirouette | der Himmelspirouette | die Himmelspirouette | die Himmelspirouetten |  der Himmelspirouetten | den Himmelspirouetten |  die Himmelspirouetten| Definition:...... | Beispiel des Gebrauchs: Diese Abwandlung der Himmelspirouetten sind die Königs- und die Biellmannpirouette.| himmelspirouette.gif|
  
 Hocke |Substantiv| femininum|  саночки |die Hocke | der Hocke | der Hocke | die Hocke | die Hocken |  der Hocken | den Hocken |  die Hocken |Definition: ein Grundelement, bei dem man sich in einer tiefen Haltung (fast in der Hocke) befindet und vorwärts über das Eis gleitet |Beispiel des Gebrauchs: Ist entscheiden wie tief der Sportler trotz Widerstand des Schlittschuhs in die Hocke gehen kann.| hocke.jpg|
 
 Hydroblade |Substantiv| neutrum | гидроблейдинг | das Hydroblade |des Hydroblades| dem Hydroblade | das Hydroblade | die Hydroblade |der Hydroblade| den Hydroblade | die Hydroblade |Definition: ein spektakuläres Element, bei dem man in einer extrem niedrigen Position über das Eis gleitet, oft mit gestrecktem Bein|Beispiel des Gebrauchs: Beim Hydroblade ist es wichtig, die Körperspannung zu halten und das freie Bein gestreckt nach hinten zu führen.|hydroblade.jpg|
 
-Ina Bauer |Substantiv| femininum/ maskulinum | Бауэр| Herkunft: nach der deutschen Eiskunstläuferin Ina Bauer | Beispiel des Gebrauchs: Der Ina Bauer kann an der Innenkante oder der Außenkante ausgeführt werden. Shizuka Arakawa ist berühmt für ihre flexible Einstellung zur Ina Bauer, bei der sie ihren Rücken nach hinten beugt. | ina bauer.gif|
+Ina Bauer |Substantiv| femininum/ maskulinum | Бауэр| Herkunft: nach der deutschen Eiskunstläuferin Ina Bauer| Definition:...... | Beispiel des Gebrauchs: Der Ina Bauer kann an der Innenkante oder der Außenkante ausgeführt werden. Shizuka Arakawa ist berühmt für ihre flexible Einstellung zur Ina Bauer, bei der sie ihren Rücken nach hinten beugt. | ina bauer.gif|
 
-Innenkante |Substantiv| femininum | внутреннее ребро |die Innenkante | der Innenkante | der Innenkante | die Innenkante | die Innenkanten |  der Innenkanten | den Innenkanten |  die Innenkanten | Beispiel des Gebrauchs: Aus dem Übersetzen rückwärts gegen den Uhrzeigersinn kommend, auf der Innenkante des kreisäußeren linken Beins gleiten.|
+Innenkante |Substantiv| femininum | внутреннее ребро |die Innenkante | der Innenkante | der Innenkante | die Innenkante | die Innenkanten |  der Innenkanten | den Innenkanten |  die Innenkanten| Definition:...... | Beispiel des Gebrauchs: Aus dem Übersetzen rückwärts gegen den Uhrzeigersinn kommend, auf der Innenkante des kreisäußeren linken Beins gleiten.|
 
-Jetésprung |Substantiv| maskulinum | прыжок жете | der Jetésprung | des Jetésprungs | dem Jetésprung | den Jetésprung | die Jetésprünge | der Jetésprünge | den Jetésprüngen | die Jetésprünge| Beispiel des Gebrauchs: Beim Jetésprung wird aus dem Lauf Rra eine halbe Drehung gesprungen: Das linke Bein möglichst hoch vorspreizen, das rechte bleibt zurück.|
+Jetésprung |Substantiv| maskulinum | прыжок жете | der Jetésprung | des Jetésprungs | dem Jetésprung | den Jetésprung | die Jetésprünge | der Jetésprünge | den Jetésprüngen | die Jetésprünge| Definition:.......| Beispiel des Gebrauchs: Beim Jetésprung wird aus dem Lauf Rra eine halbe Drehung gesprungen: Das linke Bein möglichst hoch vorspreizen, das rechte bleibt zurück.|
 
 Kante |Substantiv| femininum | ребро |die Kante | der Kante | der Kante | die Kante | die Kanten |  der Kanten | den Kanten |  die Kanten | Definition: die Auswärts- oder Einwärtskante der Schlittschuhkufe als linke oder rechte Begrenzung des Hohlschliffs| Beispiel des Gebrauchs: Es bedarf eifrigen Übens und eines guten Gefühls für die Kante, bis diese Art des Bremsens auch einbeinig gelingt. Aus dem Vorwärtslauf kann es ebenfalls auf beiden Kanten zu beiden Seiten erfolgen.|
 
@@ -226,15 +225,15 @@ Kür |Substantiv| femininum | произвольная программа |die K
 
 Kürtanz |Substantiv| maskulinum | произвольный танец |der Kürtanz |des Kürtanzes | dem Kürtanz | den Kürtanz| die Kürtänze| der Kürtänze| den Kürtänzen| die Kürtänze| Definition: ein frei gestaltetes Programm, bei dem Musik und Thema selbst gewählt werden können (auch mit Gesang)| Beispiel des Gebrauchs: Wir haben uns für einen Jazz-Mix als Musik für unseren Kürtanz entschieden.| kürtanz.jpg|
 
-landen | schwaches Verb (landet, landete, ist gelandet)| vi. | приземляться| Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
+landen | schwaches Verb (landet, landete, ist gelandet)| vi. | приземляться| Definition: nach dem Sprung aufs Eis niedergehen | Beispiel: Alle Sprünge landen rückwärts auf dem rechten Bein, unterste Schlittschuhzacke, dann wird sofort auf die Außenkante abgerollt.|
 
-Landung |Substantiv| femininum | приземление |die Landung | der Landung | der Landung| die Landung | die Landungen |  der Landungen | den Landungen |  die Landungen | Beispiel des Gebrauchs: Mit der Landung auf der Zacke den Fuß zum Auslauf Rra senken.|
+Landung |Substantiv| femininum | приземление |die Landung | der Landung | der Landung| die Landung | die Landungen |  der Landungen | den Landungen |  die Landungen| Definition: ein Moment, in dem man nach der Flugphase wieder Kontakt mit dem Eis herstellt und in die Ausfahrt übergeht | Beispiel des Gebrauchs: Mit der Landung auf der Zacke den Fuß zum Auslauf Rra senken.|
 
-laufen |starkes  Verb (läuft, lief, ist gelaufen)| vi. | ехать, скользить| Beispiel des Gebrauchs: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
+laufen |starkes  Verb (läuft, lief, ist gelaufen)| vi. | ехать, скользить| Definition: sich kontinuierlich über das Eis bewegen| Beispiel des Gebrauchs: auf der Kante laufen Diese Körperhaltung gilt immer, wenn auf der Kante gelaufen wird. Problematisch ist, dass der Anfänger noch nicht rückwärts laufen und gleichzeitig auf seinen Weg achten kann.|
 
 Laufrichtung | femininum | направление движения |die Laufrichtung | der Laufrichtung | der Laufrichtung| die Laufrichtung | die Laufrichtungen |  der Laufrichtungen | den Laufrichtungen |  die Laufrichtungen| Definition: Richtung, in die jemand, etwas läuft | Beispiel des Gebrauchs: Der Blick sollte immer ein Stück in Laufrichtung voraus und, damit der Kopf hoch, die Haltung aufrecht ist, leicht nach oben gerichtet sein. |
 
-Laufschritt |Substantiv| maskulinum | елочка |der Laufschritt |des Laufschritts| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte|Beispiel des Gebrauchs: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
+Laufschritt |Substantiv| maskulinum | елочка |der Laufschritt |des Laufschritts| dem Laufschritt | den Laufschritt| die Laufschritte| der Laufschritte| den Laufschritten| die Laufschritte| Definition: ein rhythmischer Gewichtswechsel zwischen den Beinen aus der V‑Stellung, dabei wird ein Bein aktiv nach vorn geschoben, während das andere über die Innenkante (ohne Einsatz der Zacke) abgestoßen und leicht ausgedreht nach hinten geführt wird|Beispiel des Gebrauchs: Sowohl in Sprüngen mit Mehrfachdrehung, als auch in normalen Laufschritten oder einfachen Standpirouetten ist dies eine Grundbewegung im Eislaufen die Kinder von Beginn an als Voraussetzung lernen müssen. | laufschritt.jpg|
 
 Linie |Substantiv| femininum | линия |die Linie | der Linie | der Linie| die Linie | die Linien |  der Linien | den Linien |  die Linien |Definition: eine grundlegende Formation, die Mannschaft stellt sich in einer Reihe (Schlange) oder in einer Linie (Reihe nebeneinander) auf und bewegt sich als einheitliche Formation über die Eisfläche |Beispiel des Gebrauchs: Achtet in der Linie darauf, dass niemand aus der Achse fällt.|linie.png|
 
