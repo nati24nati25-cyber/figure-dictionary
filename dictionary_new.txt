@@ -52,10 +52,9 @@ Cantilever |Substantiv| maskulinum | кантилевер |der Cantilever |des C
 
 Chasséeschritt |Substantiv| maskulinum | шоссе |der Chasséeschritt |des Chasséeschritts| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|Definition: .....|Beispiel des Gebrauchs: ....|
 
-Choctaw |Substantiv| maskulinum | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws|Definition: ein Schritt, bei dem mit einem Fußwechsel gleichzeitig die Laufrich
-tung geändert wird, von vorwärts auf rückwärts oder umgekehrt. |Beispiel des Gebrauchs: Wieder unterscheidet man nach Art der Hüftstellung einen offenen und einen geschlossenen Choctaw.|choctaw.jpg|
+Choctaw |Substantiv| maskulinum | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws|Definition: ein Schritt, bei dem mit einem Fußwechsel gleichzeitig die Laufrichtung geändert wird, von vorwärts auf rückwärts oder umgekehrt. |Beispiel des Gebrauchs: Wieder unterscheidet man nach Art der Hüftstellung einen offenen und einen geschlossenen Choctaw.|choctaw.jpg|
 
-Choreosequenz |Substantiv| femininum | хореографическая последовательность |die Choreosequenz | der Choreosequenz | der Choreosequenz | die Choreosequenz | die Choreosequenzen |  der Choreosequenzen | den Choreosequenzen |  die Choreosequenzen|Definition: ..... | Beispiel des Gebrauchs: .|choreosequenz.gif|
+Choreosequenz |Substantiv| femininum | хореографическая последовательность |die Choreosequenz | der Choreosequenz | der Choreosequenz | die Choreosequenz | die Choreosequenzen |  der Choreosequenzen | den Choreosequenzen |  die Choreosequenzen|Definition: ein Teil des Programms, in dem eine einheitliche choreografische Komposition auf dem Eis gestaltet wird. Darin können folgende Elemente enthalten sein: Spiralen; Arabesken; Ina Bauer; Hydroblading, Sprünge, die nicht zu den offiziellen Pflichtelementen gehören (z. B. Wendesprung, Euler, Halb‑Axel) | Beispiel des Gebrauchs: Die Choreosequenz war musikalisch präzise und unterstrich den dramatischen Charakter der Kür.|choreosequenz.gif|
 
 Crossroll |Substantiv| maskulinum | кросс ролл |der Crossroll |des Crossrolls| dem Crossroll | den Crossroll| die Crossrolls| der Crossrolls| den Crossrolls| die Crossrolls|Definition: ein Schritt, bei dem vorwärts bzw. rückwärts kleine Bögen auf der Außenkante gelaufen werden|Beispiel des Gebrauchs: Beim Erlernen des Crossrolls vorwärts hilft die Vorstellung, sich „die Füße abzuschneiden”: x-beinig stehen, die Spitzen der Füße zueinander.| crossroll.jpg|
 
@@ -103,7 +102,7 @@ Dreifachsprung |Substantiv| maskulinum | тройной прыжок | der Dreif
 
 Dreifachtoeloop |Substantiv| maskulinum | тройной тулуп | der Dreifachtoeloop| des Dreifachtoeloop(s)| dem Dreifachtoeloop| den Dreifachtoeloop| die Dreifachtoeloops | der Dreifachtoeloops | den Dreifachtoeloops | die Dreifachtoeloops | Definition: dreifacher Toeloop, ein Toeloop mit 3 Umdrehungen | Beispiel des Gebrauchs: Als letztes Element der Kombination sprang sie einen Dreifachtoeloop und erhielt volle Punktzahl.|dreifachtoeloop.gif|
 
-durchführen | schwaches Verb (durchführt, durchführte, hat durchgeführt)| vt. trennbar| исполнять, выполнять| Beispiel des Gebrauchs: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
+durchführen | schwaches Verb (durchführt, durchführte, hat durchgeführt)| vt. trennbar| исполнять, выполнять| Definition: etwas machen, erfüllen, vollbringen| Beispiel des Gebrauchs: Sie werden daher mit weit gespreizter Beinhaltung durchgeführt.|
 
 einbeinig | Adverb | на одной ноге| Definition: mit nur einem Bein etwas ausführen| Beispiel des Gebrauchs: Schwieriger ist das Bremsen auf einem Bein bei einbeinigem Stand. Wird die Drehung langsamer, richtet man den Oberkörper auf und geht in eine einbeinige. Standpirouette über, dreht noch einige Male weiter und läuft wie üblich aus.|
 
@@ -125,9 +124,9 @@ Einstichsprung |Substantiv| maskulinum | зубцовый прыжок | der Ein
 
 Einlauf |Substantiv| maskulinum | заезд, вход, въезд (на прыжок) | der Einlauf | des Einlaufs| dem Einlauf | den Einlauf | die Einläufe| der Einläufe | den Einläufen | die Einläufe|Definition: die Anfangsphase, in der man vom Vorbereitungsbewegung in den Sprung übergeht  | Beispiel des Gebrauchs: Bei allen bisher erläuterten Sprüngen wurde der Auslauf auf dem Kreisbogen des Einlaufs fortgesetzt, die Kreisneigung des Körpers beibehalten.|
 
-einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заезжать, въезжать|Beispiel des Gebrauchs: .....|
+einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заезжать, въезжать| Definition: den Sprung starten, in den Sprung gehen |Beispiel des Gebrauchs: Der Läufer lief den Sprung zu spät ein und verlor dadurch an Höhe und Rotation.|
 
-einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|Definition: ....|Beispiel des Gebrauchs: ....|
+einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Definition: ......| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|
 
 einwärts | Adverb | внутрь (на внутреннем ребре)|Definition: auf der Innenkante sein| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
