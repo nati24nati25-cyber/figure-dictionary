@@ -50,7 +50,7 @@ bremsen | schwaches Verb (bremst, bremste, hat bremst)| vi. | тормозить
 
 Cantilever |Substantiv| maskulinum | кантилевер |der Cantilever |des Cantilevers| dem Cantilever | den Cantilever| die Cantilever| der Cantilever| den Cantilevern| die Cantilever|Definition: eine spektakuläre Variante des Mondes, bei der man auf zwei Beinen mit stark nach hinten geneigtem Oberkörper gleitet, fast parallel zum Eis, und dabei Tiefe der Kanten sowie Körperkontrolle zeigt |Beispiel des Gebrauchs: Halte die Kanten tiefer im Cantilever, sonst verliert die Linie an Stabilität.|cantilever.webp|
 
-Chasséeschritt |Substantiv| maskulinum | шоссе |der Chasséeschritt |des Chasséeschritts| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|Definition: .....|Beispiel des Gebrauchs: ....|
+Chasséeschritt |Substantiv| maskulinum | шассе |der Chasséeschritt |des Chasséeschritts| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|Definition: .....|Beispiel des Gebrauchs: Der Chasséeschritt ist ein Tanzschritt, der auf 4/4-Takt gelaufen wird und sich über einen ganzen Takt erstreckt. |
 
 Choctaw |Substantiv| maskulinum | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws|Definition: ein Schritt, bei dem mit einem Fußwechsel gleichzeitig die Laufrichtung geändert wird, von vorwärts auf rückwärts oder umgekehrt. |Beispiel des Gebrauchs: Wieder unterscheidet man nach Art der Hüftstellung einen offenen und einen geschlossenen Choctaw.|choctaw.jpg|
 
@@ -162,13 +162,13 @@ Gegenwende |Substantiv| femininum| выкрюк |die Gegenwende | der Gegenwende
 
 Gesamtpunktzahl |Substantiv| femininum| итоговая оценка |die Gesamtpunktzahl | der Gesamtpunktzahl | der Gesamtpunktzahl | die Gesamtpunktzahl | die Gesamtpunktzahlen |  der Gesamtpunktzahlen | den Gesamtpunktzahlen |  die Gesamtpunktzahlen| Definition: die Summe von dem Technischem Gesamtwert TES (engl. Technical Element Score) und den Gesamtpunkten der Programmkomponenten PCS (engl. Program Component Score) |Beispiel des Gebrauchs: Die Gesamtpunktzahl nach beiden Programmen entscheidet über die Endplatzierung und damit über einen möglichen Podiumsplatz.| 
 
-gespreizt | partizipiales Adjektiv | pp. | разведенные в сторону (ноги)| Definition:......| Beispiel des Gebrauchs: Das Paar zeigte eine atemberaubende Hochliftfigur, bei der die Partnerin ihre gespreizten Beine im rechten Winkel zur Achse des Partners hielt.|
+gespreizt | partizipiales Adjektiv | pp. | разведенные в сторону (ноги)| Definition: offen zur Seite| Beispiel des Gebrauchs: Das Paar zeigte eine atemberaubende Hochliftfigur, bei der die Partnerin ihre gespreizten Beine im rechten Winkel zur Achse des Partners hielt.|
 
-gestanden | partizipiales Adjektiv | pp. | выстоянный (прыжок)| Definition: .......| Beispiel des Gebrauchs: Der vierfache Lutz war knapp, aber er war gestanden. Er zeigte fünf Vierfache, drei davon waren sauber gestanden, bei den anderen beiden fiel er.|
+gestanden | partizipiales Adjektiv | pp. | выстоянный, получившийся (прыжок)| Definition: .......| Beispiel des Gebrauchs: Der vierfache Lutz war knapp, aber er war gestanden. Er zeigte fünf Vierfache, drei davon waren sauber gestanden, bei den anderen beiden fiel er.|
 
-gestreckt | partizipiales Adjektiv | pp. | вытянутая (нога)| Definition:....... | Beispiel des Gebrauchs: Bei der Arabeske ist das freie Bein dabei gestreckt.|
+gestreckt | partizipiales Adjektiv | pp. | вытянутая (нога)| Definition: gerade und lang  | Beispiel des Gebrauchs: Bei der Arabeske ist das freie Bein dabei gestreckt.|
 
-getippt| partizipiales Adjektiv | pp. | зубцовый (прыжок)| Definition:.........|Beispiel des Gebrauchs: Die sechs Grundsprünge lassen sich in Kantensprünge und getippte Sprünge unterteilen.|
+getippt| partizipiales Adjektiv | pp. | зубцовый (прыжок)| Definition: mit der Zacke aufgeführt |Beispiel des Gebrauchs: Die sechs Grundsprünge lassen sich in Kantensprünge und getippte Sprünge unterteilen.|
 
 Gleichgewicht |Substantiv| femininum| равновесие |das Gleichgewicht | des Gleichgewichts | dem Gleichgewicht | das Gleichgewicht | die Gleichgewichte |  der Gleichgewichte | den Gleichgewichte |  die Gleichgewichte| Definition: Zustand eines Körpers, in dem die entgegengesetzt wirkenden Kräfte einander aufheben |Beispiel des Gebrauchs: Der Anfänger sollte sich möglichst ohne Hilfe eines anderen auf dem Eis bewegen, denn Gleichgewicht und richtigen Stand kann man nur erfühlen, wenn man auf den eigenen Beinen steht. | 
 
