@@ -35,6 +35,8 @@ gleiten | Technik
 Innenkante | Technik
 Kante | Technik
 Kantenwechsel | Technik
+kreisäußer | Technik
+kreisinner | Technik
 landen | Technik
 laufen | Technik
 Laufrichtung | Technik
