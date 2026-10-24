@@ -503,7 +503,7 @@ def show_card(
                         st.markdown(f"**{key}:** {sections[key]}")
 
 
-@st.dialog("")
+@st.dialog(" ")
 def open_entry_dialog(entry):
     show_card(
         entry,
