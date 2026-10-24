@@ -266,6 +266,7 @@ Hebung | Paarlauf
 Todesspirale | Paarlauf
 
 Walzerschritt | Paarlauf
+Schrittfolge | Paarlauf
 
 Kurzprogramm | Paarlauf
 Kür | Paarlauf
