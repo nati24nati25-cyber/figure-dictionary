@@ -600,7 +600,7 @@ for tab, cat_name in zip(tabs, tab_names):
                     )
 
                     if st.button(
-                        "Подробнее",
+                        "Mehr erfahren",
                         key=f"open_{cat_name}_{idx}",
                         use_container_width=True,
                     ):
