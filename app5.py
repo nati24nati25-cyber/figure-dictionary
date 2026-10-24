@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 import streamlit.components.v1 as components
 import os
@@ -362,7 +363,14 @@ def show_audio_icon(audio_path):
     )
 
 
-def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
+def show_card(
+    entry,
+    images_dir="images",
+    audio_dir="audio",
+    links_data=None,
+    show_details_icon=False,
+    button_key=None,
+):
     word = entry["word"]
     grammar = entry["grammar"]
     translation = entry["translation"]
@@ -373,7 +381,27 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
     abbr = entry.get("abbr")
 
     with st.container(border=True):
-        if abbr:
+        if show_details_icon:
+            title_col, icon_col = st.columns([10, 1])
+
+            with title_col:
+                if abbr:
+                    st.markdown(f"### **{abbr}** — {word}")
+                elif is_noun and cases:
+                    article = cases[0].split()[0]
+                    st.markdown(f"### **{word}, {article}**")
+                else:
+                    st.markdown(f"### **{word}**")
+
+            with icon_col:
+                if st.button(
+                    "🔍",
+                    key=button_key,
+                    help="Wortdetails anzeigen",
+                ):
+                    open_entry_dialog(entry)
+
+        elif abbr:
             st.markdown(f"### **{abbr}** — {word}")
         elif is_noun and cases:
             article = cases[0].split()[0]
@@ -425,21 +453,6 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                         + "\n".join(rows)
                     )
             else:
-                conjugation_text = ""
-                base_type_raw = grammar
-
-                if "(" in grammar and ")" in grammar:
-                    parts = grammar.split("(")
-                    base_type_raw = parts[0].strip()
-                    conjugation_text = parts[1].split(")")[0]
-
-                if conjugation_text:
-                    line_core = (
-                        f"{word} - {base_type_raw} ({conjugation_text})"
-                    )
-                else:
-                    line_core = f"{word} - {grammar}"
-
                 marker = ""
                 if "vi." in grammar:
                     marker = "vi"
@@ -490,13 +503,14 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                         st.markdown(f"**{key}:** {sections[key]}")
 
 
-@st.dialog(" ")
+@st.dialog("")
 def open_entry_dialog(entry):
     show_card(
         entry,
         images_dir="images",
         audio_dir="audio",
         links_data=None,
+        show_details_icon=False,
     )
 
 
@@ -521,7 +535,6 @@ st.markdown(
         background: rgba(255, 255, 255, 0);
     }
 
-    /* Полупрозрачные карточки записей */
     div[data-testid="stVerticalBlockBorderWrapper"] {
         background: rgba(255, 255, 255, 0.78);
         border: 1px solid rgba(177, 205, 225, 0.65);
@@ -597,12 +610,6 @@ for tab, cat_name in zip(tabs, tab_names):
                         entry,
                         images_dir="images",
                         audio_dir="audio",
+                        show_details_icon=True,
+                        button_key=f"open_{cat_name}_{idx}",
                     )
-
-                    if st.button(
-                        "Mehr erfahren",
-                        key=f"open_{cat_name}_{idx}",
-                        use_container_width=True,
-                    ):
-                        open_entry_dialog(entry)
-
