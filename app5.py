@@ -382,7 +382,7 @@ def show_card(
 
     with st.container(border=True):
         if show_details_icon:
-            title_col, icon_col = st.columns([10, 1])
+            title_col, icon_col = st.columns([5, 1])
 
             with title_col:
                 if abbr:
@@ -398,6 +398,7 @@ def show_card(
                     "🔍",
                     key=button_key,
                     help="Wortdetails anzeigen",
+                    use_container_width=True,
                 ):
                     open_entry_dialog(entry)
 
