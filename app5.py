@@ -490,7 +490,7 @@ def show_card(entry, images_dir="images", audio_dir="audio", links_data=None):
                         st.markdown(f"**{key}:** {sections[key]}")
 
 
-@st.dialog("Карточка термина")
+@st.dialog(" ")
 def open_entry_dialog(entry):
     show_card(
         entry,
