@@ -38,7 +38,7 @@ Basiswert |Substantiv| maskulinum| базовая стоимость |der Basisw
 
 beidbeinig | Adverb | на двух ногах| Definition: mit zwei Beinen etwas ausführen| Beispiel des Gebrauchs: Beim beidbeinigen Slalomlauf wird erstmals auch die Außenkante erfüllt. Aus dem beidbeinigen Stand oder Vorwärtslauf heraus wird ein großer Schiebeschritt vorwärts in den tiefen Ausfall gemacht.|
 
-beugen | schwaches Verb (beugt, beugte, hat gebeugt)| vi./vt.| сгибать|Definition: ..... | Beispiel des Gebrauchs: Eine andere Version der eingesprungenen Sitzpirouette beinhaltet einen Fußwechsel in der Luft: nachdem man die Sitzposition in der Luft eingenommen hat, streckt man das linke Bein vor und beugt gleichzeitig das rechte, auf dem man schließlich landet.|
+beugen | schwaches Verb (beugt, beugte, hat gebeugt)| vi./vt.| сгибать|Definition: nicht gerade machen* | Beispiel des Gebrauchs: Eine andere Version der eingesprungenen Sitzpirouette beinhaltet einen Fußwechsel in der Luft: nachdem man die Sitzposition in der Luft eingenommen hat, streckt man das linke Bein vor und beugt gleichzeitig das rechte, auf dem man schließlich landet.|
 
 Biellmannpirouette |Substantiv| femininum | бильман |die Biellmannpirouette | der Biellmannpirouette | der Biellmannpirouette | die Biellmannpirouette | die Biellmannpirouetten |  der Biellmannpirouetten | den Biellmannpirouetten |  die Biellmannpirouetten|Definition: ....... | Herkunft: nach der Schweizer Eiskunstläuferin Denise Biellmann| Beispiel des Gebrauchs: Jewgeni Pljuschtschenko war der erste männliche Eiskunstläufer, der die Biellmannpirouette in sein Programm aufnahm.| biellmannpirouette.jpg|
 
@@ -50,7 +50,7 @@ bremsen | schwaches Verb (bremst, bremste, hat bremst)| vi. | тормозить
 
 Cantilever |Substantiv| maskulinum | кантилевер |der Cantilever |des Cantilevers| dem Cantilever | den Cantilever| die Cantilever| der Cantilever| den Cantilevern| die Cantilever|Definition: eine spektakuläre Variante des Mondes, bei der man auf zwei Beinen mit stark nach hinten geneigtem Oberkörper gleitet, fast parallel zum Eis, und dabei Tiefe der Kanten sowie Körperkontrolle zeigt |Beispiel des Gebrauchs: Halte die Kanten tiefer im Cantilever, sonst verliert die Linie an Stabilität.|cantilever.webp|
 
-Chasséeschritt |Substantiv| maskulinum | шассе |der Chasséeschritt |des Chasséeschritts| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|Definition: .....|Beispiel des Gebrauchs: Der Chasséeschritt ist ein Tanzschritt, der auf 4/4-Takt gelaufen wird und sich über einen ganzen Takt erstreckt. |
+Chasséeschritt |Substantiv| maskulinum | шассе |der Chasséeschritt |des Chasséeschritts| dem Chasséeschritt | den Chasséeschritt| die Chasséeschritte| der Chasséeschritte| den Chasséeschritten| die Chasséeschritte|Definition: Serie von Schritten, bei der im zweiten Schritt das freie Bein neben das Stützbein gestellt wird, während das ehemalige Stützbein leicht parallel zum Eis angehoben wird. Es gibt verschiedene Varianten: einfaches, gekreuztes und gleitendes Chassé |Beispiel des Gebrauchs: Der Chasséeschritt ist ein Tanzschritt, der auf 4/4-Takt gelaufen wird und sich über einen ganzen Takt erstreckt. |
 
 Choctaw |Substantiv| maskulinum | чоктау |der Choctaw |des Choctaws| dem Choctaw | den Choctaw| die Choctaws| der Choctaws| den Choctaws| die Choctaws|Definition: ein Schritt, bei dem mit einem Fußwechsel gleichzeitig die Laufrichtung geändert wird, von vorwärts auf rückwärts oder umgekehrt. |Beispiel des Gebrauchs: Wieder unterscheidet man nach Art der Hüftstellung einen offenen und einen geschlossenen Choctaw.|choctaw.jpg|
 
@@ -80,7 +80,7 @@ Drehachse |Substantiv| femininum | вращательная ось |die Drehachs
 
 drehen sich | schwaches Verb (dreht, drehte, hat gedreht)| vi. | вращаться| Definition: um seine Achse bewegen| Beispiel des Gebrauchs:  Man kann darauf stehen, kleine Schritte gehen, sich drehen oder seitliche Nachstellschritte bzw. -hüpfer machen. |
 
-Drehung |Substantiv| femininum | оборот |die Drehung | der Drehung | der Drehung | die Drehung | die Drehungen |  der Drehungen | den Drehungen |  die Drehungen| Definition: .......... | Beispiel des Gebrauchs: Zur Einleitung der Drehung wird der linke Arm zurückgezogen, das Standbein streckt sich und Oberkörper, Spielbein und Arme gehen in die waagerechte Haltung über. Es variiert nur die Körperhaltung im Flug, damit mehrfache Drehungen möglich sind.|
+Drehung |Substantiv| femininum | оборот |die Drehung | der Drehung | der Drehung | die Drehung | die Drehungen |  der Drehungen | den Drehungen |  die Drehungen| Definition: der allgemeine Begriff für Bewegungen, bei denen der Körper oder ein Körperteil eine Drehen um seine Achse oder um einen Stützpunkt ausführt | Beispiel des Gebrauchs: Zur Einleitung der Drehung wird der linke Arm zurückgezogen, das Standbein streckt sich und Oberkörper, Spielbein und Arme gehen in die waagerechte Haltung über. Es variiert nur die Körperhaltung im Flug, damit mehrfache Drehungen möglich sind.|
 
 Dreier |Substantiv| maskulinum | тройка | der Dreier | des Dreiers | dem Dreier | den Dreier | die Dreier | der Dreier | den Dreiern | die Dreier | Definition: Wechsel der Laufrichtung auf einem Bein von vorwärts nach rückwärts (über die Schlittschuhspitze) oder von rückwärts nach vorwärts (über die Ferse) mit Kantenwechsel und Drehung mit Rotation im Sinne des Einlaufbogens| Beispiel des Gebrauchs: Der Flip kann mit  Dreier vorwärts auswärts eingelaufen werden.| dreier.jpg|
 
@@ -126,7 +126,7 @@ Einlauf |Substantiv| maskulinum | заезд, вход, въезд (на пры�
 
 einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заезжать, въезжать| Definition: den Sprung starten, in den Sprung gehen |Beispiel des Gebrauchs: Der Läufer lief den Sprung zu spät ein und verlor dadurch an Höhe und Rotation.|
 
-einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Definition: ......| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|
+einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Definition: eine Position nehmen| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|
 
 einwärts | Adverb | внутрь (на внутреннем ребре)|Definition: auf der Innenkante sein| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
