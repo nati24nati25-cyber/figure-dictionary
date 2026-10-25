@@ -1,11 +1,17 @@
 
-
 import streamlit as st
 import streamlit.components.v1 as components
 import os
 import re
 import base64
 import uuid
+
+
+st.set_page_config(
+    page_title="Eiskunstlauf-Wörterbuch",
+    layout="wide",
+)
+
 
 CATEGORIES = [
     "Technik",
@@ -25,7 +31,7 @@ CATEGORIES = [
 
 
 def parse_entry(line):
-    fields = [f.strip() for f in line.split("|")]
+    fields = [field.strip() for field in line.split("|")]
     if len(fields) < 3:
         return None
 
@@ -50,8 +56,12 @@ def parse_entry(line):
     extra = []
 
     start_idx = -1
-    for i, val in enumerate(rest):
-        if val and re.match(r"^(der|die|das|des|dem|den)\b", val, re.IGNORECASE):
+    for i, value in enumerate(rest):
+        if value and re.match(
+            r"^(der|die|das|des|dem|den)\b",
+            value,
+            re.IGNORECASE,
+        ):
             start_idx = i
             break
 
@@ -72,7 +82,9 @@ def parse_entry(line):
 
     for item in reversed(extra):
         item_stripped = item.strip()
-        if item_stripped.lower().endswith((".jpg", ".jpeg", ".png", ".gif", ".webp")):
+        if item_stripped.lower().endswith(
+            (".jpg", ".jpeg", ".png", ".gif", ".webp")
+        ):
             image_name = item_stripped
         else:
             cleaned_extra.insert(0, item)
@@ -82,6 +94,7 @@ def parse_entry(line):
     sections = {}
     current_key = None
     current_text = []
+
     rubric_pattern = re.compile(
         r"^(Definition|Herkunft|Beispiel des Gebrauchs):\s*(.*)$",
         re.IGNORECASE,
@@ -95,9 +108,16 @@ def parse_entry(line):
         match = rubric_pattern.match(item)
         if match:
             if current_key is not None:
-                sections[current_key] = " ".join(current_text).strip()
+                sections[current_key] = "\n\n".join(current_text).strip()
 
-            current_key = match.group(1)
+            # Сохраняем единый вариант написания заголовков разделов
+            key_lower = match.group(1).lower()
+            key_names = {
+                "definition": "Definition",
+                "herkunft": "Herkunft",
+                "beispiel des gebrauchs": "Beispiel des Gebrauchs",
+            }
+            current_key = key_names.get(key_lower, match.group(1))
             start_text = match.group(2).strip()
             current_text = [start_text] if start_text else []
         elif current_key is not None:
@@ -125,8 +145,8 @@ def load_dictionary(file_path="dictionary_new.txt"):
         st.warning(f"Файл {file_path} не найден!")
         return entries
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        for line in f:
+    with open(file_path, "r", encoding="utf-8") as file:
+        for line in file:
             line = line.strip()
             if not line or line.startswith(("Abkürzungen", "—")):
                 continue
@@ -140,65 +160,61 @@ def load_dictionary(file_path="dictionary_new.txt"):
 
 @st.cache_data
 def load_categories(file_path="categories.txt"):
-    cats = {}
+    categories = {}
 
     if not os.path.exists(file_path):
-        return cats
+        return categories
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        for line in f:
+    with open(file_path, "r", encoding="utf-8") as file:
+        for line in file:
             line = line.strip()
             if not line or line.startswith("#"):
                 continue
 
-            parts = [p.strip() for p in line.split("|")]
+            parts = [part.strip() for part in line.split("|")]
             if len(parts) < 2:
                 continue
 
-            left, cat = parts[0], parts[1]
+            left, category = parts[0], parts[1]
             word = left.split(" - ", 1)[0].strip()
-            cats.setdefault(word.lower(), []).append(cat)
+            categories.setdefault(word.lower(), []).append(category)
 
-    return cats
+    return categories
 
 
 @st.cache_data
 def load_abbreviations(file_path="categories.txt"):
-    abbrevs = []
+    abbreviations = []
 
     if not os.path.exists(file_path):
-        return abbrevs
+        return abbreviations
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        for line in f:
+    with open(file_path, "r", encoding="utf-8") as file:
+        for line in file:
             line = line.strip()
             if not line or line.startswith("#"):
                 continue
 
-            parts = [p.strip() for p in line.split("|")]
-            if len(parts) < 2:
-                continue
-
-            cat = parts[1]
-            if cat != "Abkürzungen":
+            parts = [part.strip() for part in line.split("|")]
+            if len(parts) < 2 or parts[1] != "Abkürzungen":
                 continue
 
             left = parts[0]
-            chunks = [c.strip() for c in left.split(" - ")]
+            chunks = [chunk.strip() for chunk in left.split(" - ")]
 
             if len(chunks) >= 3:
-                abbr = chunks[0]
+                abbreviation = chunks[0]
                 german = " - ".join(chunks[1:-1])
                 translation = chunks[-1]
             elif len(chunks) == 2:
-                abbr, german = chunks
+                abbreviation, german = chunks
                 translation = ""
             else:
-                abbr, german, translation = left, "", ""
+                abbreviation, german, translation = left, "", ""
 
-            abbrevs.append({
-                "word": german or abbr,
-                "abbr": abbr,
+            abbreviations.append({
+                "word": german or abbreviation,
+                "abbr": abbreviation,
                 "grammar": "Abkürzung",
                 "translation": translation,
                 "cases": None,
@@ -207,7 +223,7 @@ def load_abbreviations(file_path="categories.txt"):
                 "is_noun": False,
             })
 
-    return abbrevs
+    return abbreviations
 
 
 def find_image_by_word(word, images_dir="images"):
@@ -217,8 +233,8 @@ def find_image_by_word(word, images_dir="images"):
     word_lower = word.lower()
     extensions = [".gif", ".jpg", ".jpeg", ".png", ".webp"]
 
-    for ext in extensions:
-        candidate = os.path.join(images_dir, word_lower + ext)
+    for extension in extensions:
+        candidate = os.path.join(images_dir, word_lower + extension)
         if os.path.exists(candidate):
             return candidate
 
@@ -226,15 +242,15 @@ def find_image_by_word(word, images_dir="images"):
 
 
 def find_audio_by_word(word, audio_dir="audio"):
-    """Ищет аудиофайл в папке audio по имени слова (регистронезависимо)."""
+    """Ищет аудиофайл в папке audio по имени слова."""
     if not os.path.exists(audio_dir):
         return None
 
     word_lower = word.lower()
     extensions = [".mp3", ".wav", ".ogg", ".m4a", ".flac"]
 
-    for ext in extensions:
-        candidate = os.path.join(audio_dir, word_lower + ext)
+    for extension in extensions:
+        candidate = os.path.join(audio_dir, word_lower + extension)
         if os.path.exists(candidate):
             return candidate
 
@@ -242,8 +258,8 @@ def find_audio_by_word(word, audio_dir="audio"):
 
 
 def show_gif(gif_path, width=150):
-    with open(gif_path, "rb") as f:
-        contents = f.read()
+    with open(gif_path, "rb") as file:
+        contents = file.read()
 
     data_url = base64.b64encode(contents).decode("utf-8")
 
@@ -254,7 +270,7 @@ def show_gif(gif_path, width=150):
 
 
 def show_audio_icon(audio_path):
-    """Показывает кнопку произношения без стандартной панели плеера."""
+    """Показывает кнопку для прослушивания произношения."""
     with open(audio_path, "rb") as audio_file:
         audio_data = base64.b64encode(audio_file.read()).decode("ascii")
 
@@ -266,10 +282,8 @@ def show_audio_icon(audio_path):
         ".flac": "audio/flac",
     }
 
-    mime_type = mime_types.get(
-        os.path.splitext(audio_path)[1].lower(),
-        "audio/mpeg",
-    )
+    extension = os.path.splitext(audio_path)[1].lower()
+    mime_type = mime_types.get(extension, "audio/mpeg")
     player_id = f"p_{uuid.uuid4().hex}"
 
     components.html(
@@ -293,7 +307,9 @@ def show_audio_icon(audio_path):
                 transition: background 0.15s, border-color 0.15s;
             }}
             .audio-btn:hover {{ background: #e8ebef; }}
-            .audio-btn:focus-visible {{ outline: 2px solid #2563eb; outline-offset: 2px; }}
+            .audio-btn:focus-visible {{
+                outline: 2px solid #2563eb; outline-offset: 2px;
+            }}
             .audio-btn[aria-pressed="true"] {{
                 color: #1d4ed8; background: #e8efff; border-color: #93b4ff;
             }}
@@ -363,162 +379,147 @@ def show_audio_icon(audio_path):
     )
 
 
-def show_card(
-    entry,
-    images_dir="images",
-    audio_dir="audio",
-    links_data=None,
-    show_details_icon=False,
-    button_key=None,
-):
+def show_entry_details(entry, images_dir="images", audio_dir="audio"):
+    """Показывает полную информацию о термине внутри модального окна."""
     word = entry["word"]
     grammar = entry["grammar"]
-    translation = entry["translation"]
     cases = entry["cases"]
-    image_name = entry["image"]
     sections = entry["sections"]
     is_noun = entry["is_noun"]
-    abbr = entry.get("abbr")
+    image_name = entry["image"]
+    abbreviation = entry.get("abbr")
+
+    st.markdown("### 📊 Grammatik / Form")
+
+    if is_noun and cases:
+        article = cases[0].split()[0]
+        grammar_parts = grammar.split(",", 1)
+        gender = grammar_parts[1].strip() if len(grammar_parts) > 1 else ""
+
+        st.markdown(
+            f"**{article} {word}**: Substantiv "
+            f"({gender.capitalize()})"
+        )
+
+        case_names = ["Nom.", "Gen.", "Dat.", "Akk."]
+
+        if len(cases) == 8:
+            rows = [
+                f"| {case_names[i]} | {cases[i]} | {cases[i + 4]} |"
+                for i in range(4)
+            ]
+            st.markdown(
+                "| Kasus | Sing. | Pl. |\n"
+                "|-------|-------|-------|\n"
+                + "\n".join(rows)
+            )
+        elif len(cases) == 4:
+            rows = [
+                f"| {case_names[i]} | — | {cases[i]} |"
+                for i in range(4)
+            ]
+            st.markdown(
+                "| Kasus | Sing. | Pl. |\n"
+                "|-------|-------|-------|\n"
+                + "\n".join(rows)
+            )
+    else:
+        if abbreviation:
+            st.markdown(f"**{abbreviation}**: Abkürzung")
+        else:
+            marker = ""
+            if "vi." in grammar:
+                marker = "vi"
+            elif "vt." in grammar:
+                marker = "vt"
+
+            clean_type = grammar
+            if marker == "vi":
+                clean_type = clean_type.replace("vi.", "").strip().strip(",")
+            elif marker == "vt":
+                clean_type = clean_type.replace("vt.", "").strip().strip(",")
+
+            if marker:
+                st.markdown(f"**{word}**: {marker} / {clean_type}")
+            else:
+                st.markdown(f"**{word}**: {clean_type}")
+
+    if not abbreviation:
+        audio_path = find_audio_by_word(word, audio_dir)
+        if audio_path:
+            show_audio_icon(audio_path)
+
+        image_path = None
+
+        if image_name:
+            candidate = os.path.join(images_dir, image_name)
+            if os.path.exists(candidate):
+                image_path = candidate
+
+        if image_path is None:
+            image_path = find_image_by_word(word, images_dir)
+
+        if image_path:
+            st.markdown("### 🖼️ Bild")
+            if image_path.lower().endswith(".gif"):
+                show_gif(image_path, width=250)
+            else:
+                st.image(image_path, width=250)
+
+    if sections:
+        st.markdown("### ℹ️ Zusätzliche Informationen (Beispiele etc.)")
+
+        for key in ["Definition", "Herkunft", "Beispiel des Gebrauchs"]:
+            if key in sections and sections[key]:
+                st.markdown(f"**{key}:** {sections[key]}")
+
+
+@st.dialog(" ")
+def open_entry_dialog(entry):
+    word = entry["word"]
+    abbreviation = entry.get("abbr")
+
+    if abbreviation:
+        st.markdown(f"### **{abbreviation}** — {word}")
+    elif entry["is_noun"] and entry["cases"]:
+        article = entry["cases"][0].split()[0]
+        st.markdown(f"### **{word}, {article}**")
+    else:
+        st.markdown(f"### **{word}**")
+
+    st.markdown(
+        f"<p style='font-size:20px;'><b>{entry['translation']}</b></p>",
+        unsafe_allow_html=True,
+    )
+
+    show_entry_details(entry)
+
+
+def show_card(entry, button_key):
+    word = entry["word"]
+    abbreviation = entry.get("abbr")
 
     with st.container(border=True):
-        if show_details_icon:
-            title_col, icon_col = st.columns([5, 1])
-
-            with title_col:
-                if abbr:
-                    st.markdown(f"### **{abbr}** — {word}")
-                elif is_noun and cases:
-                    article = cases[0].split()[0]
-                    st.markdown(f"### **{word}, {article}**")
-                else:
-                    st.markdown(f"### **{word}**")
-
-            with icon_col:
-                if st.button(
-                    "🔍",
-                    key=button_key,
-                    help="Wortdetails anzeigen",
-                    use_container_width=True,
-                ):
-                    open_entry_dialog(entry)
-
-        elif abbr:
-            st.markdown(f"### **{abbr}** — {word}")
-        elif is_noun and cases:
-            article = cases[0].split()[0]
+        if abbreviation:
+            st.markdown(f"### **{abbreviation}** — {word}")
+        elif entry["is_noun"] and entry["cases"]:
+            article = entry["cases"][0].split()[0]
             st.markdown(f"### **{word}, {article}**")
         else:
             st.markdown(f"### **{word}**")
 
         st.markdown(
-            f"<p style='font-size:20px;'><b>{translation}</b></p>",
+            f"<p style='font-size:20px;'><b>{entry['translation']}</b></p>",
             unsafe_allow_html=True,
         )
 
-        if not abbr:
-            audio_path = find_audio_by_word(word, audio_dir)
-            if audio_path:
-                show_audio_icon(audio_path)
-
-        with st.expander("📊 Grammatik / Form"):
-            if is_noun and cases:
-                article_inner = cases[0].split()[0]
-                grammar_parts = grammar.split(",", 1)
-                gender_inner = grammar_parts[1].strip() if len(grammar_parts) > 1 else ""
-
-                st.markdown(
-                    f"**{article_inner} {word}**: Substantiv "
-                    f"({gender_inner.capitalize()})"
-                )
-
-                pad_ru = ["Nom.", "Gen.", "Dat.", "Akk."]
-
-                if len(cases) == 8:
-                    rows = [
-                        f"| {pad_ru[i]} | {cases[i]} | {cases[i + 4]} |"
-                        for i in range(4)
-                    ]
-                    st.markdown(
-                        "| Kasus | Sing. | Pl. |\n"
-                        "|-------|-------|-------|\n"
-                        + "\n".join(rows)
-                    )
-                elif len(cases) == 4:
-                    rows = [
-                        f"| {pad_ru[i]} | — | {cases[i]} |"
-                        for i in range(4)
-                    ]
-                    st.markdown(
-                        "| Kasus | Sing. | Pl. |\n"
-                        "|-------|-------|-------|\n"
-                        + "\n".join(rows)
-                    )
-            else:
-                marker = ""
-                if "vi." in grammar:
-                    marker = "vi"
-                elif "vt." in grammar:
-                    marker = "vt"
-
-                clean_type = grammar
-                if marker == "vi":
-                    clean_type = clean_type.replace("vi.", "").strip().strip(",")
-                elif marker == "vt":
-                    clean_type = clean_type.replace("vt.", "").strip().strip(",")
-
-                if marker:
-                    rest_of_line = f"{marker} / {clean_type}"
-                else:
-                    rest_of_line = clean_type
-
-                st.markdown(f"**{word}**: {rest_of_line}")
-
-        if not abbr:
-            img_path = None
-
-            if image_name:
-                candidate = os.path.join(images_dir, image_name)
-                if os.path.exists(candidate):
-                    img_path = candidate
-
-            if img_path is None:
-                img_path = find_image_by_word(word, images_dir)
-
-            if img_path:
-                if img_path.lower().endswith(".gif"):
-                    show_gif(img_path, width=150)
-                else:
-                    st.image(img_path, width=150)
-
-        if links_data:
-            word_links = links_data.get(word.lower(), [])
-            if word_links:
-                st.markdown("**🔗 Ссылки:**")
-                for label, url in word_links:
-                    st.markdown(f"- [{label}]({url})")
-
-        if sections:
-            with st.expander("ℹ️ Zusätzliche Informationen (Beispiele etc.)"):
-                for key in ["Definition", "Herkunft", "Beispiel des Gebrauchs"]:
-                    if key in sections and sections[key]:
-                        st.markdown(f"**{key}:** {sections[key]}")
-
-
-@st.dialog(" ")
-def open_entry_dialog(entry):
-    show_card(
-        entry,
-        images_dir="images",
-        audio_dir="audio",
-        links_data=None,
-        show_details_icon=False,
-    )
-
-
-st.set_page_config(
-    page_title="Eiskunstlauf-Wörterbuch",
-    layout="wide",
-)
+        # Кнопка стоит сразу после перевода
+        if st.button(
+            "Mehr erfahren",
+            key=button_key,
+            use_container_width=True,
+        ):
+            open_entry_dialog(entry)
 
 
 st.markdown(
@@ -526,9 +527,22 @@ st.markdown(
     <style>
     [data-testid="stAppViewContainer"] {
         background:
-            radial-gradient(ellipse at 12% 8%, rgba(155, 214, 255, 0.34), transparent 32%),
-            radial-gradient(ellipse at 88% 22%, rgba(204, 229, 255, 0.42), transparent 35%),
-            linear-gradient(135deg, #f8fcff 0%, #edf6fc 52%, #e7f0f8 100%);
+            radial-gradient(
+                ellipse at 12% 8%,
+                rgba(155, 214, 255, 0.34),
+                transparent 32%
+            ),
+            radial-gradient(
+                ellipse at 88% 22%,
+                rgba(204, 229, 255, 0.42),
+                transparent 35%
+            ),
+            linear-gradient(
+                135deg,
+                #f8fcff 0%,
+                #edf6fc 52%,
+                #e7f0f8 100%
+            );
         background-attachment: fixed;
     }
 
@@ -557,8 +571,8 @@ try:
 except FileNotFoundError:
     st.error("❌ Файл dictionary_new.txt не найден!")
     entries = []
-except Exception as e:
-    st.error(f"Ошибка: {e}")
+except Exception as error:
+    st.error(f"Ошибка: {error}")
     entries = []
 
 categories_map = load_categories("categories.txt")
@@ -566,11 +580,12 @@ categories_map = load_categories("categories.txt")
 search = st.text_input("🔍 Wortsuche (Deutsch oder Russisch)", "")
 
 if search:
+    search_lower = search.lower()
     filtered = [
         entry
         for entry in entries
-        if search.lower() in entry["word"].lower()
-        or search.lower() in entry["translation"].lower()
+        if search_lower in entry["word"].lower()
+        or search_lower in entry["translation"].lower()
     ]
 else:
     filtered = entries
@@ -580,37 +595,37 @@ st.write(f"Einträge: {len(filtered)}")
 tab_names = ["Alle"] + CATEGORIES
 tabs = st.tabs(tab_names)
 
-for tab, cat_name in zip(tabs, tab_names):
+for tab, category_name in zip(tabs, tab_names):
     with tab:
-        if cat_name == "Alle":
-            cat_entries = filtered
+        if category_name == "Alle":
+            category_entries = filtered
         else:
-            cat_entries = [
+            category_entries = [
                 entry
                 for entry in filtered
-                if cat_name
+                if category_name
                 in categories_map.get(
                     entry.get("abbr", entry["word"]).lower(),
                     [],
                 )
             ]
 
-        if not cat_entries:
-            st.info(f"В категории «{cat_name}» пока нет записей.")
+        if not category_entries:
+            st.info(f"В категории «{category_name}» пока нет записей.")
         else:
             st.write(
-                f"Gefunden in der Kategorie «{cat_name}»: "
-                f"{len(cat_entries)}"
+                f"Gefunden in der Kategorie «{category_name}»: "
+                f"{len(category_entries)}"
             )
 
-            cols = st.columns(3)
+            columns = st.columns(3)
 
-            for idx, entry in enumerate(cat_entries):
-                with cols[idx % 3]:
+            for idx, entry in enumerate(category_entries):
+                with columns[idx % 3]:
                     show_card(
                         entry,
-                        images_dir="images",
-                        audio_dir="audio",
-                        show_details_icon=True,
-                        button_key=f"open_{cat_name}_{idx}",
+                        button_key=f"details_{category_name}_{idx}",
                     )
+
+
+
