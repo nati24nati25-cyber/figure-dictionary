@@ -389,6 +389,12 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
     image_name = entry["image"]
     abbreviation = entry.get("abbr")
 
+    # Aussprache показывается перед грамматикой
+    if not abbreviation:
+        audio_path = find_audio_by_word(word, audio_dir)
+        if audio_path:
+            show_audio_icon(audio_path)
+
     st.markdown("### 📊 Grammatik / Form")
 
     if is_noun and cases:
@@ -445,10 +451,6 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                 st.markdown(f"**{word}**: {clean_type}")
 
     if not abbreviation:
-        audio_path = find_audio_by_word(word, audio_dir)
-        if audio_path:
-            show_audio_icon(audio_path)
-
         image_path = None
 
         if image_name:
@@ -472,6 +474,7 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
         for key in ["Definition", "Herkunft", "Beispiel des Gebrauchs"]:
             if key in sections and sections[key]:
                 st.markdown(f"**{key}:** {sections[key]}")
+
 
 
 @st.dialog(" ")
