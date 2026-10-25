@@ -16,7 +16,7 @@ beugen | Technik
 Bogen | Technik
 bremsen | Technik
 Drehachse | Technik
-drehen | Technik
+drehen (sich)| Technik
 Drehung | Technik
 durchführen | Technik
 einbeinig | Technik
@@ -55,8 +55,9 @@ vorwärts | Technik
 Vorwärtsbogen | Technik
 Vorwärtslauf | Technik
 Uhrzeigersinn | Technik
-umdrehen | Technik
+umdrehen sich | Technik
 Zacke | Technik
+übersetzen | Technik
 
 ###### Technik ######
 
@@ -208,6 +209,8 @@ Schlagenbogen| Schritte
 Schlinge| Schritte
 Wende | Schritte
 Twizzle | Schritte
+Übersetzer | Schritte
+Übersetzschritt | Schritte
 
 
 ####### Schritte  #######
