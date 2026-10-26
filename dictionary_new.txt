@@ -28,7 +28,7 @@ ausstrecken | schwaches  Verb (streckt aus, streckte aus, hat ausgestreckt)| vt.
 
 Aufwärmen |Substantiv| neutrum | разминка |der Aufwärmen  |des Aufwärmens | dem Aufwärmen  | das Aufwärmen | die Aufwärmen | der Aufwärmen | den Aufwärmen | die Aufwärmen |Definition: den Körper durch leichte Übungen warm werden lassen |Beispiel des Gebrauchs: Manche Läufer vernachlässigen das Aufwärmen.|
 
-auswärts | Adverb | наружу (на наружном ребре)|Definition: auf der Außenkante sein | Beispiel des Gebrauchs: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
+auswärts | Adverb | наружу (на наружном ребре)|Definition: Lauf auf der Außenkante  | Beispiel des Gebrauchs: Beim Dreierschritt vorwärts auswärts erfolgt der Einlauf Lva, linker Arm und linke Körperseite vorn.|
  
 Auswärtsbogen |Substantiv| maskulinum | наружная дуга |der Auswärtsbogen |des Auswärtsbogens | dem Auswärtsbogen | den Auswärtsbogen| die Auswärtsbogen| der Auswärtsbogen| den Auswärtsbogen| die Auswärtsbogen|Definition: eine Grundfigur, bei der man auf einer Außenkante eine gekrümmte Linie über das Eis zieht |Beispiel des Gebrauchs: Beim rechten Auswärtsbogen führt rechter Arm.|
 
@@ -132,7 +132,7 @@ einlaufen | starkes Verb (läuft ein, lief ein, ist eingelaufen)| vi.| заез�
 
 einnehmen | starkes Verb (nimmt ein, nahm ein, hat eingenommen)| vt.| принимать (положение)| Definition: eine Position nehmen| Beispiel des Gebrauchs: Man landet auf dem linken Fuß und nimmt die übliche Sitzpirouettenposition ein.|
 
-einwärts | Adverb | внутрь (на внутреннем ребре)|Definition: auf der Innenkante sein| Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
+einwärts | Adverb | внутрь (на внутреннем ребре)|Definition: Lauf auf der Innenkante | Beispiel des Gebrauchs: Um bessere Spannung zu haben, hilft es, die gefassten Hände bei einwärts gedrehten Armen nach vorn zu strecken.|
 
 Einwärtsbogen |Substantiv| maskulinum | внутренняя дуга |der Einwärtsbogen |des Einwärtsbogens | dem Einwärtsbogen | den Einwärtsbogen| die Einwärtsbögen| der Einwärtsbögen| den Einwärtsbögen| die Einwärtsbögen|Definition: eine Grundfigur, bei der man auf einer Innenkante eine gekrümmte Linie über das Eis zieht|Beispiel des Gebrauchs: Wir üben heute rückwärts-Einwärtsbögen, um die Balance und die Körperstellung zu verbessern.|
 
