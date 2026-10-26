@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 import streamlit.components.v1 as components
 import os
@@ -398,6 +399,60 @@ def show_audio_icon(audio_path):
     )
 
 
+def show_cases_table(cases):
+    case_names = ["Nom.", "Gen.", "Dat.", "Akk."]
+
+    if len(cases) == 8:
+        rows = [
+            f"<tr><th>{case_names[i]}</th>"
+            f"<td>{html.escape(cases[i])}</td>"
+            f"<td>{html.escape(cases[i + 4])}</td></tr>"
+            for i in range(4)
+        ]
+    elif len(cases) == 4:
+        rows = [
+            f"<tr><th>{case_names[i]}</th>"
+            f"<td>—</td>"
+            f"<td>{html.escape(cases[i])}</td></tr>"
+            for i in range(4)
+        ]
+    else:
+        return
+
+    st.markdown(
+        """
+        <style>
+        .cases-table {
+            width: 100%;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+        .cases-table th,
+        .cases-table td {
+            border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+            padding: 0.5rem;
+        }
+        .cases-table th:first-child {
+            text-align: left;
+            width: 24%;
+        }
+        .cases-table td {
+            text-align: center;
+            overflow-wrap: anywhere;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        "<table class='cases-table'>"
+        "<thead><tr><th>Kasus</th><th>Sing.</th><th>Pl.</th></tr></thead>"
+        "<tbody>" + "".join(rows) + "</tbody></table>",
+        unsafe_allow_html=True,
+    )
+
+
 def show_entry_details(entry, images_dir="images", audio_dir="audio"):
     """Показывает полную информацию о термине внутри модального окна."""
     word = entry["word"]
@@ -426,28 +481,7 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
             f"({gender.capitalize()})"
         )
 
-        case_names = ["Nom.", "Gen.", "Dat.", "Akk."]
-
-        if len(cases) == 8:
-            rows = [
-                f"| {case_names[i]} | {cases[i]} | {cases[i + 4]} |"
-                for i in range(4)
-            ]
-            st.markdown(
-                "| Kasus | Sing. | Pl. |\n"
-                "|-------|-------|-------|\n"
-                + "\n".join(rows)
-            )
-        elif len(cases) == 4:
-            rows = [
-                f"| {case_names[i]} | — | {cases[i]} |"
-                for i in range(4)
-            ]
-            st.markdown(
-                "| Kasus | Sing. | Pl. |\n"
-                "|-------|-------|-------|\n"
-                + "\n".join(rows)
-            )
+        show_cases_table(cases)
     else:
         if abbreviation:
             st.markdown(f"**{abbreviation}**: Abkürzung")
@@ -500,6 +534,7 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                     f"<strong>{title}:</strong> {text}</p>",
                     unsafe_allow_html=True,
                 )
+
     cross_refs = entry.get("cross_refs", [])
 
     if cross_refs:
@@ -510,6 +545,7 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
 
             if target:
                 target_key = normalize_word(target["word"])
+
                 if st.button(
                     reference,
                     key=f"xref_{normalize_word(word)}_{index}",
@@ -517,10 +553,10 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                 ):
                     st.session_state["active_entry_key"] = target_key
             else:
-                st.caption(f"{reference} — Eintrag nicht gefunden")
+                st.caption(f"{reference} — Eintrag nicht найден")
 
 
-@st.dialog(" ")
+@st.dialog(" ", width="large")
 def open_entry_dialog():
     entry_key = st.session_state.get("active_entry_key")
     entry = entries_by_key.get(entry_key)
@@ -627,7 +663,8 @@ except Exception as error:
     st.error(f"Ошибка: {error}")
     entries = []
 
-# Создаём индекс терминов и аббревиатур для перехода по перекрёстным ссылкам
+
+# Индекс терминов и аббревиатур для перекрёстных ссылок
 entries_by_key = {}
 
 for entry in entries:
@@ -690,3 +727,6 @@ for tab, category_name in zip(tabs, tab_names):
                         entry,
                         button_key=f"details_{category_name}_{idx}",
                     )
+```
+
+
