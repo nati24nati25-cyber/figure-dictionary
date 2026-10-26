@@ -208,9 +208,6 @@ Komponentenwertung | Substantiv| femininum | оценки за компонен�
 
 Komposition |Substantiv| femininum | композиция (хореография)| die Komposition | der Komposition | der Komposition | die Komposition | die Kompositionen |  der Kompositionen | den Kompositionen |  die Kompositionen | Definition: die künstlerische Gestaltung des Programms in Beziehung zur Musik und zur Eisfläche |Beispiel des Gebrauchs: Die Komposition des Programms ist stimmig: Jedes Element passt zur Musik, und die Bewegungen nutzen die ganze Fläche aus.|
 
-Kreuzstandpirouette |Substantiv| femininum | бильман |die Kreuzstandpirouette | der Kreuzstandpirouette | der Kreuzstandpirouette | die Kreuzstandpirouette | die Kreuzstandpirouetten |  der Kreuzstandpirouetten | den Kreuzstandpirouetten |  die Kreuzstandpirouetten|Definition: eine Standpirouette, aber das 
-freie Bein gebeugt und vorn über das Knie des Standbeins gelegt | Beispiel des Gebrauchs: Die Trainerin korrigiert die Position in der Kreuzstandpirouette.| biellmannpirouette.jpg|
-
 Kreis |Substantiv| maskulinum | круг | der Kreis| des Kreises| dem Kreis| den Kreis | die Kreise| der Kreise | den Kreisen| die Kreise|Definition: eine grundlegende Formation, bei der die Mannschaft bildet einen oder mehrere Kreise und die Läufer bewegen sich relativ zu einem gemeinsamen Zentrum, während sie den Fronten und Richtungen durch verschiedene Schritte nachgeben |Beispiel des Gebrauchs: Schrittfolgen, Wandern und Richtungswechsel erhöhen beim Kreis den Schwierigkeitsgrad.| kreis.jpg|
 
 kreisinner | Adjektiv | внутренняя часть круга|Definition: nahe am Kreismittelpunkt |Beispiel des Gebrauchs: Das kreisinnere Bein hat Außenkante, das kreisäußere Innenkante.|
@@ -218,6 +215,9 @@ kreisinner | Adjektiv | внутренняя часть круга|Definition: n
 kreisäußer | Adjektiv | внешняя часть круга|Definition: weit vom Kreismittelpunkt entfernt|Beispiel des Gebrauchs: Aus dem Übersetzen rückwärts gegen den Uhrzeigersinn kommend, auf der Innenkante des kreisäußeren linken Beins gleiten.|
 
 Kreuzen |Substantiv| neutrum  | пересечение| das Kreuzen |des Kreuzens| dem Kreuzen | das Kreuzen | | | | |Definition: ein wichtiger Manövrierzug: zwei Linien oder Gruppen kreuzen sich nach exakter Planung, wobei die Läufer millimetergenaue Abstände und Schnittpunkte einhalten müssen, um Kollisionen zu vermeiden und die Formationen sauber zu wechseln|Beispiel des Gebrauchs: Beim Kreuzen kommt es auf den perfekten Timing an.|kreuzen.webp|
+
+Kreuzstandpirouette |Substantiv| femininum | винт со скрещением |die Kreuzstandpirouette | der Kreuzstandpirouette | der Kreuzstandpirouette | die Kreuzstandpirouette | die Kreuzstandpirouetten |  der Kreuzstandpirouetten | den Kreuzstandpirouetten |  die Kreuzstandpirouetten|Definition: eine Standpirouette, aber das 
+freie Bein gebeugt und vorn über das Knie des Standbeins gelegt | Beispiel des Gebrauchs: Die Trainerin korrigiert die Position in der Kreuzstandpirouette.| kreuzstandpirouette.png|
 
 Kufe |Substantiv| femininum | лезвие (конька) |die Kufe | der Kufe | der Kufe | die Kufe | die Kufen |  der Kufen | den Kufen |  die Kufen |Definition: eine Standfläche der Eisen / eine Gleitkante, die längs unter der Mitte des Schuhs angeschraubt ist und vom Zwischenraum neben dem großen Zeh bis zur Mitte der Ferse reicht; sie besteht aus gehärtetem Stahl und dient als Gleitfläche| Beispiel des Gebrauchs: Der Übergang zwischen dem ersten Eiskontakt auf der Zacke und dem gleitenden rückwärts- auswärts Bogen auf der ganzen Kufe erfolgt so schnell wie möglich. |kufe.jpg|
 
