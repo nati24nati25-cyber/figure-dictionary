@@ -30,6 +30,10 @@ CATEGORIES = [
 ]
 
 
+def normalize_word(word):
+    return word.strip().casefold()
+
+
 def parse_entry(line):
     fields = [field.strip() for field in line.split("|")]
     if len(fields) < 3:
@@ -100,6 +104,13 @@ def parse_entry(line):
         re.IGNORECASE,
     )
 
+    key_names = {
+        "definition": "Definition",
+        "herkunft": "Herkunft",
+        "beispiel des gebrauchs": "Beispiel des Gebrauchs",
+        "querverweise": "Querverweise",
+    }
+
     for item in extra:
         item = item.strip()
         if not item:
@@ -110,15 +121,10 @@ def parse_entry(line):
             if current_key is not None:
                 sections[current_key] = "\n\n".join(current_text).strip()
 
-            # Сохраняем единый вариант написания заголовков разделов
-            key_lower = match.group(1).lower()
-            key_names = {
-                "definition": "Definition",
-                "herkunft": "Herkunft",
-                "beispiel des gebrauchs": "Beispiel des Gebrauchs",
-                "querverweise": "Querverweise",
-            }
-            current_key = key_names.get(key_lower, match.group(1))
+            current_key = key_names.get(
+                match.group(1).lower(),
+                match.group(1),
+            )
             start_text = match.group(2).strip()
             current_text = [start_text] if start_text else []
         elif current_key is not None:
@@ -127,6 +133,15 @@ def parse_entry(line):
     if current_key is not None:
         sections[current_key] = "\n\n".join(current_text).strip()
 
+    cross_refs = [
+        reference.strip()
+        for reference in re.split(
+            r"[,;]",
+            sections.get("Querverweise", ""),
+        )
+        if reference.strip()
+    ]
+
     return {
         "word": word,
         "grammar": grammar_display,
@@ -134,6 +149,7 @@ def parse_entry(line):
         "cases": cases,
         "image": image_name,
         "sections": sections,
+        "cross_refs": cross_refs,
         "is_noun": is_noun,
     }
 
@@ -221,6 +237,7 @@ def load_abbreviations(file_path="categories.txt"):
                 "cases": None,
                 "image": "",
                 "sections": {},
+                "cross_refs": [],
                 "is_noun": False,
             })
 
@@ -390,7 +407,7 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
     image_name = entry["image"]
     abbreviation = entry.get("abbr")
 
-    # Aussprache показывается перед грамматикой
+    # Произношение отображается над грамматикой
     if not abbreviation:
         audio_path = find_audio_by_word(word, audio_dir)
         if audio_path:
@@ -473,13 +490,38 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
         st.markdown("### ℹ️ Zusätzliche Informationen (Beispiele etc.)")
 
         for key in ["Definition", "Herkunft", "Beispiel des Gebrauchs"]:
-            if key in sections and sections[key]:
+            if sections.get(key):
                 st.markdown(f"**{key}:** {sections[key]}")
 
+    cross_refs = entry.get("cross_refs", [])
+
+    if cross_refs:
+        st.markdown("### 🔗 Querverweise")
+
+        for index, reference in enumerate(cross_refs):
+            target = entries_by_key.get(normalize_word(reference))
+
+            if target:
+                target_key = normalize_word(target["word"])
+                if st.button(
+                    reference,
+                    key=f"xref_{normalize_word(word)}_{index}",
+                    use_container_width=True,
+                ):
+                    st.session_state["active_entry_key"] = target_key
+            else:
+                st.caption(f"{reference} — Eintrag nicht gefunden")
 
 
 @st.dialog(" ")
-def open_entry_dialog(entry):
+def open_entry_dialog():
+    entry_key = st.session_state.get("active_entry_key")
+    entry = entries_by_key.get(entry_key)
+
+    if not entry:
+        st.info("Eintrag nicht gefunden.")
+        return
+
     word = entry["word"]
     abbreviation = entry.get("abbr")
 
@@ -500,30 +542,29 @@ def open_entry_dialog(entry):
 
 
 def show_card(entry, button_key):
-    word = entry["word"]
     abbreviation = entry.get("abbr")
 
     with st.container(border=True):
         if abbreviation:
-            st.markdown(f"### **{abbreviation}** — {word}")
+            st.markdown(f"### **{abbreviation}** — {entry['word']}")
         elif entry["is_noun"] and entry["cases"]:
             article = entry["cases"][0].split()[0]
-            st.markdown(f"### **{word}, {article}**")
+            st.markdown(f"### **{entry['word']}, {article}**")
         else:
-            st.markdown(f"### **{word}**")
+            st.markdown(f"### **{entry['word']}**")
 
         st.markdown(
             f"<p style='font-size:20px;'><b>{entry['translation']}</b></p>",
             unsafe_allow_html=True,
         )
 
-        # Кнопка стоит сразу после перевода
         if st.button(
             "Mehr erfahren",
             key=button_key,
             use_container_width=True,
         ):
-            open_entry_dialog(entry)
+            st.session_state["active_entry_key"] = normalize_word(entry["word"])
+            open_entry_dialog()
 
 
 st.markdown(
@@ -579,6 +620,18 @@ except Exception as error:
     st.error(f"Ошибка: {error}")
     entries = []
 
+# Создаём индекс терминов и аббревиатур для перехода по перекрёстным ссылкам
+entries_by_key = {}
+
+for entry in entries:
+    entry.setdefault("cross_refs", [])
+    entries_by_key.setdefault(normalize_word(entry["word"]), entry)
+
+    abbreviation = entry.get("abbr")
+    if abbreviation:
+        entries_by_key.setdefault(normalize_word(abbreviation), entry)
+
+
 categories_map = load_categories("categories.txt")
 
 search = st.text_input("🔍 Wortsuche (Deutsch oder Russisch)", "")
@@ -630,6 +683,3 @@ for tab, category_name in zip(tabs, tab_names):
                         entry,
                         button_key=f"details_{category_name}_{idx}",
                     )
-
-
-
