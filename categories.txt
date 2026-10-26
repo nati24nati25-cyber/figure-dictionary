@@ -4,7 +4,9 @@ abheben | Technik
 abrollen  | Technik
 abspringen  | Technik
 Absprung | Technik
+Abwärmen | Technik
 Auftritt | Technik
+Aufwärmen | Technik
 ausführen | Technik
 auslaufen |Technik
 ausstrecken | Technik
