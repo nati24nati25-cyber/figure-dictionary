@@ -727,6 +727,6 @@ for tab, category_name in zip(tabs, tab_names):
                         entry,
                         button_key=f"details_{category_name}_{idx}",
                     )
-```
+
 
 
