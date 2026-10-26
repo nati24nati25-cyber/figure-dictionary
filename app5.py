@@ -5,6 +5,7 @@ import os
 import re
 import base64
 import uuid
+import html
 
 
 st.set_page_config(
@@ -491,8 +492,14 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
 
         for key in ["Definition", "Herkunft", "Beispiel des Gebrauchs"]:
             if sections.get(key):
-                st.markdown(f"**{key}:** {sections[key]}")
+                text = html.escape(sections[key]).replace("\n", "<br>")
+                title = html.escape(key)
 
+                st.markdown(
+                    f'<p style="text-align: justify;">'
+                    f"<strong>{title}:</strong> {text}</p>",
+                    unsafe_allow_html=True,
+                )
     cross_refs = entry.get("cross_refs", [])
 
     if cross_refs:
