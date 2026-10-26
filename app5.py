@@ -644,6 +644,10 @@ st.markdown(
         border-radius: 16px;
         box-shadow: 0 6px 22px rgba(56, 91, 120, 0.08);
     }
+        [data-testid="stDialog"] > div {
+        width: min(90vw, 650px) !important;
+        max-width: min(90vw, 650px) !important;
+    }
     </style>
     """,
     unsafe_allow_html=True,
