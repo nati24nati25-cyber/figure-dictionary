@@ -437,7 +437,7 @@ def show_cases_table(cases):
             width: 24%;
         }
         .cases-table td {
-            text-align: center;
+            text-align: left;
             overflow-wrap: anywhere;
         }
         </style>
