@@ -180,6 +180,7 @@ Wechselsitzpirouette | Pirouetten
 Biellmannpirouette| Pirouetten
 Himmelspirouette | Pirouetten
 Spagatpirouette | Pirouetten
+Kreuzstandpirouette | Pirouetten
 
 Wechselpirouette | Pirouetten
 Pirouettenkombination | Pirouetten
