@@ -96,7 +96,7 @@ def parse_entry(line):
     current_text = []
 
     rubric_pattern = re.compile(
-        r"^(Definition|Herkunft|Beispiel des Gebrauchs):\s*(.*)$",
+        r"^(Definition|Herkunft|Beispiel des Gebrauchs|Querverweise):\s*(.*)$",
         re.IGNORECASE,
     )
 
@@ -116,6 +116,7 @@ def parse_entry(line):
                 "definition": "Definition",
                 "herkunft": "Herkunft",
                 "beispiel des gebrauchs": "Beispiel des Gebrauchs",
+                "querverweise": "Querverweise",
             }
             current_key = key_names.get(key_lower, match.group(1))
             start_text = match.group(2).strip()
