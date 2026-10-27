@@ -137,6 +137,7 @@ Parallelsprung | Sprünge
 Kombinationsprung | Sprünge
 
 Jetésprung | Sprünge
+Spreizsprung | Sprünge
 
 Einlauf | Sprünge
 Absprung  | Sprünge
@@ -235,6 +236,7 @@ Mond | Choreosequenz
 Rehsprung | Choreosequenz
 Spagatsprung | Choreosequenz
 Spirale | Choreosequenz
+Spreizsprung | Choreosequenz
 Walley | Choreosequenz
 
 
