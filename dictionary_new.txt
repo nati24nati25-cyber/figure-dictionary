@@ -242,6 +242,8 @@ Laufschritt |Substantiv| maskulinum | елочка |der Laufschritt |des Laufsch
 
 Linie |Substantiv| femininum | линия |die Linie | der Linie | der Linie| die Linie | die Linien |  der Linien | den Linien |  die Linien |Definition: eine grundlegende Formation, die Mannschaft stellt sich in einer Reihe (Schlange) oder in einer Linie (Reihe nebeneinander) auf und bewegt sich als einheitliche Formation über die Eisfläche |Beispiel des Gebrauchs: Achtet in der Linie darauf, dass niemand aus der Achse fällt.|linie.png|
 
+links | Adverb | левая (нога) |Definition: auf das linke Standbein sein| Beispiel des Gebrauchs: Bremsen kann man auf allen vier Kanten, bei beidbeinigem oder einbeinigem Stand, also sowohl links als auch rechts auf der Innen- wie auch der Außenkante.|
+
 Lutz |Substantiv| maskulinum | лутц | der Lutz| des Lutz| dem Lutz| den Lutz | die Lutz| der Lutz | den Lutz| die Lutz| Definition: mit einem Bogen rückwärts eingeleiteter Sprung, bei dem der Läufer bzw. die Läuferin mit der Fußspitze auf den Boden tippt, abspringt, eine bzw. mehrere Drehungen in der Luft entgegen der im Anlauf eingeschlagenen Richtung macht und mit dem anderen Fuß wieder aufkommt | Herkunft: nach dem österreichischen Kunstläufer A. Lutz| Beispiel des Gebrauchs: Beim Lutz ist der letzte Anlaufschritt auf der rückwärts auswärts Kante des linken Fußes, der Absprung erfolgt von der Zacke des rechten Schuhs. |lutz.jpg|
 
 Mohawk |Substantiv| maskulinum | моухок |der Mohawk |des Mohawks| dem Mohawk | den Mohawk| die Mohawks| der Mohawks| den Mohawks| die Mohawks| Definition: Schritt mit halber Drehung, ohne Kantenwechsel, also von Innenkante auf Innenkante oder von Außenkante auf Außenkante| Herkunft: aus Engl.: mohawk|Beispiel des Gebrauchs: Nach der Hüftstellung zu Ende des Schritts unterscheidet man offene und geschlossene Mohawks.|mohawk.jpg|
@@ -271,6 +273,8 @@ Pistole |Substantiv| femininum | пистолетик |die Pistole | der Pistole
 Pivot |Substantiv| neutrum | пивотинг |das Pivot |des Pivots| dem Pivot | das Pivot |die Pivots |der Pivots | den Pivots | die Pivots |Definition: ein kollektiver Manövrierzug, bei dem eine gesamte Formation (Linie oder Block) eine 180°‑Drehung um einen festen Drehpunkt (Pivot-Punkt) rotiert|Herkunft: aus Engl.: pivot|Beispiel des Gebrauchs: Beim Pivot ist der äußere Läufer der Anker: er bleibt quasi stehen, der Rest dreht sich um ihn herum.|pivot.jpg|
 
 Präsentation |Substantiv| femininum | исполнение программы| die Präsentation | der Präsentation | der Präsentation | die Präsentation | die Präsentationen |  der Präsentationen | den Präsentationen |  die Präsentationen | Definition: die künstlerische Darbietung des Programms und die Fähigkeit der Athleten, die Musik und die Choreografie lebendig zu vermitteln |Beispiel des Gebrauchs: Die Präsentation des Programms war stark: Die Athleten haben die Musik richtig gespürt und jedes Element mit Ausdruck gezeigt – das Publikum war begeistert.|
+
+rechts | Adverb | правая (нога) |Definition: das rechte Standbein sein | Beispiel des Gebrauchs: Die Füße befinden sich in paralleler Stellung und setzen La, Re, La auf, bzw. die gleiche Schrittfolge rechts beginnend.|
 
 Rehsprung |Substantiv| maskulinum | прыжок олень | der Rehsprung | des Rehsprungs | dem Rehsprung | den Rehsprung | die Rehsprünge | der Rehsprünge | den Rehsprüngen | die Rehsprünge|Definition: ein Sprung von einem Bein auf das andere, bei dem das vordere Bein im Moment des Absprungs zunächst gebeugt und dann gestreckt wird| Beispiel des Gebrauchs: Bei dem Rehsprung wird das vordere Bein angewinkelt.|rehsprung.jpg|
 
@@ -447,7 +451,7 @@ Eu. | Euler|
 F. | Flip|
 FSp. | eingesprungene Pirouette|
 ISU | Die Internationale Eislaufunion|
-L. | links|
+L. | links| 
 Lo. | Rittberger|
 LSp | Himmelspirouette|
 Lz. | Lutz|
