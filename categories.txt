@@ -42,6 +42,8 @@ kreisinner | Technik
 landen | Technik
 laufen | Technik
 Laufrichtung | Technik
+links | Technik
+rechts | Technik
 Richtungswechsel | Technik
 Rotation | Technik
 rückwärts | Technik
