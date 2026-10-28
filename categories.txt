@@ -72,6 +72,7 @@ Zacke | Technik
 
 Auswärtszirkel | Grundelementen
 Einwärtszirkel | Grundelementen
+Flieger | Grundelementen
 Hocke | Grundelementen
 Storch | Grundelementen
 Pferdchen | Grundelementen
@@ -229,7 +230,6 @@ Choreosequenz | Choreosequenz
 Arabeske | Choreosequenz
 Cantilever | Choreosequenz
 Fechter | Choreosequenz
-Flieger | Choreosequenz
 Hydroblade | Choreosequenz
 Ina Bauer| Choreosequenz
 Mond | Choreosequenz
