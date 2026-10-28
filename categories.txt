@@ -232,6 +232,7 @@ Cantilever | Choreosequenz
 Fechter | Choreosequenz
 Hydroblade | Choreosequenz
 Ina Bauer| Choreosequenz
+Kerzenleuchter | Choreosequenz
 Mond | Choreosequenz
 Rehsprung | Choreosequenz
 Spagatsprung | Choreosequenz
