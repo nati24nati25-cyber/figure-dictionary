@@ -251,6 +251,7 @@ Walley | Choreosequenz
 Einzellauf | Einzellauf
 Kurzprogramm | Einzellauf
 Kür | Einzellauf
+Schrittfolge | Einzellauf
 
 #######  Einzellauf   #######
 
@@ -276,7 +277,7 @@ Hebung | Paarlauf
 Todesspirale | Paarlauf
 
 Walzerschritt | Paarlauf
-Schrittfolge | Paarlauf
+
 
 Kurzprogramm | Paarlauf
 Kür | Paarlauf
