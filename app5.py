@@ -540,20 +540,45 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
     if cross_refs:
         st.markdown("### 🔗 Bedeutungsverwandte Wörter")
 
-        for index, reference in enumerate(cross_refs):
-            target = entries_by_key.get(normalize_word(reference))
+        st.markdown(
+            """
+            <style>
+            .st-key-crossrefs [data-testid="stButton"] button {
+                width: auto !important;
+                min-height: 0 !important;
+                padding: 0.2rem 0 !important;
+                background: transparent !important;
+                border: none !important;
+                box-shadow: none !important;
+                color: #2563eb !important;
+                justify-content: flex-start !important;
+            }
 
-            if target:
-                target_key = normalize_word(target["word"])
+            .st-key-crossrefs [data-testid="stButton"] button:hover {
+                background: transparent !important;
+                color: #1d4ed8 !important;
+                text-decoration: underline;
+            }
+            </style>
+            """,
+            unsafe_allow_html=True,
+        )
 
-                if st.button(
-                    reference,
-                    key=f"xref_{normalize_word(word)}_{index}",
-                    use_container_width=True,
-                ):
-                    st.session_state["active_entry_key"] = target_key
-            else:
-                st.caption(f"{reference} — Eintrag nicht найден")
+        with st.container(key="crossrefs"):
+            for index, reference in enumerate(cross_refs):
+                target = entries_by_key.get(normalize_word(reference))
+
+                if target:
+                    target_key = normalize_word(target["word"])
+
+                    if st.button(
+                        f"↗ {reference}",
+                        key=f"xref_{normalize_word(word)}_{index}",
+                        use_container_width=False,
+                    ):
+                        st.session_state["active_entry_key"] = target_key
+                else:
+                    st.caption(f"{reference} — Eintrag nicht найден")
 
 
 @st.dialog(" ", width="large")
