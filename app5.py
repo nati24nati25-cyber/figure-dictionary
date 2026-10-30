@@ -139,8 +139,7 @@ def parse_entry(line):
         reference.strip()
         for reference in re.split(
             r"[,;]",
-            sections.get("Bedeutungsverwandte Wörter
-            ", ""),
+            sections.get("Bedeutungsverwandte Wörter", ""),
         )
         if reference.strip()
     ]
