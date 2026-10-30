@@ -102,7 +102,7 @@ def parse_entry(line):
     current_text = []
 
     rubric_pattern = re.compile(
-        r"^(Definition|Herkunft|Beispiel des Gebrauchs|Querverweise):\s*(.*)$",
+        r"^(Definition|Herkunft|Beispiel des Gebrauchs|Bedeutungsverwandte Wörter):\s*(.*)$",
         re.IGNORECASE,
     )
 
@@ -110,7 +110,7 @@ def parse_entry(line):
         "definition": "Definition",
         "herkunft": "Herkunft",
         "beispiel des gebrauchs": "Beispiel des Gebrauchs",
-        "querverweise": "Querverweise",
+        "bedeutungsverwandte wörter": "Bedeutungsverwandte Wörter",
     }
 
     for item in extra:
@@ -139,7 +139,8 @@ def parse_entry(line):
         reference.strip()
         for reference in re.split(
             r"[,;]",
-            sections.get("Querverweise", ""),
+            sections.get("Bedeutungsverwandte Wörter
+            ", ""),
         )
         if reference.strip()
     ]
@@ -538,7 +539,7 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
     cross_refs = entry.get("cross_refs", [])
 
     if cross_refs:
-        st.markdown("### 🔗 Querverweise")
+        st.markdown("### 🔗 Bedeutungsverwandte Wörter")
 
         for index, reference in enumerate(cross_refs):
             target = entries_by_key.get(normalize_word(reference))
