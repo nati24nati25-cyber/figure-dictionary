@@ -8,10 +8,7 @@ import uuid
 import html
 
 
-st.set_page_config(
-    page_title="Eiskunstlauf-Wörterbuch",
-    layout="wide",
-)
+
 
 
 CATEGORIES = [
