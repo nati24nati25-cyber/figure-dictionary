@@ -97,19 +97,6 @@ with tab_de:
         Für einen professionellen Deploy wird die Verpackung in einen Docker-Container (Datei `Dockerfile`) empfohlen.
         """)
 
-    # -----------------------------------------------------------
-    # Блок 5: Zukünftige Schritte
-    # -----------------------------------------------------------
-    st.subheader("🚀 Zukünftige Entwicklungsschritte")
-    st.write("""
-    *   **Patentierung der Datenbank:** Registrierung des Wörterbuchs als Datenbank beim Rospatent,
-        um die wissenschaftliche und praktische Wertigkeit des Produkts nachzuweisen.
-    *   **Publikation:** Vorbereitung eines Artikels für die Zeitschrift „Вопросы лексикографии“
-        mit Beschreibung der Methodik der Korpuszusammenstellung, der Struktur der Wörterbuchzonen,
-        der Ergebnisse der Approbation und der Limitationen der Plattform.
-    *   **Koruserweiterung:** Hinzufügung syntaktischer Skizzen (Kollokationen) auf Basis
-        offener deutschsprachiger Korpora (DWDS, Leipzig Corpora Collection).
-    """)
 
 # ===============================================================
 # РУССКАЯ ВЕРСИЯ (вторая)
@@ -194,15 +181,4 @@ with tab_ru:
         Для промышленного деплоя рекомендуется упаковка в Docker-контейнер (файл `Dockerfile` прилагается).
         """)
 
-    # -----------------------------------------------------------
-    # Блок 5: Дальнейшие шаги
-    # -----------------------------------------------------------
-    st.subheader("🚀 Дальнейшие шаги развития проекта")
-    st.write("""
-    *   **Патентование БД:** Регистрация словаря как базы данных в Роспатенте для подтверждения
-        научной и практической ценности продукта.
-    *   **Публикация:** Подготовка статьи для журнала «Вопросы лексикографии» с описанием методики
-        сбора корпуса, структуры словарных зон, результатов апробации и ограничений платформы.
-    *   **Расширение корпуса:** Добавление синтаксических скетчей (коллокаций) на базе открытых
-        корпусов немецкого языка (DWDS, Leipzig Corpora Collection).
-    """)
+    
