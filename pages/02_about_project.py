@@ -1,8 +1,6 @@
 
 import streamlit as st
 
-# Настройка заголовка страницы (будет в вкладке браузера)
-st.set_page_config(page_title="О проекте", page_icon="📚")
 
 st.title("📘 О проекте: Словарь терминов фигурного катания")
 
