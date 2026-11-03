@@ -8,5 +8,5 @@ st.set_page_config(
 )
 
 st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
-st.write("Wählen Sie im Menü links einen Abschnitt aus: Wörterbuch, Über das Projekt oder Startseite.")
+st.write("Wählen Sie im Menü links einen Abschnitt aus: **Wörterbuch** oder **Über das Projekt**.")
 
