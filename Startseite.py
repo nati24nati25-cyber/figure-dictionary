@@ -44,17 +44,26 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ---------- Навигация: цветная плашка ----------
+# ---------- Навигация: прямые переходы ----------
 if lang == "Deutsch":
-    st.info(
-        "🧭 **Wählen Sie einen Abschnitt aus:**  Wörterbuch · Über das Projekt · Wörterbuchzonen",
-        icon="➡️",
-    )
+    st.markdown("🧭 **Wählen Sie einen Abschnitt aus:**")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.page_link("pages/01_Wörterbuch.py", label="📖 Wörterbuch")
+    with col2:
+        st.page_link("pages/02_Über_das_Projekt.py", label="ℹ️ Über das Projekt")
+    with col3:
+        st.page_link("pages/03_Wörterbuchzonen.py", label="🗂️ Wörterbuchzonen")
 else:
-    st.info(
-        "🧭 **Выберите раздел:**  Словарь · О проекте · Тематические зоны",
-        icon="➡️",
-    )
+    st.markdown("🧭 **Выберите раздел:**")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.page_link("pages/01_Wörterbuch.py", label="📖 Словарь")
+    with col2:
+        st.page_link("pages/02_Über_das_Projekt.py", label="ℹ️ О проекте")
+    with col3:
+        st.page_link("pages/03_Wörterbuchzonen.py", label="🗂️ Тематические зоны")
+
 
 # ---------- Приветствие ----------
 if lang == "Deutsch":
