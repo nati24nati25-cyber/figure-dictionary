@@ -22,7 +22,7 @@ def img_to_b64(path):
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
-b64 = img_to_b64("banner.png")
+b64 = img_to_b64("banner.jpg")
 
 st.markdown(
     f"""
