@@ -84,6 +84,6 @@ st.divider()
 
 # ---------- Подвал ----------
 if lang == "Deutsch":
-    st.markdown("Made with ❄️ für den Eiskunstlauf — viel Erfolg beim Lernen!")
+    st.markdown("Made with ❤️ für den Eiskunstlauf — viel Erfolg beim Lernen!")
 else:
-    st.markdown("Сделано с ❄️ для фигурного катания — успехов в изучении!")
+    st.markdown("Сделано с ❤️ для фигурного катания — успехов в изучении!")
