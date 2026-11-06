@@ -29,13 +29,15 @@ st.markdown(
     <style>
     .hero {{
         background-image: url(data:image/png;base64,{b64});
-        background-size: cover;
-        background-position: center top;
-        min-height: 280px;
+        background-size: contain;          /* было cover → стало contain: картинка не обрезается */
+        background-repeat: no-repeat;       /* чтобы не дублировалась плиткой */
+        background-position: center top;    /* прижимаем к верху, чтобы голова не уходила */
+        min-height: 280px;                  /* высота блока; если фигуристка всё ещё мелкая — поставь 350 или 400 */
         border-radius: 20px;
         margin-top: 10px;
         margin-bottom: 20px;
     }}
+
     </style>
     <div class="hero"></div>
     """,
