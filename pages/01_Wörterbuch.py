@@ -11,7 +11,7 @@ import html
 col1, _ = st.columns([1, 5])
 with col1:
     if st.button("🔙 Zur Startseite / Назад на главную", type="secondary"):
-        st.switch_page("Startseite")
+        st.switch_page("Startseite.py")
 st.divider()
 
 
