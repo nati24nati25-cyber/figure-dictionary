@@ -16,10 +16,8 @@ if lang == "Deutsch":
 else:
     st.title("📖 Немецко-русский словарь терминологии фигурного катания")
 
-st.image(
-    "https://images.unsplash.com/photo-1541611179485-d28dd5a78b7e?q=80&w=1200&auto=format&fit=crop",
-    use_container_width=True,
-)
+# 👇 ВОТ СЮДА ВСТАВЛЯЕМ ЭТУ СТРОКУ 👇
+st.image("banner.webp", use_container_width=True) 
 
 # ---------- Навигация: цветная плашка ----------
 if lang == "Deutsch":
