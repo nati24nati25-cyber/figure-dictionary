@@ -18,20 +18,7 @@ else:
     st.title("📖 Немецко-русский словарь терминологии фигурного катания")
     st.caption("Выберите раздел в меню слева: **Словарь**, **О проекте** или **Тематические зоны**.")
 
-# ---------- Статистика ----------
-KATEGORIEN = [
-    "Technik", "Sprünge", "Pirouetten", "Schritte", "Choreosequenz",
-    "Grundelemente", "Einzellauf", "Paarlauf", "Eistanz",
-    "Synchron,Eiskunstlauf", "Richterlexikon", "Abkürzungen", "Zubehör",
-]
-N_WÖRTER = 240
-N_KATEGORIEN = len(KATEGORIEN)
 
-c1, c2 = st.columns(2)
-c1.metric("📚 Wörter / Слов" if lang == "Deutsch" else "📚 Всего слов",
-          N_WÖRTER)
-c2.metric("🗂️ Kategorien / Категорий" if lang == "Deutsch" else "🗂️ Категорий",
-          N_KATEGORIEN)
 
 # ---------- Приветствие ----------
 if lang == "Deutsch":
