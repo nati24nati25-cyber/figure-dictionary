@@ -10,16 +10,48 @@ st.set_page_config(
 # ---------- Выбор языка (сначала!) ----------
 lang = st.sidebar.radio("🌐 Sprache / Язык", ["Deutsch", "Русский"])
 
-# ---------- Заголовок (один раз, двуязычный) ----------
+# ---------- Заголовок ----------
 if lang == "Deutsch":
     st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
-    st.caption("Wählen Sie im Menü links einen Abschnitt aus: **Wörterbuch**, **Über das Projekt** oder **Wörterbuchzonen**.")
 else:
     st.title("📖 Немецко-русский словарь терминологии фигурного катания")
-    st.caption("Выберите раздел в меню слева: **Словарь**, **О проекте** или **Тематические зоны**.")
 
+# ---------- Навигация: цветная плашка ----------
+if lang == "Deutsch":
+    st.info(
+        "🧭 **Wählen Sie einen Abschnitt aus:**  Wörterbuch · Über das Projekt · Wörterbuchzonen",
+        icon="➡️",
+    )
+else:
+    st.info(
+        "🧭 **Выберите раздел:**  Словарь · О проекте · Тематические зоны",
+        icon="➡️",
+    )
 
+# ---------- Приветствие ----------
+if lang == "Deutsch":
+    st.markdown(
+        """
+        ### Willkommen! 🧊
 
+        Ein Projekt für alle, die den Eiskunstlauf auf Deutsch und Russisch
+        verstehen wollen. In diesem Wörterbuch findest du **240 Einträge**
+        aus 13 Kategorien — von **Sprüngen** und **Pirouetten** bis zum
+        **Paarlauf** und **Richterlexikon**. Jedes Wort wird mit Übersetzung
+        und Grammatik erklärt.
+        """
+    )
+else:
+    st.markdown(
+        """
+        ### Добро пожаловать! 🧊
+
+        Проект для всех, кто хочет понимать фигурное катание на немецком
+        и русском. В словаре **240 записей** в 13 категориях — от **прыжков**
+        и **вращений** до **парного катания** и **словаря судьи**.
+        Каждое слово даётся с переводом и грамматикой.
+        """
+    )
 # ---------- Приветствие ----------
 if lang == "Deutsch":
     st.caption("Ein Projekt für alle, die den Eiskunstlauf auf Deutsch und Russisch verstehen wollen.")
