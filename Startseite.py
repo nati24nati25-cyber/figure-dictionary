@@ -34,7 +34,7 @@ st.markdown(
             rgba(255, 255, 255, 0.75)
         ), url(data:image/png;base64,{b64});
         background-size: cover;
-        background-position: center;
+        background-position: center top;   
         padding: 60px 40px;
         border-radius: 20px;
         margin-bottom: 20px;
