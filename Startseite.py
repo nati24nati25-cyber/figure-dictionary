@@ -11,18 +11,19 @@ st.set_page_config(
 # ---------- Выбор языка (сначала!) ----------
 lang = st.sidebar.radio("🌐 Sprache / Язык", ["Deutsch", "Русский"])
 
-# ---------- Заголовок ----------
-if lang == "Deutsch":
-    st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
-else:
-    st.title("📖 Немецко-русский словарь терминологии фигурного катания")
-
-# ---------- Баннер-фон ----------
+# ---------- Баннер-фон (заголовок внутри него) ----------
 def img_to_b64(path):
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
 b64 = img_to_b64("banner.png")
+
+titel = ("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie"
+         if lang == "Deutsch"
+         else "📖 Немецко-русский словарь терминологии фигурного катания")
+untertitel = ("Ein Projekt mit ❤️ für den Eiskunstlauf"
+              if lang == "Deutsch"
+              else "Проект с ❤️ для фигурного катания")
 
 st.markdown(
     f"""
@@ -44,12 +45,13 @@ st.markdown(
     </style>
 
     <div class="hero">
-        <h1>📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie</h1>
-        <h3 style="font-weight: normal;">Ein Projekt mit ❤️ für den Eiskunstlauf</h3>
+        <h1>{titel}</h1>
+        <h3 style="font-weight: normal;">{untertitel}</h3>
     </div>
     """,
     unsafe_allow_html=True,
 )
+
 # ---------- Навигация: цветная плашка ----------
 if lang == "Deutsch":
     st.info(
@@ -114,7 +116,6 @@ else:
         st.write("Все категории — от прыжков до инвентаря — отсортированы и на виду.")
 
 st.divider()
-
 
 # ---------- Подвал ----------
 if lang == "Deutsch":
