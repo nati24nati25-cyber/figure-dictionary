@@ -8,63 +8,41 @@ st.set_page_config(
     page_icon="⛸️",
 )
 
-# ---------- Выбор языка ----------
+# ---------- Выбор языка (сначала!) ----------
 lang = st.sidebar.radio("🌐 Sprache / Язык", ["Deutsch", "Русский"])
 
-# ---------- Заголовок (строго сверху) ----------
+# ---------- Заголовок ----------
 if lang == "Deutsch":
     st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
 else:
     st.title("📖 Немецко-русский словарь терминологии фигурного катания")
 
-# ---------- Подзаголовок (строго под заголовком) ----------
-untertitel = ("Ein Projekt mit ❤️ für den Eiskunstlauf"
-              if lang == "Deutsch"
-              else "Проект с ❤️ для фигурного катания")
-st.subheader(untertitel)
-
-# ---------- Картинка-баннер (чуть ниже, голова не обрежется!) ----------
-# Сначала готовим base64, чтобы картинка точно загрузилась
+# ---------- Баннер-фон (картинка отдельно, под заголовком) ----------
 def img_to_b64(path):
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
 b64 = img_to_b64("banner.png")
 
-# Добавляем CSS для полупрозрачной вуали прямо на картинку
 st.markdown(
     f"""
     <style>
-    .banner-wrapper {{
-        position: relative;
-        display: block;
-        margin-top: 20px;       /* отступ от подзаголовка */
+    .hero {{
+        background-image: url(data:image/png;base64,{b64});
+        background-size: cover;
+        background-position: center top;
+        min-height: 280px;
         border-radius: 20px;
-        overflow: hidden;       /* чтобы вуаль не вылезала за скругления */
-    }}
-    .banner-wrapper::after {{
-        content: "";
-        position: absolute;
-        top: 0; left: 0; right: 0; bottom: 0;
-        background: rgba(255, 255, 255, 0.75); /* белая вуаль, можно менять 0.75 на 0.5 или 0.85 */
-        pointer-events: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }}
     </style>
+    <div class="hero"></div>
     """,
     unsafe_allow_html=True,
 )
 
-# Вставляем картинку в обёртку
-st.markdown(
-    f"""
-    <div class="banner-wrapper">
-        <img src="data:image/png;base64,{b64}" style="width: 100%; height: auto; display: block;">
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
-# ---------- Навигация: цветная плашка (сразу под картинкой) ----------
+# ---------- Навигация: цветная плашка ----------
 if lang == "Deutsch":
     st.info(
         "🧭 **Wählen Sie einen Abschnitt aus:**  Wörterbuch · Über das Projekt · Wörterbuchzonen",
@@ -76,17 +54,16 @@ else:
         icon="➡️",
     )
 
-# Дальше твой код (приветствие, разделы и т.д.) без изменений...
-
+# ---------- Приветствие ----------
 if lang == "Deutsch":
     st.markdown(
         """
         ### Willkommen! ⛸️❄️
 
         Ein Projekt für alle, die den Eiskunstlauf auf Deutsch und Russisch
-        verstehen wollen. В этом Wörterbuch findest du **240 Einträge**
+        verstehen wollen. In diesem Wörterbuch findest du **240 Einträge**
         aus 13 Kategorien — von **Sprüngen** und **Pirouetten** bis zum
-        **Paarlauf** и **Richterlexikon**. Jedes Wort wird mit Übersetzung
+        **Paarlauf** und **Richterlexikon**. Jedes Wort wird mit Übersetzung
         und Grammatik erklärt.
         """
     )
@@ -102,8 +79,35 @@ else:
         """
     )
 
-# ... (остальной твой код с разделами и подвалом) ...
+# ---------- Разделы: по одному блоку на каждый язык ----------
+if lang == "Deutsch":
+    st.header("🧭 Wo finde ich was?")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.subheader("📖 Wörterbuch")
+        st.write("Die komplette Wortliste mit Übersetzung, Grammatik und Suchfunktion.")
+    with col2:
+        st.subheader("ℹ️ Über das Projekt")
+        st.write("Worum es geht und wie das Wörterbuch entstanden ist.")
+    with col3:
+        st.subheader("🗂️ Wörterbuchzonen")
+        st.write("Alle Kategorien — von Sprüngen bis Zubehör — sortiert und übersichtlich.")
+else:
+    st.header("🧭 Что где находится?")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.subheader("📖 Словарь")
+        st.write("Полный список слов с переводом, грамматикой и поиском.")
+    with col2:
+        st.subheader("ℹ️ О проекте")
+        st.write("О чём проект и как появился словарь.")
+    with col3:
+        st.subheader("🗂️ Тематические зоны")
+        st.write("Все категории — от прыжков до инвентаря — отсортированы и на виду.")
 
+st.divider()
+
+# ---------- Подвал ----------
 if lang == "Deutsch":
     st.markdown("Made with ❤️ für den Eiskunstlauf — viel Erfolg beim Lernen!")
 else:
