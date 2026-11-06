@@ -63,15 +63,7 @@ else:
     with col3:
         st.subheader("🗂️ Wörterbuchzonen")
         st.write("Alle Kategorien — von Sprüngen bis Zubehör — sortiert und übersichtlich.")
-else:
-    st.caption("Проект для всех, кто хочет понимать фигурное катание на немецком и русском.")
-    st.markdown("""
-    Добро пожаловать! 🧊
 
-    В словаре **240 записей** в 13 категориях — от **прыжков** и **вращений**
-    до **парного катания** и **словаря судьи**. Каждое слово даётся
-    с переводом и грамматикой.
-    """)
     st.header("🧭 Что где находится?")
     col1, col2, col3 = st.columns(3)
     with col1:
