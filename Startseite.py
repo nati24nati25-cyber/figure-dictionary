@@ -64,9 +64,4 @@ else:
 
 st.divider()
 
-# ---------- Категории «плашками» ----------
-if lang == "Deutsch":
-    st.subheader("🗂️ Wörterbuchzonen")
-else:
-    st.subheader("🗂️ Тематические зоны")
-st.write(" ".join(f"`{k}`" for k in KATEGORIEN))
+
