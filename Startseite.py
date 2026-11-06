@@ -32,7 +32,7 @@ else:
 if lang == "Deutsch":
     st.markdown(
         """
-        ### Willkommen! 🧊
+        ### Willkommen! ⛸️❄️
 
         Ein Projekt für alle, die den Eiskunstlauf auf Deutsch und Russisch
         verstehen wollen. In diesem Wörterbuch findest du **240 Einträge**
@@ -44,7 +44,7 @@ if lang == "Deutsch":
 else:
     st.markdown(
         """
-        ### Добро пожаловать! 🧊
+        ### Добро пожаловать! ⛸️❄️
 
         Проект для всех, кто хочет понимать фигурное катание на немецком
         и русском. В словаре **240 записей** в 13 категориях — от **прыжков**
