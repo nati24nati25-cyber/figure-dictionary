@@ -52,16 +52,6 @@ else:
         Каждое слово даётся с переводом и грамматикой.
         """
     )
-# ---------- Приветствие ----------
-if lang == "Deutsch":
-    st.caption("Ein Projekt für alle, die den Eiskunstlauf auf Deutsch und Russisch verstehen wollen.")
-    st.markdown("""
-    Willkommen! 🧊
-
-    In diesem Wörterbuch findest du **240 Einträge** aus 13 Kategorien —
-    von **Sprüngen** und **Pirouetten** bis zum **Paarlauf** und
-    **Richterlexikon**. Jedes Wort wird mit Übersetzung und Grammatik erklärt.
-    """)
     st.header("🧭 Wo finde ich was?")
     col1, col2, col3 = st.columns(3)
     with col1:
