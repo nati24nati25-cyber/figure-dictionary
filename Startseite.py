@@ -10,54 +10,74 @@ st.set_page_config(
 st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
 st.write("Wählen Sie im Menü links einen Abschnitt aus: **Wörterbuch**, **Über das Projekt** oder **Wörterbuchzonen**.")
 
+# ---------- Выбор языка ----------
+lang = st.sidebar.radio("🌐 Sprache / Язык", ["Deutsch", "Русский"])
+
+st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
+
+# ---------- Статистика ----------
+KATEGORIEN = [
+    "Technik", "Sprünge", "Pirouetten", "Schritte", "Choreosequenz",
+    "Grundelementen", "Einzellauf", "Paarlauf", "Eistanz",
+    "Synchroneiskunstlauf", "Richterlexikon", "Abkürzungen", "Zubehör",
+]
+N_WÖRTER = 240
+N_KATEGORIEN = len(KATEGORIEN)
+
+c1, c2 = st.columns(2)
+c1.metric("📚 Wörter / Слов" if lang == "Deutsch" else "📚 Всего слов",
+          N_WÖRTER)
+c2.metric("🗂️ Kategorien / Категорий" if lang == "Deutsch" else "🗂️ Категорий",
+          N_KATEGORIEN)
+
 # ---------- Приветствие ----------
-st.markdown("""
-Willkommen! 🧊
+if lang == "Deutsch":
+    st.caption("Ein Projekt für alle, die den Eiskunstlauf auf Deutsch und Russisch verstehen wollen.")
+    st.markdown("""
+    Willkommen! 🧊
 
-Dieses Wörterbuch hilft dir, die wichtigsten Begriffe des Eiskunstlaufs auf Deutsch
-und Russisch zu lernen: von **Salchow** und **Lutz** bis zu **Walzsprüngen** und
-**Hebefiguren**. Jedes Wort wird mit Übersetzung, Grammatik und Beispielen erklärt.
-""")
+    In diesem Wörterbuch findest du **240 Einträge** aus 13 Kategorien —
+    von **Sprüngen** und **Pirouetten** bis zum **Paarlauf** und
+    **Richterlexikon**. Jedes Wort wird mit Übersetzung und Grammatik erklärt.
+    """)
+    st.header("🧭 Wo finde ich was?")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.subheader("📖 Wörterbuch")
+        st.write("Die komplette Wortliste mit Übersetzung, Grammatik und Suchfunktion.")
+    with col2:
+        st.subheader("ℹ️ Über das Projekt")
+        st.write("Worum es geht und wie das Wörterbuch entstanden ist.")
+    with col3:
+        st.subheader("🗂️ Wörterbuchzonen")
+        st.write("Alle Kategorien — von Sprüngen bis Zubehör — sortiert und übersichtlich.")
+else:
+    st.caption("Проект для всех, кто хочет понимать фигурное катание на немецком и русском.")
+    st.markdown("""
+    Добро пожаловать! 🧊
 
-# ---------- Статистика из словаря ----------
-df = pd.read_csv("dictionary.csv")   # подставь свой файл/путь, как в 01_Wörterbuch.py
-
-n_words = len(df)
-n_verbs = int(df["grammar"].str.contains("Verb", na=False).sum())
-n_nouns = n_words - n_verbs
-
-c1, c2, c3 = st.columns(3)
-c1.metric("📚 Wörter insgesamt", n_words)
-c2.metric("🧍 Substantive", n_nouns)
-c3.metric("🏃 Verben", n_verbs)
-
-# ---------- Разделы ----------
-st.header("🧭 Wo finde ich was?")
-
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.subheader("📖 Wörterbuch")
-    st.write(
-        "Die komplette Wortliste mit Übersetzung, Grammatik "
-        "und Suchfunktion. Hier lernst du die Begriffe in Ruhe."
-    )
-
-with col2:
-    st.subheader("ℹ️ Über das Projekt")
-    st.write(
-        "Worum es geht, wie das Wörterbuch entstanden ist und "
-        "wer dahinter steckt."
-    )
-
-with col3:
-    st.subheader("🗂️ Wörterbuchzonen")
-    st.write(
-        "Themenzonen: Sprünge, Drehungen, Schrittfolgen, "
-        "Paarlaufen und mehr — alles nach Kategorien sortiert."
-    )
+    В словаре **240 записей** в 13 категориях — от **прыжков** и **вращений**
+    до **парного катания** и **словаря судьи**. Каждое слово даётся
+    с переводом и грамматикой.
+    """)
+    st.header("🧭 Что где находится?")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.subheader("📖 Словарь")
+        st.write("Полный список слов с переводом, грамматикой и поиском.")
+    with col2:
+        st.subheader("ℹ️ О проекте")
+        st.write("О чём проект и как появился словарь.")
+    with col3:
+        st.subheader("🗂️ Тематические зоны")
+        st.write("Все категории — от прыжков до инвентаря — отсортированы и на виду.")
 
 st.divider()
 
-# ---------- Подвал ----------
-st.markdown("Made with ❄️ für den Eiskunstlauf — viel Erfolg beim Lernen!")
+# ---------- Категории «плашками» ----------
+st.subheader("🗂️ Wörterbuchzonen / Тематические зоны" if lang == "Deutsch"
+             else "🗂️ Тематические зоны")
+st.write(" ".join(f"`{k}`" for k in KATEGORIEN))
+
+st.divider()
+st.markdown("Made with ❄️ für den Eiskunstlauf — viel Erfolg beim Lernen! / Успехов в изучении!")
