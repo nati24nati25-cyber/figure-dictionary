@@ -28,23 +28,6 @@ else:
         icon="➡️",
     )
 
-# ---------- Статистика ----------
-N_WÖRTER = 240
-KATEGORIEN = [
-    "Technik", "Sprünge", "Pirouetten", "Schritte", "Choreosequenz",
-    "Grundelemente", "Einzellauf", "Paarlauf", "Eistanz",
-    "Synchroneiskunstlauf", "Richterlexikon", "Abkürzungen", "Zubehör",
-]
-
-if lang == "Deutsch":
-    c1, c2 = st.columns(2)
-    c1.metric("📚 Wörter insgesamt", N_WÖRTER)
-    c2.metric("🗂️ Kategorien", len(KATEGORIEN))
-else:
-    c1, c2 = st.columns(2)
-    c1.metric("📚 Всего слов", N_WÖRTER)
-    c2.metric("🗂️ Категорий", len(KATEGORIEN))
-
 # ---------- Приветствие ----------
 if lang == "Deutsch":
     st.markdown(
@@ -98,14 +81,6 @@ else:
 
 st.divider()
 
-# ---------- Категории «плашками» ----------
-if lang == "Deutsch":
-    st.subheader("🗂️ Wörterbuchzonen")
-else:
-    st.subheader("🗂️ Тематические зоны")
-st.write(" ".join(f"`{k}`" for k in KATEGORIEN))
-
-st.divider()
 
 # ---------- Подвал ----------
 if lang == "Deutsch":
