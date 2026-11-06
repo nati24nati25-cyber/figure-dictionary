@@ -1,5 +1,6 @@
 
 import streamlit as st
+import base64
 
 st.set_page_config(
     page_title="Eiskunstlauf-Wörterbuch",
@@ -16,9 +17,39 @@ if lang == "Deutsch":
 else:
     st.title("📖 Немецко-русский словарь терминологии фигурного катания")
 
-# banner
-st.image("banner.png", use_container_width=True) 
+# ---------- Баннер-фон ----------
+def img_to_b64(path):
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode()
 
+b64 = img_to_b64("banner.png")
+
+st.markdown(
+    f"""
+    <style>
+    .hero {{
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.75),
+            rgba(255, 255, 255, 0.75)
+        ), url(data:image/png;base64,{b64});
+        background-size: cover;
+        background-position: center;
+        padding: 60px 40px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }}
+    .hero h1 {{
+        margin: 0;
+    }}
+    </style>
+
+    <div class="hero">
+        <h1>📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie</h1>
+        <h3 style="font-weight: normal;">Ein Projekt mit ❤️ für den Eiskunstlauf</h3>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 # ---------- Навигация: цветная плашка ----------
 if lang == "Deutsch":
     st.info(
