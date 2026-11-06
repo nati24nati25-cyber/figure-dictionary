@@ -28,6 +28,23 @@ else:
         icon="➡️",
     )
 
+# ---------- Статистика ----------
+N_WÖRTER = 240
+KATEGORIEN = [
+    "Technik", "Sprünge", "Pirouetten", "Schritte", "Choreosequenz",
+    "Grundelemente", "Einzellauf", "Paarlauf", "Eistanz",
+    "Synchroneiskunstlauf", "Richterlexikon", "Abkürzungen", "Zubehör",
+]
+
+if lang == "Deutsch":
+    c1, c2 = st.columns(2)
+    c1.metric("📚 Wörter insgesamt", N_WÖRTER)
+    c2.metric("🗂️ Kategorien", len(KATEGORIEN))
+else:
+    c1, c2 = st.columns(2)
+    c1.metric("📚 Всего слов", N_WÖRTER)
+    c2.metric("🗂️ Категорий", len(KATEGORIEN))
+
 # ---------- Приветствие ----------
 if lang == "Deutsch":
     st.markdown(
@@ -52,6 +69,9 @@ else:
         Каждое слово даётся с переводом и грамматикой.
         """
     )
+
+# ---------- Разделы: по одному блоку на каждый язык ----------
+if lang == "Deutsch":
     st.header("🧭 Wo finde ich was?")
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -63,7 +83,7 @@ else:
     with col3:
         st.subheader("🗂️ Wörterbuchzonen")
         st.write("Alle Kategorien — von Sprüngen bis Zubehör — sortiert und übersichtlich.")
-
+else:
     st.header("🧭 Что где находится?")
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -78,4 +98,17 @@ else:
 
 st.divider()
 
+# ---------- Категории «плашками» ----------
+if lang == "Deutsch":
+    st.subheader("🗂️ Wörterbuchzonen")
+else:
+    st.subheader("🗂️ Тематические зоны")
+st.write(" ".join(f"`{k}`" for k in KATEGORIEN))
 
+st.divider()
+
+# ---------- Подвал ----------
+if lang == "Deutsch":
+    st.markdown("Made with ❄️ für den Eiskunstlauf — viel Erfolg beim Lernen!")
+else:
+    st.markdown("Сделано с ❄️ для фигурного катания — успехов в изучении!")
