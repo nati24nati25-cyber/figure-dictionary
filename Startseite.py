@@ -7,19 +7,22 @@ st.set_page_config(
     page_icon="⛸️",
 )
 
-st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
-st.write("Wählen Sie im Menü links einen Abschnitt aus: **Wörterbuch**, **Über das Projekt** oder **Wörterbuchzonen**.")
-
-# ---------- Выбор языка ----------
+# ---------- Выбор языка (сначала!) ----------
 lang = st.sidebar.radio("🌐 Sprache / Язык", ["Deutsch", "Русский"])
 
-st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
+# ---------- Заголовок (один раз, двуязычный) ----------
+if lang == "Deutsch":
+    st.title("📖 Deutsch-russisches Wörterbuch der Eiskunstlauf-Terminologie")
+    st.caption("Wählen Sie im Menü links einen Abschnitt aus: **Wörterbuch**, **Über das Projekt** oder **Wörterbuchzonen**.")
+else:
+    st.title("📖 Немецко-русский словарь терминологии фигурного катания")
+    st.caption("Выберите раздел в меню слева: **Словарь**, **О проекте** или **Тематические зоны**.")
 
 # ---------- Статистика ----------
 KATEGORIEN = [
     "Technik", "Sprünge", "Pirouetten", "Schritte", "Choreosequenz",
-    "Grundelementen", "Einzellauf", "Paarlauf", "Eistanz",
-    "Synchroneiskunstlauf", "Richterlexikon", "Abkürzungen", "Zubehör",
+    "Grundelemente", "Einzellauf", "Paarlauf", "Eistanz",
+    "Synchron,Eiskunstlauf", "Richterlexikon", "Abkürzungen", "Zubehör",
 ]
 N_WÖRTER = 240
 N_KATEGORIEN = len(KATEGORIEN)
@@ -75,9 +78,8 @@ else:
 st.divider()
 
 # ---------- Категории «плашками» ----------
-st.subheader("🗂️ Wörterbuchzonen / Тематические зоны" if lang == "Deutsch"
-             else "🗂️ Тематические зоны")
+if lang == "Deutsch":
+    st.subheader("🗂️ Wörterbuchzonen")
+else:
+    st.subheader("🗂️ Тематические зоны")
 st.write(" ".join(f"`{k}`" for k in KATEGORIEN))
-
-st.divider()
-st.markdown("Made with ❄️ für den Eiskunstlauf — viel Erfolg beim Lernen! / Успехов в изучении!")
