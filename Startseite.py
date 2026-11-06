@@ -29,43 +29,21 @@ st.markdown(
     <style>
     .hero {{
         background-image: url(data:image/png;base64,{b64});
-        background-size: contain;          /* было cover → стало contain: картинка не обрезается */
-        background-repeat: no-repeat;       /* чтобы не дублировалась плиткой */
-        background-position: center top;    /* прижимаем к верху, чтобы голова не уходила */
-        min-height: 280px;                  /* высота блока; если фигуристка всё ещё мелкая — поставь 350 или 400 */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+        min-height: 280px;
         border-radius: 20px;
         margin-top: 10px;
         margin-bottom: 20px;
     }}
-
     </style>
     <div class="hero"></div>
     """,
     unsafe_allow_html=True,
 )
 
-# ---------- Навигация: прямые переходы ----------
-if lang == "Deutsch":
-    st.markdown("🧭 **Wählen Sie einen Abschnitt aus:**")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.page_link("pages/01_Wörterbuch.py", label="📖 Wörterbuch")
-    with col2:
-        st.page_link("pages/02_Über_das_Projekt.py", label="ℹ️ Über das Projekt")
-    with col3:
-        st.page_link("pages/03_Wörterbuchzonen.py", label="🗂️ Wörterbuchzonen")
-else:
-    st.markdown("🧭 **Выберите раздел:**")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.page_link("pages/01_Wörterbuch.py", label="📖 Словарь")
-    with col2:
-        st.page_link("pages/02_Über_das_Projekt.py", label="ℹ️ О проекте")
-    with col3:
-        st.page_link("pages/03_Wörterbuchzonen.py", label="🗂️ Тематические зоны")
-
-
-# ---------- Приветствие ----------
+# ---------- Приветствие (теперь сразу после баннера) ----------
 if lang == "Deutsch":
     st.markdown(
         """
@@ -90,30 +68,30 @@ else:
         """
     )
 
-# ---------- Разделы: по одному блоку на каждый язык ----------
+# ---------- Навигация: переходы + описания ----------
 if lang == "Deutsch":
     st.header("🧭 Wo finde ich was?")
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.subheader("📖 Wörterbuch")
+        st.page_link("pages/01_Wörterbuch.py", label="📖 Wörterbuch")
         st.write("Die komplette Wortliste mit Übersetzung, Grammatik und Suchfunktion.")
     with col2:
-        st.subheader("ℹ️ Über das Projekt")
+        st.page_link("pages/02_Über_das_Projekt.py", label="ℹ️ Über das Projekt")
         st.write("Worum es geht und wie das Wörterbuch entstanden ist.")
     with col3:
-        st.subheader("🗂️ Wörterbuchzonen")
+        st.page_link("pages/03_Wörterbuchzonen.py", label="🗂️ Wörterbuchzonen")
         st.write("Alle Kategorien — von Sprüngen bis Zubehör — sortiert und übersichtlich.")
 else:
     st.header("🧭 Что где находится?")
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.subheader("📖 Словарь")
+        st.page_link("pages/01_Wörterbuch.py", label="📖 Словарь")
         st.write("Полный список слов с переводом, грамматикой и поиском.")
     with col2:
-        st.subheader("ℹ️ О проекте")
+        st.page_link("pages/02_Über_das_Projekt.py", label="ℹ️ О проекте")
         st.write("О чём проект и как появился словарь.")
     with col3:
-        st.subheader("🗂️ Тематические зоны")
+        st.page_link("pages/03_Wörterbuchzonen.py", label="🗂️ Тематические зоны")
         st.write("Все категории — от прыжков до инвентаря — отсортированы и на виду.")
 
 st.divider()
