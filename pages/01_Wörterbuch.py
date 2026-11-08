@@ -7,6 +7,37 @@ import base64
 import uuid
 import html
 
+# ---------- Фон всей страницы: banner1.jpg (лёд по бокам) ----------
+def set_page_background(path):
+    try:
+        with open(path, "rb") as f:
+            b64 = base64.b64encode(f.read()).decode()
+    except FileNotFoundError:
+        st.warning(f"⚠️ Не найден файл фона: {path}. Проверь, что он лежит в корне репозитория.")
+        return
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url(data:image/jpeg;base64,{b64});
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center top;
+        }}
+        .block-container {{
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 20px;
+            padding: 2rem 3rem;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+set_page_background("banner1.jpg")
+
+
 
 col1, _ = st.columns([1, 5])
 with col1:
@@ -640,27 +671,6 @@ def show_card(entry, button_key):
 st.markdown(
     """
     <style>
-    [data-testid="stAppViewContainer"] {
-        background:
-            radial-gradient(
-                ellipse at 12% 8%,
-                rgba(155, 214, 255, 0.34),
-                transparent 32%
-            ),
-            radial-gradient(
-                ellipse at 88% 22%,
-                rgba(204, 229, 255, 0.42),
-                transparent 35%
-            ),
-            linear-gradient(
-                135deg,
-                #f8fcff 0%,
-                #edf6fc 52%,
-                #e7f0f8 100%
-            );
-        background-attachment: fixed;
-    }
-
     [data-testid="stHeader"] {
         background: rgba(255, 255, 255, 0);
     }
@@ -671,7 +681,8 @@ st.markdown(
         border-radius: 16px;
         box-shadow: 0 6px 22px rgba(56, 91, 120, 0.08);
     }
-        [data-testid="stDialog"] > div {
+
+    [data-testid="stDialog"] > div {
         width: min(90vw, 700px) !important;
         max-width: min(90vw, 700px) !important;
     }
