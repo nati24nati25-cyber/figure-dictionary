@@ -39,13 +39,13 @@ def img_to_b64(path):
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
-b64 = img_to_b64("banner.png")
+b64 = img_to_b64("banner.jpg")
 
 st.markdown(
     f"""
     <style>
     .hero {{
-        background-image: url(data:image/png;base64,{b64});
+        background-image: url(data:image/jpg;base64,{b64});
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center top;
