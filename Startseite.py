@@ -34,33 +34,6 @@ def set_page_background(path):
 
 set_page_background("banner1.jpg")
     
-# ---------- Баннер с фигуристкой ----------
-def img_to_b64(path):
-    with open(path, "rb") as f:
-        return base64.b64encode(f.read()).decode()
-
-b64 = img_to_b64("banner.jpg")
-
-st.markdown(
-    f"""
-    <style>
-    .hero {{
-        background-image: url(data:image/jpg;base64,{b64});
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center top;
-        min-height: 280px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        mix-blend-mode: multiply;
-    }}
-    </style>
-    <div class="hero"></div>
-    """,
-    unsafe_allow_html=True,
-)
-
-
 
 st.set_page_config(
     page_title="Eiskunstlauf-Wörterbuch",
@@ -77,31 +50,36 @@ if lang == "Deutsch":
 else:
     st.title("📖 Немецко-русский словарь терминологии фигурного катания")
 
-# ---------- Баннер-фон (картинка отдельно, под заголовком) ----------
+# ---------- Баннер с фигуристкой (под заголовком) ----------
 def img_to_b64(path):
-    with open(path, "rb") as f:
-        return base64.b64encode(f.read()).decode()
+    try:
+        with open(path, "rb") as f:
+            return base64.b64encode(f.read()).decode()
+    except FileNotFoundError:
+        st.warning(f"⚠️ Не найден баннер: {path}")
+        return None
 
 b64 = img_to_b64("banner.jpg")
 
-st.markdown(
-    f"""
-    <style>
-    .hero {{
-        background-image: url(data:image/png;base64,{b64});
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center top;
-        min-height: 280px;
-        border-radius: 20px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }}
-    </style>
-    <div class="hero"></div>
-    """,
-    unsafe_allow_html=True,
-)
+if b64:
+    st.markdown(
+        f"""
+        <style>
+        .hero {{
+            background-image: url(data:image/jpeg;base64,{b64});
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center top;
+            min-height: 280px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            mix-blend-mode: multiply;
+        }}
+        </style>
+        <div class="hero"></div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 # ---------- Приветствие (теперь сразу после баннера) ----------
 if lang == "Deutsch":
