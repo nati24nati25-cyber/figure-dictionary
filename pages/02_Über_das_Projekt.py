@@ -83,11 +83,10 @@ with tab_de:
            Artikel der Sportmedien und offizielle Regelwerke.
         2. **Terminextraktion:** Häufigkeitsanalyse der Lexik + fachliche Verifizierung
            (manuelle Prüfung der Terminliste auf Übereinstimmung mit der realen Praxis).
-        3. **Normalisierung und Bereinigung:** Entfernung von Duplikaten, Normierung der Schreibweise,
-           Filterung irrelevanter Texte.
-        4. **Strukturierung und Markierung:** Hinzufügen grammatischer Angaben (Genus, Deklination),
-           stilistischer Marker, Auswahl von Äquivalenten und kontextbezogenen Beispielen.
-           Die Daten sind in einem strukturierten Textformat gespeichert, um automatisches Parsing zu ermöglichen.
+        3. **Normalisierung und Bereinigung:** Entfernung von doppelten Begriffen, 
+        Anpassung der Lexeme an die normierte Wörterbuchform, Auswahl fachspezifischer Bedeutungen.
+        4. **Strukturierung und Markierung:** Die Markierung umfasst grammatische und stilistische Hinweise, Äquivalente und kontextbezogene Beispiele. 
+        Das strukturierte Format mit dem Trennzeichen «|» ermöglicht eine automatisierte Lade in Streamlit und erleichtert die weitere Entwicklung des Wörterbuchs.
         """)
 
     # -----------------------------------------------------------
@@ -162,16 +161,13 @@ with tab_ru:
         **Предметная область:** Фигурное катание (термины элементов, судейства, описания программ, лексика комментаторов).
 
         **Этапы сбора и обработки данных:**
-        1. **Сбор корпуса и источников:** Транскрипты соревнований ISU (International Skating Union),
-           материалы немецкого союза фигурного катания (DEU), интервью спортсменов на немецком языке,
-           статьи спортивных СМИ и официальные правила.
-        2. **Извлечение терминов:** Частотный анализ лексики + экспертная верификация
-           (ручная проверка списка терминов на соответствие реальной практике).
-        3. **Нормализация и очистка:** Удаление дублей, приведение к нормативной форме,
-           фильтрация нерелевантных текстов.
-        4. **Структурирование и разметка:** Добавление грамматических помет (род, склонение),
-           стилистических маркеров, подбор эквивалентов и контекстных примеров.
-           Данные сохранены в структурированном текстовом формате для автоматического парсинга.
+        1. **Сбор корпуса и источников:** Транскрипты соревнований ISU (International Skating Union), материалы немецкого союза фигурного катания (DEU), 
+        интервью спортсменов на немецком языке, статьи спортивных СМИ, официальные правила, а также учебное пособие Eiskunstlauf Basics (Witte, W., 2009), 
+        использованное в качестве справочного источника для верификации базовой терминологии и уточнения дефиниций.
+        2. **Извлечение терминов:** Частотный анализ лексики + экспертная верификация (ручная проверка списка терминов на соответствие реальной практике).
+        3. **Нормализация и очистка:** Удаление дублирующихся терминов, приведение лексем к нормативной словарной форме, отбор профильных значений.
+        4. **Структурирование и разметка:** Разметка включает грамматические и стилистические пометы, эквиваленты и контекстные примеры. 
+        Структурированный формат с разделителем «|» автоматизирует загрузку в Streamlit и упрощает дальнейшее развитие словаря.
         """)
 
     # -----------------------------------------------------------
