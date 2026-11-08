@@ -15,25 +15,22 @@ def set_page_background(path):
     st.markdown(
         f"""
         <style>
-        .stApp {{
-            background-image: url(data:image/jpeg;base64,{b64});
-            background-size: cover;
+        .hero {{
+            background-image: url(data:image/png;base64,{b64});
+            background-size: contain;
             background-repeat: no-repeat;
-            background-attachment: fixed;
             background-position: center top;
-        }}
-        
-        /* Полупрозрачная подложка под контент, чтобы текст читался даже на узорах льда */
-        .block-container {{
-            background: rgba(255, 255, 255, 0.85);
-            border-radius: 20px;
-            padding: 2rem 3rem;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            min-height: 280px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            mix-blend-mode: multiply;
         }}
         </style>
+        <div class="hero"></div>
         """,
         unsafe_allow_html=True,
     )
+    
 
 set_page_background("banner1.jpg")
 
