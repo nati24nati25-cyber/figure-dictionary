@@ -15,24 +15,52 @@ def set_page_background(path):
     st.markdown(
         f"""
         <style>
-        .hero {{
-            background-image: url(data:image/png;base64,{b64});
-            background-size: contain;
+        .stApp {{
+            background-image: url(data:image/jpeg;base64,{b64});
+            background-size: cover;
             background-repeat: no-repeat;
+            background-attachment: fixed;
             background-position: center top;
-            min-height: 280px;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            mix-blend-mode: multiply;
+        }}
+        .block-container {{
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 20px;
+            padding: 2rem 3rem;
         }}
         </style>
-        <div class="hero"></div>
         """,
         unsafe_allow_html=True,
     )
-    
 
 set_page_background("banner1.jpg")
+    
+# ---------- Баннер с фигуристкой ----------
+def img_to_b64(path):
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+b64 = img_to_b64("banner.png")
+
+st.markdown(
+    f"""
+    <style>
+    .hero {{
+        background-image: url(data:image/png;base64,{b64});
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+        min-height: 280px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        mix-blend-mode: multiply;
+    }}
+    </style>
+    <div class="hero"></div>
+    """,
+    unsafe_allow_html=True,
+)
+
+
 
 st.set_page_config(
     page_title="Eiskunstlauf-Wörterbuch",
