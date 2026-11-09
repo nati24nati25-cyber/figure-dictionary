@@ -146,14 +146,6 @@ def parse_entry(line):
     word = fields[0]  
     pos_raw = fields[1]
 
-    # Нормализация возвратных форм: "drehen (sich)" → "sich drehen"
-    if word_raw.endswith(" (sich)"):
-        stem = word_raw[:-7].strip()  # убираем " (sich)"
-        word = f"sich {stem}"
-    else:
-        word = word_raw
-
-    pos_raw = fields[1]
     if re.search(r"[\u0400-\u04FF]", fields[2]):
         grammar_raw = ""
         translation = fields[2]
