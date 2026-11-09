@@ -548,7 +548,7 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
             image_path = find_image_by_word(word, images_dir)
 
         if image_path:
-            st.markdown("### 🖼️ Bild")
+            st.markdown("### 🖼️ Illustration")
             if image_path.lower().endswith(".gif"):
                 show_gif(image_path, width=250)
             else:
