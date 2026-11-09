@@ -86,8 +86,9 @@ def build_highlight_pattern(word, grammar):
     )
 
     forms = {word}
-    if word_lower.startswith("sich "):
-        stem = word_lower[5:]  # "sich ".length == 5
+    word_lower = word.lower()
+    if word_lower.endswith(" (sich)"):
+        stem = word_lower[:-7].strip()
         forms.add("sich")
         forms.add(stem)
         forms.add(f"sich {stem}")
@@ -142,7 +143,8 @@ def parse_entry(line):
     if len(fields) < 3:
         return None
 
-    word_raw = fields[0]
+    word = fields[0]  
+    pos_raw = fields[1]
 
     # Нормализация возвратных форм: "drehen (sich)" → "sich drehen"
     if word_raw.endswith(" (sich)"):
