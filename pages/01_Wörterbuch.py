@@ -652,7 +652,8 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                 )
 
                 st.markdown(
-                    f'<p style="text-align: justify; line-height: 1.5;">{beispiel_hl}</p>',
+                    f'<p style="text-align: justify; line-height: 1.5;">'
+                    f'<span style="font-style: italic;">{beispiel_hl}</span></p>',
                     unsafe_allow_html=True,
                 )
             else:
