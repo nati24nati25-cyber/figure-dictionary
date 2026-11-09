@@ -566,7 +566,6 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
             text = html.escape(sections[key]).replace("\n", "<br>")
 
             if key == "Beispiel des Gebrauchs":
-                # Заголовок в стиле DWDS вместо метки "Beispiel des Gebrauchs:"
                 word_escaped = html.escape(word)
                 st.markdown(
                     f'<p style="margin-bottom: 0.25rem;">'
@@ -574,7 +573,6 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                     unsafe_allow_html=True,
                 )
 
-                # Подсветим слово в примере (учёт флексий: Absprung/Absprungs)
                 pattern = rf'\b({re.escape(word)}\w*)\b'
                 beispiel_hl = re.sub(
                     pattern,
@@ -584,20 +582,18 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                 )
 
                 st.markdown(
-                    f'<p style="text-align: justify; line-height: 1.5;">'
-                    f"<strong>{title}:</strong> "
-                    f'<span style="font-style: italic;">{text}</span></p>',
+                    f'<p style="text-align: justify; font-style: italic; line-height: 1.5;">'
+                    f"{beispiel_hl}</p>",
                     unsafe_allow_html=True,
                 )
             else:
                 title = html.escape(key)
                 st.markdown(
-                    f'<p style="text-align: justify;">'
+                    f'<p style="text-align: justify; line-height: 1.5;">'
                     f"<strong>{title}:</strong> "
                     f'<span style="font-style: italic;">{text}</span></p>',
                     unsafe_allow_html=True,
                 )
-
 
     cross_refs = entry.get("cross_refs", [])
 
