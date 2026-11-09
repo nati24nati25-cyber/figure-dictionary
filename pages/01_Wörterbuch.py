@@ -71,7 +71,7 @@ def normalize_word(word):
 def build_highlight_pattern(word, grammar):
     """Собирает регулярку для подсветки любых форм глагола в примере."""
     prefixes = ["ab", "an", "auf", "aus", "bei", "ein", "mit", "nach",
-                "vor", "zu", "weg", "zurück", "her", "hoch", "empor"]
+                "vor", "zu", "weg", "zurück", "her", "hoch", "empor", "um"]
 
     word_lower = word.lower()
     prefix = None
@@ -94,7 +94,9 @@ def build_highlight_pattern(word, grammar):
         forms.add(f"sich {stem}")
     
     if prefix:
-        forms.add(word_lower[len(prefix):])
+        forms.add(f"sich {word_lower}")         
+        forms.add(f"sich {prefix} {stem[len(prefix):]}")
+        
 
     if grammar:
         match = re.search(r"\((.*?)\)", grammar)
