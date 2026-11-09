@@ -94,8 +94,8 @@ def build_highlight_pattern(word, grammar):
         forms.add(f"sich {stem}")
     
     if prefix:
-        forms.add(f"sich {word_lower}")         
-        forms.add(f"sich {prefix} {stem[len(prefix):]}")
+        base_form = word_lower[len(prefix):]
+        forms.add(base_form)
         
 
     if grammar:
