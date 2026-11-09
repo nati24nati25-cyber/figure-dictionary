@@ -86,6 +86,12 @@ def build_highlight_pattern(word, grammar):
     )
 
     forms = {word}
+    if word_lower.startswith("sich "):
+        stem = word_lower[5:]  # "sich ".length == 5
+        forms.add("sich")
+        forms.add(stem)
+        forms.add(f"sich {stem}")
+    
     if prefix:
         forms.add(word_lower[len(prefix):])
 
@@ -136,9 +142,16 @@ def parse_entry(line):
     if len(fields) < 3:
         return None
 
-    word = fields[0]
-    pos_raw = fields[1]
+    word_raw = fields[0]
 
+    # Нормализация возвратных форм: "drehen (sich)" → "sich drehen"
+    if word_raw.endswith(" (sich)"):
+        stem = word_raw[:-7].strip()  # убираем " (sich)"
+        word = f"sich {stem}"
+    else:
+        word = word_raw
+
+    pos_raw = fields[1]
     if re.search(r"[\u0400-\u04FF]", fields[2]):
         grammar_raw = ""
         translation = fields[2]
@@ -639,14 +652,13 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
 
                 beispiel_hl = re.sub(
                     pattern,
-                    r"<strong>\1</strong>",
+                    r'<span style="font-weight: bold; font-style: italic;">\1</span>',
                     text,
                     flags=re.IGNORECASE,
                 )
 
                 st.markdown(
-                    f'<p style="text-align: justify; font-style: italic; line-height: 1.5;">'
-                    f"{beispiel_hl}</p>",
+                    f'<p style="text-align: justify; line-height: 1.5;">{beispiel_hl}</p>',
                     unsafe_allow_html=True,
                 )
             else:
