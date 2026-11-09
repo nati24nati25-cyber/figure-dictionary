@@ -554,19 +554,48 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
             else:
                 st.image(image_path, width=250)
 
+    
+
     if sections:
         st.markdown("### ℹ️ Zusätzliche Informationen (Beispiele etc.)")
 
         for key in ["Definition", "Herkunft", "Beispiel des Gebrauchs"]:
-            if sections.get(key):
-                text = html.escape(sections[key]).replace("\n", "<br>")
-                title = html.escape(key)
+            if not sections.get(key):
+                continue
 
+            text = html.escape(sections[key]).replace("\n", "<br>")
+
+            if key == "Beispiel des Gebrauchs":
+                # Заголовок в стиле DWDS вместо метки "Beispiel des Gebrauchs:"
+                word_escaped = html.escape(word)
+                st.markdown(
+                    f'<p style="margin-bottom: 0.25rem;">'
+                    f"<strong>Verwendungsbeispiel für ›{word_escaped}‹</strong></p>",
+                    unsafe_allow_html=True,
+                )
+
+                # Подсветим слово в примере (учёт флексий: Absprung/Absprungs)
+                pattern = rf'\b({re.escape(word)}\w*)\b'
+                beispiel_hl = re.sub(
+                    pattern,
+                    r"<strong>\1</strong>",
+                    text,
+                    flags=re.IGNORECASE,
+                )
+
+                st.markdown(
+                    f'<p style="text-align: justify; font-style: italic;">'
+                    f"{beispiel_hl}</p>",
+                    unsafe_allow_html=True,
+                )
+            else:
+                title = html.escape(key)
                 st.markdown(
                     f'<p style="text-align: justify;">'
                     f"<strong>{title}:</strong> {text}</p>",
                     unsafe_allow_html=True,
                 )
+
 
     cross_refs = entry.get("cross_refs", [])
 
