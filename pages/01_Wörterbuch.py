@@ -591,7 +591,7 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
             else:
                 title = html.escape(key)
                 st.markdown(
-                    f'<p style="text-align: justify;">'
+                    f'<p style="text-align: justify; font-style: italic;">'
                     f"<strong>{title}:</strong> {text}</p>",
                     unsafe_allow_html=True,
                 )
