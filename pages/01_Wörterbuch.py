@@ -68,6 +68,68 @@ CATEGORIES = [
 def normalize_word(word):
     return word.strip().casefold()
 
+def build_highlight_pattern(word, grammar):
+    """Собирает регулярку для подсветки любых форм глагола в примере."""
+    prefixes = ["ab", "an", "auf", "aus", "bei", "ein", "mit", "nach",
+                "vor", "zu", "weg", "zurück", "her", "hoch", "empor"]
+
+    word_lower = word.lower()
+    prefix = None
+    for p in prefixes:
+        if word_lower.startswith(p) and len(word_lower) > len(p):
+            prefix = p
+            break
+
+    aux_re = re.compile(
+        r"^(ist|hat|sind|haben|war|waren|wird|werden|sei|sein)\s+",
+        re.IGNORECASE,
+    )
+
+    forms = {word}
+    if prefix:
+        forms.add(word_lower[len(prefix):])
+
+    if grammar:
+        match = re.search(r"\((.*?)\)", grammar)
+        if match:
+            saw_separated = False
+            for part in match.group(1).split(","):
+                part = aux_re.sub("", part.strip())
+                if not part:
+                    continue
+                forms.add(part)
+
+                if prefix:
+                    tokens = part.split()
+                    if tokens[-1].lower() == prefix:
+                        stem_part = " ".join(tokens[:-1])
+                        forms.add(stem_part)
+                        forms.add(prefix + stem_part)
+                        saw_separated = True
+                    elif tokens[0].lower() == prefix:
+                        forms.add(" ".join(tokens[1:]))
+
+            if saw_separated:
+                forms.add(prefix)
+
+    for form in list(forms):
+        form_lower = form.lower()
+        if form_lower.endswith("en") and len(form_lower) > 5:
+            forms.add(form[:-2])
+
+    pieces = sorted({re.escape(f) for f in forms if f}, key=len, reverse=True)
+
+    short_endings = r"(?:est|end|ete|ten|tet|st|te|en|et|t|n|e)?"
+
+    built = []
+    for piece in pieces:
+        if len(piece) >= 6:
+            built.append(piece + r"\w*")
+        else:
+            built.append(piece + short_endings)
+
+    return rf"\b({'|'.join(built)})\b"
+
 
 def parse_entry(line):
     fields = [field.strip() for field in line.split("|")]
@@ -572,8 +634,9 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                     f"<strong>Verwendungsbeispiel für ›{word_escaped}‹</strong></p>",
                     unsafe_allow_html=True,
                 )
+                grammar = entry.get("grammar", "")
+                pattern = build_highlight_pattern(word, grammar)
 
-                pattern = rf'\b({re.escape(word)}\w*)\b'
                 beispiel_hl = re.sub(
                     pattern,
                     r"<strong>\1</strong>",
