@@ -638,35 +638,50 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
 
             if key == "Beispiel des Gebrauchs":
                 word_escaped = html.escape(word)
+                
+                # 1. Заголовок
                 st.markdown(
                     f'<p style="margin-bottom: 0.25rem;">'
                     f"<strong>Verwendungsbeispiel für ›{word_escaped}‹</strong></p>",
                     unsafe_allow_html=True,
                 )
+                
                 grammar = entry.get("grammar", "")
                 pattern = build_highlight_pattern(word, grammar)
 
+                # 2. Сначала вырезаем источник из текста, чтобы он не попал в подсветку
+                match_source = re.search(r'\s*(\[.*?\])\s*$', text)
+                source_text = ""
+                display_text = text
+
+                if match_source:
+                    source_text = match_source.group(1)                # [Witte, ...]
+                    display_text = text[:match_source.start()].strip()  # пример БЕЗ источника
+
+                # 3. Подсветка ТОЛЬКО для display_text (без источника)
                 beispiel_hl = re.sub(
                     pattern,
                     r'<span style="font-weight: bold; font-style: italic;">\1</span>',
-                    text,
+                    display_text,
                     flags=re.IGNORECASE,
                 )
 
+                # 4. Выводим пример (теперь в нём нет источника)
                 st.markdown(
                     f'<p style="text-align: justify; line-height: 1.5;">'
                     f'<span style="font-style: italic;">{beispiel_hl}</span></p>',
                     unsafe_allow_html=True,
                 )
-                
-                match_source = re.search(r'\s*(\[.*?\])\s*$', text)
-                if match_source:
-                    source_text = match_source.group(1)
+
+                # 5. Если есть источник — выводим его ОДИН раз отдельной строкой
+                if source_text:
                     st.markdown(
                         f'<p style="margin-top: 0.6rem; font-size: 0.85rem; '
                         f'color: #666; font-style: normal;">{html.escape(source_text)}</p>',
                         unsafe_allow_html=True,
                     )
+
+                
                     
             else:
                 title = html.escape(key)
