@@ -676,7 +676,7 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                 # 5. Если есть источник — выводим его ОДИН раз отдельной строкой
                 if source_text:
                     st.markdown(
-                        f'<p style="margin-top: 0.6rem; font-size: 0.85rem; '
+                        f'<p style="margin-top: 0.2rem; font-size: 0.85rem; '
                         f'color: #666; font-style: normal;">{html.escape(source_text)}</p>',
                         unsafe_allow_html=True,
                     )
