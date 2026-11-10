@@ -666,21 +666,21 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                     flags=re.IGNORECASE,
                 )
 
-                # 4. Выводим пример (теперь в нём нет источника)
-                st.markdown(
-                    f'<p style="text-align: justify; line-height: 1.5;">'
-                    f'<span style="font-style: italic;">{beispiel_hl}</span></p>',
-                    unsafe_allow_html=True,
-                )
-
-                # 5. Если есть источник — выводим его ОДИН раз отдельной строкой
+                # Так между ними не будет никакого вертикального отступа — они будут как одна строка
                 if source_text:
+                # Источник идёт сразу после точки, мелким серым шрифтом
                     st.markdown(
-                        f'<span style="display: block; '
-                        f'font-size: 0.85rem; '
-                        f'color: #666; '
-                        f'margin-top: 0; '
-                        f'padding: 0;">{html.escape(source_text)}</span>',
+                        f'<p style="text-align: justify; line-height: 1.4;">'
+                        f'<span style="font-style: italic;">{beispiel_hl}</span>'
+                        f'<span style="font-size: 0.85rem; color: #666; margin-left: 0.5rem;">{html.escape(source_text)}</span>'
+                        f'</p>',
+                        unsafe_allow_html=True,
+                    )
+                else:
+                # Если источника нет — просто пример
+                    st.markdown(
+                        f'<p style="text-align: justify; line-height: 1.4;">'
+                        f'<span style="font-style: italic;">{beispiel_hl}</span></p>',
                         unsafe_allow_html=True,
                     )
                     
