@@ -658,6 +658,16 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                     f'<span style="font-style: italic;">{beispiel_hl}</span></p>',
                     unsafe_allow_html=True,
                 )
+                
+                match_source = re.search(r'\s*(\[.*?\])\s*$', text)
+                if match_source:
+                    source_text = match_source.group(1)
+                    st.markdown(
+                        f'<p style="margin-top: 0.6rem; font-size: 0.85rem; '
+                        f'color: #666; font-style: normal;">{html.escape(source_text)}</p>',
+                        unsafe_allow_html=True,
+                    )
+                    
             else:
                 title = html.escape(key)
                 st.markdown(
