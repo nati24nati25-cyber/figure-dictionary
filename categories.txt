@@ -349,29 +349,37 @@ Zeitverletzung | Richterlexikon
 
 
 ####### Abkürzungen #######
+L - links | Abkürzungen
+R - rechts | Abkürzungen
+a - auswärts | Abkürzungen
+e - einwärts | Abkürzungen
+v - vorwärts | Abkürzungen
+r - rückwärts | Abkürzungen
+A - Axel | Abkürzungen
+S - Salchow | Abkürzungen
+Eu - Euler | Abkürzungen
+T - Toeloop | Abkürzungen
+Lo - Rittberger | Abkürzungen
+F - Flip | Abkürzungen
+Lz - Lutz | Abkürzungen
+SK - Sprungkombination | Abkürzungen
+SF - Schrittfolge | Abkürzungen
+TW - Twizzle | Abkürzungen
+USp - Standpirouette | Abkürzungen
+SSp - Sitzpirouette | Abkürzungen
+CSp - Waagepirouette | Abkürzungen
+LSp - Himmelspirouette | Abkürzungen
+FSp - eingesprungene Pirouette | Abkürzungen
+FCSp - eingesprungene Waagepirouette | Abkürzungen
+FSSp - eingesprungene Sitzpirouette | Abkürzungen
+CCoSP - Pirouettenkombination mit Positions- und Fußwechsel | Abkürzungen
+ChSq - Choreosequenz | Abkürzungen
+FW - Fußwechsel | Abkürzungen
+CoSp - Pirouettenkombination mit Positionswechsel | Abkürzungen
+CUSp - Pirouette mit einem Fußwechsel | Abkürzungen
+ISU - Die Internationale Eislaufunion | Abkürzungen
 
 
-a. - auswärts - наружу| Abkürzungen
-A. - Axel - аксель| Abkürzungen
-CCoSP. - Pirouettenkombination mit Positions- und Fußwechsel - комбинированное вращение со сменой позиции и ноги| Abkürzungen
-ChSq. - Choreosequenz - хореографическая последовательность | Abkürzungen
-CoSp. - Pirouettenkombination mit Positionswechsel - комбинированное вращение со сменой позиции| Abkürzungen
-CUSp. - Pirouette mit einem Fußwechsel - вращение со сменой ноги| Abkürzungen
-CSp. - Waagepirouette - вращение «весы»| Abkürzungen
-e. - einwärts - внутрь| Abkürzungen
-Eu. - Euler - ойлер| Abkürzungen
-F. - Flip - флип| Abkürzungen
-FSp. - eingesprungene Pirouette - вращение в прыжке| Abkürzungen
-ISU - Die Internationale Eislaufunion - Международный союз конькобежцев| Abkürzungen
-L. - links - левый| Abkürzungen
-Lo. - Rittberger - риттбергер| Abkürzungen
-LSp. - Himmelspirouette - вращение «небеса»| Abkürzungen
-Lz. - Lutz - лутц| Abkürzungen
-R. - rechts - правый| Abkürzungen
-r. - rückwärts - назад| Abkürzungen
-S. - Salchow - сальхов| Abkürzungen
-SF. - Schrittfolge - дорожка шагов| Abkürzungen
-SSp. - Sitzpirouette - вращение «сидя»| Abkürzungen
 
 ####### Abkürzungen ####### 
 
