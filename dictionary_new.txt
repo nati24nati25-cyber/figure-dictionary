@@ -443,28 +443,34 @@ Zitrone |Substantiv|femininum | фонарик |die Zitrone | der Zitrone| der Z
 
 
 Abkürzungen
-a. | auswärts|
-A. | Axel|
-CCoSP. | Pirouettenkombination mit Positions- und Fußwechsel|
-ChSq. | Choreosequenz |
+L | links| 
+R | rechts|
+a | auswärts|
+e | einwärts|
+v | vorwärts|
+r | rückwärts|
+A | Axel|
+S | Salchow|
+Eu | Euler|
+T | Toeloop|
+Lo | Rittberger|
+F | Flip|
+Lz | Lutz|
+SK  | Sprungkombination |
+SF | Schrittfolge|
+TW | Twizzle|
+USp | Standpirouette|
+SSp | Sitzpirouette|
+CSp | Waagepirouette|
+LSp | Himmelspirouette|
+FSp | eingesprungene Pirouette|
+FCSp | eingesprungene  Waagepirouette|
+FSSp | eingesprungene  Sitzpirouette|
+CCoSP | Pirouettenkombination mit Positions- und Fußwechsel|
+ChSq | Choreosequenz |
+FW | Fußwechsel |
 CoSp | Pirouettenkombination mit Positionswechsel|
 CUSp | Pirouette mit einem Fußwechsel|
-CSp. | Waagepirouette|
-e. | einwärts|
-Eu. | Euler|
-F. | Flip|
-FSp. | eingesprungene Pirouette|
 ISU | Die Internationale Eislaufunion|
-L. | links| 
-Lo. | Rittberger|
-LSp | Himmelspirouette|
-Lz. | Lutz|
-R. | rechts|
-r. | rückwärts|
-S. | Salchow|
-SF. | Schrittfolge|
-SSp. | Sitzpirouette|
-T. | Toeloop|
-TW. | Twizzle|
-v. | vorwärts|
-USp. | Standpirouette|
+
+
