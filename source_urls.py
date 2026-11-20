@@ -1,5 +1,7 @@
 
 SOURCE_URLS = {
+    "[Witte, Eiskunstlauf Basics, 2009]":
+        "https://dersportverlag.de/?137865",
     "[eiskunstlauf.de, Paarlauf-Glossar, 2026]":
         "https://eiskunstlauf.de/glossar/paarlauf/",
     "[eiskunstlauf.de, Glossar Vierfachsprung, 2026]":
