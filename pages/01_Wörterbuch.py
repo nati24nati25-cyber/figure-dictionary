@@ -665,12 +665,15 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                     if source_url:
                         source_html = (
                             f'<a href="{source_url}" target="_blank"'
-                            f' style="color: #666; text-decoration: underline;">'
+                            f' style="color: #666; text-decoration: none;'
+                            f' transition: color 0.2s;">'
                             f'{html.escape(source_text)}</a>'
+                            f'<style>'
+                            f'a[href]:hover {{ color: #333; }}'
+                            f'</style>'
                         )
                     else:
                         source_html = html.escape(source_text)
-                    
 
                 # 3. Подсветка ТОЛЬКО для display_text (без источника)
                 beispiel_hl = re.sub(
