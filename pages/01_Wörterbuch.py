@@ -8,11 +8,7 @@ import uuid
 import html
 from source_urls import SOURCE_URLS
 
-CITATION_RE = re.compile(r"
-$$
-([^
-$$
-[|]+?)\]\|")
+CITATION_RE = re.compile(r"[[][^][|]+?[]][|]")
 
 # ---------- Фон всей страницы: banner1.jpg (лёд по бокам) ----------
 def set_page_background(path):
