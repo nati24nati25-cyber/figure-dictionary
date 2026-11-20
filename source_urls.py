@@ -4,6 +4,12 @@ SOURCE_URLS = {
         "https://dersportverlag.de/?137865",
     "[Eiskunstlaufblog, Undine, 2024]":
         "https://eiskunstlaufblog.de/tag/eislaufen-lernen/",
+    "[Eislauf-Union, Paarlaufen, 2015]":
+        "https://eislauf-union.de/de/training/eiskunstlaufen/paarlaufen",
+    "[Eislauf-Union, Hase/Volodin, Weltmeister, 2026]":
+        "https://eislauf-union.de/de/media1/news/1319-eiskunstlauf-wm-in-prag-stiehlt-olympia-die-show",
+    "[Eislauf-Union, Gartung, WM-Premiere, 2026]":
+        "https://www.eislauf-union.de/de/media1/pressemitteilungen/1314-genrikh-gartung-qualifiziert-beim-wm-debüt-fürs-finale",
     "[eiskunstlauf.de, Paarlauf-Glossar, 2026]":
         "https://eiskunstlauf.de/glossar/paarlauf/",
     "[eiskunstlauf.de, Glossar Vierfachsprung, 2026]":
