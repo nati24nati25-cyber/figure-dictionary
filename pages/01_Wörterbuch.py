@@ -6,6 +6,13 @@ import re
 import base64
 import uuid
 import html
+from source_urls import SOURCE_URLS
+
+CITATION_RE = re.compile(r"
+$$
+([^
+$$
+[|]+?)\]\|")
 
 # ---------- Фон всей страницы: banner1.jpg (лёд по бокам) ----------
 def set_page_background(path):
@@ -657,6 +664,17 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                 if match_source:
                     source_text = match_source.group(1)                # [Witte, ...]
                     display_text = text[:match_source.start()].strip()  # пример БЕЗ источника
+                    
+                    source_url = SOURCE_URLS.get(source_text)
+                    if source_url:
+                        source_html = (
+                            f'<a href="{source_url}" target="_blank"'
+                            f' style="color: #666; text-decoration: underline;">'
+                            f'{html.escape(source_text)}</a>'
+                        )
+                    else:
+                        source_html = html.escape(source_text)
+                    
 
                 # 3. Подсветка ТОЛЬКО для display_text (без источника)
                 beispiel_hl = re.sub(
@@ -666,13 +684,14 @@ def show_entry_details(entry, images_dir="images", audio_dir="audio"):
                     flags=re.IGNORECASE,
                 )
 
+                
                 # Так между ними не будет никакого вертикального отступа — они будут как одна строка
                 if source_text:
                 # Источник идёт сразу после точки, мелким серым шрифтом
                     st.markdown(
                         f'<p style="text-align: justify; line-height: 1.4;">'
                         f'<span style="font-style: italic;">{beispiel_hl}</span>'
-                        f'<span style="font-size: 0.85rem; color: #666; margin-left: 0.5rem;">{html.escape(source_text)}</span>'
+                        f'<span style="font-size: 0.85rem; color: #666; margin-left: 0.5rem;">{source_html}</span>'
                         f'</p>',
                         unsafe_allow_html=True,
                     )
