@@ -31,5 +31,15 @@ SOURCE_URLS = {
         "https://www.merkur.de/sport/wintersport/eiskunstlauf-talent-anna-gerke-wagt-disziplinwechsel-fuer-olympia-94561934.html",
     "[MeinBezirk, Podest, 2026]":
         "https://www.meinbezirk.at/eisenstadt/c-sport/tim-thiel-holt-in-linz-den-zweiten-platz_a8963469",
+
+    #### Zubehör ####
+    "[Eiskunstlauf-Shop, Kunststoff-Schoner, 2024]":
+        "https://www.eiskunstlauf.shop/de/schlittschuh-kufenschoner"
+    "[Eiskunstlauf-Shop, Stoff-Schoner, 2024]":
+        "https://www.eiskunstlauf.shop/de/stoffschoner"
+    "[Eiskunstlauf-Shop, Bootcover, 2024]":
+        "https://www.eiskunstlauf.shop/de/intermezzo-bootcover-weiss"
+
+
     
 }
