@@ -46,4 +46,6 @@ SOURCE_URLS = {
         "https://www.olympics.com/de/news/unterschiede-eiskunstlauf-und-eistanz?ysclid=mws2jh66e3429689973",
     "[Eislauf-Union, Janse/Steffan, WM-Finale, 2026]":
         "https://www.eislauf-union.de/de/media1/news/1316-janse-van-rensburg-steffan-stehen-im-eistanz-wm-finale",
+    "[Eislauf-Union, Gartung, EM-Finale, 2026]":
+        "https://eislauf-union.de/de/media1/news/1273-genrikh-gartung-qualifiziert-sich-f%C3%BCrs-em-finale",
 }
