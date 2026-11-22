@@ -41,6 +41,7 @@ SOURCE_URLS = {
     "[Presse, Wintner, Salzburg, 2026]":
         "https://www.diepresse.com/20737247/synchroneiskunstlauf-wm-in-salzburg-wo-32-kufen-im-gleichschritt-uebers",
 
+        "https://deg-eiskunstlauf-ev.de/?p=1032#sportarten",
 
     
 }
