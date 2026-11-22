@@ -38,6 +38,8 @@ SOURCE_URLS = {
         "https://www.eiskunstlauf.shop/de/stoffschoner",
     "[Eiskunstlauf-Shop, Bootcover, 2024]":
         "https://www.eiskunstlauf.shop/de/intermezzo-bootcover-weiss",
+    "[Presse, Wintner, Salzburg, 2026]":
+        "https://www.diepresse.com/20737247/synchroneiskunstlauf-wm-in-salzburg-wo-32-kufen-im-gleichschritt-uebers",
 
 
     
