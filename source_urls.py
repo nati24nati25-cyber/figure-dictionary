@@ -44,6 +44,4 @@ SOURCE_URLS = {
         "https://www.jungewelt.de/artikel/177391.eiskunstlauf-ein-kleines-loch.html",
 
        
-
-    
 }
