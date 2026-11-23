@@ -48,4 +48,6 @@ SOURCE_URLS = {
         "https://www.eislauf-union.de/de/media1/news/1316-janse-van-rensburg-steffan-stehen-im-eistanz-wm-finale",
     "[Eislauf-Union, Gartung, EM-Finale, 2026]":
         "https://eislauf-union.de/de/media1/news/1273-genrikh-gartung-qualifiziert-sich-f%C3%BCrs-em-finale",
+    "[olympics.com (2025): Interview mit Katarina Witt]":
+        "https://www.olympics.com/de/news/katarina-witt-eiskunstlauf-backflip-zuruck-entwicklung-sport-interview",
 }
