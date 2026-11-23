@@ -254,6 +254,7 @@ Einzellauf | Einzellauf
 Kurzprogramm | Einzellauf
 Kür | Einzellauf
 Schrittfolge | Einzellauf
+Rückwärtssalto | Einzellauf
 
 #######  Einzellauf   #######
 
