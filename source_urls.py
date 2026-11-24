@@ -47,6 +47,8 @@ SOURCE_URLS = {
         "https://eiskunstlauf.de/disziplinen/paarlauf/",
     "[book.insporta.app, figure-skating]":
         "https://book.insporta.app/de/figure-skating/level-3/jump-faults/",
+    "[specialolympics.de,regelwerk-eiskunstlauf]":
+        "https://thueringen2024.specialolympics.de/fileadmin/Informieren/Sportarten/Eiskunstlauf/Dokumente/SOD_Regelwerk_Eiskunstlauf_03.2023.pdf",
     
     "[Olympics.com, Punktesystem, 2026]":
         "https://www.olympics.com/de/news/das-punktesystem-im-eiskunstlauf-erklart-milano-cortina-2026",
