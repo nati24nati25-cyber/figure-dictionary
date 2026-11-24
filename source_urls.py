@@ -74,4 +74,6 @@ SOURCE_URLS = {
         "https://eiskunstlauf.tsvkoenigsbrunn.de/wissen/wertungssystem",
     "[dwds.de (Spreizsprung)]":
         "https://www.dwds.de/r/?corpus=regional&q=Spreizsprung",
+    "[dwds.de (Dreifachaxel)]":
+        "https://www.dwds.de/r/?corpus=dwdsxl&q=Dreifachaxel",
 }
