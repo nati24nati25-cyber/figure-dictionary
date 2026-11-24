@@ -56,4 +56,6 @@ SOURCE_URLS = {
         "https://sev-eishockey.de/fileadmin/user_upload/KOSM_Ausschreibung_2025.pdf",
     "[eiskunstlauf.tsvkoenigsbrunn.de, wertungssystem(Basiswert der Elemente)]":
         "https://eiskunstlauf.tsvkoenigsbrunn.de/wissen/wertungssystem",
+    "[dwds.de (Spreizsprung)]":
+        "https://www.dwds.de/r/?corpus=regional&q=Spreizsprung",
 }
