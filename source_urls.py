@@ -76,4 +76,7 @@ SOURCE_URLS = {
         "https://www.dwds.de/r/?corpus=regional&q=Spreizsprung",
     "[dwds.de (Dreifachaxel)]":
         "https://www.dwds.de/r/?corpus=dwdsxl&q=Dreifachaxel",
+    "[dwds.de (Dreifachflip)]":
+        "https://www.dwds.de/r/?q=Dreifachflip&corpus=dwdsxl&date-start=1897&date-end=2026&sc=adg&sc=bz&sc=blogs&sc=bundestag&sc=ddr&sc=kern&sc=kern21&sc=fas&sc=faz&sc=gesetze&sc=spk&sc=politische_reden&sc=samisdat&sc=spie&sc=tsp&sc=untertitel&sc=wikibooks&sc=wikipedia&sc=wikivoyage&sc=zeit&format=full&sort=date_desc&limit=50",
+    
 }
