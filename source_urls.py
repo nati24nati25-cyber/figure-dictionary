@@ -54,4 +54,6 @@ SOURCE_URLS = {
         "https://eiskunstlaufblog.de/eiskunstlauf-fehler/",
     "[KOSM, Ausschreibung, 2025]":
         "https://sev-eishockey.de/fileadmin/user_upload/KOSM_Ausschreibung_2025.pdf",
+    "[eiskunstlauf.tsvkoenigsbrunn.de, wertungssystem(Basiswert der Elemente)]":
+        "https://eiskunstlauf.tsvkoenigsbrunn.de/wissen/wertungssystem",
 }
