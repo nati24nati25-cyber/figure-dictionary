@@ -2,8 +2,22 @@
 SOURCE_URLS = {
     "[Witte, Eiskunstlauf Basics, 2009]":
         "https://dersportverlag.de/?137865",
-    "[Eiskunstlaufblog, Undine, 2024]":
-        "https://eiskunstlaufblog.de/tag/eislaufen-lernen/",
+    
+    "[Eiskunstlaufblog(vorwärts-auswärts-bögen), Undine, 2024]":
+        "https://eiskunstlaufblog.de/vorwaerts-auswaerts-boegen/",
+    "[Eiskunstlaufblog(kantenwechsel-dreier), Undine, 2024]":
+        "https://eiskunstlaufblog.de/kantenwechsel-dreier/",
+    "[Eiskunstlaufblog(basics-reihenfolge), Undine, 2024]|":
+        "https://eiskunstlaufblog.de/eiskunstlauf-basics-reihenfolge/",
+    "[Eiskunstlaufblog(anfänger-schlittschuhe), Undine, 2024]":
+        "https://eiskunstlaufblog.de/anfaenger-schlittschuhe/",
+    "[Eiskunstlaufblog(Ausrustung), Undine, 2024]":
+        "https://eiskunstlaufblog.de/eiskunstlauf-ausrustung/",
+    "[Eiskunstlaufblog(Schlangenbogen), Undine, 2024]":
+        "https://eiskunstlaufblog.de/schlangenboegen/",
+    "[Eiskunstlaufblog(Übersetzen), Undine, 2024]":
+        "https://eiskunstlaufblog.de/uebersetzen/",
+    
     "[Eislauf-Union, Paarlaufen, 2015]":
         "https://eislauf-union.de/de/training/eiskunstlaufen/paarlaufen",
     "[Eislauf-Union, Hase/Volodin, Weltmeister, 2026]":
