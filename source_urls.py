@@ -48,6 +48,8 @@ SOURCE_URLS = {
         "https://www.olympics.com/de/news/das-punktesystem-im-eiskunstlauf-erklart-milano-cortina-2026",
     "[Eislauf-Union, Synchron, 2015]":
         "https://eislauf-union.de/de/training/eiskunstlaufen/synchroneiskunstlaufen",
+    "[Eislauf-Union, Einzellaufen, 2015]":
+        "https://eislauf-union.de/de/training/eiskunstlaufen/einzellaufen",
     "[Merkur, Talent, 2026]":
         "https://www.merkur.de/sport/wintersport/eiskunstlauf-talent-anna-gerke-wagt-disziplinwechsel-fuer-olympia-94561934.html",
     "[MeinBezirk, Podest, 2026]":
