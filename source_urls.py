@@ -41,6 +41,9 @@ SOURCE_URLS = {
         "https://eiskunstlaufweb.de.tl/Figuren.htm",
     "[eiskunstlauf.de,Sprünge, 2026]":
         "https://eiskunstlauf.de/ratgeber/eiskunstlauf-spruenge/",
+    "[eiskunstlauf.de/disziplinen/eistanz]":
+        "https://eiskunstlauf.de/disziplinen/eistanz/",
+    
     "[Olympics.com, Punktesystem, 2026]":
         "https://www.olympics.com/de/news/das-punktesystem-im-eiskunstlauf-erklart-milano-cortina-2026",
     "[Eislauf-Union, Synchron, 2015]":
