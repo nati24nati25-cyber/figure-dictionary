@@ -52,4 +52,6 @@ SOURCE_URLS = {
         "https://www.olympics.com/de/news/katarina-witt-eiskunstlauf-backflip-zuruck-entwicklung-sport-interview",
     "[Eiskunstlaufblog(Fehler), Undine, 2024]":
         "https://eiskunstlaufblog.de/eiskunstlauf-fehler/",
+    "[KOSM, Ausschreibung, 2025]":
+        "https://sev-eishockey.de/fileadmin/user_upload/KOSM_Ausschreibung_2025.pdf",
 }
