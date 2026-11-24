@@ -22,6 +22,8 @@ SOURCE_URLS = {
         "https://eislauf-union.de/de/training/eiskunstlaufen/paarlaufen",
     "[Eislauf-Union, Hase/Volodin, Weltmeister, 2026]":
         "https://eislauf-union.de/de/media1/news/1315-minerva-hase-nikita-volodin-kr%C3%B6nen-sich-zum-weltmeister",
+    "[Eiskunstlaufblog(aufwarmubungen), Undine, 2024]":
+        "https://eiskunstlaufblog.de/aufwarmubungen-eiskunstlauf/",
     
     "[Eislauf-Union, Gartung, WM-Premiere, 2026]":
         "https://www.eislauf-union.de/de/media1/pressemitteilungen/1314-genrikh-gartung-qualifiziert-beim-wm-debüt-fürs-finale",
