@@ -135,7 +135,7 @@ Sprungfolge | Sprünge
 Sprungkombination | Sprünge
 Verbindungssprung  | Sprünge
 
-Parallelsprung | Sprünge
+Solosprung | Sprünge
 Kombinationsprung | Sprünge
 
 Jetésprung | Sprünge
@@ -266,7 +266,7 @@ Rückwärtssalto | Einzellauf
 
 Paarlauf | Paarlauf
 
-Parallelsprung | Paarlauf
+Solosprung | Paarlauf
 Kombinationsprung | Paarlauf
 
 Twist | Paarlauf
