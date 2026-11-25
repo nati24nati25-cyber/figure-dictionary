@@ -101,5 +101,8 @@ SOURCE_URLS = {
         "https://www.dwds.de/r/?q=Dreifachsprung&corpus=dwdsxl&sc=fas&sc=kern&sc=kern21&sc=spie&sc=bz&sc=faz&sc=wikipedia&sc=zeit&sc=spk&sc=samisdat&sc=ddr&sc=untertitel&sc=bundestag&sc=wikivoyage&sc=politische_reden&sc=gesetze&sc=tsp&sc=wikibooks&sc=adg&sc=blogs&format=full&date-start=1897&date-end=2026&p=5&sort=date_desc&limit=50",
     "[dwds.de (Dreifachtoeloop)]":
         "https://www.dwds.de/r/?q=Dreifachtoeloop&corpus=dwdsxl&date-start=1897&date-end=2026&sc=adg&sc=bz&sc=blogs&sc=bundestag&sc=ddr&sc=kern&sc=kern21&sc=fas&sc=faz&sc=gesetze&sc=spk&sc=politische_reden&sc=samisdat&sc=spie&sc=tsp&sc=untertitel&sc=wikibooks&sc=wikipedia&sc=wikivoyage&sc=zeit&format=full&sort=date_desc&limit=50",
-    
+    "[skateassistant.ai, elements, salchow]":
+        "https://skateassistant.ai/de/elements/salchow",
+    "[skateassistant.ai, elements, flip]":
+        "https://skateassistant.ai/de/elements/flip",
 }
