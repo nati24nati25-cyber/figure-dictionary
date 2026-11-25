@@ -34,8 +34,6 @@ SOURCE_URLS = {
         "https://eiskunstlaufblog.de/aufwarmubungen-eiskunstlauf/",
     "[Eislauf-Union, Gartung, WM-Premiere, 2026]":
         "https://www.eislauf-union.de/de/media1/pressemitteilungen/1314-genrikh-gartung-qualifiziert-beim-wm-debüt-fürs-finale",
-    "[eiskunstlauf.de, Paarlauf-Glossar, 2026]":
-        "https://eiskunstlauf.de/glossar/paarlauf/",
     "[eiskunstlauf.de, Glossar Vierfachsprung, 2026]":
         "https://eiskunstlauf.de/glossar/vierfachsprung/",
     "[eiskunstlauf.de, Glossar Pirouette, 2026]":
