@@ -24,6 +24,8 @@ SOURCE_URLS = {
         "https://eislauf-union.de/de/media1/news/1315-minerva-hase-nikita-volodin-kr%C3%B6nen-sich-zum-weltmeister",
     "[Eislauf-Union, Hase/Volodin, Traum-Tango, 2026]":
         "https://www.eislauf-union.de/de/media1/news/1313-hase-volodin-nach-traum-tango-bei-wm-in-f%C3%BChrung",
+    "[Eislauf-Union, Hase/Volodin, Grand Prix Skate Canada, 2025]":
+        "https://eislauf-union.de/de/media1/news/1238-hase-volodin-gewinnen-silber-bei-skate-canada",
     "[Eislauf-Union, Gartung, WM-Debüt, 2026]":
         "https://www.eislauf-union.de/de/media1/pressemitteilungen/1314-genrikh-gartung-qualifiziert-beim-wm-deb%C3%BCt-f%C3%BCrs-finale",
     "[Eislauf-Union, Gartung, Olympia-Quota, 2026]":
