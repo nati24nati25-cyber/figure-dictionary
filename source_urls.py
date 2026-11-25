@@ -105,4 +105,10 @@ SOURCE_URLS = {
         "https://skateassistant.ai/de/elements/salchow",
     "[skateassistant.ai, elements, flip]":
         "https://skateassistant.ai/de/elements/flip",
+    "[skateassistant.ai, elements, rittberger]":
+        "https://skateassistant.ai/de/elements/loop",
+    "[skateassistant.ai, elements, lutz]":
+        "https://skateassistant.ai/de/elements/lutz",
+    "[skateassistant.ai, elements, toeloop]":
+        "https://skateassistant.ai/de/elements/toe-loop",
 }
