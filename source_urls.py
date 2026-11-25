@@ -123,4 +123,6 @@ SOURCE_URLS = {
         "https://skateassistant.ai/de/elements/toe-loop",
     "[wiehl.de, Deutschlandpokal, 2011]":
         "https://www.wiehl.de/aktuelles/nachrichten/2417-eiskunstlauf-zwei-wiehlerinnen-unter.html",
+    "[dewiki.de, paarlauf]":
+        "https://dewiki.de/Lexikon/Paarlauf",
 }
