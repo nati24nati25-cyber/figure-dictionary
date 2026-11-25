@@ -24,7 +24,6 @@ SOURCE_URLS = {
         "https://eislauf-union.de/de/media1/news/1315-minerva-hase-nikita-volodin-kr%C3%B6nen-sich-zum-weltmeister",
     "[Eiskunstlaufblog(aufwarmubungen), Undine, 2024]":
         "https://eiskunstlaufblog.de/aufwarmubungen-eiskunstlauf/",
-    
     "[Eislauf-Union, Gartung, WM-Premiere, 2026]":
         "https://www.eislauf-union.de/de/media1/pressemitteilungen/1314-genrikh-gartung-qualifiziert-beim-wm-debüt-fürs-finale",
     "[eiskunstlauf.de, Paarlauf-Glossar, 2026]":
@@ -62,7 +61,6 @@ SOURCE_URLS = {
         "https://www.meinbezirk.at/eisenstadt/c-sport/tim-thiel-holt-in-linz-den-zweiten-platz_a8963469",
     "[VereinsWiki, Eiskunstlauf]":
         "https://vereins.fandom.com/wiki/Eiskunstlauf",
-
     "[Eiskunstlauf-Shop, Kunststoff-Schoner, 2024]":
         "https://www.eiskunstlauf.shop/de/schlittschuh-kufenschoner",
     "[Eiskunstlauf-Shop, Stoff-Schoner, 2024]":
