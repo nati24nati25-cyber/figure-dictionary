@@ -63,6 +63,8 @@ SOURCE_URLS = {
         "https://eislauf-union.de/de/training/eiskunstlaufen/einzellaufen",
     "[Eislauf-Union, Matthaei/Lieber, EM-Publikum, 2026]":
         "https://www.eislauf-union.de/de/media1/news/1277-charise-matthaei-max-liebers-verzaubern-das-em-publikum",
+    "[Eislauf-Union, Matthaei/Lieber, EM-Finale, 2026]":
+        "https://eislauf-union.de/de/media1/news/1275-eist%C3%A4nzer-matthaei-liebers-stehen-erstmals-im-em-finale?jsn_mobilize_preview=1",
     "[Merkur, Talent, 2026]":
         "https://www.merkur.de/sport/wintersport/eiskunstlauf-talent-anna-gerke-wagt-disziplinwechsel-fuer-olympia-94561934.html",
     "[MeinBezirk, Podest, 2026]":
