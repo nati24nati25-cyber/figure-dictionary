@@ -131,6 +131,7 @@ Vierfachlutz | Sprünge
 Euler | Sprünge
 Quad  | Sprünge
 
+Einzelsprung | Sprünge
 Sprungfolge | Sprünge
 Sprungkombination | Sprünge
 Verbindungssprung  | Sprünge
