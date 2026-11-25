@@ -75,13 +75,14 @@ with tab_de:
         | Nr. | Zone | Inhalt im Artikel „Axel“ |
         | --- | --- | --- |
         | 1 | **Stichwort** | Axel |
-        | 2 | **Grammatische Angaben** | Substantiv, maskulinum |
-        | 3 | **Deklination** | der Axel / des Axels / dem Axel / den Axel; Pl.: die Axel / der Axel / den Axeln / die Axel |
-        | 4 | **Übersetzung** | аксель |
-        | 5 | **Definition** | von der Außenkante des linken Fußes vorwärts ausgeführter Sprung, bei dem der Läufer bzw. die Läuferin nach einer Umdrehung rückwärtslaufend mit der Außenkante des rechten Fußes wieder aufsetzt |
-        | 6 | **Herkunft** | nach dem norwegischen Eiskunstläufer Axel Paulsen |
-        | 7 | **Beispiel des Gebrauchs** | „Der Axel wird vorwärts von der Außenkante des linken Fußes abgesprungen. Später zeigte er noch vier weitere Dreifache, nur der zweite Axel wurde nur einfach.“ |
-        | 8 | **Illustration** | axel.jpg |
+        | 2 | **Übersetzung** | аксель |
+        | 3 | **Grammatische Angaben** | Substantiv, maskulinum |
+        | 4 | **Deklination** | der Axel / des Axels / dem Axel / den Axel; Pl.: die Axel / der Axel / den Axeln / die Axel |
+        | 5 | **Illustration** |axel.jpg |
+        | 6 | **Definition** | von der Außenkante des linken Fußes vorwärts ausgeführter Sprung, bei dem der Läufer bzw. die Läuferin nach einer Umdrehung rückwärtslaufend mit der Außenkante des rechten Fußes wieder aufsetzt |
+        | 7 | **Herkunft** | nach dem norwegischen Eiskunstläufer Axel Paulsen |
+        | 8 | **Beispiel des Gebrauchs** | „Der Axel wird vorwärts von der Außenkante des linken Fußes abgesprungen. Später zeigte er noch vier weitere Dreifache, nur der zweite Axel wurde nur einfach.“ |
+        | 9 | **Bedeutungsverwandte Wörter** | Doppelaxel, Dreifachaxel, Vierfachaxel |
         """)
 
     with st.expander("🏃 Beispiel 2: Verb — „abheben“"):
@@ -89,8 +90,8 @@ with tab_de:
         | Nr. | Zone | Inhalt im Artikel „abheben“ |
         | --- | --- | --- |
         | 1 | **Stichwort** | abheben |
-        | 2 | **Grammatische Angaben** | starkes Verb (hebt ab, hob ab, hat abgehoben), vi. |
         | 3 | **Übersetzung** | отрываться от льда |
+        | 3 | **Grammatische Angaben** | starkes Verb (hebt ab, hob ab, hat abgehoben), vi. |
         | 4 | **Definition** | sich in die Luft erheben |
         | 5 | **Beispiel des Gebrauchs** | „Durch energische Kniestreckung heben Spitzenschritte vom Eis ab, werden zu Hüpfern oder gar kleinen Sprüngen.“ |
         """)
@@ -172,13 +173,14 @@ with tab_ru:
         | № | Зона | Содержание в статье «Axel» |
         | --- | --- | --- |
         | 1 | **Stichwort** | Axel |
-        | 2 | **Grammatische Angaben** | Substantiv, maskulinum |
-        | 3 | **Deklination** | der Axel / des Axels / dem Axel / den Axel; Pl.: die Axel / der Axel / den Axeln / die Axel |
-        | 4 | **Übersetzung** | аксель |
-        | 5 | **Definition** | von der Außenkante des linken Fußes vorwärts ausgeführter Sprung, bei dem der Läufer bzw. die Läuferin nach einer Umdrehung rückwärtslaufend mit der Außenkante des rechten Fußes wieder aufsetzt |
-        | 6 | **Herkunft** | nach dem norwegischen Eiskunstläufer Axel Paulsen |
-        | 7 | **Beispiel des Gebrauchs** | „Der Axel wird vorwärts von der Außenkante des linken Fußes abgesprungen. Später zeigte er noch vier weitere Dreifache, nur der zweite Axel wurde nur einfach.“ |
-        | 8 | **Illustration** | axel.jpg |
+        | 2 | **Übersetzung** | аксель |
+        | 3 | **Grammatische Angaben** | Substantiv, maskulinum |
+        | 4 | **Deklination** | der Axel / des Axels / dem Axel / den Axel; Pl.: die Axel / der Axel / den Axeln / die Axel |
+        | 5 | **Illustration** |axel.jpg |
+        | 6 | **Definition** | von der Außenkante des linken Fußes vorwärts ausgeführter Sprung, bei dem der Läufer bzw. die Läuferin nach einer Umdrehung rückwärtslaufend mit der Außenkante des rechten Fußes wieder aufsetzt |
+        | 7 | **Herkunft** | nach dem norwegischen Eiskunstläufer Axel Paulsen |
+        | 8 | **Beispiel des Gebrauchs** | „Der Axel wird vorwärts von der Außenkante des linken Fußes abgesprungen. Später zeigte er noch vier weitere Dreifache, nur der zweite Axel wurde nur einfach.“ |
+        | 9 | **Bedeutungsverwandte Wörter** | Doppelaxel, Dreifachaxel, Vierfachaxel |
         """)
 
     with st.expander("🏃 Пример 2: Verb — «abheben»"):
@@ -186,12 +188,12 @@ with tab_ru:
         | № | Зона | Содержание в статье «abheben» |
         | --- | --- | --- |
         | 1 | **Stichwort** | abheben |
-        | 2 | **Grammatische Angaben** | starkes Verb (hebt ab, hob ab, hat abgehoben), vi. |
         | 3 | **Übersetzung** | отрываться от льда |
+        | 3 | **Grammatische Angaben** | starkes Verb (hebt ab, hob ab, hat abgehoben), vi. |
         | 4 | **Definition** | sich in die Luft erheben |
         | 5 | **Beispiel des Gebrauchs** | „Durch energische Kniestreckung heben Spitzenschritte vom Eis ab, werden zu Hüpfern oder gar kleinen Sprüngen.“ |
         """)
-
+        
     with st.expander("↔️ Пример 3: Adverb — «auswärts»"):
         st.markdown("""
         | № | Зона | Содержание в статье «auswärts» |
