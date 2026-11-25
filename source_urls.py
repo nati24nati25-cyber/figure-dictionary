@@ -6,7 +6,7 @@ SOURCE_URLS = {
         "https://eiskunstlaufblog.de/vorwaerts-auswaerts-boegen/",
     "[Eiskunstlaufblog(kantenwechsel-dreier), Undine, 2024]":
         "https://eiskunstlaufblog.de/kantenwechsel-dreier/",
-    "[Eiskunstlaufblog(basics-reihenfolge), Undine, 2024]|":
+    "[Eiskunstlaufblog(basics-reihenfolge), Undine, 2024]":
         "https://eiskunstlaufblog.de/eiskunstlauf-basics-reihenfolge/",
     "[Eiskunstlaufblog(anfänger-schlittschuhe), Undine, 2024]":
         "https://eiskunstlaufblog.de/anfaenger-schlittschuhe/",
