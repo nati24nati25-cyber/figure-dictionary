@@ -69,8 +69,6 @@ SOURCE_URLS = {
         "https://www.merkur.de/sport/wintersport/eiskunstlauf-talent-anna-gerke-wagt-disziplinwechsel-fuer-olympia-94561934.html",
     "[MeinBezirk, Podest, 2026]":
         "https://www.meinbezirk.at/eisenstadt/c-sport/tim-thiel-holt-in-linz-den-zweiten-platz_a8963469",
-    "[VereinsWiki, Eiskunstlauf]":
-        "https://vereins.fandom.com/wiki/Eiskunstlauf",
     "[Eiskunstlauf-Shop, Kunststoff-Schoner, 2024]":
         "https://www.eiskunstlauf.shop/de/schlittschuh-kufenschoner",
     "[Eiskunstlauf-Shop, Stoff-Schoner, 2024]":
@@ -83,6 +81,8 @@ SOURCE_URLS = {
         "https://www.jungewelt.de/artikel/177391.eiskunstlauf-ein-kleines-loch.html",
     "[olympics.com (2024): Unterschiede Eiskunstlauf/Eistanz]":
         "https://www.olympics.com/de/news/unterschiede-eiskunstlauf-und-eistanz?ysclid=mws2jh66e3429689973",
+    "[olympics.com, sprünge]":
+        "https://www.olympics.com/de/news/eiskunstlauf-warum-heissen-sprunge-rittberger-axel-salchow-lutz-flip-euler-erklarung",
     "[Eislauf-Union, Janse/Steffan, WM-Finale, 2026]":
         "https://www.eislauf-union.de/de/media1/news/1316-janse-van-rensburg-steffan-stehen-im-eistanz-wm-finale",
     "[Eislauf-Union, Gartung, EM-Finale, 2026]":
