@@ -79,8 +79,10 @@ SOURCE_URLS = {
         "https://www.diepresse.com/20737247/synchroneiskunstlauf-wm-in-salzburg-wo-32-kufen-im-gleichschritt-uebers",
     "[jungewelt.de (2012), Sawtschenko]":
         "https://www.jungewelt.de/artikel/177391.eiskunstlauf-ein-kleines-loch.html",
-    "[olympics.com (2024): Unterschiede Eiskunstlauf/Eistanz]":
+    "[olympics.com, Unterschiede Eiskunstlauf/Eistanz]":
         "https://www.olympics.com/de/news/unterschiede-eiskunstlauf-und-eistanz?ysclid=mws2jh66e3429689973",
+    "[olympics.com, Unterschiede Kurzprogramm/Kür]":
+        "https://www.olympics.com/de/news/was-ist-der-unterschied-eiskunstlauf-kurzprogramm-kur-milano-cortina-2026",
     "[olympics.com, sprünge]":
         "https://www.olympics.com/de/news/eiskunstlauf-warum-heissen-sprunge-rittberger-axel-salchow-lutz-flip-euler-erklarung",
     "[Eislauf-Union, Janse/Steffan, WM-Finale, 2026]":
